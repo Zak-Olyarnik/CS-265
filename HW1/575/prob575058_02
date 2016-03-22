@@ -1,0 +1,38 @@
+ThreadNum: 575058
+Subject: Re: Circle and Complex Numbers
+To: koke24@netzero.net (Claudia)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 15:27:12
+Sent: yes
+
+
+As Claudia wrote to Dr. Math
+On 09/20/2004 at 10:42:03 (Eastern Time),
+>[Question]
+>Let a be a complex number with 0 < |a| < 1. Prove that the set of
+>all points z satisfying
+>|z-a| = |1-âz| where â is a with a bar on top (conjugate)
+>is the circle {z : |z| = 1}.
+>
+>
+>[Difficulty]
+>I don't know where to start with this problem.
+>
+>[Thoughts]
+>
+
+Hi Claudia,
+
+Thanks for writing to Dr Math.  I would start by dividing one side of
+the equation by the other.  That gives you a ratio whose absolute
+value you know.  Give the ratio a new name, like r or b, which is a
+complex number with what absolute value?  Now solve for z.  Great. 
+Does that help?  Well, multiply z by z-bar, and now what do you get?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

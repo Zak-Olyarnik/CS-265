@@ -1,0 +1,36 @@
+ThreadNum: 575313
+Subject: Re: Distributive  property
+To: fkuhl@tampabay.rr.com (Fred)
+From: Doctor Ian
+TimeStamp: 09/20/2004 at 22:40:42
+Sent: yes
+
+
+As Fred wrote to Dr. Math
+On 09/20/2004 at 22:02:27 (Eastern Time),
+>[Question]
+>I didn't get how to do this.  7(2ab+3ba)   Why isnt the answer 
+>14ab +21ba  ?
+>
+>[Difficulty]
+>I put down the answer above and it was marked wrong
+>
+>[Thoughts]
+>I used the distributive property
+
+Hi Fred,
+
+Well, technically you're correct, but you didn't simplify it as far as
+you could.  Since multiplication is commutative (order doesn't matter), 
+
+  14ab + 21ba = 14ab + 21ab
+
+              = (14 + 21)ab
+
+              = 35ab
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

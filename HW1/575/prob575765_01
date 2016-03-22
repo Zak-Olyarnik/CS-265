@@ -1,0 +1,45 @@
+ThreadNum: 575765
+Subject: Re: Newton's Method
+To: huntingfrogs@hotmail.com (Jeremy)
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 08:26:09
+Sent: yes
+
+
+As Jeremy wrote to Dr. Math
+On 09/22/2004 at 06:47:08 (Eastern Time),
+>[Question]
+>Find a solution for x for the equation
+>
+>x^3 - 3cos(Pi*x) + 6e^x = 0
+>
+>[Difficulty]
+>I asked a Maths package (MapleSoft Maple 9) for the solutions to 
+>this problem, and it gave me only one solution, approximately x = -
+>0.1391 + 0.3807i. However, it has no mention of real solution that I 
+>found by Newton's Method.
+>
+>[Thoughts]
+>If we plot this function using real numbers, it looks like there is 
+>also a solution at approximately x = -1.4
+>
+>Solving by Newton's Method (Newton-Raphson Method) eventually 
+>converges on a root near x = -1.37910957...
+>
+>If this is in fact, not a solution (and Newton's method is prone to 
+>error), then shouldn't the expression by undefined for x = - 
+>1.37910957...? Yet, the expression involves only cubing, Cosine, and 
+>exponentials, none of which should be undefined for this value. 
+
+Hello Jeremy,
+
+I substituted 0.1391+0.3807i into f(x) = x^3-3*cos(pi*x)+6e^x and found
+f(0.1391+0.3807i) approximately equal to 1.4388+ 4.4364*i.  I can't understand why 
+Maple thought it was a root.
+
+I plotted and used Newton's method on the root near -1.4 and found the same result you 
+did.  It's a perfectly good root.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

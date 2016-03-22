@@ -1,0 +1,41 @@
+ThreadNum: 575387
+Subject: Re: Abstract algebra integers/primes modelus 
+To: meitaljs@aol.com (Meital)
+From: Doctor Vogler
+TimeStamp: 09/23/2004 at 08:58:57
+Sent: yes
+
+
+As Meital wrote to Dr. Math
+On 09/22/2004 at 12:10:00 (Eastern Time),
+>Thank you Dr. Volger for replying to my question.Your hints were very 
+>helpful.
+>  I wonder if what I did is right. I started from the equation a*m + 
+>b*n = 1, then I did the following:
+> 1- a*m = b*n then let y = 1-a*m --> we see that y = b*n --> y== 0modn
+> Then since y= 1- a*m, then y-1 = -a*m, or we can call -a anything 
+>else, so we see that m|(y-1) --> y = 1modm. I did the same to get an 
+>integer t such that t= 0modm and t= 1modn then I multiplied the t by 
+>a and the y by b..then I added all the mods so I got
+> 0modm + amodn + bmodm+ 0modn == x, so we see that we have an integer 
+>x such that x==amodn and x==bmodm I would like to know your opinion 
+>on that..Thanks.
+
+Hi Meital,
+
+Thanks for writing to Dr Math.  That's the right idea, except that writing
+
+  0modm + amodn + bmodm+ 0modn
+
+is not at all clear and might even imply a misunderstanding about
+modular arithmetic.  You should have one equation mod n and another
+equation mod m, as in
+
+  at + by = a + 0 (mod n)
+  at + by = 0 + b (mod m).
+
+Other than that, that's exactly what you want to do.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,66 @@
+ThreadNum: 575424
+Subject: Re: Simplifying a polynomial with a denominator
+To: jdcarr2@ncsu.edu (Jason)
+From: Doctor Vogler
+TimeStamp: 09/23/2004 at 09:28:52
+Sent: yes
+
+
+As Jason wrote to Dr. Math
+On 09/21/2004 at 17:45:54 (Eastern Time),
+>As Jason wrote to Dr. Math
+>On 09/21/2004 at 16:16:19 (Eastern Time),
+>>Ok thanks, it must be positive because the numerator is squared so 
+>>both the numerator and denominator must be positive.  So how does 
+>>(p^2 – 1.333p + 0.444)/ p + 2.666 cancel out?  Is it p^2 - 1.333 + 
+>>0.1666 ?
+>>
+>>Thank you
+>>
+>
+>you wrote...Who said it cancels out?
+>
+>I write...Now that's no help.  Wouldn’t it be more useful to hint 
+>where my reduction of the equation went wrong? The only other thing I 
+>can do with Q = (p^2 - 1.333p + 0.444) / p + 2.666 is Q = p - 1.333p 
+>+ 0.1665.
+>
+>
+
+Hi Jason,
+
+I'm sorry about being unhelpful.  I can't tell you where your
+reduction of the equation went wrong, because you didn't tell me how
+you reduced the equation.
+
+What I was trying to say was:  It doesn't cancel out, so don't try to
+make it cancel out.
+
+You asked when is Q > 0.  I said to look at the signs of the numerator
+and denominator, and you noticed that the numerator is never negative
+since it's a square, so the only way Q will be positive is if the
+denominator is positive.
+
+So when is the denominator positive?
+
+The denominator is
+
+  p - 2.66
+
+(according to your original question).  So if it is positive, then
+that means
+
+  p - 2.66 > 0.
+
+So what p does this give you?
+
+Now if the denominator is positive, then Q will also be positive
+*unless* the numerator is zero.  Could the numerator possibly be zero
+when the denominator is positive?  When is the numerator zero?  (The
+quadratic formula and a calculator can answer that question.)
+
+Is that more helpful?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

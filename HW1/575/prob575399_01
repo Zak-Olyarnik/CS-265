@@ -1,0 +1,118 @@
+ThreadNum: 575399
+Subject: Re: A set with three compositions is called a "what"
+To: kenneth_asad@hotmail.com (Kenneth)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 08:41:58
+Sent: yes
+
+
+As Kenneth wrote to Dr. Math
+On 09/21/2004 at 05:38:28 (Eastern Time),
+>[Question]
+>What do you call a set with three compositions?
+>
+>Just like you call a set with one composition an "abelian group", 
+>(of course if it satisfies certain axioms).
+>And a set with two composition is called a "field", (again, if it 
+>satisfies certain axioms).
+>
+>
+>I believe that I have found such an object.
+>Namely: (C,+,*,¤).
+>
+>Where "C" is defined as the set of complex numbers.
+>"+" is normal addition on C.
+>"*" is normal multiplikation on C.
+>"¤" is defined as
+>                          lg(a)*lg(a)  
+>                  a¤b := 2
+>
+>where "lg" is the logarithm with base 2, which deals with complex 
+>numbers.
+>
+>[Difficulty]
+>I've not been able to find anything about it anywhere(!)
+>
+>[Thoughts]
+>I gather that the axioms for such an object could look something 
+>like this:
+>
+>(A,+,*,¤).
+>
+>0) Closure:
+>
+>if a,b in A then a+b in A,
+>if a,b in A then a*b in A,
+>if a,b in A then a¤b in A.
+>
+>
+>1) Commutativity: 
+>for all a,b in A :
+>
+>a+b=b+a,
+>a*b=b*a,
+>a¤b=b¤a.
+>
+>
+>2) Associativity:
+>for all a,b,c in A :
+>
+>(a+b)+c=a+(b+c)=a+b+c,
+>(a*b)*c=a*(b*c)=a*b*c,
+>(a¤b)¤c=a¤(b¤c)=a¤b¤c.
+>
+>
+>3) Identity:
+>for all a in A :
+>
+>there exists uniquely a 0 in A such that 0+a=a+0=a,
+>there exists uniquely a 1 in A such that 1*a=a*1=a,
+>there exists uniquely a 2 in A such that 2¤a=a¤2=a.
+>
+>
+>4) Invertibility:
+>
+>for all a in A there exists uniquely a -a : a+(-a)=(-a)+a=0,
+>for all a in A\{0} there exists uniquely a a´ : a*(a´)=(a´)*a=1,
+>for all a in A\{0,1} there exists uniquely a a` : a¤(a`)=(a`)¤a=2.
+>
+>
+>5) Distributivity:
+>for all a,b,c in A :
+>
+>a*(b+c)=(a*b)+(a*c),
+>(a+b)*c=(a*c)+(b*c);
+>
+>a¤(b*c)=(a¤b)*(a¤c),
+>(a*b)¤c=(a¤c)*(b¤c).
+>
+>
+>6) Miscellaneous:
+>
+>a*b=0 IF a=0 OR b=0.
+>0´ is undefined(!)
+>a¤b=1 IF a=1 OR b=1.
+>1` is undefined(!)
+>0¤a and a¤0 are undefined(!)
+>0` is undefined(!)
+
+Hi Kenneth,
+
+Thanks for writing to Dr Math.  They are called "operations" and not
+"compositions."  In fact, operations are really just functions on two
+variables,
+
+  +: F x F -> F
+
+(also known as a two-ary or binary function), except that we write a+b
+instead of +(a, b).  So anyway something like your set would be called
+a field with a function ¤ on two variables which has the properties
+you described.  There is no more special name for a three-operation set.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

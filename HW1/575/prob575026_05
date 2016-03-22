@@ -1,0 +1,37 @@
+ThreadNum: 575026
+Subject: Re: characteristic of a ring
+To: veselic@planet.nl (viky)
+From: Doctor Vogler
+TimeStamp: 09/23/2004 at 09:04:22
+Sent: yes
+
+
+As viky wrote to Dr. Math
+On 09/22/2004 at 03:26:30 (Eastern Time),
+>Hello Dr. Vogler,
+>
+>(1 + -1) * (1 + -1)=0 because 1+ -1=0 and 0a=0 for every elemenet in 
+>a ring R.
+>
+>Now I use the distributive law a(b+c)=ab+ac:
+>
+>(1+-1)*1+(1+-1)*-1=(1*1)+(-1*1)+(1*-1)+(-1*-1),
+>
+>I don't know how to simplify this and show that -1*-1 is the 
+>additive inverse of -1, which is 1 because 1+ -1=0.
+
+Your next sentence begins by doing just that.
+
+>Now I have (-1*-1)+-1=0, so -1*-1=1, it follows now that -1 is a 
+>unit because it has a multiplicative inverse; -1.But there is only 
+>one unit which is 1, so it follows htat -1=1.So 1+1=0, and the 
+>characteristic is n=2.
+>
+>So the only thing I don't understand is the part where I have to 
+>simplify and show that -1*-1 is the additive inverse of -1.
+
+You essentially did exactly that without using those words.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,49 @@
+ThreadNum: 575025
+Subject: Re: rings and domains
+To: veselic@planet.nl (viky)
+From: Doctor Rob
+TimeStamp: 09/20/2004 at 20:00:00
+Sent: yes
+
+
+As viky wrote to Dr. Math
+On 09/20/2004 at 04:24:00 (Eastern Time),
+>[Question]
+>Hello dr. Math,
+>
+>R is an ring and R'is a subring if R. I would like to prove the 
+>following and if it can not be proved, give a counterexample:
+>
+>1)If R is a domain, then R' is a domain.
+>2)If R' is a domain, then R is a domain
+>
+>Could you help me with this?
+>
+>Greetings and thank you,
+>
+>Viky
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Thanks for writing to Ask Dr. Math, Viky!
+
+1) is true.  2) is false.
+
+Proof of 1) can be had from the definition of a domain.  Since R is
+a domain, there do not exist in R nonzero elements x and y with
+x*y = 0.  If such do not exist in R, how can they exist in R', a
+subset of R?
+
+A counterexample to 2) can be constructed from R = R' x R', the
+Cartesian product.  Then if a is nonzero in R', (a,0)*(0,a) = (0,0).
+
+Feel free to reply if I can help further with this question.
+
+
+- Doctor Rob, The Math Forum
+  <http://mathforum.org/dr.math/>
+

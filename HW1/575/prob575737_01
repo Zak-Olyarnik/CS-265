@@ -1,0 +1,106 @@
+ThreadNum: 575737
+Subject: Re: Complex Algebraic Expression
+To: Jtask05@aol.com (James)
+From: Doctor Greenie
+TimeStamp: 09/22/2004 at 09:01:14
+Sent: yes
+
+
+As James wrote to Dr. Math
+On 09/22/2004 at 00:38:53 (Eastern Time),
+>[Question]
+>One raja says to another, "If you give me one camel then we will 
+>have an equal number of camels."  The other replied, "No, if you 
+>give me one camel then I will have double the number you have!"  
+How 
+>many does each have?
+>
+>[Difficulty]
+>I do not know how to set up the equations, and I do not know if it 
+>is a trick problem or not.
+>
+>[Thoughts]
+>At first I thought that one had 3 camels and the other one had 5.  
+>This would be true for them both having the same number of camels 
+>when one gave the other one a camel.  But this doesn't remain true 
+>when the other one says "if you give me one camel then I will have 
+>double the number you have!" Because one would have 2 camels and 
+the 
+>other would have 6.  Then I thought that maybe this was a trick 
+>question and had something to do with one having 1 camel and then 
+>doubling the number would then have 11 camels.  Again, this doesn't 
+>exactly work with them having an equal number of camels though.
+
+Hello, James --
+
+You don't say how you came up with your initial guess of 3 and 5 
+camels... but you are on the right track there.  If the numbers of 
+camels are to be equal after the second raja gives one camel to the 
+first, then the second raja must start out with two camels more than 
+the first.
+
+With your guess of 3 and 5, the other part of the problem does not 
+work out.  But you simply need to try other pairs of starting 
+numbers which differ by 2 and see which one works:
+
+  3 and 5  ==>  2 and 6  no...
+  4 and 6  ==>  3 and 7  no...
+  5 and 7  ==>  4 and 8  yes...!
+
+The first raja starts out with 5 camels and the second starts out 
+with 7.
+
+This problem is relatively easily solved using the guess-and-check 
+method above.  We can also solve it using formal algebra.
+
+  let x = first raja's number of camels
+      y = second raja's number of camels
+
+Then
+
+(1) "If [second raja] gives [first raja] one camel then we will have 
+an equal number of camels"
+
+Read this in terms of numbers of camels:  The second raja loses 1 
+camel and the first raja gains 1 camel and the resulting numbers are 
+equal -- one less than the second raja starts out with is equal to 
+one more than the first raja starts out with:
+
+  y-1 = x+1
+
+(2) "...if [first raja] gives [second raja] one camel then [second 
+raja] will have double the number [first raja] has"
+
+Again read this in terms of numbers of camels:  The second raja 
+gains one camel and the first raja loses one camel, and the second 
+raja ends up with twice as many as the first -- one more than the 
+second raja starts out with equals twice as much as one less than 
+the first raja starts out with:
+
+  y+1 = 2(x-1)
+
+So we have
+
+  y-1 = x+1
+  y+1 = 2(x-1)
+
+We can solve this pair of equations by any of several methods; below 
+I choose to solve the first equation for "y" and substitute in the 
+second equation:
+
+  y-1 = x+1
+  y = x+2
+  (x+2)+1 = 2(x-1)
+  x+3 = 2x-2
+  5 = x
+  y = x+2 = 5+2 = 7
+
+  x (first raja) = 5 camels
+  y (second raja) = 7 camels
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,61 @@
+ThreadNum: 575693
+Subject: Re: working together word problem
+To: Melissa716@hotmail.com (Melissa)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 12:25:02
+Sent: yes
+
+
+As Melissa wrote to Dr. Math
+On 09/21/2004 at 22:06:28 (Eastern Time),
+>[Question]
+>Two different sized pumps, when working together, can empty a fuel 
+>tank in five hours.  The larger pump can empty the tank in 4 hours 
+>less than the smaller one.  If the larger one won't work, how long 
+>will it take the smaller one to do it alone?
+>
+>[Difficulty]
+>I dont know how to set up an equation for it
+>
+>[Thoughts]
+>I put it into different hours so in one hour together they can do 
+>1/5 of the work and in one hour the smaller one can do 1/x of the 
+>work.  
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+This is a rate problem:
+
+    work = rate * time
+
+Let's say the rates of the pumps are x and y.
+
+Together, they empty a fuel tank in 5 hours:
+
+  1 tank = (x + y) * 5
+
+   x + y = 1/5 tank/hr
+
+Let's say that x is the rate of the faster pump, and that it empties a
+tank on its own in t time, or:
+
+   1 tank = x * t
+
+We know the slower pump takes 4 more hours, or:
+
+   1 tank = y * (t + 4)
+
+We now have enough equations to solve the problem:
+
+   x+y = 1/5
+     1 = x*t
+     1 = y*(t+4)
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,36 @@
+ThreadNum: 575467
+Subject: Re: About second degree equation
+To: e_a1987@yahoo.com (Emin)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:24:03
+Sent: yes
+
+As Emin wrote to Dr. Math
+On 09/21/2004 at 13:09:25 (Eastern Time),
+>[Question]
+>x^2-Sx+P=0
+>
+>[Difficulty]
+>I don't understand why it is -S?why always it would be -? the 
+>interesting thing is it is always true!
+>
+>[Thoughts]
+>Many second degrees are like:
+>x^2+x+10
+
+If the solutions are a and b,
+then the equation when factored would have to look like
+(x - a)(x - b) = 0.
+Multiply out the (x-a)(x-b) and you'll see why you get
+x^2 - (sum)*x + product = 0.
+
+Now, try the same thing for an equation with x^3, multiplying out
+(x-a)(x-b)(x-c)
+and you'll find even more interesting sum and product patterns!
+
+Enjoy,
+
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

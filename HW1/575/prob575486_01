@@ -1,0 +1,39 @@
+ThreadNum: 575486
+Subject: Re: Geometry construction problems
+To: rascoejt@owensboro.net (Jeff)
+From: Doctor Tom
+TimeStamp: 09/21/2004 at 15:32:32
+Sent: yes
+
+
+As Jeff wrote to Dr. Math
+On 09/21/2004 at 15:00:51 (Eastern Time),
+>[Question]
+>Construct a triangle, given the length of one side, the length of the 
+>altitude,to a second side, and the circumradius.
+>
+>[Difficulty]
+>This construction involved Euclidean Geometry more advanced than I 
+>have seen thus far in my math course.
+>
+>[Thoughts]
+>Can the triangle be constructed in species from the given elements?
+
+Hello Jeff,
+
+Suppose the triangle you seek is called ABC, and you know the length
+of AB, the length of the altitude from base BC to A (call this x),
+and the circumradius (call this R).
+
+Draw AB, and draw a circle of radius x about A.  You know that the line
+BC has to be tangent to the circle you just drew, since the altitude is
+perpendicular to the base, and all possible base points are represented
+on that circle.
+
+Now, can you find the center of the circumcircle?
+
+Is that enough of a hint?
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

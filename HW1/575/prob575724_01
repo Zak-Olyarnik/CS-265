@@ -1,0 +1,153 @@
+ThreadNum: 575724
+Subject: Re: Percentages- I feel stupid.  I'm an Adult!!!
+To: whitmansm2@yahoo.com (Stephanie)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:05:18
+Sent: yes
+
+
+Hi Stephanie,
+
+>I was wanting to start a money marketing account.  I was told that I 
+>can get 1% and it's compounded.  I was trying to figure out how much 
+>I would make after six months but I couldn't get past the first 
+>two!  I have never been good at math and now it seems that my 
+>calculator needs help too!  HAHAHA  I saw that you don't help people 
+>with their homework and that's fine, but it's not homework.  If you 
+>can tell me how to "fix" my calculator so it can tell me I'd 
+>appreciate it!!  :)
+>Thank you 
+>Stephanie
+>
+>[Difficulty]
+>I can't get passed the second month!!
+>
+>[Thoughts]
+>I know that one percent of $1000 is $10.  So I then try to do $1010 
+>at one percent and I get $1021.  Then it jumps to 10402!!  I know 
+>that isn't right or everyone would have money marketing accounts!
+
+Note that the 1% figure is for a whole _year_.  If it's compounded
+monthly, you only get 1/12 of 1% per month, or about 0.083% per month.
+
+Let's use simpler numbers, to see how this might work.  Suppose you
+put $100 into an account, and you're told that you'll get 10% interest
+compounded yearly.  How does the money grow?
+
+At the end of the first year, the bank figures out 10% of the balance,
+and adds it to the balance:
+
+   Year    Balance
+   ----    -----------------
+      0    100
+      1    100 + (0.10 * 100)
+
+Now, there is a simpler way to write this:
+
+  100 + (0.10 * 100) = 1*100 + 0.10*100
+
+                    = (1 + 0.10) * 100
+
+                    = 1.10 * 100
+       
+That is, to add 10% to something, you _multiply_ by 1.10.  Does that
+make sense?  So now the table looks like 
+
+   Year    Balance
+   ----    -----------------
+      0    100
+      1    100 * 1.10
+
+At the end of the second year, the bank does the same thing again -
+but it computes 10% of the _whole_ balance, not just the original $100:
+
+   Year    Balance
+   ----    -----------------
+      0     100
+      1     100 * 1.10
+      2    (100 * 1.10) * 1.10
+
+And the third year, and so on:
+
+   Year    Balance
+   ----    -----------------
+      0       100
+      1       100 * 1.10
+      2      (100 * 1.10) * 1.10
+      3     ((100 * 1.10) * 1.10) * 1.10
+      4    (((100 * 1.10) * 1.10) * 1.10) * 1.10
+
+On the one hand, this looks more complicated than just doing the
+calculations.  But the nice thing about leaving everything implied
+like this is that it allows us to spot a pattern.  In fact, we can
+rewrite the table this way:
+
+   Year    Balance
+   ----    -----------------
+      0    100
+      1    100 * 1.10
+      2    100 * 1.10 * 1.10
+      3    100 * 1.10 * 1.10 * 1.10
+      4    100 * 1.10 * 1.10 * 1.10 * 1.10
+
+and even more simply, 
+
+   Year    Balance
+   ----    -----------------
+      0    100
+      1    100 * 1.10
+      2    100 * 1.10^2
+      3    100 * 1.10^3
+      4    100 * 1.10^4
+
+Now we can see that after N years, we can just raise 1.10 to the Nth
+power, and multiply it by the original amount to get the balance:
+
+   Year    Balance
+   ----    -----------------
+      0    100
+      1    100 * 1.10
+      2    100 * 1.10^2
+      3    100 * 1.10^3
+      4    100 * 1.10^4
+      .
+      .
+      N    100 * 1.10^N
+
+Now, your problem is like this, but as I said, the period of
+compounding is a month instead of a year; and the interest rate will
+be 0.083% instead of 10%.  But the balance after 6 months will be 
+
+   (1000) * (1 + 0.00083)^6
+
+which works out to about $1004.99.  If you go for the whole year,
+
+   (1000) * (1 + 0.00083)^12
+
+it comes to $1010, which is just what you'd expect. 
+
+Note that for a rate this small, and a period this short, you end up
+getting about half the interest for half the time.  In general, this
+isn't true.  Suppose that we go back to our original example of $100
+compounded at 10% yearly.  After 20 years, the balance would be 
+
+  (100) * (1.10)^20 = 672.75
+
+After only 10 years, the balance would be 
+
+  (100) * (1.10)^10 = 259.37
+
+If you put the money in trust for 200 years, it would grow to just
+under 19 billion dollars!
+
+It's sometimes said that Albert Einstein, when asked to name the most
+powerful force in the universe, replied: "Compound interest."  :^D
+
+Anyway, once you have the basic idea down, you can pretty quickly
+compare results for different initial deposits, rates, and time periods.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

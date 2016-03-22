@@ -1,0 +1,72 @@
+ThreadNum: 575029
+Subject: Re: ring homorphisms and ideals
+To: bing_qi_bu_fan@yahoo.com.sg (KS)
+From: Doctor Jacques
+TimeStamp: 09/20/2004 at 07:21:41
+Sent: yes
+
+
+As KS wrote to Dr. Math
+On 09/20/2004 at 05:21:39 (Eastern Time),
+>[Question]
+>(I'll use the letter f instead of psi for convenience's sake.)
+>let f:R -> S be a ring homorphism.
+>Consider the statements:
+>1. If I is an ideal of R, then f(I) is an ideal of S.
+>2. If I is a proper ideal of R, then f(I) is a proper ideal of f(R).
+>Prove or disprove both statements.
+>
+>[Difficulty]
+>Are both statements false? But I can't come up with counter-examples 
+>to disprove them both.
+>
+>[Thoughts]
+>Both statements should be false.
+
+Hi KS,
+
+Both statments are indeed false.
+
+First question
+--------------
+f(I) will obviously be an additive subgroup. It will be an ideal if, 
+for all s in S and i in I, sf(i) is in f(I).
+
+If f is surjective (onto), we can write s = f(r) for some r in R, and 
+we have:
+
+  sf(i) = f(r)f(i) = f(ri)
+
+and, as ri is in I (because I is an ideal), f(ri) is in f(I) and f(I) 
+is an ideal.
+
+This means that, to find a counter-example, f must not be surjective. 
+In that case, you have an additional supply of elements of S to 
+multiply with, and it is possible that some product sf(i) will not be 
+in I.
+
+The easiest example of a non-surjective homomorphism is the injection 
+of a ring into a larger ring. In particular, if the larger ring is a 
+field, it has no proper ideals. Try that idea with Z and Q.
+
+Second question
+---------------
+By the correspondence theorem, there is a one-to-one correspondence 
+between ideals of f(R) and ideals of R that contain the kernel of f. 
+To find a correspondence, we must therefore find a proper ideal that 
+does not contain ker f.
+
+Consider, for example, the homomorphism
+
+  f : Z -> Z_3
+
+defined by f(z) = z mod 3. The kernel is 3Z. An example of a proper 
+ideal of Z that does not contain 3Z is 2Z. Can you check that
+f(2Z) = Z_3, i.e., is not a proper ideal ?
+
+Does this help?  Write back if you'd like to talk about this 
+some more, or if you have any other questions.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

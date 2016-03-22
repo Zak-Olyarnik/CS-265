@@ -1,0 +1,38 @@
+ThreadNum: 575728
+Subject: Re: Calculus II Integration
+To: koter18@yahoo.com (John)
+From: Doctor Fenton
+TimeStamp: 09/23/2004 at 11:45:45
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 09/22/2004 at 00:09:52 (Eastern Time),
+>[Question]
+>Integrate (x/((x^2)+x+1))dx
+>
+>
+>[Difficulty]
+>I just can't figure out how to integrate the denominator.
+>
+>[Thoughts]
+>I have no idea how to even begin. sorry.
+
+Hi John,
+
+Thanks for writing to Dr. Math.  Since the derivative of the 
+denominator is 2x+1, rewrite
+
+       x         x + (1/2)    1        1
+  ----------- = ----------- - - * -----------
+  x^2 + x + 1   x^2 + x + 1   2   x^2 + x + 1
+
+and complete the square in the second term.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

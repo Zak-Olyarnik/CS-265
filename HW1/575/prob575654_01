@@ -1,0 +1,44 @@
+ThreadNum: 575654
+Subject: Re: Literal Equations and Formulas
+To: sona34@party-x.org (Sona)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 22:59:06
+Sent: yes
+
+Hi, Sona.
+
+As Sona wrote to Dr. Math
+On 09/21/2004 at 21:08:13 (Eastern Time),
+>[Question]
+>How do you solve for x in an equation such as 
+>b(5px - 3c)= a(qx - 4) ?
+>
+>[Difficulty]
+>I don't understand how to solve for only x
+>
+>[Thoughts]
+>b(5px-3c) = a(qx-4)
+>b(5px-3c)/b = a(qx-4)/b
+>5px-3c = a(qx-4)/b
+>5px-3c/qx-4 = a(qx-4)/b/qx-4
+>5px-3c/qx-4 = a/b
+>
+
+Before complicating things with divisions, I would first simplify
+everything by eliminating the parentheses. For example, on the left
+side you can multiply through by b, and on the right by a. Then step
+back and look at it as if a, b, c, and p were just numbers. (If you
+want, actually replace them with numbers for the moment, just to make
+it clearer.) You will see something like
+
+  _x + _ = _x + _
+
+You've probably solved these before; just gather the variable terms on
+one side and the constant terms on the other.
+
+If you need more help, please write back and show me how far you got.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

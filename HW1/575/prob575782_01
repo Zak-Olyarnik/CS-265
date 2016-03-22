@@ -1,0 +1,43 @@
+ThreadNum: 575782
+Subject: Re: Modulo 3 word problem
+To: nadesco1@hotmail.com (kulok)
+From: Doctor Anthony
+TimeStamp: 09/22/2004 at 11:35:30
+Sent: yes
+
+
+As kulok wrote to Dr. Math
+On 09/22/2004 at 09:11:21 (Eastern Time),
+>[Question]
+>The integers from 1 to 2004 are arranged in a table with 3 rows and 
+>668 columns. For each column, the sum of the three numbers in it 
+are 
+>calculated, and then the remainder that this sum leaves when 
+divided 
+>by 3 is written under the column.  Thus a new row with 668 numbers 
+>is obtained.  Is it possible that in this fourth row, there are the 
+>same number of 0s as the number of 2s?
+
+If you write out the first few terms of the array you get
+
+     1    2    3     4  .................. 668
+    669  670  671   672 ..................1336
+   1337 1338 1339  1340 ..................2004
+ -----------------------------------------------
+     0    0    0     0  ..................  0   remainders (mod 3)
+
+As you see the remainders are ALL 0 (mod 3)
+
+
+
+>
+>[Difficulty]
+>I don't know where to start.
+>
+>[Thoughts]
+>Does it involve modulo 3 u think..??
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

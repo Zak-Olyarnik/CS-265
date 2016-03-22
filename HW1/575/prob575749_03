@@ -1,0 +1,37 @@
+ThreadNum: 575749
+Subject: Re: Difference devided by product.
+To: hm@phat.co.nz (Robie)
+From: Doctor Rick
+TimeStamp: 09/26/2004 at 16:17:58
+Sent: yes
+
+Hi, Robie.
+
+As Robie wrote to Dr. Math
+On 09/26/2004 at 04:35:45 (Eastern Time),
+>Thank you for your answer.  How ever I am still confused about how 
+>to get their difference, devided by their product.
+>
+
+Your original question was:
+
+>There are two floating-point numbers, find the value of their
+>difference divided by their product.
+
+Because of the term "floating-point," I wonder if you are referring 
+to writing a computer program. If you've got two variables, say A and 
+B, you'll want to first find the difference of the numbers. This, as 
+I said, will involve an absolute value; perhaps your computer 
+language has a function such as abs() or fabs() which returns the 
+absolute value of its argument. If so, the difference of A and B will 
+be something like abs(A-B). Divide this by an expression for the 
+product of A and B -- that is, A*B (if "*" is the operator for 
+multiplication).
+
+I can't be much more help without more context. I cannot tell what it 
+is that confuses you, nor can I tell what exactly you need to do and 
+what you have to work with.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

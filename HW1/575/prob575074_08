@@ -1,0 +1,66 @@
+ThreadNum: 575074
+Subject: Re: partial differentiation
+To: cwto@so-net.com.hk (wai)
+From: Doctor Fenton
+TimeStamp: 09/28/2004 at 23:00:36
+Sent: yes
+
+
+As wai wrote to Dr. Math
+On 09/26/2004 at 03:49:40 (Eastern Time),
+>[Question]
+>Use the subtstitution u=x+ct and v=x-ct to reduce the wave 
+>equation c^2(d^2w/dx^2) = (d^2w/dt^2) to form (d^2w/dudv)=0.
+>
+>[Difficulty]
+>the answer of (d^2w/dx^2)=(d^2w/du^2)+(d^2w/dudv) that you showed at 
+>last time, I can't do it.The problem is [d(dw/dv)/dx]
+>
+>[Thoughts]
+>let w=w(u,v)
+>dw/dx=(dw/wu)*(du/dx)+ (dw/dv)*(dv/dx)
+>d^2w/dx^2=[d(dw/du)/dx]*(du/dx)+(dw/du)*[d(du/dx)/dx]+[d(dw/dv)/dx]*
+>(dv/dx)+(dw/dv)*[d(dv/dx}/dx]
+>and,
+>[d(dw/du)/dx]=[d(dw/du)/du]*(du/dx)+[d(dw/du)/dv]*(dv/dx)
+>             =(d^2w/du^2)*(du/dx)+(d^2w/dudv)*(dv/dx)
+>[d(dw/dv)/dx]=[d(dw/dv)/du]*(du/dx)+[d(dw/dv)/dv]*(dv/dx)
+>             =(d^2w/dudv)*(du/dx)+(d^2w/dv^2)*(dv/dx)
+>then,
+>(d^2w/dx^2)=(d^2w/du^2)*[(du/dx)^2]+[(d^2w/dudv)*(du/dx)]*(dv/dx)+
+>(dw/du)*(d^2u/dx^2)+[(d^2w/dudv)*(du/dx)]*(dv/dx)+(d^2w/dv^2)*(dv/dx)
+>*(dv/dx)+(d^2v/dx^2)
+>since,
+>du/dx=1,dv/dw=1,d^2u/dx^2=0 and d^2v/dx^2=0.
+>(d^2w/dx^2)=(d^2w/du^2)+2(d^2w/dudv)(du/dx)(dv/dx)+(d^2w/dv^2)
+>
+
+Hi Wei,
+
+Your computation is correct (except for typos): in the last lines
+above,
+
+>since,
+>du/dx=1,dv/dw=1,d^2u/dx^2=0 and d^2v/dx^2=0.
+>(d^2w/dx^2)=(d^2w/du^2)+2(d^2w/dudv)(du/dx)(dv/dx)+(d^2w/dv^2)
+>
+
+(in the second line, the second equation should be dv/dx=1, not 
+dv/dw=1).  Then you should substitute du/dx=1,dv/dx=1 into
+
+>(d^2w/dx^2)=(d^2w/du^2)+2(d^2w/dudv)(du/dx)(dv/dx)+(d^2w/dv^2)
+
+to get
+
+>(d^2w/dx^2)=(d^2w/du^2)+2(d^2w/dudv)+(d^2w/dv^2)
+
+and that is correct.
+
+Next,  you need to carry out the corresponding computations for
+d^2w/dt^2, and then combine the two answers as indicated:
+
+   c^2 d^2w/dx^2 - d^2w/dt^2 = 0 .
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

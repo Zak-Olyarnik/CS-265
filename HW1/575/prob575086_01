@@ -1,0 +1,47 @@
+ThreadNum: 575086
+Subject: Re: How do I verify that a given function is a solution 
+To: tonya.caywood.jxlz@statefarm.com (Tonya)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 13:39:47
+Sent: yes
+
+
+As Tonya wrote to Dr. Math
+On 09/20/2004 at 13:22:13 (Eastern Time),
+>[Question]
+>y''' = e^x         sol:  y = e^x  +ax^2  + bx + c
+>
+>I'm not sure how to verify the solution
+>
+>[Difficulty]
+>where to start.  Usually once I start the problem, I can go with 
+>it.  But in this case, I'm lost.
+>I believe that you start with the solution and work towards the 
+>problem at hand to verify that it is a solution.
+>
+>[Thoughts]
+>I know that the integral of e^x equals e^x +c.
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+If y''' = e^x, then the indefinite integral of y''' is:
+
+    y'' = e^x + a
+
+where a is some constant.
+
+The indefinite integral of y'' is given by:
+
+    y' = e^x + ax + b
+
+where b is yet another constant. I believe you see where this is going.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

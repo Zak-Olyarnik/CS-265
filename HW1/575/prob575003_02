@@ -1,0 +1,79 @@
+ThreadNum: 575003
+Subject: Re: A tricky combination problem with probability
+To: srpratt@indiana.edu (Sara)
+From: Doctor Anthony
+TimeStamp: 09/20/2004 at 10:17:32
+Sent: yes
+
+There was a mistake in my answer to the second question.  I should 
+have given Larry 4 choices before then allocating the remaining 3.  
+I have given the complete solution again below.
+
+
+As Sara wrote to Dr. Math
+On 09/20/2004 at 00:49:06 (Eastern Time),
+>[Question]
+>Assume that there are 13 board members: 7 females, and 6 males 
+>including Larry. There are 4 tasks to be assigned. Note that 
+>assigning the same people different tasks constitutes a different 
+>assignment. 
+>(1) Find the probability that both males and females are given a 
+task
+
+The total number of ways of distributing the tasks is
+
+ P(13,4) = 17160
+
+The number of ways that only men are given tasks = P(6,4)
+
+     "                   "  women      "     "   = P(7,4)
+
+The number of ways with both men and women 
+
+                            = P(13,4) - P(6,4) - P(7,4)
+
+                        P(13,4) - P(6,4) - P(7,4)
+Required probability = ---------------------------
+                               P(13,4)
+
+                         15960       133
+                     =  -------  =  -----
+                         17160       143
+
+
+>(2) Find the probability that Larry and at least one female are 
+>given tasks.
+
+We give tasks to Larry plus 1 or 2 or 3 women.
+
+Larry plus 1 woman =  4 x P(5,2) x P(7,1)   =   560
+Larry plus 2 women =  4 x P(5,1) x P(7,2)   =   840
+Larry plus 3 women =  4 x P(7,3)            =   840
+                                            ----------
+                                      Total =  2240
+
+                           2240       56 
+  Required probability = -------  =  ----
+                          17160      429
+
+
+
+
+>
+>[Difficulty]
+>I know the first question's answer is 15960/17160
+>
+>The second question confuses me because I do not know how to 
+>calculate for Larry.
+>
+>[Thoughts]
+>Well I thought I would calculate for no females and no Larry.  So I 
+>did C(7,0) then for guys I did (5,4) since you could not choose 
+>Larry.  Then I subtracted those 2 answers from 17160 and put it 
+over 
+>17160.  I don't know what else to do.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

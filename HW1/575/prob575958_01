@@ -1,0 +1,54 @@
+ThreadNum: 575958
+Subject: Re: Working a math pattern
+To: lora@successcenter.us (Lora)
+From: Doctor Greenie
+TimeStamp: 09/23/2004 at 00:06:17
+Sent: yes
+
+
+As Lora wrote to Dr. Math
+On 09/22/2004 at 19:36:48 (Eastern Time),
+>[Question]
+>__,2,3,__,6,__,12,16,24,36,__,72,144
+>
+>[Difficulty]
+>I have tried to work this problem over and over.  The middle part 
+>(12,16,24,36) goes up 4-8-12, but the sequence ends there.  Cannot 
+>figure this out.  This is a math problem for a 5th grade student.  
+I 
+>have been helping her for over an hour on this problem and cannot 
+>get it. I have had our math Specialist work on it and she couldn't 
+>get it.  (We are private tutors) I am 37!!!  
+>
+>[Thoughts]
+>I have tried adding one with itself, like the 3 plus itself is six, 
+>the six plus itself is twelve, the 12 plus itself is 24, but that 
+>pattern ends also, because if I put 48 in the blank, it plus itself 
+>is not 144.
+
+Hi, Lora --
+
+Knowing that this is a problem for a 5th grader helps; as hard as it 
+is to see, there has to be some relatively simple pattern in the 
+numbers.  It took me several minutes and several false starts before 
+I saw it....
+
+Try "folding" the sequence of numbers in half and see how the 
+numbers "pair up":
+
+  ?? 144
+   2  72
+   3  ??
+  ??  36
+   6  24
+  ??  16
+    12
+
+Do you see the relationship...?
+
+I hope this helps.  Please write back if you have any further 
+questions about this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

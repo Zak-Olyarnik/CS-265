@@ -1,0 +1,76 @@
+ThreadNum: 575392
+Subject: Re: Numerical method (Based on divisibility by 7)
+To: b_shamik2000@yahoo.co.in (Shamik)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 10:05:25
+Sent: yes
+
+
+As Shamik wrote to Dr. Math
+On 09/21/2004 at 03:54:44 (Eastern Time),
+>[Question]
+>How can you show that any set of integers if repeated 6 times would 
+>be exactly divisible by 7? Example: 111111, 909090909090, 
+>453145314531453145314531 and any other number of the prescribed form 
+>would be exactly divisible by 7. 
+>
+>[Difficulty]
+>What I am failing is to put my answer in the most efficient way 
+>(using the minimum number of steps required. The most difficult part 
+>is to make out simple proof rather than what I have at and that is to 
+>prove that [1 + 10^n + 10^2n + 10^3n + 10^4n + 10^5n] is divisible by 
+>7.
+>
+>I am stuck. My work is below. 
+>
+>[Thoughts]
+>Here is what I could do. Let the set of integers that is repeated be 
+>M and the number of digits M contains be n. 
+>For 111111 ==> M = 1, n = 1
+>909090909090 ==> M = 90, n = 2
+>and, similarly, for 453145314531453145314531 ==> M = 4531, n = 4
+>
+>Now, the number can be expressed in the form of M and n as shown 
+>below.
+>The number = M + M*(10^n) + M*(10^2n) + M*(10^3n) + M*(10^4n) + M*
+>(10^5n)
+>  = M*[1 + 10^n + 10^2n + 10^3n + 10^4n + 10^5n]
+>This would be divisible by 7 if [1 + 10^n + 10^2n + 10^3n + 10^4n + 
+>10^5n] is divisible by 7. (If M is divisible by 7, we are through)
+>
+>1 + 10^n + 10^2n + 10^3n + 10^4n + 10^5n 
+>= 111111 (if n = 1)
+>= 01 01 01 01 01 01 (if n = 2)
+>= 001 001 001 001 001 001 (if n = 3) and, so on.
+>
+>This can be shown to be divisible by 7 following the rule 'Divide the 
+>number into groups of 3 starting from the right and give these groups 
+>alternating +/- signs. Apply the rule again if necessary until you 
+>get a three-digit number. The original number is divisible by 7 if 
+>this sum is. Eg. for 123456789 => 789 - 456 + 123'. I am aware of 
+>this proof. 
+>I am stuck and think that I am lacking in the efficiency for the 
+>proof. Please, let me know the most efficient way to prove the same.
+>
+>Thanking you in anticipation,
+>Regards,
+>Shamik 
+>
+
+Hi Shamik,
+
+Thanks for writing to Dr Math.  You'll notice that you have a
+geometric series there.  Do you know how to sum a geometric series?
+
+After you do that, I think you'll find Fermat's Little Theorem to be
+very useful.
+
+Can you solve the problem with those two hints?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

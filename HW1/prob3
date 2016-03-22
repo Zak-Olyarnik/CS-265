@@ -1,0 +1,36 @@
+#!/bin/bash
+ 
+# checks for correct number of arguments, in correct order
+if (( $# != 3 )) ; then
+   echo -e "\nPlease pass YYYY, MM, and DD in order as arguments to prob3.\n"
+   exit
+fi
+
+# checks that date inputs are numbers
+dateChecker='[0-9][0-9]'
+
+if ! [[ $1 = ${dateChecker}${dateChecker} ]] ; then
+	echo -e "\nYYYY value must be a number.\n"
+   exit
+fi
+
+if ! [[ $2 = ${dateChecker} ]] ; then
+   echo -e "\nMM value must be a number.\n"
+   exit
+fi
+
+if ! [[ $3 = ${dateChecker} ]] ; then
+   echo -e "\nDD value must be a number.\n"
+   exit
+fi
+
+if [ ! -e $ARCHIVE ] ; then
+   echo -e "\nARCHIVE pathname could not be found.\n"
+   exit
+fi
+
+# searches for the desired time stamp, rcursively and only printing
+# filenames.  The 'cut' only takes the filename part of the returned path,
+# and the reverses are necessary to isolate it.
+grep -rl "TimeStamp: ${2}/${3}/${1}" $ARCHIVE | rev | cut -d "/" -f1 | rev
+

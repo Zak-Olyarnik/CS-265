@@ -1,0 +1,42 @@
+ThreadNum: 575471
+Subject: Re: fill in the missing digit (subtraction)
+To: lesliegreen43@aol.com (Leslie)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:20:32
+Sent: yes
+
+As Leslie wrote to Dr. Math
+On 09/21/2004 at 13:31:05 (Eastern Time),
+>[Question]
+>My 5th grader had a problem like this 224,50_
+>                                       -1,0_6
+>                                     ---------
+>the underscores are blocks to be filled in. 
+
+There's not enough information there to solve -- the blanks
+could be any number!
+
+I would really hope that there's some information in the bottom
+line (the result of the subtraction) that you can use to figure out 
+what's going on with those top blanks.
+
+>[Thoughts]
+>Here is one I actually did 7_3.12_  723.121
+>                          -_4_._55  345.155
+>                          --------  ---------
+>                           488.1_6  488.176
+
+OK, now we are talking!  But if you check, you'll see that
+it doesn't quite work out.  You need to take into account where
+borrowing might happen.  Once you see the 1 - 5 = 6 at the end,
+you know you had to borrow a unit from the next decimal
+place over, so the 2 - 5 there will equal 6, not 7.  There are
+a few other similar mistakes in other columns, where your
+digits are off by 1 because you need to take the borrowing
+into account.
+
+Does that help?
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

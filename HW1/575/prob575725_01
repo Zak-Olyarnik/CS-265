@@ -1,0 +1,53 @@
+ThreadNum: 575725
+Subject: Re: x as part of a fraction
+To: stevegietz@excite.com (Steve)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:42:31
+Sent: yes
+
+
+As Steve wrote to Dr. Math
+On 09/22/2004 at 00:02:24 (Eastern Time),
+>[Question]
+>I'm trying to isolate x in the following example:
+>
+>1/x = 2/3 + 5/4
+>
+>[Difficulty]
+>I can't figure out how to get from 1/x to x without messing up the 
+>equation.
+>
+>[Thoughts]
+>Here is what I got so far:
+>
+>1/x = 1 11/12
+
+Hi Steve,
+
+That's a good start.  Think back now to when you first learned about
+division.  Note that all three of the following facts,
+
+   12 / 3 = 4
+
+   12 / 4 = 3
+
+       12 = 3 * 4
+
+are just different ways of saying exactly the same thing.  That is, if
+you see one form, you can replace it with either of the others.  
+
+You're in the same situation:
+
+    1 / x = (1 11/12)
+
+    |   |      | 
+
+   12 / 3 =    4
+
+So can you see how to switch to a different form where x is by itself? 
+
+Try that, and let me know what you get. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

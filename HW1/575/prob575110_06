@@ -1,0 +1,38 @@
+ThreadNum: 575110
+Subject: Re: do you have to memorize sum of 2 cubes or can you find it
+To: xware@mailcity.com (kelly)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 16:43:22
+Sent: yes
+
+As kelly wrote to Dr. Math
+On 09/21/2004 at 00:05:18 (Eastern Time),
+>Your explanation was very easily understood.  
+>However, I guess my confusion came in when I looked at it from this 
+>perspective.  Can you let me know where I went wrong.
+>
+> x^3 + y^3 = (x + y)(?).  
+>
+>I assumed that if you first factor out the x+y, then you would be 
+>left with (x + y)^2.  Then wouldn't you multiply (x+y)(x+y)?
+
+You can assume that it's (x+y)^2, but that won't work, since
+x^3 + y^3 is NOT the same as (x+y)^3.
+
+So the question is, how do you factor out (x+y) from (x^3 + y^3)?
+It's just like asking how to factor some big number like 2001.
+Well, first you factor out a 3 ... that's an obvious divisor ... but
+what do you have left?  You can't assume, you have to divide
+to find out that it's 667.  Then you can go on factoring 667.
+
+Similarly, if you divide x^3 + y^3 by x+y, you get x^2 - xy + y^2.
+Then you could try to factor that further, but you'll get rather
+nasty things -- no nice integer coefficients -- so usually you stop there,
+just as you stop factoring 14 = 2*7 and don't write 14 = 2 * sqrt(7) * sqrt(7)
+usually.
+
+Does that answer your question?
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

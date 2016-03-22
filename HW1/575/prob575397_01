@@ -1,0 +1,50 @@
+ThreadNum: 575397
+Subject: Re: base of isosceles triangle
+To: dandryden@earthlink.net (Dan)
+From: Doctor Rick
+TimeStamp: 09/21/2004 at 09:13:46
+Sent: yes
+
+Hi, Dan.
+
+As Dan wrote to Dr. Math
+On 09/21/2004 at 05:26:53 (Eastern Time),
+>[Question]
+>How can I determine length of the base of an isosceles triangle if I 
+know the lengths of the 
+>congruent sides and the 3 angles? Thanks.
+>
+>[Difficulty]
+>I've been out of school for many years and my math fundamentals are 
+pretty hazy.
+>Can't use Pythagoras theorem since the base needs to be known.
+>
+>[Thoughts]
+>I've looked around on the internet but can't find this particular 
+problem.
+>I don't really know where to start.
+
+You can start with a very useful theorem about isosceles triangles: 
+The altitude to the base bisects both the base and the apex angle.
+
+If you draw that altitude, you have created two congruent right 
+triangles. You know the hypotenuse and the angles. Then you can apply 
+right-triangle trigonometry: the cosine of the base angle is equal to 
+the ratio of the side adjacent to the angle (which is half the base 
+of the isosceles triangle) to the hypotenuse.
+
+If the triangle is ABC where B is the apex, so that b = AC is the 
+base you seek, and a = BC and c = AB are the equal sides, then we can 
+write
+
+  cos(A) = (b/2)/c
+
+Solve for b:
+
+  b = 2c*cos(A)
+
+Does this meet your needs?
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

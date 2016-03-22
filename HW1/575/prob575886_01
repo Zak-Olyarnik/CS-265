@@ -1,0 +1,124 @@
+ThreadNum: 575886
+Subject: Re: Locker Problem
+To: professorc2003@yahoo.com (Gabriel)
+From: Doctor Anthony
+TimeStamp: 09/22/2004 at 16:16:17
+Sent: yes
+
+
+As Gabriel wrote to Dr. Math
+On 09/22/2004 at 16:04:14 (Eastern Time),
+>[Question]
+>In a middle school there are 1000 students and 1000 lockers, all 
+shut 
+>and unlocked. Each year for homecoming the students line up in 
+>alphabetical order and perform the following strange homecoming 
+>ritual:
+>1.The first student opens every locker.
+>2.The 2nd student goes to every other locker (beginning with the 
+2nd 
+>locker)and closes it.
+>3.The 3rd student changes the state of every third locker beginning 
+>with locker #3. If the locker is open the student closes it and 
+>viceverse).
+>4.The 4th student changes the state of every 4th locker beginning 
+>with locker # 4.
+>5.Continue this pattern until all 1000 students have performed 
+their 
+>assigned ritual (ending with the 1000th student changing the state 
+of 
+>the 1000th locker).
+>How many lockers will be open and how many closed? Which lockers 
+will 
+>be open and why?
+>How many lockers, and which ones, will be switched exactly twice?
+>Which lockers will be switched most times and why?
+>
+>[Difficulty]
+>After I went through the first four students I became really 
+confused 
+>and I couldn't continue because of that confusion. Please help. I 
+>wish I could find a pattern.
+>
+>[Thoughts]
+>I drew 120 locker and left them open for the first student. 
+Secondly 
+>I crossed out every other locker(closing them) for the 2nd student
+>Then I changed the state of every other locker for the 3rd student.
+>For the 4th student, I started changing the state of every fourth 
+>locker. I got confused and realized that couldn't figure out a 
+>pattern.
+
+
+The lockers left open will be those with numbers that are perfect 
+squares.
+
+If a number is a perfect square it will have an odd number of 
+factors, e.g 4 has factors 1, 2, 4, whereas all other numbers have 
+an even number of factors.  If a particular locker is visited an odd 
+number of times it will be open at the end of the procedure you 
+describe, otherwise it will be closed.  So the open lockers are 
+numbered:
+
+ 1, 4, 9, 16, 25, 36, ..... 900, 961
+
+The last number is 31^2  so 31 is the number of lockers left open.
+
+
+Explanation
+------------
+
+To show that square numbers always have an odd number of factors, 
+consider a square like 36
+
+This can be put into prime factors as  2^2 x 3^2.  Note that all its 
+prime factors will be raised to EVEN powers since it is a perfect 
+square.
+
+Now the factor 2 can be chosen in 3 ways, i.e. not at all, once, 
+twice.
+
+And factor 3 can also be chosen in 3 ways, i.e. not at all, once, or 
+twice.
+
+(If neither are chosen we get the factor 2^0 x 3^0 = 1)
+
+Altogether there will be 3 x 3 = 9 factors of 36.  These are:
+
+  1, 2, 3, 4, 6, 9, 12, 18, 36
+
+Now the important point was made earlier that the prime factors of a 
+perfect square are always raised to some even power, so we could 
+have 
+ 
+  a^2 x b^4 x c^2  where a, b, c are primes.
+
+In this example a could be chosen in 3 ways  0 times, once or twice.
+                b could be chosen in 5 ways  0 times, 1, 2, 3, 4 
+times
+                c could be chosen in 3 ways  0 times, 1, 2, times
+
+So altogether the complete number will have  3 x 5 x 3 = 45 factors.
+
+For any number that is not a perfect square there will ALWAYS be an 
+even number of factors
+
+ e.g.   a^3 x b^2 x c  will have   4 x 3 x 2 factors = 24 factors
+
+If it is not a perfect square at least one of its prime factors will 
+be raised to an ODD power, and that means the factor can be chosen 
+in an EVEN number of ways, ensuring that overall there will be an 
+even number of factors.
+
+The general rule for the number of factors is to increase the powers 
+of the factors by 1 and multiply these together.
+
+So  a^n x b^m x c^p  will have (n+1)(m+1)(p+1) factors.
+
+ 2^3 x 5^4 x 7^2  will have  4 x 5 x 3 = 60 factors   
+
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

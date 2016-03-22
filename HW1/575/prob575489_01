@@ -1,0 +1,37 @@
+ThreadNum: 575489
+Subject: Re: Consecutive Integers
+To: timothyp@yellowbananas.com (Sandy)
+From: Doctor Tom
+TimeStamp: 09/21/2004 at 15:17:39
+Sent: yes
+
+
+As Sandy wrote to Dr. Math
+On 09/21/2004 at 15:11:20 (Eastern Time),
+>[Question]
+>Find 2 consecutive integers such that 4 times the samller is 9 more 
+>than 3 times the larger.
+>
+>[Difficulty]
+>I found what I think is the answer, but I only found 1.
+>
+>[Thoughts]
+>4x = 9 + 3x
+>4x - 3x = 9
+>x = 9
+
+Hi Sandy,
+
+If you check your answer, you'll see that there's something wrong.
+
+If the smaller one is 9, the larger one will be 10, and
+4x9 = 36 is not 9 + 3x10 = 39.
+
+The error is that if the smaller is x, then the larger one is x+1, so
+your original equation should have been:
+
+4x = 9 + 3(x+1).
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

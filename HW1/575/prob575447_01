@@ -1,0 +1,46 @@
+ThreadNum: 575447
+Subject: Re: What is a general definition of a circle?
+To: s_aliabbas2000@yahoo.com (Ali)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 13:55:38
+Sent: yes
+
+
+As Ali wrote to Dr. Math
+On 09/21/2004 at 12:00:24 (Eastern Time),
+>[Question]
+>What is a general definition of a circle?
+>
+>[Difficulty]
+>I do not get the definition properly.
+>
+>[Thoughts]
+>
+
+Hi Ali,
+
+The most general definition of a circle is the set of points that are
+the same distance from a central point.  
+
+An ideal (geometer's) compass would produce such a shape:  you stick
+the point at the center, and use the pencil to mark the circle.  If
+you assume that the distance from the point to the pencil doesn't
+change, all the points drawn by the pencil are the same distance from
+the center.  
+
+There are equations you can use to specify the graph of a circle in a
+coordinate plane, e.g., 
+
+  (x - h)^2 + (y - k)^2 = r^2
+
+but this is just another way of capturing the same idea.  Note that
+the distance between the points (x,y) and (h,k) is the square root of
+the left hand side of the equation.  The right hand side is always the
+same.  So if h and k remain constant, every (x,y) point that satisfies
+the equation is the same distance from (h,k).
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

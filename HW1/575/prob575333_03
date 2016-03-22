@@ -1,0 +1,63 @@
+ThreadNum: 575333
+Subject: Re: nth derivative of sin(ax)
+To: jeliz1023@yahoo.com (Jen)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 14:40:09
+Sent: yes
+
+
+As Jen wrote to Dr. Math
+On 09/21/2004 at 12:42:46 (Eastern Time),
+>Thank you for your response.  I realized that the question should 
+>read y=sin(pi*x).  Will that change the answer?
+>
+>I don't understand why you have
+> n)        -----  if n = 4k for some integer k
+>  y    = { -----  if n = 4k+1 for some integer k
+>           -----  if n = 4k+2 for some integer k
+>           -----  if n = 4k+3 for some integer k
+>
+>I thought it would be similar to Taylor series.  My final answer that 
+>I have is,
+>
+> (2n)                                (2n+1)
+>f    (0)= (-1)cos (pi * x)     and  f      (0) = (-1)sin (pi * x)= 0
+>
+>Is this right?
+
+That's fine, Jen, we'll write it your way.
+
+First of all, that -1 needs an exponent, and I imagine you can guess
+what the exponent is.  Do you know why it has to be there?
+
+Secondly, if you look at the first few derivatives you wrote out (y,
+y', y", etc) you will probably find that some of them don't match up
+with your f's.  There is another factor that you are missing.  Do you
+know what it is?
+
+Finally, if you only want
+
+   (n)
+  f   (0)
+
+instead of
+
+   (n)
+  f   (x),
+
+then there is a much easier way to do this using the Taylor
+polynomial.  First you write out the Taylor series for
+
+  sin(x).
+
+Then you substitute pi*x for x to get the Taylor series for
+
+  sin(pi*x).
+
+Finally, you use this Taylor series to get all of the n'th derivatives
+at zero.  (This only works to get that one value of each of the
+derivatives, though, and not the derivative function.)
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

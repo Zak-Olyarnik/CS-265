@@ -1,0 +1,45 @@
+ThreadNum: 575379
+Subject: Re: prime ideals
+To: whassup_22@hotmail.com (gunnar)
+From: Doctor Jacques
+TimeStamp: 09/22/2004 at 02:09:42
+Sent: yes
+
+
+As gunnar wrote to Dr. Math
+On 09/21/2004 at 13:52:06 (Eastern Time),
+>Thank you for clarifying.
+>
+>However, for the second statement: If r,s in R are prime, where R is 
+>an integral domain, and r divides s, then r~s, your example actually 
+>proves that the statement is true. Since 2 and -2 in Z are prime, 
+>and divies each other, 2 is an associate of -2. Therefore, its not a 
+>counter-example. Or can we take the contra-positive of this 
+>statement, then find a counter-example to disprove it?
+>
+>
+>
+Hi again Gunnar,
+
+I'm sorry, but I misread your question as "r = s". If "~" 
+means "associate of", then the statement is true.
+
+If r divides s, we have s = rt for some t. As s is prime, s divides r 
+or t. Note that both r and t divide s.
+
+If s | r, we have:
+
+  r = su
+  s = sut
+  ut = 1
+
+(since we are in an integral domain). The last statement shows that t 
+is a unit, and therefore s and r are associate.
+
+On the other hand, if s divides t, we can show in the same way that r 
+is a unit, and this contradicts the definition of a prime.
+
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

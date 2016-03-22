@@ -1,0 +1,78 @@
+ThreadNum: 575288
+Subject: Re: Why is the inverse of a converse called a contraposotive?
+To: mail_matt@juno.com (Matthew)
+From: Doctor Peterson
+TimeStamp: 09/20/2004 at 23:13:53
+Sent: yes
+
+Hi, Matthew.
+
+As Matthew wrote to Dr. Math
+On 09/20/2004 at 21:18:48 (Eastern Time),
+>[Question]
+>          (Obviously,) My question is about the mathematical term 
+>contrapositive.  I was wondering if you guys know why it is called 
+>this.  What is/are the root(s) of the word contrapositive?
+>
+>[Difficulty]
+>          [We learned that] The contraPOSITIVE is the inverse, which 
+>(we learned as that it) 'NEGATES' the conditional (statement), of 
+>the converse.  Now if the inverse 'NEGATES', (the conditional 
+>statement) then why is the inverse of the converse called the 
+>contraPOSITIVE.
+>
+>[Thoughts]
+>          In my math class we had been learning about conditional 
+>statements, converse(s), inverse(s), and contrapositives, (and also 
+>then biconditional statements, etc.,) etc.  We had learned what 
+>conditional statements, converse(s), inverse(s), and contrapositive
+>(s) were, when one young man asked why, if the inverse 'NEGATES' 
+>(that's how we learned it) the (condidtional) statement, and the 
+>contraPOSITIVE is made up of the inverse ('NEGATES') and converse, 
+>then why when you combine converse with inverse ('NEGATES') is it 
+>called a contraPOSITIVE?
+
+If you look in a dictionary, you will find something like this (from
+m-w.com):
+
+  : a proposition or theorem formed by contradicting both the
+  subject and predicate or both the hypothesis and conclusion of a
+  given proposition or theorem and interchanging them <"if not-B
+  then not-A " is the contrapositive of "if A then B ">
+
+That entry doesn't give the roots, but that is because they are given
+in the previous entry in the dictionary, for "contraposition":
+
+  Etymology: Late Latin contraposition-, contrapositio, from Latin
+  contraponere to place opposite, from contra- + ponere to place --
+  more at POSITION
+  : the relationship between two propositions when the subject and
+  predicate of one are respectively the negation of the predicate
+  and the negation of the subject of the other
+
+From other sources, I know a little more detail: "contra" in Latin
+means "against" or "opposite"; and "positive" comes from "positus",
+the past participle of "ponere", which means "to put or place", and
+can include the meaning "to state or propose". So the contrapositive
+means "to place in opposite order" or "to state in a contrary form".
+The idea is that we turn both the condition and the conclusion "inside
+out" by inverting them, and also reversing their order, so that the
+result is a statement of the same fact, but using contrary forms of
+expression. In thus taking the inverse of the converse, we are
+reversing the meaning twice and getting back to the original meaning.
+
+Note that "positive" here does not really mean "positive" as opposed
+to negative, but rather "positing" (stating) or "positioning"
+(placing) something. But the idea of "positive" as "yes" and
+"negative" as "no" does come from the same source. In Latin, "pono"
+means "I place this before you" and "nego" means "I deny this". And it
+just happens that the meaning of the contrapositive is indeed
+"positive"! That's how I remember the meaning of the word: a way to
+state the same thing that looks contrary to the original.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

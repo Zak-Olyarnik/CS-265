@@ -1,0 +1,42 @@
+ThreadNum: 575096
+Subject: Re: understanding analysis
+To: ehab_aa@shaw.ca (Ehab)
+From: Doctor Fenton
+TimeStamp: 09/21/2004 at 08:09:49
+Sent: yes
+
+
+As Ehab wrote to Dr. Math
+On 09/20/2004 at 14:42:07 (Eastern Time),
+>[Question]
+>Let A be bounded below and define B={b belong to R: b is a lower 
+>bound for A}.Show that sup B=inf A.
+>
+>[Difficulty]
+>I am stuck with this problem.  Any help would be appreciated.  
+>Thank you.
+>
+>
+>[Thoughts]
+>
+
+Hi Ehab,
+
+Thanks for writing to Dr. Math. To show that sup(B) = inf(A), it is
+enough to show that sup(B) <= inf(A) and sup(B) >= inf(A). 
+
+
+Every element b in B is a lower bound for A.  What does this tell 
+you about the relationship between b and inf(A)?  What can you 
+conclude about sup(B) and inf(A)?
+
+Also, note that inf(A) is an element of B, since inf(A) is a lower 
+bound for A.  What does this tell you about sup(B) and inf(A)?
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

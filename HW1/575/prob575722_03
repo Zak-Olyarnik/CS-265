@@ -1,0 +1,45 @@
+ThreadNum: 575722
+Subject: Re: Thank you (finding smallest number to divide )
+To: jessesantana@cox.net (Elizabeth)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 11:41:18
+Sent: yes
+
+
+Hi Elizabeth, 
+
+>>Find the smallest number that meets all of the following 
+>criteria?
+>Thank you very much for your help, you really make math 
+>look easy, I will explain to my daughter when she gets 
+>back from school. Elizabeth
+
+You're very welcome.  More than the answer to this particular problem,
+it would be great if you and your daughter would come away from this
+seeing that a lot of math really _is_ pretty straightforward, if you
+can keep from freaking out.  :^D
+
+One thing that happens to a lot of students (and parents) is that when
+confronted with a 'math problem', they immediately start trying to
+remember 'the formula' for that kind of problem, instead of thinking
+about what is actually being asked.
+
+In this case, if you defer thinking about division and remainders, you
+see that the question looks like this:
+
+  There are three lists of numbers.
+  What is the smallest number that appears in all three lists? 
+
+When you look at it this way, the path to the solution seems pretty clear:
+
+  Generate the lists.
+  Look for the first number that appears in all three. 
+
+All I added to that was paying attention to each list as I generated
+it, to see if I could avoid generating values that couldn't possibly
+help me (such as numbers ending in '3').  But that extra stuff wasn't
+really necessary to solve the problem.  It just saved me a little work.  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,46 @@
+ThreadNum: 575929
+Subject: Re: (no subject)
+To: thumper45320@peoplepc.com (corey)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 20:50:41
+Sent: yes
+
+
+As corey wrote to Dr. Math
+On 09/22/2004 at 18:22:51 (Eastern Time),
+>[Question]
+>what is the median number from these numbers 28 17 45 32 29 28 14 27 
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Corey,
+
+The first thing to do is to put the numbers all in order, from least
+to greatest:
+
+  14 17 17 28 28 29 32 45
+
+The median will be the value that has the same number of values on
+either side of it:
+
+  14 17 17 28 | 28 29 32 45
+              |___________________median would be here
+
+Since there are an even number of values, the median is the mean of
+the two nearest values:
+
+   28 + 28
+   ------- = 28
+      2
+
+So 28 is the median. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,48 @@
+ThreadNum: 575379
+Subject: Re: prime ideals
+To: whassup_22@hotmail.com (gunnar)
+From: Doctor Jacques
+TimeStamp: 09/21/2004 at 02:37:18
+Sent: yes
+
+
+As gunnar wrote to Dr. Math
+On 09/21/2004 at 01:57:00 (Eastern Time),
+>[Question]
+>Let R be an integral domain.
+>1. If I and J are ideals of R with I is prime, and I is a subset of 
+>J, then J is prime.
+>
+>2. If r,s in R are prime, and r divides s, then r~s.
+>
+>[Difficulty]
+>Proving or disproving both statements.
+>
+>[Thoughts]
+>I think the first statement is true. THen how do I go about proving 
+>that xy in J implies x in J or y in J?
+>
+>I'm not sure of the second statement.
+>
+>Thnak you.
+
+Hi Gunnar,
+
+Both statements are false.
+
+For the first statement, consider, for example, the ring R = Z[x], 
+i.e., the polynomials with integer coefficients.
+
+Take I = <x>, J = <x,6>. I is prime and a subset of J, but J contains 
+2*3 = 6, and does not contain either 2 or 3.
+
+For the second statement, it is also possible that r is an associate 
+of s, i.e., that r = u*s, where u is a unit. For example, in Z, 2 
+and -2 are prime and divide each other.
+
+Does this help?  Write back if you'd like to talk about this 
+some more, or if you have any other questions.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

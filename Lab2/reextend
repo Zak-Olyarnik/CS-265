@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if (( $# != 2 )) ; then
+	echo -e "\nPlease enter two file extension arguments.\n"
+	exit
+fi
+
+counterVar=0	# counter provides error checking message
+
+for file in $(ls .) ; do
+	if [ -e ${file%*$1}$1  ] ; then
+		mv $file ${file%$1}$2
+		(( counterVar=counterVar+1 ))
+	fi
+done
+
+if [ $counterVar == 0 ] ; then
+	echo -e "\nNo files with this extension found.\n"
+else
+	echo -e "\nConversion complete!\n"
+fi
+

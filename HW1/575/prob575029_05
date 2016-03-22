@@ -1,0 +1,73 @@
+ThreadNum: 575029
+Subject: Re: ring homorphisms and ideals
+To: bing_qi_bu_fan@yahoo.com.sg (KS)
+From: Doctor Jacques
+TimeStamp: 09/22/2004 at 05:15:18
+Sent: yes
+
+
+As KS wrote to Dr. Math
+On 09/21/2004 at 13:44:13 (Eastern Time),
+>Thank you for your help, Sir.
+>
+>But I still have some questions.
+>
+>For the first statement, instead of changing f, are we able to 
+>change/modify only the statement that 'If I is an ideal of R, then f
+>(I) is an ideal of S.', such that the modified statement is true?
+>
+>As for the second statement, can you explain in detail how you go 
+>about modifying the second statement? I don't think I understand 
+>this proof by contradiction. Aren't we just supposed to prove that
+>f(I) is a proper ideal of f(R) by showing that f(I) is an ideal, and 
+>not equals to f(R), and the set containing only the zero element of f
+>(R)?
+>
+>Just to recap my second question:
+>Let f:R -> S be a ring homomorphisim.
+>Assume that R and S are commutative rings with 1. If J is a prime 
+>ideal of S, then f^-1 (J) is a prime ideal of R.
+>
+>I checked with my tutor, and he told me the statement is false, but 
+>wanted me to come up with a counter-example as an exercise. Is there 
+>really a counter-example to disprove this statement? If so, can we 
+>once again modify this statement to make it true?
+>
+>Thank you for your attention.
+
+Hi again,
+
+As I told you in my previous reply, you may say that, if I is an 
+ideal of R, then f(I) is an ideal of f(R). (In fact, this forces f to 
+be surjective, when considered as a homomorphism from R to f(R)).
+
+For the second statement, the fact that f(I) is an ideal of f(R) 
+results from my comments on the first statement. We need to prove 
+that f(R) contains an element not in f(I).
+
+To exhibit such an element, we use the fact that I is a proper ideal 
+of R, i.e., R contains an element x not in I, and we show that f(x) 
+is not in f(I) - this will show that f(I) is a proper ideal of f(R).
+
+To show that f(x) is not in f(I) we assume, by contradiction, that
+f(x) is in f(I). By the definition of f(I), this means that there is 
+an element of I, say x', such that f(x) = f(x'). As f is a 
+homomorphism, this means that f(x-x') = 0, or that x-x' is in ker f.
+
+As we assumed that I contains ker f, this means that x - x' is in I; 
+as x' is in I, this means that x is also in I, contradicting the 
+choice of x.
+
+A correct version of the second statement would then start as "If I 
+is a proper ideal of R containing ker f...". Note that 0 is usually 
+considered a proper ideal; if you want to exclude that case, the 
+condition becomes that ker f be a proper subset of I.
+
+For the last claim, that f^(-1)J is prime if J is prime, I still do 
+not see how it could be false - I may be missing something obvious. I 
+will leave your question open so that other Math Doctors can have a 
+look at it.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,47 @@
+ThreadNum: 575576
+Subject: Re: I am a parent trying to help my child. show me what is wrong
+To: tina6689@msn.com (tina)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 22:13:51
+Sent: yes
+
+Hi, Tina.
+
+As tina wrote to Dr. Math
+On 09/21/2004 at 18:48:14 (Eastern Time),
+>[Question]
+>there are 16 pens. there are 3 time as many red as blue pens. there 
+>are 4 more green pens then red. how many of each color are 
+>there?      
+>
+>[Difficulty]
+>If     3xblue= red      and red plus 4=green all 3 numbers have to 
+>equal 16.     this is not possible because 3x1=3    3plus4=7  
+>1plus3pluse7 doesnt equal 16 its 11
+>
+>if i make blue 2 red 6 green 10 this equals 18     
+>
+>[Thoughts]
+>3x1=3+4=7    1+3+7=11
+>3x2=6+4=10   2+6+10=18
+
+If this were for an algebra student, you could use variables. Let's
+just use "blue" to stand for the number of blue pens. Then the number
+of red pens is 3 times blue, and the number of green pens is 4 more
+than that, or 3 times blue plus 4. Assuming those are the only colors,
+the total number of pens is the sum:
+
+  blue  = 1 * blue
+  red   = 3 * blue
+  green = 3 * blue + 4
+  --------------------
+  total = 7 * blue + 4 = 16
+
+Taking away the 4, we are left with 12 pens which is equal to 7 times
+the number of blue pens. That doesn't work out nicely, so it looks
+like you copied some number or fact wrong. Can you check?
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

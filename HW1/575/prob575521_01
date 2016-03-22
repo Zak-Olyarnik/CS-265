@@ -1,0 +1,44 @@
+ThreadNum: 575521
+Subject: Re: Extremely difficult algebra
+To: tbkirt@cox.net (millie)
+From: Doctor Jerry
+TimeStamp: 09/21/2004 at 17:29:54
+Sent: yes
+
+
+As millie wrote to Dr. Math
+On 09/21/2004 at 17:07:40 (Eastern Time),
+>[Question]
+>My friend and I somehow came up with an answer of 32 for this 
+>problem, and I have no idea how.  
+>
+>3x^2/(2+x)(3+2x)  *  9x^5/4(3+2x)
+>
+>[Difficulty]
+>I just skipped a few grades, and the first problem they gave me was 
+>this one, but I don't know how to do it.
+>
+>[Thoughts]
+>I have no idea how to do this kind of stuff.
+
+Hello Millie,
+
+What are you supposed to do with this expression (not an equation, apparently)?  Simplify 
+it?  
+
+I'll assume that you mean 
+
+3x^2/( (2+x)(3+2x) ) *  9x^5/( 4(3+2x))
+
+If so, you should find
+
+(27*x^7)/(4*(2 + x)*(3 + 2*x)^2)
+
+The 3 and 9 can be multiplied; the x^2 and the x^5 can be multiplied to obtain x^7; the 4 
+stays in the denominator; the (2+x) just goes along with the 4; the (3+2x) and (3+2x) can 
+be multiplied. 
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

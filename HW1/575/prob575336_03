@@ -1,0 +1,40 @@
+ThreadNum: 575336
+Subject: Re: Solving Equations
+To: rtpk2000@yahoo.com (Rahul)
+From: Doctor Vogler
+TimeStamp: 09/23/2004 at 09:20:39
+Sent: yes
+
+
+As Rahul wrote to Dr. Math
+On 09/21/2004 at 23:22:46 (Eastern Time),
+>Well Actually I was able to form this equation i.e.
+>
+>4a = 5(b+c)
+>
+>but I am unable to find out values of 3 variables with just one 
+>equation given. Also I could not understand why do we have to show 
+>that a is divisible by 5?
+>
+>Thanks
+>Rahul
+
+Hi Rahul,
+
+You don't have to show that a is divisible by 5.  You could just try
+every possible value for a.
+
+But if you want to...
+
+Do you know what "divisible by 5" means?  Tell me.
+
+Do you know what "relatively prime" means?
+
+Are 4 and 5 relatively prime?
+
+Alternately, notice that 5 is a prime number.  If a prime number
+divides m*n, then what does that tell you about m and n?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

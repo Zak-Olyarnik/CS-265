@@ -1,0 +1,8 @@
+#!/bin/bash
+
+java a4 $*
+STATUS=$?
+#echo $STATUS
+
+exit $STATUS
+

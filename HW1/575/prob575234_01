@@ -1,0 +1,45 @@
+ThreadNum: 575234
+Subject: Re: geometric series
+To: pamela153@juno.com (Pamela)
+From: Doctor Fenton
+TimeStamp: 09/21/2004 at 11:43:53
+Sent: yes
+
+
+As Pamela wrote to Dr. Math
+On 09/20/2004 at 19:09:47 (Eastern Time),
+>[Question]
+>Sn= a + ar + ar^2+....+ar^n-1,
+>S2= 3.5, S3= 11.375, and r<0. Find a and r
+>
+>
+>
+>[Difficulty]
+>I do not understand how to find a and r.  I come full circle and 
+>never get anywhere.
+>
+>[Thoughts]
+>11.375-3.5= 7.875 which is the 3rd term
+
+Hi Pamela,
+
+Thanks for writing to Dr. Math.  You have that
+
+     a + ar = 3.5   (or 7/2)
+
+and you correctly deduced that
+
+      a*r^2 = 7.875   (or 7 7/8, or 63/8) .
+
+Factor the left side of the first equation, and divide the second 
+equation by the first equation.  This will give you an equation 
+which can be re-written as a quadratic equation in r.  Once you
+have solved for r, you can solve for a.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

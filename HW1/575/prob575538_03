@@ -1,0 +1,26 @@
+ThreadNum: 575538
+Subject: Re: Negative values and Geometric mean
+To: tecimd@yahoo.com (ashleysha)
+From: Doctor Schwa
+TimeStamp: 09/22/2004 at 17:47:11
+Sent: yes
+
+As ashleysha wrote to Dr. Math
+On 09/22/2004 at 08:53:26 (Eastern Time),
+>Thank you for your prompt reply:  would it help if i used {[(1+R1)
+>(1+R2)...(1+Rn)]^1/n}-1 ?
+
+It would help a little, but the behavior of this sort of thing depends
+on what number you choose (you chose 1 -- but why?  Is there a
+reason you can be sure all your numbers are above -1?)
+
+So I don't advise it in general, though there are circumstances where
+this kind of "fudging" is reasonable to do.
+
+Why don't you tell me a bit more about your data, and about why
+you want the geometric mean instead of some other mean?  Then
+maybe I can help out a little more.
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

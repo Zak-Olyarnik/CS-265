@@ -1,0 +1,41 @@
+ThreadNum: 575438
+Subject: Re: algebra stumper
+To: rebecca_tigger@hotmail.com (Rebecca)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 11:15:06
+Sent: yes
+
+
+As Rebecca wrote to Dr. Math
+On 09/21/2004 at 11:05:30 (Eastern Time),
+>[Question]
+>On the target, the sum of points A and B is 7, the sum for B and C is 
+>12, the product for points A and C is 24.
+>Find the points for A, B and C.
+>
+>[Difficulty]
+>Can't figure out the Algebra formula.
+>
+>[Thoughts]
+>???Stumped???
+
+Hi Rebecca,
+
+Thanks for writing to Dr Math.  The formulas are
+
+  A + B = 7
+  B + C = 12
+  AC = 24.
+
+You can solve this either by factoring 24 (there are only eight things
+A can be from the last equation alone - check all 8) or solving for A
+and C in the first two equations, substituting into the third, and
+solving that quadratic for B.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

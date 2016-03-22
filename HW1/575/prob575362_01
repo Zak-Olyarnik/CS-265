@@ -1,0 +1,55 @@
+ThreadNum: 575362
+Subject: Re: (no subject)
+To: ravers2650@aol.com (Janelle)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 15:11:08
+Sent: yes
+
+
+As Janelle wrote to Dr. Math
+On 09/21/2004 at 00:27:20 (Eastern Time),
+>[Question]
+>To find the sum of the numbers 1 - 90, do I have to add such as:
+>1 +2=3, 3=2=5, 5+3=8, 8+4=12, etc all the way to 90?
+>
+>[Difficulty]
+>very time consuming
+>
+>[Thoughts]
+>there must be a formula or shortcut
+
+Hi Janelle,
+
+You're right - there is a shortcut.  
+
+Suppose I want to add the numbers from 1 to 10.  I can line them up
+this way:
+
+  1  2  3  4  5  
+ 10  9  8  7  6
+
+Each pair adds up to the same amount: 11. 
+
+  1  2  3  4  5  
+ 10  9  8  7  6
+ -- -- -- -- --
+ 11 11 11 11 11
+
+So the sum is 5 times 11, or 55. 
+
+Note that if I have an odd number of values, I have to deal with that
+specially.  For example, to add the numbers from 1 to 11, 
+
+  1  2  3  4  5
+                 6
+ 11 10  9  8  7
+ -- -- -- -- --
+ 12 12 12 12 12
+
+so the sum is 5 times 12, plus 6. 
+
+Can you see how to extend this to larger sequences?  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 575953
+Subject: Re: Trigonometry Identities
+To: murphyno13@yahoo.co.uk (Jason)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 21:03:19
+Sent: yes
+
+
+As Jason wrote to Dr. Math
+On 09/22/2004 at 19:20:31 (Eastern Time),
+>[Question]
+>I need help with the following question:
+>Prove Sec 2A - 1 = Tan 2A Tan A
+>
+>[Difficulty]
+>How to make both sides equivalent!!
+>
+>[Thoughts]
+>I've substituted the terms for Tan 2A and multiplied the other Tan A 
+>which equals 
+>2tanA (tanA)
+>-----
+>1-tan^2 A
+>
+>or 2Tan^2 A
+>  ---------
+>   1-Tan^2 A
+>
+>But where to go from here??
+>
+>Please help, thank you.
+
+Hi Jason,
+
+Usually, the place to start is by replacing tan, cot, sec, and csc
+with equivalents using just sin and cos.  Then you look for
+opportunities to replace (sin^2 + cos^2) with 1, or opportunities to
+cancel out sines and cosines. 
+
+Try that, and let me know what you get. 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

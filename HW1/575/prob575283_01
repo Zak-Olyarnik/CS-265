@@ -1,0 +1,40 @@
+ThreadNum: 575283
+Subject: Re: "Figure out the algorithm" problem
+To: iminevichdd@excite.com (Igor)
+From: Doctor Douglas
+TimeStamp: 09/20/2004 at 23:23:50
+Sent: yes
+
+
+As Igor wrote to Dr. Math
+On 09/20/2004 at 21:03:46 (Eastern Time),
+>[Question]
+>A random-number generator displays two numbers, and then based on
+>those numbers another number is generated using some algorithm.
+>If the numbers 1 and 2 are generated, 9 is displayed.
+>If the numbers 3 and 4 are generated, 20 is displayed.
+>If the numbers 5 and 6 are generated, 12 is displayed.
+>What number is displayed when 17 and 12 are generated?
+>
+>[Difficulty]
+>I can't figure out the algorithm for more than 2 numbers at a time.
+>
+>[Thoughts]
+>I've tried all kinds of things - powers, addition, subtraction,
+>multiplication, division, averaging the numbers, then performing some
+>kind of calculation on that, pi(n) (# of primes less than), but I
+>can't figure it out. Please help.
+
+Hi Igor.
+
+thanks for writing to the Math Forum.  This appears to be some 
+sort of contest problem, so we're not able to help you until after
+the contest is over.
+
+For the time being, though, I can say that the solution is readily
+understood by an elementary school student--so you're working too
+hard with concepts such as pi(n).  
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 575843
+Subject: Re: How do I solve 4 x 4 (4th Order Determinant)?
+To: b_richardson@yahoo.com (Brian)
+From: Doctor Peterson
+TimeStamp: 09/22/2004 at 23:34:23
+Sent: yes
+
+Hi, Brian.
+
+As Brian wrote to Dr. Math
+On 09/22/2004 at 13:28:14 (Eastern Time),
+>[Question]
+>I need to solve:
+>
+>|1 2 3 4|
+>|2 1 5 3|
+>|1 2 6 5|
+>|7 8 4 2|
+>
+>[Difficulty]
+>There seems to be no clear way (formula) to solve this type of 
+>equation.
+>
+>[Thoughts]
+>
+
+Look for some reference to evaluating determinants by expanding by
+minors (or cofactors). That is probably the most general method. Here
+is one such discussion:
+
+  Expansion by Minors
+  http://mathforum.org/library/drmath/view/51992.html
+
+Here is another:
+
+  Solving 3x3 Matrices Manually
+  http://mathforum.org/library/drmath/view/55480.html
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,53 @@
+ThreadNum: 575662
+Subject: Re: order of operations math
+To: ticktockheart1@yahoo.com (mom)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 22:08:32
+Sent: yes
+
+Hi, "Mom".
+
+As mom wrote to Dr. Math
+On 09/21/2004 at 21:11:46 (Eastern Time),
+>[Question]
+> I am trying to help my daughter with homework, she has a problem 
+>(2-5)+2 -0-4+0 ...i can not figure the answer out. I cant figure out 
+>how to get the answer, I know the answer is -5. can you please help 
+>an old mom who has forgotten ALOT ?!!!
+>
+> I know to do () first, multiply and divide and add and subtract 
+>from left to right but i still dont get it!!!
+>
+>[Difficulty]
+>all of it!  
+>
+>[Thoughts]
+>(2-5) +2 -0-4+0
+>   -3 +2 -0-4+0
+>      -1  -0-4+0
+>      -1-0 =-1-4 -3
+
+  (2 - 5) + 2 - 0 - 4 + 0
+  \_____/
+     -3   + 2 - 0 - 4 + 0
+     \______/
+        -1    - 0 - 4 + 0
+        \_______/
+            -1    - 4 + 0
+            \_______/
+                -5    + 0
+                \_______/
+                    -5
+
+There's no multiplication involved here; after doing what's in
+parentheses, just do each addition or subtraction from left to right.
+It looks like your only mistake was in saying that -1-4 = -3. You are
+going left on the number line 1, and then 4, making a total of 5 to
+the left.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,48 @@
+ThreadNum: 575884
+Subject: Re: mean,median and mode
+To: frenchfinch62@msn.com (christy)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 16:57:51
+Sent: yes
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+>The total weight of all the studens in a class is 2825lb. The mean 
+>is 113lb. How many students are in the class? 
+>I multiplied the weight by a guess of 25 students and came out with 
+>2825. But that can't be right because based on the second part there 
+>are students that weigh more and less than the mean.
+
+Your answer of 25 students is correct. An average means that some
+students will weigh more than the mean and some students will weigh
+less than the mean. 
+
+Let's use an example to see where this question might be going. Let's
+say we had some small cats and that their weights were:
+
+   5, 8, 6, 9, 9, 10, 14, 11, 9
+
+The total weight of the cats is 81 lbs, and the mean weight is 9 lbs.
+That doesn't mean that every cat weighs 9 pounds, or that there can't
+be cats that weigh more or less than 9 lbs. 
+
+>
+>The second part is: The median weight is 125lb. Exactly 3 students 
+>weigh 125lb. How many students weigh more than 125lb?
+
+To be honest, this question doesn't have a single good answer. There
+are 3 possible answers to this question. But the easiest answer is
+that half the remaining students weigh more than 125lbs. and half the
+remaining students weigh less than 125 lbs. In other words, not
+counting the 3 students who weigh exactly 125 lbs., there are 22
+students. If the median weight is 125 lbs, we expect half these 22
+students to weigh more than 125 and half these 22 students to weigh less.
+
+Does this help? Please write back with any additional questions you
+might have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

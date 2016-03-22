@@ -1,0 +1,123 @@
+ThreadNum: 575054
+Subject: Re: (no subject)
+To: chaldo_mac_10@yahoo.com (monica)
+From: Doctor Greenie
+TimeStamp: 09/20/2004 at 11:40:27
+Sent: yes
+
+
+As monica wrote to Dr. Math
+On 09/20/2004 at 10:22:45 (Eastern Time),
+>[Question]
+>Help me understand how to do a story problem.   Heres one- Mary has 
+>$3.00 in nickels, dimes, and quarters. If she has twice aas many 
+>dimes as quarters and five more nickels than dimes, how many of 
+each 
+>does she have?
+>
+>[Difficulty]
+>how do i even get started
+>
+>[Thoughts]
+>
+Hi, Monica --
+
+I like the following 4-step process for solving word problems:
+
+1) define the variables and expressions we are going to use
+2) write on equation
+3) solve the equation
+4) find the answer to the problem
+
+The first step is very important.  In high school classroom and in 
+the "math doctoring" I do here on the internet, I am constantly 
+helping students who get lost on a problem because they try to write 
+an equation without first carefully defining the variables and 
+expressions in that equation.
+
+Let's look in detail at the steps for this example problem.  Note 
+that -- as is almost always the case -- the specific details of the 
+solution we show are not necessary; another person might follow a 
+different but also perfectly valid path to the final solution.
+
+1) define variables and expressions
+
+We want to use as few variables as possible; more variables means a 
+more complex problem.  The things we need to find are (a) the number 
+of quarters, (b) the number of dimes, and (c) the number of 
+nickels.  We would like, if possible, to find expressions for these 
+three unknown quantities which use only one variable.
+
+In this problem we can do this, because (a) the number of dimes is 
+defined in terms of the number of quarters ("she has twice as many 
+dimes as quarters") and (b) the number of nickels is defined in 
+terms of the number of dimes ("she has ... and five more nickels 
+than dimes").  So we can define the three unknowns using a single 
+variable, as follows:
+
+  q = number of quarters
+  2q = number of dimes  [twice as many dimes as quarters]
+  2q+5 = number of nickels  [five more nickels than dimes]
+
+2) write an equation
+
+The problem tells us the total amount of money we have; using the 
+variables and expressions we have defined and what we know about the 
+value of each type of coin, we can write an equation for the total 
+amount of money.  Note it will be easier if we work with cents than 
+with dollars; working with cents will allow us to work with whole 
+numbers, whereas working with dollars would make us work with 
+fractions.
+
+So we need to write an equation which says
+
+  number of quarters, at 25 cents each; plus
+  number of dimes, at 10 cents each; plus
+  number of nickels, at 5 cents each
+  equals 300 cents ($3.00)
+
+The algebraic equivalent of the above statement in words is
+
+  (q)(25) + (2q)(10) + (2q+5)(5) = 300
+
+3) solve the equation
+
+This is basic algebra....
+
+  (q)(25) + (2q)(10) + (2q+5)(5) = 300
+  25q + 20q + 10q + 25 = 300
+  55q = 275
+  q = 5
+
+4) find the answer to the problem
+
+"q=5" is not the answer to the problem.  The answer to the problem 
+is the numbers of quarters, dimes, and nickels.  We have
+
+  number of quarters = q = 5
+  number of dimes = 2q = 10
+  number of nickels = 2q+5 = 15
+
+The answer to the problem is
+
+  5 quarters, 10 dimes, and 15 nickels
+
+A good step 5) in the problem-solving process is "check your 
+answer".  It is easy to make simple arithmetic or logic errors and 
+get the wrong answer, even though your method was sound.  So let's 
+check our answer....
+
+5) check answer
+
+  5 quarters = $1.25
+  10 dimes   =  1.00
+  15 nickels =   .75
+  ------------------
+       total =  3.00
+
+I hope all this helps.  Always use this 4-step (or 5-step) approach 
+to problem solving and you will have a mcuh better chance of success.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

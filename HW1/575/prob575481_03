@@ -1,0 +1,78 @@
+ThreadNum: 575481
+Subject: Re: Laws of cosine
+To: ashavnair@comcast.net (Ash)
+From: Doctor Riz
+TimeStamp: 10/04/2004 at 21:35:45
+Sent: yes
+
+
+As Ash wrote to Dr. Math
+On 09/21/2004 at 14:39:35 (Eastern Time),
+>[Question]
+>When we were learning laws of cosines we couldnt figure why we 
+>should be using the laws of cosine to find out teh biggest angle in 
+>the triangle when the three sides are given.If we find teh smaller 
+>angles first using the laws of cosine and then use laws of sines to 
+>find teh rest of teh angle we get defferent solutions.
+>Here is what we did:
+>
+>Solve traingle ABC when  a = 9, b= 7 c = 12.
+>
+>we solved Angle A first and got it as 48 degrees
+>
+>Then we solved for angle B using sine law.
+>
+>SinB/b = SinA/a and got B as 35 degrees
+>
+>And now we solved for c by subracting  angle A and B form 180 to get 
+>C as 83 degrees.
+>
+>But when I solve it for c first we get c as 97 degrees using cosine 
+>law..
+>
+>Can you please explain why we haveto do Angle C first?
+>
+>We are too confused with it..please
+>
+>Ash
+>
+>
+>
+>
+>
+>[Difficulty]
+>We didnt get why we should be using teh cosine law to find out teh 
+>biggest angle.
+>
+>[Thoughts]
+>
+
+Hi Ash -
+
+Just a quick follow up to Dr. Schwa's answer.  Your approach should
+work fine - you are just making a calculation mistake.  If A = 48 and
+B = 35, those two together add to 83 degrees, and C is therefore 180 -
+83, which is 97 degrees, the same result you got using the Law of
+Cosines.  You just forgot to subtract the 83 from the 180.
+
+As for your question as to why the largest angle should be done first
+using the Law of Cosines, the answer is that it doesn't _have_ to be,
+but it makes the most sense to do that one first.  
+
+As Dr. Schwa talked about, the Law of Cosines will return the one
+correct value for the angle, whether it's obtuse (greater than 90) or
+acute (less than 90), whereas the Law of Sines can be ambiguous and
+might lead to two possible angles, one acute and one obtuse.  
+
+Since the biggest angle in the triangle is the only one that _might_
+be obtuse (can you see why?), solving for that one first using the Law
+of Cosines removes any possible ambiguity when you then solve for one
+of the other two angles by using the Law of Sines.  We know that the
+two that aren't the biggest must be acute, so we can just take that
+answer from the Law of Sines.
+
+Does that make sense and help?
+
+- Doctor Riz, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,69 @@
+ThreadNum: 575811
+Subject: Re: is there a statistical advantage sucessive lottery tries 
+To: dogle@ttlinc.com (Dal)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 12:52:29
+Sent: yes
+
+
+As Dal wrote to Dr. Math
+On 09/22/2004 at 11:12:47 (Eastern Time),
+>[Question]
+>is a person any more likely to win the lottery if he/she buys 
+>tickets each week (drawing). is the statistical advantage for buying 
+>a single number set for sucessive individual drawings any higher 
+>than that of buying multible number sets for a single drawing.
+>
+>[Difficulty]
+>is the probablity affected by the number of trials vs. one trial and 
+>several outcomes.
+>
+>[Thoughts]
+>i think the probabily if multible (as opposed to additive)on 
+>sucessive trials. therefore, one should have some advantage, i 
+>believe.
+>
+>from a common sense standpoint, i would think that a person who 
+>steps outside during EVERY electrical storm would be MORE likely to 
+>be struck than a person who steps outside for a longer period of 
+>time during one single event.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+There is no advantage, in a lottery, to buying multiple tickets in a
+single week versus buying a single number set for successive drawings.
+The appropriate analogy is flipping a single coin 10 times versus
+flipping 10 coins once. 
+
+You expect the same statistical behavior in both cases. The difference
+comes in variance. Buying multiple lottery tickets a single time means
+that for every drawing, you have signficant variance. You can lose or
+win bigger than by drawing a single ticket. So, the _average_ value
+you lose (since there is no strategy that makes the lottery a winner)
+is the same in both cases, the fluctuations up and down in how much
+you win or lose are much greater by buying several tickets at a time
+versus 1 at a time for a longer period of time. 
+
+In fact, because the chance of winning the lottery is so slim, you
+probably want to reduce your variance. In other words, considering
+factors that are not statistical, you may want to spend $1 a day over
+the next 100 days versus risking $100 on today's drawing and waiting
+100 days to play the lottery again. The _average_ value of your gamble
+is the same, but the variance can have effects outside the lottery
+(i.e. on your disposable income).
+
+The electrical storm argument fails because a single event never lasts
+that long. If you had an electrical storm that lasted for days, then
+the analogy might hold up. Basically, you can't compare standing
+outside for a protracted time during a single electrical storm to
+briefly standing outside during several storms, since a single storm
+doesn't ever last that long. So, yes, a person who steps outside
+during every storm is more likely to be struck. But that person is
+exposing themselves for a longer period of time than riding out a
+single storm. The coin analogy is apt here.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

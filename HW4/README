@@ -1,0 +1,67 @@
+Zakary Olyarnik
+CS-265 Final Project
+11-29-14
+
+Included Files:
+-a4.java
+-assn4
+-test.script
+-makefile
+-README
+
+Instructions to Run:
+-make sure the current directory is included in $PATH (I tried to do this in
+the makefile, but after a great deal of research online, it looks like
+environment variables cannot be changed in make).  This will allow you to
+just type "assn4" or "test.script" as shown on the spec, without needing to
+include the path.
+-call "make build" to compile a4.java
+-call "assn4" followed by any of the four commands with arguments listed on
+the spec
+-call "test.script", which will automatically execute a list of these
+commands, as detailed in the comments of that file.
+
+Notes:
+-I did this assignment in Java, using a bash script to interface and allow
+you to just call "assn4" instead of "java assn4".  Therefore the contents of
+assn4 are simply the java call followed by passing all of the rest of the
+arguments through, then exiting with a status of $?.  This makes sure the
+correct error code will always be returned at all levels.
+-The 'report' subcommand simply reads the contents of the register out of
+the already correctly-formatted register.txt file.
+-The 'init' subcommand checks that there is a correct number range of
+arguments, that the third one is always the =, that the arguments are
+integers, and that the amounts on either side match.  Then it uses the java 
+command to overwrite an existing text file or create a new one.
+-The 'change' subcommand checks that the arguments are in the correct number
+range, checks that the arguments are integers, checks that the two amounts are
+equal, and then reads from the file to check if the requested bills are present.
+Only then will it update and rewrite the register.
+-The purchase command is the majority of the code, because after the same
+argument and equality checks, the register needs to make change with the
+largest available denominations.  This is achieved by using if statements
+within while statements within an outer while, "while change != 0".  Then it
+checks while change < 20, 10, 5, and 1, respectively, to determine the
+largest denomination to start looking for in the register.  The ifs handle
+running out of a denomination, since it will then try to make change with
+the next highest one available.
+-The error codes.  Sam was helpful online in describing exactly what an
+error code is and /can/ be used for, but not really what it /should/ be used
+for in this assignment.  The way that I coded, then, was having Java return
+the appropriate code to my assn4 bash script, then have that exit and pass
+the code back to the test script.  This means that the error code /could/ be
+checked and handled at any step of the process, but the one thing that I got
+clearly from the discussion board is that the error codes are /not/ meant to
+be printed to the console.  So they are just sort of passed along
+internally.  Additionally, by using Java's System.exit(#) command, I was
+able to avoid the confusion with wrapping and unwrapping as the hint
+suggested.  So Java /can/ return a status to the caller.  This tactic was
+confirmed as valid by Prof. Augenblick, 12/1/14.
+
+Closing:
+-I found this assignment to be appropriate for a final project, and didn't
+have any real trouble with the code once I figured out the bash "wrapper"
+and the System.exit(#) that does what (I think) you want with the error
+codes, circumventing the genuinely confusing part of the instructions.  As
+usual, these instructions could be clearer, and the board traffic is
+evidence of that, but I think it turned out okay. 

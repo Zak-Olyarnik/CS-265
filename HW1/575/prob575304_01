@@ -1,0 +1,68 @@
+ThreadNum: 575304
+Subject: Re: Probability
+To: mcneil9@sbcglobal.net (Ken)
+From: Doctor Roy
+TimeStamp: 09/21/2004 at 11:46:16
+Sent: yes
+
+
+As Ken wrote to Dr. Math
+On 09/20/2004 at 21:44:11 (Eastern Time),
+>[Question]
+>5 straws, 4 long and 1 short, are placed in a hat.  The probability 
+>of drawing the short straw is 1 out of 5 or 20%.  The odds are 1:4.
+>
+>Person A draws one straw from the hat containing the 5 straws, Person 
+>B then draws from the 4 remaining, etc. until Person E draws the last 
+>straw from the hat, which, naturally, only had the one straw left.  
+>All 5 look at their straws, where only one has drawn the short straw. 
+>Was the probability the same (20%) for each person on drawing the 
+>short straw?
+>
+>
+>[Difficulty]
+>I do not know if the size of the sample set changed for each 
+>succesive event (draw).  I feel the probability that the short straw 
+>being drawn by any one of the five is 20%.  Without actually knowing 
+>which straw each person has drawn before the next person draws, you 
+>cannot calculate the probability.  So, the sample set remains at five.
+>
+>
+>[Thoughts]
+>At the beginning, the sample set is 5.  If all five persons reach 
+>into the hat and draw at the same time, it appears that each have a 
+>20% probability of drawing the short straw.  If all five reach into 
+>the hat at the same time and Person A drew a straw one one-hundreth 
+>of a second before Person B, did the sample set suddenly change?  I 
+>am sure this is a basic question, but I have had no success in 
+>tracking down the answer.  Thank you in advance for your help.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Your intuition is correct. The probability remains at 20% for
+everybody. We can calculate it, in fact.
+
+Person A draws the short straw 20% of the time. In this case, the
+probability Person B draws the short straw 0% of the time.
+Person A draws a long straw 80% of the time. In this case, Person B
+draws the short straw 25% of the time.
+
+ Prob(Person B draws short) = Prob(Person B - short |Person A - short)
+                             + Prob(Person B - short |Person A - long)
+
+                            = 20% * 0 + 80% * 25%
+                            = 20%
+
+So, on average, Person B draws the short straw 20% of the time. 
+
+Using a similar calculation, you can show that Persons C, D, and E
+draw the short straw 20% of the time.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

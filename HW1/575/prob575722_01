@@ -1,0 +1,65 @@
+ThreadNum: 575722
+Subject: Re: finding smallest number to divide 
+To: jessesantana@cox.net (Elizabeth)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:49:39
+Sent: yes
+
+
+As Elizabeth wrote to Dr. Math
+On 09/21/2004 at 23:55:09 (Eastern Time),
+>[Question]
+>Find the smallest number that meets all of the following criteria?
+>
+>when you divide by 5 there are 3 left over
+>when you divide by 8 there are 2 left over
+>when you divide by 9 there are 4 left over
+>
+>[Difficulty]
+>I've tried almost 50 numbers, cant't find it, is there a certain way 
+>to do this problem?
+>
+>[Thoughts]
+>Please help, I am trying very hard to explain to my daughter
+
+Hi Elizabeth,
+
+The simplest thing to do is start generating lists of numbers.  The
+numbers that meet the first criterion are
+
+  8, 13, 18, 23, 28, 33, ... (keep counting by 5's)
+
+So whatever number we're looking for has to be in this list, which is
+convenient, because it's basically 'all the numbers that end in 3 or 8'.  
+
+The numbers that meet the second criterion are 
+
+  10, 18, 26, 34, 42, ...  (keep counting by 8's)
+
+If we think about this a little, we can see that this list will
+_never_ have anything ending with a 3.  Do you see why?  So now we can
+restrict ourselves to numbers that end in 8.  
+
+Let's extend the list a little farther:
+
+  10, 18, 26, 34, 42, 50, 58, 66, 74, 82, 90, 98, ...
+
+Do you see the cycle in the units digit?  
+
+  10, 18, 26, 34, 42, 50, 58, 66, 74, 82, 90, 98, ...
+   
+   0,  8,  6,  4,  2,  0,  8,  6,  4,  2,  0,  8
+
+The 8's repeat at predictable intervals - every time we add 40.  So we
+can just crank those out directly:
+
+  18, ..., 58, ... 98, ...  (keep counting by 40's)
+
+So now you just need to find the first of these number that, when
+divided by 9, leaves a remainder of 4.  
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

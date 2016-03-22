@@ -1,0 +1,32 @@
+ThreadNum: 575375
+Subject: Re: Thank you (Add fractions with diff. denomintors & over a thousand terms)
+To: def_fu@hotmail.com (Matthew)
+From: Doctor Wilkinson
+TimeStamp: 09/21/2004 at 16:26:21
+Sent: yes
+
+
+As Matthew wrote to Dr. Math
+On 09/21/2004 at 03:35:30 (Eastern Time),
+>Thankyou for your response.
+>
+>For this question, I need to be able to prove and work 
+>through my answer using mathematical processes (i.e. not a 
+>spreadsheet). So, I am still unsure on how to go about 
+>solving this problem. Any more help would be greatly 
+>appreciated.
+>
+>
+
+Hi, Matthew.  Here's a hint.
+The terms of this sum have the form n/((n-1)^2 (n+2)^2).  Take a look at
+
+   1/(n-1)^2 - 1/(n+2)^2
+
+
+
+
+
+
+- Doctor Wilkinson, The Math Forum
+  <http://mathforum.org/dr.math/>

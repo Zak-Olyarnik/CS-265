@@ -1,0 +1,40 @@
+ThreadNum: 575907
+Subject: Re: polygons
+To: khovey@twcny.rr.com (dave)
+From: Doctor Peterson
+TimeStamp: 09/22/2004 at 22:35:21
+Sent: yes
+
+Hi, Dave.
+
+As dave wrote to Dr. Math
+On 09/22/2004 at 17:16:01 (Eastern Time),
+>[Question]
+>what 4 rules make a polygon?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+I assume you mean, what four properties must a figure have in order to
+be called a polygon; that is, you want a four-part definition.
+
+I would say that a polygon is a simple closed curve composed of
+finitely many line segments. You might break that down into these parts:
+
+  1. Has a finite number of edges.
+  2. Each edge is a straight line segment.
+  3. Each edge joins the next one at its end.
+  4. The edges form a complete loop that comes back to its
+     starting point.
+
+Could that be something like what you are looking for?
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,49 @@
+ThreadNum: 575786
+Subject: Re: Question on zero polynomial.
+To: jarso10@yahoo.com (Daniel)
+From: Doctor Jacques
+TimeStamp: 09/23/2004 at 03:17:57
+Sent: yes
+
+
+As Daniel wrote to Dr. Math
+On 09/22/2004 at 10:04:22 (Eastern Time),
+> 
+>
+>I made a mistake before, the question should be:
+>
+>Why the degree of zero polynomial undefined?
+>
+>0=0*x^0
+>
+>Can’t we say the degree is 0?
+
+Hi Daniel,
+
+A polynomial of degree 0 is a constant, non-zero, polynomial.
+
+The important property of the degree (and what makes it useful) is 
+that:
+
+  deg(fg) = deg(f) + deg(g)
+
+for any two non-zero polynomials f and g. If you define the degree of 
+the zero polynomial as 0 (while keeping the property above), then 
+taking, for example, f = 0, we get:
+
+  deg(fg) = 0 = 0 + deg(g)
+
+and this implies that the degree of any polynomial (like g) must be 0.
+
+Note that, by your agrument, you could also write 0 = 0*x^k for any 
+k...
+
+Some authors define the degree of 0 as minus infinity, but this is 
+only a matter of convention.
+
+Does this help?  Write back if you'd like to talk about this 
+some more, or if you have any other questions.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

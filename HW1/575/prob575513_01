@@ -1,0 +1,59 @@
+ThreadNum: 575513
+Subject: Re: About the old chicken and half math word problems
+To: Tabithasheetz@hotmail.com (Tabby)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 22:19:04
+Sent: yes
+
+Hi, Tabby.
+
+As Tabby wrote to Dr. Math
+On 09/21/2004 at 16:52:02 (Eastern Time),
+>[Question]
+>It is the old a chicken and a half lays a egg and half in a day and a 
+>half. I don't understand it. I need to know how many days will it 
+>take 12 chickens to lay E eggs? I have read your other emails on the 
+>site but I still don't get how to do the problem. Thanks so much if 
+>you can answer it for me! 
+>
+>[Difficulty]
+>I get how to get the eggs but I don't know how to try to find the 
+>days.
+>
+>[Thoughts]
+>Chickens/1.5=x
+>Days/1.5=y
+>x*y*1.5=e
+>
+>I fill it in and it looks like 
+>   12/1.5=8
+>   d/1.5=(d/1.5)
+>   8*(d/1.5)*1.5=E
+>I can't find D from there.
+
+I'm not quite sure what method you are trying to follow, since I
+haven't tried reading all our answers to questions like this to see.
+I'll recommend the rate approach. The number of eggs laid will be
+proportional to the numbers of chickens and days, so we can talk about
+a rate of "eggs per chicken-day" or "eggs per chicken per day". Our
+rate is
+
+         1.5 eggs            1
+  ----------------------- = --- eggs/chicken-day = 2/3 egg/chicken-day
+  1.5 chickens * 1.5 days   1.5
+
+If you have 12 chickens and D days to lay E eggs, you will get
+
+         E eggs
+  --------------------
+  12 chickens * D days
+
+which has to be equal to the same rate. Write that as an equation and
+solve for D.
+
+If you need more help, please write back and show me how far you got.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

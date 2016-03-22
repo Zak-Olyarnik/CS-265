@@ -1,0 +1,42 @@
+ThreadNum: 575435
+Subject: Re: Integration
+To: bnice2137@hotmail.com (Brandon)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 11:16:31
+Sent: yes
+
+
+As Brandon wrote to Dr. Math
+On 09/21/2004 at 10:40:10 (Eastern Time),
+>[Question]
+>Can you, and if so how do you integrate a semi circle, or any part of 
+>a circle.
+>
+>[Difficulty]
+>It seems like there is no way to integrate the function because of 
+>the square root. f(x) = (r^2 - x^2) ^ -2 (function of a semi-circle)
+>I know I'd just choose any constant for r. 
+>
+>[Thoughts]
+>so far i would have 
+>
+>f(x) = (49 - x^2) ^ -2
+>
+>but thats as far as i can get.
+
+Hi Brandon,
+
+Thanks for writing to Dr Math.  I think you mean
+
+  f(x) = (r^2 - x^2) ^ (1/2).
+
+You can use trigonometric substitutions to do this.  Have you learned
+that integration technique yet?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

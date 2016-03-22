@@ -1,0 +1,50 @@
+ThreadNum: 575690
+Subject: Re: (5) (62)
+To: mija-3@juno.com (lizzy)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:54:10
+Sent: yes
+
+
+As lizzy wrote to Dr. Math
+On 09/21/2004 at 22:01:24 (Eastern Time),
+>[Question]
+>how do you simplyfiy?
+>
+>[Difficulty]
+>i dont know if you have to multiply or add or subtract.
+>
+>[Thoughts]
+>
+
+Hi Lizzy,
+
+You multiply.  The idea is that if we just put two quantities next to
+each other, there's an implied multiplication.  This allows us to
+write things like
+ 
+    2 4 3
+  3x y z
+
+without a bunch of multiplication symbols.  It's true for numbers as
+well as variables; but if we just stick numbers together, like 
+
+  562
+
+we lose track of which digits belong to which number:
+
+  562 = 5 * 62?
+
+      = 56 * 2
+
+      = 5 * 6 * 2?
+
+For this reason, we use parentheses to disambiguate:
+
+  5(62) = (5)62 = (5)(62) = 5 * 62
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,37 @@
+ThreadNum: 575375
+Subject: Re: Add fractions with diff. denomintors & over a thousand terms
+To: def_fu@hotmail.com (Matthew)
+From: Doctor Wilkinson
+TimeStamp: 09/23/2004 at 08:37:48
+Sent: yes
+
+
+As Matthew wrote to Dr. Math
+On 09/22/2004 at 20:55:28 (Eastern Time),
+>Sorry to bother you again, but I am not sure if my solution is 
+>correct. I checked my solution with a spreadsheet, and got a 
+>slightly different answer. It may be because the fractions become so 
+>small that the computer does not compute sufficient decimal places. 
+>Unfortunately, i can not attach the spreadsheet to this email.
+>
+>Using the formula, after cancelling i got:
+>
+>1 + (1)/(2^2) - (1)/((1000)^2) - (1)/((1001)^2)
+>= 5/4 - 0.000001 - 0.000000998002996
+>=approx. 1.249998001997004
+>
+>Which must be divided by 4:
+>
+>so = 0.3124995
+>
+>So, what is the correct answer? Should it be expressed in decimal or 
+>fraction form?
+
+The answer you got from the formula is correct, so there must be some roundoff 
+error in the spreadsheet result.  If you want to express the answer exactly, you should 
+write it as a fraction; if you just need a certain number of decimal places, then the 
+decimal form is fine.
+
+
+- Doctor Wilkinson, The Math Forum
+  <http://mathforum.org/dr.math/>

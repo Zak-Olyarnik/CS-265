@@ -1,0 +1,37 @@
+ThreadNum: 575538
+Subject: Re: Negative values and Geometric mean
+To: tecimd@yahoo.com (ashleysha)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:47:41
+Sent: yes
+
+As ashleysha wrote to Dr. Math
+On 09/21/2004 at 17:31:20 (Eastern Time),
+>[Question]
+>I have data for stock returns and some of the values are negative. 
+>How do I calculate the geometric mean. What I tried to do was use 
+>the absolute value since the geometric mean is the root of a 
+>product, but I am nto sure if this is right? What should be done 
+>while computing geometric values for such a data series? I don't 
+>need the arithmetic mean hence the problem.
+>
+>Thank you in advance for sparing the time.
+
+Indeed, if you have negative values it doesn't make sense
+to take the geometric mean.
+
+The geometric mean would make sense if you were taking the
+average multiplier for a lot of stocks:
+for instance, if one stock went from 100 to 120, its multiplier would
+be 1.2,
+and if another stock went from 50 to 30, its multiplier would be .6,
+and then you could take the geometric mean of those.  But as long
+as no stock went to 0 or below, then those numbers would all
+be positive.
+
+Does that help?
+
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

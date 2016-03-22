@@ -1,0 +1,30 @@
+ThreadNum: 575761
+Subject: Re: x3+y3=3axy,find an expression for xor y
+To: shiji432@yahoo.com (sumod)
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 08:35:28
+Sent: yes
+
+
+As sumod wrote to Dr. Math
+On 09/22/2004 at 05:49:04 (Eastern Time),
+>[Question]
+>i could not find an expression alone for x or y
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>x3=3axy-y3          
+
+Hello Sumod,
+
+Except for special cases, to solve x^3 + y^3 = 3*a*x*y for either x or y involves solving a 
+cubic equation.  For the known methods for solving cubics, see
+
+
+http://mathforum.org/dr.math/faq/faq.cubic.equations.html
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

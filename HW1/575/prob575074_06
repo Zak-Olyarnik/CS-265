@@ -1,0 +1,59 @@
+ThreadNum: 575074
+Subject: Re: partial differentiation
+To: cwto@so-net.com.hk (Wai)
+From: Doctor Fenton
+TimeStamp: 09/24/2004 at 08:10:32
+Sent: yes
+
+
+As Wai wrote to Dr. Math
+On 09/23/2004 at 08:16:17 (Eastern Time),
+>w_xx = [w_u * u_x]_x + [w_v * v_x]_x
+>
+>        = ([w_u]_x * u_x + w_u * [u_x]_x)  +  
+>                 
+>            [w_v ]_x * v_x + w_v  * [v_x]_x
+>
+>and
+>
+>  [w_u]_x = [w_u]_u * u_x + [w_u]_v * v_x ------(1)
+>From equation (1), I try to do it as below:
+>[w_u]_x = (d^2w/dudx) =(d^2w/dxdu)
+
+You shouldn't "mix" the derivatives corresponding to different sets
+of variables on w.  That doesn't help, and just confuses the issue.
+
+>        = [d(dw/du)(du/dx)]/dx + [d(dw/dv)(dv/dx)/dx]
+>        = (dw/du)(d^2u/dx^2)+(du/dx)(d^2w/dudx)+(dw/dv)(d^2v/dx^2)+
+>(dv/dx)(d^2w/dvdx)
+
+I'm not sure what you are trying to do, but you don't seem to be 
+applying the Chain Rule, and that is what is needed:
+
+  d(dw/du)   d(dw/du)   du   d(dw/du)   dv
+  -------- = -------- * -- + -------- * --
+     dx         du      dx      dv      dx
+
+That's what my equation
+
+>  [w_u]_x = [w_u]_u * u_x + [w_u]_v * v_x
+
+means.  You can compute u_x and v_x explicitly, and they are constants.
+
+>And,
+>(d^2w/dudx) = (d/du)(dw/dx) = (d/du)[(dw/du)(du/dx)+(dw/dv)(dv/dx)]
+>            = (d^2w/du^2)(du/dx)+(dw/du)(d^2u/dudx)+(d^2w/dudv)
+>(dv/dx)+(d^2v/dudx)(dw/dv)
+>            = (d^2w/du^2)(du/dx)+(d^2w/dudv)(dv/dx) , if (dw/du)
+>(d^2u/dudx) =0 and (dw/dv)(d^2v/dx^2) =0, is it right? 
+
+No.  You're losing sight of what you're trying to do, which is to
+write derivatives of w with respect to x and y in terms of derivatives
+with respect to u and v.  Your first line mixes the variables again, 
+and changes the x-derivative to a u-derivative, which is the wrong
+way to proceed.  You don't want to be taking derivatives of du/dx
+with respect to u, etc.  Use the Chain Rule as I indicated above.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

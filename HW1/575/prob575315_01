@@ -1,0 +1,32 @@
+ThreadNum: 575315
+Subject: Re: How many inshes are in a miles?
+To: chezlolis@hotmail.com (Carlos)
+From: Doctor Ian
+TimeStamp: 09/20/2004 at 22:38:19
+Sent: yes
+
+
+As Carlos wrote to Dr. Math
+On 09/20/2004 at 22:05:57 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>Everything.
+>
+>[Thoughts]
+>It is hard for me.
+
+Hi Carlos,
+
+There are 12 inches in a foot, and 5280 feet in a mile.  So there are
+
+           5280 feet   12 inches
+  1 mile * --------- * --------- = (5280 * 12) inches
+              1 mile    1 foot
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

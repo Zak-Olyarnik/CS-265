@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# makes sure desired path exists
+if [ ! -e $ARCHIVE ] ; then
+	echo -e "\nARCHIVE pathname could not be found.\n"
+   exit
+fi
+
+# counts number of directories containing files
+fullDirectoryCounter=0
+messageCounter=0
+
+for folder in $(ls $ARCHIVE) ; do
+	if [ "$(ls -A ${ARCHIVE}/${folder})" ]; then
+	(( fullDirectoryCounter=fullDirectoryCounter+1 ))
+		
+		# counts number of messages within these directories
+		for file in $(ls ${ARCHIVE}/${folder}) ;do
+			(( messageCounter=messageCounter+1 ))
+		done
+
+	fi
+done
+
+# output results
+echo $fullDirectoryCounter $messageCounter
+

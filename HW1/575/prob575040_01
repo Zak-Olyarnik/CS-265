@@ -1,0 +1,56 @@
+ThreadNum: 575040
+Subject: Re: Probility 
+To: cw_2002@hotmail.com  (Crystal )
+From: Doctor Greenie
+TimeStamp: 09/20/2004 at 11:10:12
+Sent: yes
+
+
+As cw_2002@hotmail.com  (Crystal ) wrote to Dr. Math
+On 09/20/2004 at 08:26:08 (Eastern Time),
+>[Question]
+>You are in a room that has three switches on the wall. One of these 
+>switches operates a light bulb in a lamp in another room dwon t he 
+>hall. The other two do nothing. You cannot see the other room or 
+>light emitting from it from your location in the room with the 
+>switches. What is the minimum number of trips to the other room 
+that 
+>are required to determine which switch operates the light bulb? 
+>Explain precisely what you would do to determine this. 
+>
+>[Difficulty]
+>I just can not begin to understand where to start of figure out 
+this 
+>problem. 
+>
+>[Thoughts]
+>I can see the light and the three switches but I can not figure out 
+>how to figure how many times are needed. 
+
+Hi, Crystal --
+
+It only takes one trip.  This is a popular problem in logic; very 
+few people solve it on their own, because the problem is posed in 
+such a way that they put restrictions on the problem which do not 
+exist.
+
+You need to "think outside the box", as the popular phrase says.  
+Certainly, when you leave the room where the switches are and go to 
+the room where the light bulbs and lamps are, you can have one 
+switch on and the other two off; then one of the three lights will 
+be on, allowing you to identify one switch/lamp pair.
+
+To finish solving the problem, you need to find a way that you can 
+determine which of the other two switches controls which of the 
+other two lamps.  You need to think of the physical situation -- not 
+just the logical problem.  What can you do with the switches before 
+you go to the room with the lights so that you will be able to 
+determine which of the other two switches controls which of the 
+other two lamps?
+
+I hope this much helps.  Please write back if you need more help 
+with this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,35 @@
+ThreadNum: 575797
+Subject: Re: formula of a sphere
+To: rhrresnick@aol.com (Robert Resnick m,d,)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 13:35:17
+Sent: yes
+
+
+As Robert Resnick m,d, wrote to Dr. Math
+On 09/22/2004 at 10:19:26 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I think it may be Pir cube. It has been decades since I used this 
+>data.   Many thanks
+
+Hi Robert,
+
+If r is the radius, the area is 
+
+  4 pi r^2
+
+and the volume is 
+
+  (4/3) pi r^3
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

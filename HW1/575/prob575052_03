@@ -1,0 +1,34 @@
+ThreadNum: 575052
+Subject: Re: Probability
+To: W0159480@selu.edu (Monkey)
+From: Doctor Anthony
+TimeStamp: 09/20/2004 at 12:42:45
+Sent: yes
+
+
+As Monkey wrote to Dr. Math
+On 09/20/2004 at 10:56:57 (Eastern Time),
+>How to say the answer given to a group of elementary students?
+
+The question read
+
+>It was reported that 30% of all car accidents are caused by drunk 
+>drivers.  Therefore 70% must be caused by sober drivers.  Based on 
+>this information , since you are more likely to be involved in an 
+>accident if you are sober, is it OK to drink and drive?
+>
+
+The mistake is to say that YOU are more likely to be involved in an 
+accident when sober than when drunk.  For any individual the 
+opposite is true.  If the number of drunk drivers is say 10 in a 100 
+then 10% of drivers are contributing 30% of the accidents.  If the 
+total number of accidents is say 100 this means each drunk driver is 
+involved in 3 accidents.  On the other hand, 90 sober drivers are 
+involved in 70 accidents so each sober driver is involved in 7/9 
+accidents, that is less than 1 accident per driver.  It follows that 
+each sober driver is LESS likely to be involved in an accident.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

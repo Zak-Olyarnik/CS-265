@@ -1,0 +1,108 @@
+ThreadNum: 575889
+Subject: Re: Finding The Perimeter Of Hexagons Lined Up In A Row
+To: ciarlillo@adelphia.net (Madeline)
+From: Doctor Greenie
+TimeStamp: 09/22/2004 at 17:55:06
+Sent: yes
+
+
+As Madeline wrote to Dr. Math
+On 09/22/2004 at 16:16:19 (Eastern Time),
+>[Question]
+>My question is how to get the formula to figure out the perimeter 
+of 
+>100 hexagons or more lined up n a row touching eachother? Say you 
+>have 11 hexagons lined up what would ther perimeter be and what 
+>formula did you use to get? 
+>
+>[Difficulty]
+>I can do it if its  just li5-10 hexagons but i just can't figure 
+out 
+>a formula to make it easier to find larger numbers.
+>
+>[Thoughts]
+>i  had a way to do it but it wasn't a formula it was a pattern i 
+>saw. say you have 2 hexagons you would multiply it by 6 because 
+>thats how many sides it has then subtract 2 because those 2 sides 
+>are facing eachother. Each time the number you subtract will get 2 
+>bigger.
+
+Hi, Madeline --
+
+You have made an excellent start on this.  Let's look at your 
+analysis...
+
+  "say you have 2 hexagons you would multiply it by 6 because
+   thats how many sides it has then subtract 2 because those
+   2 sides are facing each other. Each time the number you
+   subtract will get 2 bigger."
+
+Let's use this analysis to find the perimeter for 1, 2, 3, 4, and 5 
+hexagons; then we will look at the pattern of numbers we have and 
+try to put it in a formula.
+
+  1 hexagon:  6 sides; perimeter = 6
+  2 hexagons:  2 times 6 sides, minus 2; perimeter = 12-2 = 10
+  3 hexagons:  3 times 6 sides, minus 4; perimeter = 18-4 = 14
+  4 hexagons:  4 times 6 sides, minus 6; perimeter = 24-6 = 18
+  5 hexagons:  5 times 6 sides, minus 8; perimeter = 30-8 = 22
+
+So for 1, 2, 3, 4, and 5 hexagons, the perimeters are
+
+  6, 10, 14, 18, 22
+
+Written in function notation, where P(n) is the perimeter of the 
+figure made up of n hexagons, we have
+
+  P(1) = 6
+  P(2) = 10
+  P(3) = 14
+  P(4) = 18
+  P(5) = 22
+
+The perimeter of the figure increases by 4 each time we add another 
+hexagon.  A formula which will behave this way (the perimeter 
+increasing by 4 each time we add one hexagon) is of the form
+
+  P(n) = 4n + <something>
+
+We just need to figure out what the <something> is.  To do this, we 
+can use any of our known values of the function.  Let's use P(1)=6, 
+since it is the smallest number.  We know
+
+  P(n) = 4n + <something>
+
+so for n=1 we have
+
+  P(1) = 4(1) + <something>
+       = 4 + <something>
+
+But we know P(1) = 6, so
+
+  4 + <something> = 6
+
+and so that <something> is 2.
+
+So now our formula is complete:
+
+  P(n) = 4n+2
+
+We can check a couple of our other known values to give us 
+confidence in our formula:
+
+  P(2) = 4(2)+2 = 8+2 = 10  yes...
+  P(5) = 4(5)+2 = 20+2 = 22  yes...
+
+Now that we have confidence in our formula, we can find the 
+perimeter for larger numbers of hexagons.  For the two cases you 
+mention in your message to us, we have
+
+  P(100) = 4(100)+2 = 402
+  P(11) = 4(11)+2 = 46
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

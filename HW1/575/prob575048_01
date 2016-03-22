@@ -1,0 +1,58 @@
+ThreadNum: 575048
+Subject: Re: discrete mathematics - induction proof of 2 color rectangle
+To: scienz7@att.net (Dahvyd)
+From: Doctor Jacques
+TimeStamp: 09/21/2004 at 02:02:50
+Sent: yes
+
+
+As Dahvyd wrote to Dr. Math
+On 09/20/2004 at 09:34:59 (Eastern Time),
+>[Question]
+>Suppose you take a piece of paper and draw a bunch of straight 
+>lines, no one exactly on top of another, that completely cross the 
+>paper. This divides the paper up into polygonal regions. Prove by 
+>induction that you can always color the various regions using only 
+>two colors, so that any two regions that share a boundary line are 
+>different colors. Regions that share only a boundary point may have 
+>the same color.
+>
+>
+>[Difficulty]
+>I am having difficulty finding how to translate this into an 
+>equation I can manipulate. I can prove it with words, but I would 
+>like to do it with symbols.
+>
+>[Thoughts]
+>At any given point on a line, the local area is broken into two 
+>regions, thus any line divides the local area into two different 
+>colors. When two lines intersect they always create 4 seperate 
+>regions. When there are an equal number of regions the colors will 
+>alternate between them and since they are divided by lines they will 
+>always have a different color on every side. Thus since the only 
+>types of lines you have are either lines that intersect other lines 
+>or lines that don't intersect any, you will always have alternating 
+>regions of colors. Does my proof work, and if it does how do I put 
+>it into mathematical notation? (I am taking an online college 
+>course, so even though I am in high-school, I understand logic 
+>notation.)
+
+Hi Dahvyd,
+
+We have an article on that subject in our archive:
+
+  http://mathforum.org/library/drmath/view/62500.html
+
+You will notice that there are two proofs in the article. Your idea 
+is quite similar to the first proof (which is rather complicated). 
+However, in the case of straight lines (or, more generally, of lines 
+that divide the area into two regions), the second proof is much 
+simpler and makes a direct use of induction.
+
+
+Does this help?  Write back if you'd like to talk about this 
+some more, or if you have any other questions.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,57 @@
+ThreadNum: 575009
+Subject: Re: finding the smallest number that meets certain criteria
+To: lsmay@cableone.net (Sharon)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 13:08:28
+Sent: yes
+
+
+As Sharon wrote to Dr. Math
+On 09/20/2004 at 01:32:07 (Eastern Time),
+>[Question]
+>Find the smallest number that meets all of the following criteria:
+>1. When you divide the number 5 there are 3 left over
+>2. When you divide the number 8 there are 2 left over
+>3. When you divide the number 9 there are 4 left over
+>
+>[Difficulty]
+>I'm a 60 year-old grandmother trying to help my 12 year-old 
+>granddaughter with her math. I can't help her with this problem 
+>because I don't understand the question and have no idea how to go 
+>about solving it. Any help you can give me will me appreciated. Thank 
+>you.
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+There is a formal way of finding the answer. But it might be a little
+advanced for a 12 year old student. The easiest way might be to list
+all numbers which satisfy each criterion and find the one that appears
+in all three lists.
+
+For the first list: numbers which leave a remainder of 3 when divided
+by 5:
+
+   3, 8, 13, 18, 23, 28, 33, 38, 43, 48, 53, 58, 63, 68, ...
+
+The second list: numbers which leave a remainder of 2 when divided by 8:
+
+   2, 10, 18, 26, 34, 42, 50, 58, 66, 74, 82, 90, 98, ....
+
+The third list: numbers which leave a remainder of 4 when divided by 9:
+
+   4, 13, 22, 31, 40, 49, 58, 67, 76, 85, 94, 103, .....
+
+Can you find the smallest number which appears in all three lists from
+here?
+
+I hope this helps, and please write back with any further questions
+you might have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

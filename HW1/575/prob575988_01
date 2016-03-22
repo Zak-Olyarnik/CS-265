@@ -1,0 +1,79 @@
+ThreadNum: 575988
+Subject: Re: Log Calculations
+To: saxman@shentel.net (Damian)
+From: Doctor Roy
+TimeStamp: 09/23/2004 at 11:53:12
+Sent: yes
+
+
+As Damian wrote to Dr. Math
+On 09/22/2004 at 20:32:54 (Eastern Time),
+>[Question]
+>I don't know if this is the kind of question you find appropriate. 
+>Rather than asking HOW something works, I am asking if the method is 
+>common and well known. Here is an example of what I have:
+>
+>
+>Log10(2) = 0.30102999566398119521373889472449
+>
+>2^1 = 2
+>(1 digit left of decimal - 1 = 0) = 0
+>
+>2^10 = 1,024
+>(4 digits left of decimal - 1 = 3) = 0.3
+>
+>2^100 = 1,267,650,600,228,229,401,496,703,205,376
+>(31 digits left of decimal - 1 = 30) = 0.30
+>
+>2^1000 = 1.07150860718626732094842504906e+301
+>(302 digits left of decimal - 1 = 301) = 0.301
+>
+>etc...
+>
+>
+>I ran across the method through hours of experimenting. I really 
+>didn't expect that anything like this would work. Since it seems to, 
+>I must ask if this method is well known by mathmatitions (out of 
+>curiousity). Also, do you have any explanation as to why this works? 
+>I sort of understand it, but it's a bit blury.
+>
+>Thanks!
+>
+>[Difficulty]
+>Just knowing exactly what is going on that makes this work.
+>
+>[Thoughts]
+>Log10(2) = 0.30102999566398119521373889472449
+>
+>2^1 = 2
+>(1 digit left of decimal - 1 = 0) = 0
+>
+>2^10 = 1,024
+>(4 digits left of decimal - 1 = 3) = 0.3
+>
+>2^100 = 1,267,650,600,228,229,401,496,703,205,376
+>(31 digits left of decimal - 1 = 30) = 0.30
+>
+>2^1000 = 1.07150860718626732094842504906e+301
+>(302 digits left of decimal - 1 = 301) = 0.301
+>
+>etc...
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+This method is really sort of a restatement of what the logarithm is.
+It tells you the nearest power of 10 a number represents. Powers of 10
+are basically the number of digitsr. For example: 102. The highest
+power of 10 represented here is 2 (i.e. hundreds). log10(102) is
+slightly greater than 2. Hence the number of digits is 3 (since we
+count the one's place as the zero-th power). It's really two ways of
+expressing the same idea. 
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

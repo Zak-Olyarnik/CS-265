@@ -1,0 +1,73 @@
+ThreadNum: 575948
+Subject: Re: Number of functions possible from one set to another
+To: GooGooo1234@yahoo.com (John)
+From: Doctor Roy
+TimeStamp: 09/23/2004 at 16:34:16
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 09/22/2004 at 19:07:37 (Eastern Time),
+>[Question]
+>Given sets X and Y with |X|=m and |Y|=n, guess a gerenal formula for
+the number of 
+>functions X-->Y.
+>
+>I'm not exactly sure what this question is asking.
+>Any help would be GREATLY appreciated.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+A function is just a mapping from one set to another. 
+
+For example:
+
+   X = {1, 2, 3}
+   Y = {a, b}
+
+   f: X -> Y
+
+   f(1) = a
+   f(2) = b
+   f(3) = b
+
+f is one of the possible functions from X to Y. In this case, |X| = 3
+and |Y| = 2. The |.| notation stands for "cardinality", which, for
+finite sets, represents how many elements are in the set. 
+
+The problem before you is to figure out how many ways you can assign
+values in Y to elements of X. For instance, in the example above, |X|
+= 3 and |Y| = 2. We just listed one possible mapping. Here's another:
+
+   g: X -> Y
+   g(1) = b
+   g(2) = a
+   g(3) = a
+
+This is another function from X to Y. So, we know there are at least 2
+functions from X to Y. 
+
+Your problem is to figure out the total number of such functions if
+|X| = m and |Y| = n. 
+
+Here's a start. If |Y| = 1, or n = 1, then the number of such
+functions is 1 (everything in X gets mapped to the only element in Y).
+If |X| = 1, or m = 1, then the number of such functions is n (the one
+element in X could be mapped to any of the n elements of Y. Try a
+slightly more advanced example where m = 2 and n = 2, and then where m
+= 3 and n = 2. See if you can find the pattern.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

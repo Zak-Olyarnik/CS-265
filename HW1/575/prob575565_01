@@ -1,0 +1,38 @@
+ThreadNum: 575565
+Subject: Re: finding patterns (formula)
+To: angel_71591@hotmail.com (Niki)
+From: Doctor Douglas
+TimeStamp: 09/21/2004 at 20:07:27
+Sent: yes
+
+
+As Niki wrote to Dr. Math
+On 09/21/2004 at 18:29:51 (Eastern Time),
+>[Question]
+>what is the formula /pattern for : 1+2+3+4....99+100
+>
+>[Difficulty]
+>-we're not supposed to use a calculator
+>-can't think of easy method
+>
+>[Thoughts]
+>if I use the calculator for this question, it would take a long 
+>time, but i would have an answer. unfortunately, we're not allowed to
+
+Hi Niki.
+
+thanks for writing to the Math Forum.
+
+Suppose you rearrange the sum like this:
+
+   1 + 2 + 3 + ... + 99 + 100 = 
+
+   1 + 100 + 2 + 99 + 3 + 98 + ... + 50 + 51 =
+
+   (1 + 100) + (2 + 99) + (3 + 98) + ... + (50 + 51)
+
+Now what do you notice about each term in parentheses?
+
+- Doctor Douglas, The Math Forum
+  <http://mathforum.org/dr.math/>
+

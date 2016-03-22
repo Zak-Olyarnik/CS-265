@@ -1,0 +1,60 @@
+ThreadNum: 575944
+Subject: Re: math quizz for creative thinking 
+To: sandersml2003@msn.com (mary)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 21:01:30
+Sent: yes
+
+
+As mary wrote to Dr. Math
+On 09/22/2004 at 18:48:52 (Eastern Time),
+>[Question]
+>7 for dinner! you have a grandfather, grandmother,2 mothers,2 
+>fathers,2 daughters,2 sons. table is set for 7. Who is the 7th 
+>person?
+>
+>[Difficulty]
+>I have went over and over this and get 8. 
+>
+>[Thoughts]
+>I made the grandfather a father, and father a son and the 
+>grandfather a son.
+
+Hi Mary,
+
+Let's start with the grandparents:
+
+     Have                      Need
+     ----------------------    -----------------------
+     GF GM                     M M F F D D S S
+       
+The grandmother is a mother, and the grandfather is a father, so we have 
+
+     Have                      Need
+     ----------------------    -----------------------
+     GF/F GM/M                 M F D D S S
+
+Let's add a father and a mother:
+
+     Have                      Need
+     ----------------------    -----------------------
+     GF/F GM/M F M             D D S S
+
+But the father is also a son, and the mother is also a daughter:
+
+     Have                      Need
+     ----------------------    -----------------------
+     GF/F GM/M F/S M/D         D S
+
+Add the daughter and the son, and we have
+
+     Have                      Need
+     ----------------------    -----------------------
+     GF/F GM/M F/S M/D D S     
+
+That's 6 guests.  So the 7th person could be anyone at all.  Or have I
+missed something? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

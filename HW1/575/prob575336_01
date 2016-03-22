@@ -1,0 +1,58 @@
+ThreadNum: 575336
+Subject: Re: Solving Equations
+To: rtpk2000@yahoo.com (Rahul)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 08:58:56
+Sent: yes
+
+
+As Rahul wrote to Dr. Math
+On 09/20/2004 at 22:46:25 (Eastern Time),
+>[Question]
+>I would like to know how the following type of questions can be 
+>answered.
+>
+>A number greater than 10 is written on a whiteboard. Jim inserts a 
+>digit between its two rightmost digits thus obtaining a new number 
+>which turns out to be 9 times the original one. What is the original 
+>number? Find all possible solutions.
+>
+>[Difficulty]
+>I am not able to form equation for this type of problem. Please help.
+>
+>[Thoughts]
+>
+
+Hi Rahul,
+
+Thanks for writing to Dr Math.  You let a variable like
+
+  a
+
+represent the rightmost digit, and you let a variable like
+
+  b
+
+represent all of the other digits, so that your original number is
+
+  10*b + a.
+
+Then if the new digit is c, then the new number is
+
+  100*b + 10*c + a,
+
+which is equal to
+
+  9 * (10*b + a) = 100*b + 10*c + a.
+
+Simplify this, and show that a has to be divisible by 5.  So what are
+the choices for a?  What happens in the first case?  What happens in
+the second?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,79 @@
+ThreadNum: 575572
+Subject: Re: a difficult Einstein ( POD) ive tried many many times HELP!
+To: PiNk_PoLkA_dOt11@hotmail.com (ravneet)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 19:28:50
+Sent: yes
+
+
+Hi Ravneet,
+
+>there are a couple questions here they are:
+>1.Bobo and hobo have a piggy bank. Hobo contribtes $6 for every $4
+>contributed by Hobo. The piggy bank now has $ 500 .How much has bobo
+>contributed and how much has Hobo contributed?
+
+The way you did this below worked, but you could go directly to the
+answer this way:  Imagine that Bobo and Hobo are contributing $10 at a
+time to the piggy bank: Bobo puts in $4, and Hobo puts in $6.  
+
+How many times would they have to put $10 in to get to $500?  50
+times, right?  So Bobo would have contributed 50 times $4, and Hobo
+would have contributed 50 times $6.  
+
+Does that make sense? 
+
+>2. what is the least positive integer that has exactly a 10 factor?
+
+I'm not quite sure what you're asking.  Do you mean 10 factors?  If
+so, let's look at some examples of composite integers, and how many
+factors they have:
+
+    Number    Prime factors      Factors
+    ------    -------------      ---------
+       4      2*2                1, 2, 2*2
+       6      2*3                1, 2, 3, 2*3
+       8      2*2*2              1, 2, 2*2, 2*2*2
+      10      2*5                1, 2, 5, 2*5
+      12      2*2*3              1, 2, 3, 2*2, 2*3, 2*2*3
+
+and so on.  You can get to 10 factors with 
+
+   2^8 = 512
+
+The factors are
+   
+   1       
+   2
+   2*2
+   2*2*2
+   2*2*2*2
+   2*2*2*2
+   2*2*2*2*2
+   2*2*2*2*2*2
+   2*2*2*2*2*2*2
+   2*2*2*2*2*2*2*2
+
+The question is:  Can you do it with a _smaller_ number? 
+
+>[Difficulty]
+>for number one i tried it the way i knew how and it was wrong and for
+>number one i really didnt know how to do the problem
+>
+>[Thoughts]
+>i made a guess and check table for mumber one here it is
+>
+>Guess    Guess      Add     check 500
+>1st(BOBO 2nd (HOBO  
+>____________________________________________________
+>4         6            10       too low
+>400       600          1000      too high
+>200        300         500        YAY! PERFECT!
+>
+>2.1x1x1x1x1x1x1x1x1x1
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,37 @@
+ThreadNum: 575020
+Subject: Re: Adding using military time
+To: jfong25@hotmail.com (Jenny)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 08:49:33
+Sent: yes
+
+Hi, Jenny.
+
+As Jenny wrote to Dr. Math
+On 09/21/2004 at 02:36:57 (Eastern Time),
+>Thanks you for helping explaning the first part, but I still don’t 
+>understand the second part.  
+>“The time is 1338 after working 2 hours and 22 minutes what time is 
+>it”? (In military time)
+>
+>Please help me with adding the hours and minutes
+>
+>Thanks
+>Jenny
+>
+
+I think this is meant to say something like "The time is 1338; 
+later, after working 2 hours and 22 minutes, what time is it?". If 
+so, then my second example was just like it:
+
+    1338
+  +  222
+  ------
+
+Add 38+22 minutes to get 60 minutes, which is 1 hour; so you write 
+down 00 minutes and carry 1 hour.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

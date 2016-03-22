@@ -1,0 +1,49 @@
+ThreadNum: 575318
+Subject: Re: Are 11, 12, 13, and 14 relatively prime
+To: hyl304@yahoo.com (Hsiao)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 09:17:32
+Sent: yes
+
+
+As Hsiao wrote to Dr. Math
+On 09/20/2004 at 22:10:45 (Eastern Time),
+>[Question]
+>My daughter's 7th grade math teacher said that 11, 12, 13, and 14 are
+not 
+>relatively prime but my daughter and her classmates believe that 11,
+12, 13, 
+>and 1 are relatively prime since their greatest common divisor is 1.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>Even though 12 and 14 are not relatively prime, the four integers 11,
+12, 13, 
+>and 14 should be relatively prime. My daughter and I are not clear on
+why the 
+>teacher thought the four integers are not relatively prime.
+>
+>Thank you for your help.
+
+Hi Hsiao,
+
+Thanks for writing to Dr Math.  When you have a group of numbers like
+yours (more than two), then it is generally confusing to say "they are
+relatively prime," so a mathematician usually says either "their gcd
+is 1," meaning that there is no number bigger than 1 that divides ALL
+of the numbers AT THE SAME TIME, or he says that they are "pairwise
+relatively prime," meaning that there is no number bigger than 1 that
+divides at least TWO of the numbers.  It may be that the teacher meant
+pairwise relatively prime and didn't express that clearly, but only
+the teacher can tell you what s/he was thinking, so you might consider
+asking the teacher.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

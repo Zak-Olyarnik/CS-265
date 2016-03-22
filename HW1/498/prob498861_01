@@ -1,0 +1,53 @@
+ThreadNum: 498861
+Subject: Re: truth tables to show whether two statements are equivalent
+To: Jennal@elp.rr.com (Jenna)
+From: Doctor Link
+TimeStamp: 04/26/2004 at 13:25:22
+Sent: yes
+
+
+As Jenna wrote to Dr. Math
+On 09/24/2003 at 21:47:49 (Eastern Time),
+>[Question]
+>~(q -> p) v r, (p v q) v r
+>My quetion is regarding the first statment.  Do I have to change the
+>-> to a v before I construct a truth table or do I simple construct 
+>and solve?  As per De Morgans law my first step would be to change 
+>the -> by negating the hypothesis and copying down the conclusion 
+>then negating the () Example: ~(q -> p) v r would be changed to 
+>~(~q v p) v r followed by the last step of negating everything in the 
+>()?  please help!!!
+>
+>[Difficulty]
+>As per De Morgans law my first step would be to change the -> by 
+>negating the hypothesis and copying down the conclusion then negating 
+>the () Example: ~(q -> p) v r would be changed to 
+>~(~q v p) v r followed by the last step of negating everything in the 
+>()?  please help!!!
+>
+>[Thoughts]
+>I went ahead and changed the first statment using De Morgans Law but 
+>I am not sure if that was correct.
+
+Hey Jenna, thanks for writing in,
+
+In general, there would be no reason to change the first statement.
+It's possible that you could be working with a language that doesn't
+"officially" allow implication ('->'), but you would probably be aware
+of that. For example, I studied a propositional calculus (called
+PROPCAL) where the only two connectives we used were '->' and '~'.
+This was adequate, as we could derive the other connectives from these
+two - but these other connectives didn't officially exist within our
+language (they just existed _metalinguistically_). So, if I had been
+making a truth-table within PROPCAL, I would have "translated"
+everything before starting, so that all my sentences were only in
+terms of '->' and '~'. 
+
+Does this make sense? Does it help?
+
+If you are still stuck or you need help with any other problem then
+feel free to write in again.
+
+- Doctor Link, The Math Forum
+  <http://mathforum.org/dr.math/>
+

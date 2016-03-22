@@ -1,0 +1,60 @@
+ThreadNum: 575758
+Subject: Re: Googol & Googolplex (Error in Computing)
+To: ash_arani@hotmail.com (Ali)
+From: Doctor Rick
+TimeStamp: 09/23/2004 at 13:16:59
+Sent: yes
+
+Hi, Ali, thanks for writing to Ask Dr. Math.
+
+As Ali wrote to Dr. Math
+On 09/22/2004 at 05:15:03 (Eastern Time),
+>[Question]
+>Hi. In reference to the question in the archive named "Googolplex: 
+>Sheets of Paper", I found something that somehow confused me. Doctor 
+>Mark was computing the number of pages needed to write googol & 
+>googolplex with each page containing 20000 zeros. I think that, with 
+>all due respect, that something wrong went on.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I agree 100% with the equation you wrote. (number of zeros in total) 
+>= (number of zeros on one page)*(number of pages)
+>
+>When taking the number of pages needed for gogool, Doctor Mark used 
+>10^100 in the place of (number of zeros in total). But hey googol 
+>has just 100 zeros, not 10^100 zeros. the equation should have been 
+>100 = 20000*N ===> N = 1/200 pages or 5*10^-3 pages or 0.005 pages. 
+>That surely is  less than a page. For googolplex, it has 10^100 
+>zeros. Using the equation above, we'll have: N = 5*10^95 pages, just 
+>as Doctor Rob calculated. Logically, each page contains 20000 zeros. 
+>Googol has 100 zeros. Hence, one page is by far more than enough to 
+>write a googol. This is my reasoning. Please, clarify this matter, & 
+>point out any flaws in my reasoning. Thank you in advance. 
+>
+
+The page to which you refer is this one:
+
+  Googolplex: Sheets of Paper 
+  http://mathforum.org/library/drmath/view/59174.html
+
+There is a confusion in the question there, which accounts for the 
+confusion you find. The question was, "Can you tell me how many 
+sheets of paper it will take to make a googolplex if you can have 
+20,000 zeros on each page?" What does "make a googolplex" mean? I 
+think the writer wanted to write the *decimal form* of a googolplex 
+(which is a 1 followed by a googol zeros). This is the question Dr. 
+Rob answered. However, it appears that Dr. Mark took the question to 
+mean, "How many pages would it take to write a googolplex *zeros*?" 
+This is the question he answered, along the way also answering the 
+question of how many pages it would take to write a googol zeros 
+(essentially the same as the first interpretation of the question).
+
+I can ask our Archivist to add a note to the page regarding this 
+difference in interpretation, if you'd like.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

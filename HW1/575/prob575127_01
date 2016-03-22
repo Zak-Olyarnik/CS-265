@@ -1,0 +1,48 @@
+ThreadNum: 575127
+Subject: Re: tripeptides having same composition, but different sequences
+To: res78pou@verizon.net (Wesley)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 16:28:29
+Sent: yes
+
+
+As Wesley wrote to Dr. Math
+On 09/20/2004 at 16:25:16 (Eastern Time),
+>[Question]
+>I know that 20!/(20 - 3)! is how you find the total number of 
+>primary structures of tripeptides if you can only have one molecule 
+>of any 20 amino acid per tripeptide.  Now I'm not sure what math 
+>formula I could use to arrive at the answer of 1,140, if this number 
+>is the total number of primary structures having same composition 
+>but different sequence.  I know that 3! is how many sequences exist 
+>if made up of three amino acids, but what about using an expression 
+>to prove the number 1,140 is correct?
+>
+>[Difficulty]
+>What expression should be used to show this order specific 
+>permutation-type calculation.  I simply divided the total number of 
+>primary structures having any sequence/composition by six, the 
+>number of different sequence per primary structure having a given 
+>composition (6,840/6 = 1,140).
+>
+>[Thoughts]
+>Could it simply be {20!/ (20 - 3)!}/ 3! ?
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+That's correct:
+
+  20! / [3! * (20-3)!]
+
+So, for any molecule of n amino acids per tripeptide:
+
+   n! / [3! * (n-3)!]
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

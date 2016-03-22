@@ -1,0 +1,63 @@
+ThreadNum: 575917
+Subject: Re: When adding why do we start  at the right with the ones colu
+To: tanis@mscd.edu (Suzanne)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 20:25:41
+Sent: yes
+
+
+Hi Suzanne,
+
+>54
+>+
+>62
+>
+>[Difficulty]
+>i would just lie to know how to explain to students
+>
+>[Thoughts]
+>if you break it up, 5+6=11  and 4+2=6 it dosent give you teh same 
+>answer if you use visual items to represent each number.
+
+You don't _have_ to start with the ones column.  In fact, you could
+write each number as the sum of digits times place values, e.g., 
+
+    54         5*10 + 4*1
+  + 68  -->  + 6*10 + 8*1
+  ----       ------------
+
+Then you can use the distributive property to do the addition:
+
+    54           5*10 +     4*1
+  + 68  -->  +   6*10 +     8*1
+  ----       ------------------
+             (5+6)*10 + (4+2)*1
+ 
+                11*10 +    12*1
+
+Now, what do we do with this?  12 is a group of 10, plus 2 left over;
+so we can do this:
+
+    11*10 + 12*1
+ 
+  = 11*10 + 1*10 + 2*1    <-- Exchange 12 ones for 1 ten and 2 ones
+
+  = 12*10 + 2*1           <-- Absorb the new group
+
+This is all we're doing when we carry.  And we need to do the same
+thing again:
+
+  = 1*100 + 2*10 + 2*1
+
+  = 122                   <-- When all the group sizes are one
+                              digit, we can use the compact 
+                              notation again. 
+
+Since we tend to make larger groups when the smaller ones overflow, we
+start by adding the smaller groups.  
+
+Does that make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

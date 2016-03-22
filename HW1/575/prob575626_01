@@ -1,0 +1,44 @@
+ThreadNum: 575626
+Subject: Re: I hate this ol' woman can't solve a 7th grade math problem
+To: fly-mom@pobox.com (Fraulein)
+From: Doctor Rick
+TimeStamp: 09/21/2004 at 20:56:56
+Sent: yes
+
+Hi, Fraulein.
+
+As Fraulein wrote to Dr. Math
+On 09/21/2004 at 20:31:55 (Eastern Time),
+>[Question]
+>In the library, there were 5 shelves that each held an equal number 
+>of books.  The librarian rearranged the books and moved them to 9 
+>shelves.  Each shelf still has an equal number of books.  You know 
+>there are more than 140 books but fewer than 200 on each shelf.  How 
+>many books are on each of the 9 shelves now?
+>A) 172   B) 145  C) 160   D) 180
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I'm thinking 5x would be the original amount of books......9y the 
+new 
+>number of books, therefore 5x=9y......but then I'm getting hung up.  
+>Even plugging in the choices seems to give me three possibilities.  
+I 
+>think there should be a 3rd variable???  I don't know.
+
+This is more of a number theory problem than an algebra problem. 
+Specifically, it can be solved using LCM (least common multiple). 
+Think of it this way: The number of books is a multiple of 5, and it 
+is also a multiple of 9. The central mathematical fact needed for 
+this problem is that every number that is a multiple of two numbers 
+is a multiple of the LCM of those numbers. If you need help in 
+finding the LCM (it's really easy in this case), search the Dr. Math 
+Archives for the phrase: least common multiple, using this page:
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

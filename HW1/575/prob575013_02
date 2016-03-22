@@ -1,0 +1,28 @@
+ThreadNum: 575013
+Subject: Re: f (m,n) = 2m-n, is this function onto?
+To: RaziaPell@aol.com (I'm above 30)
+From: Doctor Jerry
+TimeStamp: 09/20/2004 at 08:49:38
+Sent: yes
+
+
+As I'm above 30 wrote to Dr. Math
+On 09/20/2004 at 02:08:27 (Eastern Time),
+>[Question]
+>I don't know how to prove that it is onto.
+>
+>[Difficulty]
+>Drawing a conclusion from the definition of an onto function is 
+>difficult for me.
+>
+>[Thoughts]
+>My first name is Razia.
+
+Hello Razia,
+
+The function f is from the plane to the line.  It is onto the line if, given any real number r, 
+we can find m and n for which f(m,n) = r.  Well, we can take n=0 and 2m=r.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

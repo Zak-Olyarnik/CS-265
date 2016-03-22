@@ -1,0 +1,63 @@
+ThreadNum: 498958
+Subject: Re: Attn: Jerry
+To: john_hyer@hotmail.com (John)
+From: Doctor Jerry
+TimeStamp: 05/22/2004 at 13:07:18
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 09/25/2003 at 09:55:30 (Eastern Time),
+>[Question]
+>
+>Dear Jerry:  The "squaring of a rectangle" @ sides a & b via geometric 
+>construction using the Euclidian compass and straight edge has, of
+>course, 
+>been well known, (for centuries ?), to geometrically arrive at the mean 
+>proportion of a and b, or sq. root of the a x b product, along with 
+>constructing sq. root lengths of whole numbers like 3, 7, 11, etc.
+>based on 
+>given lengths of unity, etc.
+>
+>Now, however, I don't recall ever seeing the problem addressed of 
+>constructing the LENGTH of a "Cube" having equivalent volume to the 
+>rectangular SOLID of sides a, b and c, or obviously the cube root of
+>the a x 
+>b x c product ?  I have "experimented" initially with constructing the
+>mean 
+>proportion of (1)a and (2)mean pro. of b and c, and combinations thereof, 
+>but have not been able to arrive at the cube root of the abc product,
+>etc. 
+>for the solution.
+>
+>Jerry, I have a hunch that this construction CANNOT be done, as I don't 
+>recall the constructions of cube root lengths of any whole numbers even 
+>being addressed in solid geometry?
+>
+>I would also be very interested in knowing if this problem has been 
+>submitted before by anyone??
+>
+>Thank you and look forward to your response!!!
+>
+>John Hyer
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello John,
+
+I'm not certain why my name is on your message.  Perhaps I helped you in the past, but I 
+don't remember that.  In any case, look at Corollary 11 on the pdf
+
+www.math.rutgers.edu/~useminar/greek.pdf
+
+I think it answers your question.  Namely, the construction of cube roots of whole 
+numbers cannot be done with Euclidean tools.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

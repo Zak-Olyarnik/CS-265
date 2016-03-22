@@ -1,0 +1,38 @@
+ThreadNum: 575099
+Subject: Re: real analysis
+To: hoba74@maktoob.com (hoba)
+From: Doctor Fenton
+TimeStamp: 09/21/2004 at 08:16:48
+Sent: yes
+
+
+As hoba wrote to Dr. Math
+On 09/20/2004 at 14:49:57 (Eastern Time),
+>[Question]
+>how to prove such question:
+>if sup A < sup B then show that there exists an element b belong to 
+>B that is upper bound for A.
+>
+>[Difficulty]
+>i have been asked to prove it but i find difficulty with the real 
+>analysis any help would be appreciated.
+>thank you.
+>
+>[Thoughts]
+>
+
+Hi Hoba,
+
+Thanks for writing to Dr. Math.  Since sup(B) is the LEAST upper bound
+of B, any smaller number, such as sup(A) in this case, cannot be an
+upper bound for B.
+
+What conclusions can you draw from this statement?
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

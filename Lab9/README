@@ -1,0 +1,54 @@
+It seems to me that this lab was very good at leaving out the crucial, final
+piece of information needed to complete certain tasks.  It may just be
+because I am now in territory that I have absolutely zero prior experience,
+but I had serious trouble with a lot of things along the way.  For instance,
+the gdb portion starts by walking you through an example that compiles
+correctly, creates a core file, and then has you access it in gdb.  None of
+the other given programs we are supposed to debug do this, leading to
+searching for outside help.  Then once I did get them loaded into gdb, the
+error messages were cryptic...I was much better off just reading the compile
+errors from the gcc command and going into the code to fix those.  The big
+problem with the quicksort code was that it was actually completely
+different from the code in the notes, which was also completley different
+from the real quicksort, but beside all that, I spent an hour trying
+to figure out why I was still getting an infinite loop after I discovered
+the quicksort.c also located in the lab directory and made quicksortBug.c
+match that.  Well, the reason why, as it took a team of three TA's in the
+CLC to figure out, was because quicksort was the first program we've ever
+had that read from stdin as opposed to a file provided by a command line
+argument.  It was not so much an unending loop as just sitting there,
+waiting for data.  Once I got to the Testing lab, I felt like there was more
+withheld information.  They gave the location of the junit framework, and
+the correct import command, but didn't mention that the jar needed to be
+unzipped to get access.  Maybe that should have been obvious on my part, but
+it was another hour wasted that could have been saved by an extra line in
+the notes where it's talking about the other stuff.  I figured out that I
+needed to create an .equals() method for gInt so that the asserts worked
+without too much trouble, but how hard would it have been to just add that
+to the list of class behaviour on the assignment list?  Using the money
+class sample as a guide, the rest of the code went pretty smoothly.  Now,
+after starting this lab on Wednesday and putting in something like eight
+hours total, I have no idea how we are expected to get it all done in an
+hour-long lab period.
+
+The only thing I'm still not sure about is what the ant build should return.
+I found literally nothing on the internet about what junit should return
+under normal circumstances, so I assume that my "... OK (6 Tests)" message
+is a good thing.  I tried adding some print statements before and after in
+main() to see if I could force some sort of output, and putting them before
+calling the test suite seemed to work, but nothing after would print.  When
+I run with ant, nothing is displayed for the "test" target.  I assumed that
+I would at least get the same "OK" message, but no luck.  I was getting
+errors before, though, so after fixing them I assume it worked alright.
+Again, my build.xml matches the one for the money class that was provided,
+so the only thing it could still be is the location of that damn junit.jar
+file.  I changed the classpath to where I thought I had unzipped to (.), but
+since the sample code still calls the .jar, I really don't know.  I had to
+take it out of the jar to get junit to work at all, so I really don't know.
+I looked for help online, at the CLC, and spent way too much time on this,
+so I hope that this output is correct, or at least close.
+
+Okay, what I was able to find is a 'printsummary' tag to be used with junit
+in ant, and if I set that to true, then I get a similar printout as just
+running my gIntTest from the command line, so I left that in for
+credibility.  Officially done with this now.

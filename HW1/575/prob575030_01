@@ -1,0 +1,45 @@
+ThreadNum: 575030
+Subject: Re: Linear equation
+To: archanajha123@yahoo.co.in (Archana Jha)
+From: Doctor Jerry
+TimeStamp: 09/20/2004 at 08:02:44
+Sent: yes
+
+
+As Archana Jha wrote to Dr. Math
+On 09/20/2004 at 05:47:03 (Eastern Time),
+>[Question]
+>The denominator of a rational number is greater than its numerator 
+>by 6.If the numerator is increased by 3 and the demominator is 
+>decreased by 3,the new number becomes 1.Find the original number.
+>
+>[Difficulty]
+>The question can be solved graphically,but an algebraic method is 
+>asked to be used.
+>
+>[Thoughts]
+>Let the number be a/b.Then the relationship between a and b can be 
+>represented as:a+6=b.
+>Secondly,if we add 3 to "a" and subtract 3 from "b",according to the 
+>specifications,then we can say:
+>a+3=b-3
+>But that leaves us at the point we began at.
+
+Hello Archana Jha,
+
+a/(6+a) is the rational number.  Next,
+
+(a+3)/(6+a-3) = 1.
+
+The last equation is
+
+a+3 = a+3,
+
+which is satisifed for all a.  We cannot take a =-6 because that would make the 
+denominator 0.  The answer is: all rational numbers like  a/(6+a).  Let a=7, for example.  
+Then 7/13  has the property that (7+3)/(13-3) = 10/10 = 1.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

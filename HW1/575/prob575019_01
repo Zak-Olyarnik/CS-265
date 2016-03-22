@@ -1,0 +1,71 @@
+ThreadNum: 575019
+Subject: Re: cant understand
+To: Sameer_797@hotmail.com (Sam)
+From: Doctor Greenie
+TimeStamp: 09/20/2004 at 10:56:55
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 09/20/2004 at 02:50:33 (Eastern Time),
+>[Question]
+>find the smallest positive number N such that 6468 x N is a perfect 
+>cube, that is, 6468 x N = k to the power of 3 where k is an integer.
+>
+>[Difficulty]
+>i think i am using a bad strategy.
+>
+>[Thoughts]
+>i know that i need to use a factor tree on the number 6468 but 
+after 
+>that i am lost
+
+Hi, Sam --
+
+Let's work the problem for a smaller number.
+
+For a number to be a perfect cube, the prime factorization must 
+contain every prime factor in groups of 3.  For example,
+
+  2^3
+  3^6
+  (2^3)*(5^3)
+  (2^9)*(3^3)*(7^6)*(13^3)
+
+are all perfect cubes (every exponent is a multiple of 3), but
+
+  2^2
+  3^5
+  (2^3)*(3^2)
+  (2^9)*(3^3)*(7^4)*(13^2)
+
+are not perfect cubes (at least one of the exponents is not a 
+multiple of 3).
+
+So suppose we start with the number 600.  A factor tree for this 
+number shows the prime factorization to be
+
+  (2^3)*(3^1)*(5^2)
+
+We have 3 factors of 2; but we only have 1 factor of 3 and only 2 
+factors of 5.  To make this a perfect cube (by adding the least 
+number of additional factors), we need 2 more factors of 3 and 1 
+more factor of 5.  So the smallest number we can multiply 600 by to 
+make a perfect cube is
+
+  (3^2)*(5^1) = 9*4 = 45
+
+Checking this result, we find
+
+  600*45 = [(2^3)*(3^1)*(5^2)]*[(3^2)*(5^1)]
+         = (2^3)*(3^3)*(5^3)
+         = 8*27*125
+         = 27000
+         = 30^3
+
+I hope this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

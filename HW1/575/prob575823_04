@@ -1,0 +1,71 @@
+ThreadNum: 575823
+Subject: Re: linear approximation
+To: cwto@so-net.com.hk (Wai)
+From: Doctor Jerry
+TimeStamp: 10/02/2004 at 07:40:29
+Sent: yes
+
+
+As Wai wrote to Dr. Math
+On 10/02/2004 at 06:09:49 (Eastern Time),
+>A=absin x
+>dA=A_a*da+A_b*db+A_x*dx
+>  =[(bsin x)/2]*da+[(asin x)/2]*db+[(abcos x)/2]*dx
+>if A(a,b,x)=A(a0,b0,x0)
+>and a0=150,b0=200,x0=60deg,a0+dx=149.5, b0+db=199.5, x0+dx=58.5deg, 
+>da=db=0.5 and dx=1.5deg
+>then
+>dA=A(a0+da,b0+db,x0+dx)-A(a0,b0,x0)
+>A(a0+da,b0+db,x0+dx)=A(a0,b0,x0)+A_a(a0,b0,x0)*da+A_b(a0,b0,x0)*db+A_x
+>(a0,b0,x0)*dx
+>                    =(150*200sin 60)/2+[(200sin 60)/2]*0.5+[(150sin 
+>60)/2]*0.5+[(150*200cos 60)/2]*1.5
+>The problem is dx=1.5deg,because f(x)=sin x,is need to do somethine 
+>to modify it? And the above step for calculate dA is correct?
+
+Hello Wai,
+
+If x is in degrees, then the derivative of sin(x) is not cos(x).  For this reason, I think you 
+should measure x in radians.  So, x=pi/3 and dx=1.5*pi/180.
+
+Thus, instead of
+
+(150*200sin 60)/2+[(200sin 60)/2]*0.5+[(150sin 60)/2]*0.5
+
+                 +[(150*200cos 60)/2]*1.5
+
+you should have ( I won't change the sin 60 to sin(pi/3), etc, because this doesn't matter in 
+the evaluation)
+
+(150*200sin 60)/2+[(200sin 60)/2]*0.5+[(150sin 60)/2]*0.5
+
+                 +[(150*200cos 60)/2]*1.5*pi/180
+
+Because da, db, and dx can be either positive or negative, one should change the signs of 
+da, db, dx on the right side of 
+
+f(a+da,b+db,x+dx)-f(a,b,x) = df
+
+to make df as large as possible.  In this case, all the derivatives are positive and you took 
+da, db, and dx as  positive, so it doens't matter.
+
+I got 544.254 for df.
+
+As a separate calculation, I found
+
+f(a0,b0,x0)=25980.8
+
+and
+
+f(a0+da,b0+db,x0+dx) = 26518.5.
+
+So, we find
+
+f(a0+da,b0+db,x0+dx) - f(a0,b0,x0) = 537.764.
+
+This compares well with 544.254 we got for df.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

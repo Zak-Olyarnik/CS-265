@@ -1,0 +1,58 @@
+Q1.1:
+i. Hiding implementation details includes concepts like encapsulation and
+abstraction.  The idea is to be able to make changes to the code without
+affecting the user, so the interface can be extended, improved, or replaced.
+In practice, this could involve avoiding global variables, passing data
+through functions, and good documented use of classes.
+ii. Orthogonal means non-overlapping, so this is saying to not write many
+functions with similar functionality.  This is largely because making one
+change could have a ripple effect through the rest of your code.  Besides,
+it would be better to do just one thing and do it well.
+iii. This simply means to try and decrease a program's dependency on other
+programs or functions, and minimize side-effects so it is largely
+self-contained.
+iv. Consistency and regularity makes a program easier to understand by an
+outside user or if you need to return to it later.  It's also good to try
+and match "associated interfaces" so your program is intuitive to use.
+
+Q1.2:  It's just the prototype version, so there are many: it handles a very
+specific input so things like an excessive number of fields, long input
+lines, incorrect termination characters, and special characters like extra
+commas or double quotes will all cause problems.  Global variables would
+cause problems in a bigger implementation, input and splitting are linked
+for a single functionality, and the biggest issue is that each of these
+things is hardcoded with no easy way to change them.
+
+Q1.3:  Memory management was improved to remove the restrictions on input
+length, file opening and closing is now done on the same level, error
+handling was improved, and most importantly, special characters in the input
+are handled.
+
+Q1.4:  The memory management is still a pain, and the length of the program
+increased dramatically.  I don't think it's possible to parse two files at
+once, because the program is looking to stdin as a source.  Although this
+could be redirected at the command line, I don't think it can be redirected
+to take in multiple files.
+
+Q1.5:  In particular, the memory is all handled automatically by switching
+from character arrays to strings, the Csv class hides a lot of
+implementation details, and it does let multiple input sources be taken at
+once.  Problems that still exist are things like how data must still be read
+a character at a time, and the absence of a strcspn function means that
+other new functions must be added.  As is typical, the code is shorter but
+runs slower.
+
+Q1.6:  For the most part.  As I said, the Csv class hides a lot of the
+implementation details, and the string built-in does much the same thing
+with memory allocation.  Also, these returned strings can be modified by the
+caller, which makes the program more dynamic.
+
+Q1.7:  I spent something like 8 hours (including going to the CLC for help)
+working to try and convert line-by-line from C++ to Java, before deciding to
+look online for help.  I found some sample code that explained how to use a
+FileReader, so I started by implementing that.  It didn't handle the special
+cases with quotes and such, so I used regular expressions on the FileReader
+line to format the fields in the required way.  The specification said to
+only output the number of fields per line, but I left the formatting code in
+my file, commented out, to prove that if I were to output or save the
+fields, they would be correct.

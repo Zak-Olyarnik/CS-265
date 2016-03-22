@@ -1,0 +1,35 @@
+ThreadNum: 575077
+Subject: Re: Chords in Circles
+To: linklin1@aol.com (Linda)
+From: Doctor Peterson
+TimeStamp: 09/20/2004 at 14:15:09
+Sent: yes
+
+Hi, Linda.
+
+As Linda wrote to Dr. Math
+On 09/20/2004 at 12:05:59 (Eastern Time),
+>[Question]
+>If a line segment passes through a chord of a circle and the center 
+>of the circle and is also perpendicular to the chord, isn't there a 
+>theorem that says it also bisects the chord?
+>
+>[Difficulty]
+>Just need to be sure there is a theorem as above to solve a problem.
+>
+>[Thoughts]
+>
+
+Yes, it's true. If you don't have such a theorem in your text, it's 
+easy enough to prove. Just consider the two right triangles formed 
+by the two parts of the chord, the segment, and two radii, and show 
+that they are congruent. Or use the fact that the center of the 
+circle is on the perpendicular bisector of any chord, so the latter 
+must coincide with the given segment.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

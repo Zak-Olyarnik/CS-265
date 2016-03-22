@@ -1,0 +1,50 @@
+ThreadNum: 575057
+Subject: Re: Reimann Sphere
+To: najja_st@alcor.concordia.ca (Elisabeth)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 14:47:44
+Sent: yes
+
+
+As Elisabeth wrote to Dr. Math
+On 09/20/2004 at 10:36:07 (Eastern Time),
+>[Question]
+>Problem 4: Let z1 and z2 be the images under stereographic 
+>projection of a pair of diametrically opposite points of the Riemann 
+>sphere. Prove that z1(z2bar) = -1.
+>
+>Suppose that the sequence {z_n} converges to infinity as n goes to 
+>infinity. 
+>What does this imply about the behaviour of Rez_n, Imz_n, |z_n| and 
+>Argz_n? Give examples.
+>
+>
+>
+>
+>[Difficulty]
+>I can't seem to prove those 2 problems. I've been working on them 
+>for the past 4 days. Can you help?
+>
+>
+>
+>[Thoughts]
+>
+
+Hi Elisabeth,
+
+Thanks for writing to Dr Math.  Can you write out a formula for the
+stereographic projection?  Given a point on the sphere, what complex
+number does it go to?
+
+Now, given a point on the sphere, what is the point diametrically
+opposite that point?
+
+What complex number does that point go to?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

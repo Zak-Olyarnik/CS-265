@@ -1,0 +1,35 @@
+ThreadNum: 575015
+Subject: Re: too hard. i dont even know if there is an answer
+To: Sameer_797@hotmail.com (Sam)
+From: Doctor Rick
+TimeStamp: 09/20/2004 at 11:14:00
+Sent: yes
+
+Hi, Sam.
+
+As Sam wrote to Dr. Math
+On 09/20/2004 at 02:38:46 (Eastern Time),
+>[Question]
+>in a quadrilateral ABCD angle A=120 degrees and angle C=50 degrees. 
+>the bisectors of the angles B and D meet at point Y. find the size 
+>of the angle BYD in the quadrilateral ABYD
+>
+>[Difficulty]
+>i dont now how to get the other angles or find anything.
+>
+>[Thoughts]
+>i have none
+
+You can't find the angles at B or D, but you can find the angle BYD.
+
+How are you at algebra? That's how I did it. I let angle ABY = a and 
+angle ADY = b, and the angle we want is angle DYB = c. Using what you 
+know about quadrilaterals, you can write two equations, and you'll 
+find that you can subtract one equation from the other to eliminate 
+both a and b.
+
+We can work out another way to think about it if you can't do this.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,63 @@
+ThreadNum: 452333
+Subject: Re: Probability
+To: john.g.zaroff@delphi.com (JZ)
+From: Doctor Anthony
+TimeStamp: 02/19/2004 at 15:56:14
+Sent: yes
+
+
+As JZ wrote to Dr. Math
+On 02/24/2003 at 12:54:20 (Eastern Time),
+>[Question]
+>Let's say I have 24 sqaures of paper. 4 sqaures have the number 1, 
+4 
+>have the number 2, etc through 4 squares have the number 6.  I pick 
+4 
+>squares ( without replacement) and multiply them together.  What is 
+>the probability of each of the results ( 1,2,1,4) and what is the 
+>probability of the resulting products
+
+The number of possible outcomes is given by the coefficient of x^4 
+in the expansion of
+
+    (1 + x + x^2 + x^3 + x^4)^6
+
+This gives the term 126x^4 so there are 126 possible combinations of 
+4 numbers.
+
+Alternatively
+-------------
+You can model this as distributing 4 balls into 6 boxes.  See 
+diagram below
+
+   | *  |   | **  |   | *  |   |   This represents 1,3,3,5
+     1    2    3    4   5    6
+
+The total number of possibilities is the total number of ways we can 
+arrange 4 *'s and 5 |'s.  That is 9 objects, 4 of which are alike of 
+one kind and 5 alike of a second kind.
+
+                              9!
+  Number of arrangements = -------  = C(9,4) = 126   (as before).
+                            4! 5!
+
+What each of these 126 products would be will require a computer 
+program and I'm afraid I cannot help you there.
+
+
+>
+>[Difficulty]
+>I know how to do lot sampling when there is only 1 variable ( bi - 
+>nomial type).  I'm not sure how to entend it to multiple variables.
+>
+>[Thoughts]
+>I started out just enumerating all of the possible outcomes ( order 
+>not important) so 1,1,2,3 and 1,1,3,2 are the same outcome for this 
+>problem.  I came up with 125 unique groups of 4 items picked.  I 
+don't 
+>know what the next step is.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

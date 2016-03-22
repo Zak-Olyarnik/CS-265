@@ -1,0 +1,52 @@
+ThreadNum: 575870
+Subject: Re: Could you please explain this problem from my midterm
+To: Jackie15160@yahoo.com (Jackie)
+From: Doctor Peterson
+TimeStamp: 09/22/2004 at 22:48:48
+Sent: yes
+
+Hi, Jackie.
+
+As Jackie wrote to Dr. Math
+On 09/22/2004 at 15:17:18 (Eastern Time),
+>[Question]
+>Find three consecutive even integers for which the sum of the 
+>smallest and 3 times the largest is 2 less than 3 times the middle 
+>integer.
+>
+>[Difficulty]
+>The wording to me is very confusing. every time I try to figure this 
+>problem out, I get confused and end up feeling wiped out.
+>
+>[Thoughts]
+>
+
+It helps to choose a variable and define it carefully. You have three
+integers to find, but if you know one of them you can find all. We
+could choose any of them as your unknown. In many cases with three
+consecutive integers, it is easiest to use the _middle_ one as the
+unknown, so I'll do that:
+
+  x = middle number of the three
+
+Then what are the other numbers? They are x-1 and x+1, the integers
+before and after x. So our three numbers are
+
+  smallest: x-1
+  middle:   x
+  largest:  x+1
+
+Now, what are we told about them? See if you can translate what you
+are told into one equation. It will help if you take it one piece at a
+time, first finding expressions for each of the following phrases, and
+then putting them together into a "sentence":
+
+  the sum of the smallest and 3 times the largest
+  2 less than 3 times the middle integer
+
+If you need more help, please write back and show me how far you got.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

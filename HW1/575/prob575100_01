@@ -1,0 +1,44 @@
+ThreadNum: 575100
+Subject: Re: Percentage problems that have "out of" in the problem. 
+To: jerouse2@uncg.edu (Janelle)
+From: Doctor Peterson
+TimeStamp: 09/20/2004 at 22:29:45
+Sent: yes
+
+Hi, Janelle.
+
+As Janelle wrote to Dr. Math
+On 09/20/2004 at 15:03:07 (Eastern Time),
+>[Question]
+>I am trying to determine the results of a survey.  If 15 out of 52 
+>students responded what percentage is that?
+>
+>[Difficulty]
+>I'm not sure how to even set the problem up.  Is is a ratio problem?
+>
+>[Thoughts]
+>no clue!!
+
+Here are 52 "dots", of which 15 look like  "*":
+
+  ***************ooooooooooooooooooooooooooooooooooooo
+
+What fraction does this represent? You have 15 out of 52 parts, which
+is the fraction 15/52.
+
+Now you want to express this as a percentage. A percentage is just a
+fraction in a special form: "per cent" means "out of 100" (think
+"cent" as in "century"), so a percentage is a fraction whose
+denominator is 100. That is, for example, 15 percent, or 15%, means
+the fraction 15/100.
+
+So you want a fraction of that form that is EQUAL to the fraction 15/52:
+
+  x/100 = 15/52
+
+Can you see what to do next?
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

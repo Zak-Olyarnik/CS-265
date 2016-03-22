@@ -1,0 +1,44 @@
+ThreadNum: 575416
+Subject: Re: (no subject)
+To: deborah.nutt@tcipl.com (Deb)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 10:02:19
+Sent: yes
+
+
+As Deb wrote to Dr. Math
+On 09/21/2004 at 09:19:39 (Eastern Time),
+>[Question]
+>Show that Z(to power n) = x(to power n) + y(to power n) will not give 
+>a positive interger when n is greater than 2
+>
+>[Difficulty]
+>I think I need to differentiate to prove this but not sure and having 
+>trouble with it
+>
+>[Thoughts]
+>
+
+Hi Deb,
+
+Go to our search page at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+and search for the phrase
+
+  Fermat's Last Theorem.
+
+That theorem is the theorem that says that the only solutions to
+
+   n    n    n
+  x  + y  = z
+
+where x, y, z, and n are all positive integers have n <= 2.
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

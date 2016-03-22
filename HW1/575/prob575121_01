@@ -1,0 +1,148 @@
+ThreadNum: 575121
+Subject: Re: How can I prove nCr
+To: lyherera@utep.edu (Linda)
+From: Doctor Anthony
+TimeStamp: 09/20/2004 at 18:02:01
+Sent: yes
+
+
+As Linda wrote to Dr. Math
+On 09/20/2004 at 16:11:16 (Eastern Time),
+>[Question]
+>I understood most of your explanation about nCr, but when you said 
+>that in 
+>10C4 x4! = 10P4 6! 4!       Why did you place the 4! Here instead 
+>of placing it in the numerador? I know that the formula said 
+>that        n!/(n-r)! r!    =  # of combinations but I need to    
+>explain why I place the r! there.
+>
+
+
+Below is a general note on permutations and combinations which 
+should help to answer your question.
+
+
+Permutations. nPr  or  P(n,r)
+-----------------------------
+If we have say 10 different objects (e.g. letters a - j of the 
+alphabet) how many different 'words' could be made using 4 of the 
+letters.  In this context we simply want 4 letters such as bghc, 
+they do not need to spell a known English word.  But the ORDER of 
+the letters does matter, so hgcb is different from bghc.
+
+With 10 letters to choose from we can select the first letter in 10 
+ways.  We are now down to 9 letters, so the second letter can be 
+chosen in 9 ways, then the third letter in 8 ways and the 4th letter 
+in 7 ways.
+
+Total ways of arranging 4 letters chosen from 10 is 10 x 9 x 8 x 7 
+
+                                                 = 5040  ways
+
+We use the symbol  P(n,r) to represent the number of ways of 
+arranging r things chosen from n different things, so here we have 
+P(10,4) = 5040
+
+We can also express P(10,4) using factorials.
+
+Factorial notation uses the exclamation mark ! to show that it is a 
+factorial, where for example 5! = 5 x 4 x 3 x 2 x 1 = 120
+
+                   10! = 10 x 9 x 8 x ... x 3 x 2 x 1 = 3628800
+
+You will notice that factorials get very big very quickly.
+
+                              10!     10 x 9 x 8 x 7 x 6!
+Using this notation  P(10,4)=----- = ------------------- = 5040
+                              6!             6!
+
+                                       n!
+The general formula for  P(n,r) is   ------
+                                      (n-r)!
+
+
+Combinations  nCr  or  C(n,r)
+------------------------------
+These are closely allied to permutations except that the order does 
+not matter.  For example in our problem of 4 letters chosen from 10 
+letters the 4 letters  hgcb is the SAME combination as bghc.
+
+To find the number of combinations we use the fact that the number 
+of permutations of 4 letters from 10 is  P(10,4), but now EVERY 
+permutation can be rearranged in 4! = 24 ways without giving rise to 
+a different combination.   So the number P(10,4) is too large by a 
+factor of 4! when we calculate the number of combinations.  This 
+leads to the following formula for the number of combinations:
+
+                    10!
+        C(10,4) = -------  =  210
+                   4! 6!
+
+The general formula for the number of combinations of r things 
+chosen from n different things is
+
+                     n!
+         C(n,r) = ---------
+                   r!(n-r)!
+
+To Summarize
+-------------
+If, as an example, you are selecting 4 people from a group of 10 to 
+be chaiman, vice-chairman, treasurer and secretary then the ORDER of 
+selection matters since the first person is the chairman and the 4th 
+person is the secretary.   So in this case we use P(10,4) = 5040 as 
+the number of ways of making the selection.
+
+If you want to select a committee of 4 from 10 but with no 
+difference 
+in their individual status then the number of ways of making the 
+selection is
+
+   C(10,4) = 210
+
+Here the ORDER of making the selection does not matter - i.e. the 4 
+individuals A, B, C, D, could be chosen in any one of 4! = 24 
+different ways but you still get the same committee of 4 persons. 
+
+
+Example:  In how many ways can 6 numbers be chosen from 49 numbers. 
+(The order you choose the numbers does not matter).
+
+Here we use the combination formula and get:
+
+                       49!
+          C(49,6) = ---------  =  13,983,816
+                      6! 43!   
+
+Example 2:  If you have m X's and n Y's in how many DIFFERENT ways 
+could these m+n letters be arranged.
+
+In the case of m X's and n Y's  if all the X's were different and all
+the Y's were different there would be m+n different letters to 
+permute,
+and this could be done in (m+n)! ways.  However since the X's are all
+the same they could be permuted amongst themselves in m! ways and the
+answer (m+n)! is too large by a factor of m!.  Similarly the Y's are 
+all
+the same and they could be permuted amongst themselves in n! ways
+without giving rise to a new arrangement and (m+n)! is too large by a
+further factor of n!.  So the actual number of different arrangements
+is:
+
+     (m+n)!
+    --------
+      m! n!
+
+Example 3:  In how many different ways can the letters of the word
+STEEPLES be arranged?
+
+There are 8 letters.   3 E's  and 2 S'  and 3 other letters.
+
+                             8!
+Number of arrangements =  --------  =  3360
+                            3! 2!
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

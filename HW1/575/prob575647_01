@@ -1,0 +1,77 @@
+ThreadNum: 575647
+Subject: Re: What are the basic steps in adding and subtracting decimals
+To: morganh@triad.rr.com (Morgan Hooks)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 11:31:48
+Sent: yes
+
+
+As Morgan Hooks wrote to Dr. Math
+On 09/21/2004 at 21:00:14 (Eastern Time),
+>[Question]
+>Dr. Math I would like to know is it o.k. when you add and subtract 
+>decimals to when you have to borrow instead of using all the steps 
+>shorten them to about only 1 or 2 steps? 
+>
+>[Difficulty]
+>I find it most confusing for example like 2000-1999 it is just hard 
+>to do all of the borrowing steps. 
+>
+>[Thoughts]
+>Say I do 5000            and then instead of working with all the 
+>                         0's you circle a certain # to get it.
+>        -  20
+>      ___________
+>             0
+
+Hi Morgan,
+
+This is an excellent question.  The important thing when solving _any_
+math problem is to use _whatever_ method will work best for that
+problem, rather than just learning one method and trying to use it for
+everything. 
+
+If I want to subtract 1999 from 2000, I'd note that 
+
+  2000 - 1999 = whatever I have to ADD TO 1999, to get to 2000
+
+and since what I have to add is 1, that's the answer.  In the same
+spirit, I can note that
+
+  5000 - 20 = whatever I'd have to ADD 20 TO, to get 2000
+
+Since adding 20 to 4800 would get me to 5000, 4800 must be the answer.
+
+For that matter, you can even do this when the answers aren't so
+obvious.  For example, given
+
+  5231 - 2866 = ?
+
+what I'd do in practice is think:
+
+  Adding   34 gets me to 2900
+  Adding  100 gets me to 3000
+  adding 2231 gets me to 5231
+         ----
+         2365 <-- This is what I have to add to 2866 to get to 5231
+
+This way, I don't do any borrowing at all.  
+
+Note that what I'm doing here is much more important than just finding
+an easier way to subtract.  What I'm doing is starting by thinking
+about what the problem MEANS, rather than just trying to remember some
+set of steps that I can follow without even understanding them.  
+
+Developing this attitude is probably the single most important thing
+you can do to succeed in learning math.  It will also make math a
+_lot_ more fun.  See 
+
+  http://mathforum.org/library/drmath/view/56828.html
+
+and write back if you'd like to talk more about this, or anything else. 
+
+I hope this helps!
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

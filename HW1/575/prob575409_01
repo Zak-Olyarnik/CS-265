@@ -1,0 +1,84 @@
+ThreadNum: 575409
+Subject: Re: Calculating x% of y where y is negative
+To: tase@vigorsoft.com (Jaydeep Tase)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 14:26:49
+Sent: yes
+
+
+As Jaydeep Tase wrote to Dr. Math
+On 09/21/2004 at 08:23:36 (Eastern Time),
+>[Question]
+>We are developing a financial software which has a condition 
+>somewhere down the flow like :
+>
+>if x is more than 800% of y, then raise an error.
+>
+>We want to create a procedure to automate this irrespective of what 
+>values do these variables take. Right now, we are able to get the 
+>answer only if we take positive values for these variables. Can you 
+>help us out with a generalized formula for finding a simple value 
+>like percentage, irrespective of the sign the number takes.
+>
+>The concept of calculating this way cannot be changed and it is the 
+>requirement of the customer. Can you help us out?
+>
+>Awaiting your response. Your early action will be highly appreciated.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Jaydeep,
+
+You can compute percentages of negative numbers.  You just get
+negative values as a result, e.g., 
+
+   800% of -50 = -400
+
+What interpretation you place on this is up to you.  It might mean a
+loss instead of a profit, or a reduction instead of a growth.  
+
+But you can't really decide what to do without taking into account
+what the 'rule' is supposed to accomplish.  If it's just supposed to
+act as some kind of filter on high values, then you could just compare
+x to the negative percentage.  If x is positive, it will _always_
+satisfy the condition.  That might be fine. 
+
+On the other hand, if it's supposed to act as some kind of filter on
+large swings in either direction, you'd probably want to compare
+absolute values, e.g., 
+
+   if |x| > |800% of y|
+
+Here, the || means 'compute the value, but ignore the sign'.  Here are
+some examples:
+
+   x   y     x > 800% of y?      |x| > |800% of y|
+  --- ---    --------------      -----------------
+   10  1         yes                  yes
+    7  1         no                   no
+   -7  1         no                   no
+  -10  1         no                   yes
+
+   10 -1         yes                  yes
+    7 -1         yes                  no
+   -7 -1         yes                  no
+  -10 -1         no                   yes
+
+As I said, either of these interpretations might be correct, depending
+on what your goal is.  Two other possible interpretations would be
+
+   if x > |800% of y|
+
+or
+
+  if |x| > 800% of y 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

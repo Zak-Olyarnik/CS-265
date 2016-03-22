@@ -1,0 +1,38 @@
+ThreadNum: 575745
+Subject: Re: combinations
+To: mymomstheword@shaw.ca (Lori)
+From: Doctor Anthony
+TimeStamp: 09/22/2004 at 07:50:15
+Sent: yes
+
+
+As Lori wrote to Dr. Math
+On 09/22/2004 at 01:44:07 (Eastern Time),
+>[Question]
+>Biff has a choice of 6 items to put on a hamburger. He can only put 
+>three items on at a time. These items are ketchup, mustard, relish, 
+>mayo, onions, and special sauce. How many different groups of items 
+>can he put on his hamburger?
+
+
+Number of combinations of 3 items chosen from 6 different items
+
+   
+  = C(6,3) = 20
+
+                           6 x 5 x 4
+This is calculated from   -----------  =  20
+                           1 x 2 x 3
+
+
+>
+>[Difficulty]
+>What is the formula?
+>
+>[Thoughts]
+>I think the answer is 6x3=18 different groups of items.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

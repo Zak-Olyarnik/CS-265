@@ -1,0 +1,110 @@
+ThreadNum: 575398
+Subject: Re: Common elemtents of 3 different sets
+To: Brogner@email.dk (Chris)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 15:15:26
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 09/21/2004 at 14:52:16 (Eastern Time),
+>Well, for A&B, it's quite simple. The common elements can be found 
+>by solving the equation:
+>
+>           x^2 = 11y+4
+>      <=>
+>           11y = x^2+4
+>      <=>
+>                 (x+2)(x-2)
+>             y = ----------
+>                     11
+>       
+>... and since y must be an integer, either (x+2) or (x-2) must equal 
+>11, so
+
+That's good math there, but I would like to mention that you only need
+that x+2 or x-2 is DIVISIBLE by 11.  So you should also check x=2, but
+this gives y=0 and that's too small.  And you should check that if x-2
+or x+2 is 22 or 33 or something bigger, than x is too big.
+
+>
+>             x=9    or    x=13
+>          => y=7       => y=15
+>
+>Inserting these values into the original formulas, we get
+>
+>          A&B = {81, 169}
+>
+>Well, that was the easier one, I think.   c¨,)
+>
+>
+>The remaining two equations are:
+>
+>A&C:
+>          x^2 = ½z^2+3½z+4
+>
+>B&C     11y+4 = ½z^2+3½z+4
+>    <=>   
+>          11y = ½z^2+3½z
+>    <=>     
+>                ½z^2+3½z
+>            y = --------
+>                   11
+
+Well, B&C is easier than A&C.  For B&C, you should make things easier
+for yourself by multiplying both sides by 2, giving
+
+  2*11*y = z^2 + 7z,
+
+which you can solve just like the last one by factoring,
+
+  2*11*y = z(z+7).
+
+So at least one of z and z+7 must be divisible by 11.  (And at least
+one must be even, not necessarily the same one that is divisible by
+11, but that happens for every z so we don't care.)  So what values
+for z does that give?
+
+For A&B&C, you only have two points of intersection for A&B, so you
+just have to check whether either of those is in C.
+
+Finally, for A&C, you have
+
+  2x^2 = z^2 + 7z + 8,
+
+or
+
+  17 = (2z + 7)^2 - 2(2x)^2,
+
+which is a Pell equation when written in the form
+
+  17 = A^2 - 2*B^2,
+
+and these are generally solved in two steps, sometimes using continued
+fractions, and sometimes not.  The most important thing is that
+*every* solution to
+
+  17 = A^2 - 2*B^2
+
+has
+
+  A + B*sqrt(2) = +/- (c +/- d*sqrt(2)) * (r + s*sqrt(2))^n
+
+where
+
+  17 = c^2 - 2*d^2
+
+is the SMALLEST positive solution, which is c=5, d=2, and
+
+  1 = r^2 - 2*s^2
+
+is the SMALLEST positive solution, which is r=3, s=2, and n is any
+integer (negative, positive, or zero).  So you have four different
+solutions for every n.
+
+There is much more to be learned about Pell equations, but you only
+need the smallest couple of solutions, so you can find those and be done.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

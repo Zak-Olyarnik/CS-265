@@ -1,0 +1,44 @@
+ThreadNum: 575765
+Subject: Re: Newton's Method
+To: huntingfrogs@hotmail.com (Jeremy)
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 09:33:13
+Sent: yes
+
+
+As Jeremy wrote to Dr. Math
+On 09/22/2004 at 09:24:25 (Eastern Time),
+>So do Mathematica and/or NSolve show that 
+>
+>x = -1.379...
+>
+>is a solution?
+>
+>I don't know if I made this clear or not, but my main question 
+>is, 'Why is x=-1.379... NOT a solution?'
+>
+>Or do I just have to accept that this is a problem with Maple?
+>
+>Do you know of any free (online?) programs I can ask this problem 
+>to, just to see what they say?
+>
+>Thanks again, Jeremy
+
+Hello Jeremy,
+
+I said, "I plotted [the function f(x) = x^3 - 3cos(pi*x) + 6e^x]  and used Newton's method 
+on the root near -1.4 and found the same result you did [I found -1.37911].  It's a 
+perfectly good root."
+
+x=-1.37911 is a root of the equation f(x)=0.
+
+Did your try evaluating f(-1.379109571703653) to see if it is essentially 0?  I know very 
+little about Maple, but, surely, there's a way of finding this root in Maple.
+
+No, I don't know any free online programs for calculating roots.  I calculated the root with 
+Newton's method on my HP48GX and found the same answer as above.
+
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,44 @@
+ThreadNum: 575520
+Subject: Re: union and intersection of sets
+To: linkster55@aol.com (Daniel)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:33:35
+Sent: yes
+
+As Daniel wrote to Dr. Math
+On 09/21/2004 at 17:07:18 (Eastern Time),
+>[Question]
+> I don't understand this question:
+>
+> Given D = (x such that x is a whole number)
+>       E = (x such that x is a perfect square < 100)
+>       F = (x such that x is an even number between 10 and 20)
+>
+>Find D U E.
+>
+>[Difficulty]
+>Is the union between D and E (D U E), between D U F and between E U F 
+>the set of all whole numbers?  It seems to me that it would be but 
+>somehow that seems strange.  
+>
+>[Thoughts]
+>Set D would indicate all whole numbers, would it not so when you 
+>combine whole numbers with perfect squares < 100, the numbers that 
+>are perfect square < 100 would also be whole numbers.  The 
+>intersection would be the perfect squares < 100 (1, 4, 9, 16, 25, 36, 
+>49, 64, 81).  Am I right?
+
+So far, so good: the union of D and E is all whole numbers,
+and the intersection is the same as E.  (do whole numbers include 0?
+Does set E include 0?).
+
+Similarly the union of D and F is all whole numbers,
+and the intersection of D and F is the same as F.
+
+But what about the union of E and F?  The intersection?
+Seems like you didn't get answers for those two questions.
+
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

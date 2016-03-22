@@ -1,0 +1,31 @@
+ThreadNum: 575749
+Subject: Re: Difference devided by product.
+To: hm@phat.co.nz (Robie)
+From: Doctor Rick
+TimeStamp: 09/27/2004 at 08:42:04
+Sent: yes
+
+Hi, Robie.
+
+As Robie wrote to Dr. Math
+On 09/27/2004 at 07:34:38 (Eastern Time),
+>Thank you again for that, And yes it is for a program I am writing.  
+>The whole question is: Write a program that requests two floating-
+>point numbers and prints the value of their difference divided by 
+>their product.
+>
+>I thought the object of the progam was to find the difference of two 
+>numbers, and therefore I don't understand why i need to divide the 
+>differnce by their product, because I would already have the 
+>difference in the first place.
+
+I am not sure from your response whether you understand yet or not. 
+You need to divide the difference by the product, simply because that 
+is what the program is supposed to print. If, in response to the 
+prompt for input, I enter 2.5 and 3.2, the program should print the 
+difference (3.2 - 2.5 = 1.7) divided by the product (2.5 * 3.2 = 
+8.0). In other words the program will print out the number 0.2125.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

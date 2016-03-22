@@ -1,0 +1,90 @@
+#!/bin/bash
+
+# test case script, including calls intended to fail
+# output goes to command line console, register value is stored in
+# register.txt
+
+assn4
+# console output: usage message
+# $? = 1
+
+assn4 report
+# console output: none (bad case)
+# $? = 4
+
+assn4 init 360 = 10 10 10 10
+# console output: none (init)
+# written to file: 0 : 360 = 10 10 10 10
+# $? = 0
+
+assn4 purchase 45 = 0 0 1 2
+# console output: 0 1 0 0
+# written to file: 45 : 405 = 10 9 11 12
+# $? = 0
+
+assn4 purchase 20 = 0 0 0 1
+# console output: 0 0 0 0
+# written to file: 65 : 425 = 10 9 11 13
+# $? = 0
+
+assn4 purchase 20 = 0 a
+# console output: none (bad case)
+# written to file: none (bad case)
+# $? = 1
+
+assn4 change 0 0 0 1 = 5 1 1
+# console output: 5 1 1 0
+# written to file: 65 : 425 = 5 8 10 14
+# $? = 0
+
+assn4 purchase 38 = 0 0 0 2
+# console output: 2 0 0 0
+# written to file: 103 : 463 = 3 8 10 16
+# $? = 0
+
+assn4 report
+# console output: 103 : 463 = 3 8 10 16
+# $? = 0
+
+assn4 change 0 0 1 = 5 1
+# console output: none (bad case)
+# written to file: none (bad case)
+# $? = 3
+
+assn4 purchase 11 = 6 1
+# console output: 0 0 0 0
+# written to file: 114 : 474 = 9 9 10 16
+# $? = 0
+
+assn4 purchase 21 = 0 1 2
+# console output: 4 0 0 0
+# wrtitten to file: 135 : 495 = 5 10 12 16
+# $? = 0
+
+assn4 purchase 14 = 2 2
+# console output: none (bad case)
+# written to file: none (bad case)
+# $? = 2
+
+assn4 report
+# console output: 135 : 495 = 5 10 12 16
+# $? = 0
+
+assn4 init 20 = 0 4 0 0
+# console output: none (init)
+# written to file: 0 : 20 = 0 4 0 0
+# $? = 0
+
+assn4 report
+# console output: 0 : 20 = 0 4 0 0
+# $? = 0
+
+assn4 purchase 30 = 0 0 0 2
+# console output: 0 2 0 0
+# written to file: 30 : 50 = 0 2 0 2
+# $? = 0
+
+assn4 report
+# console output: 30 : 50 = 0 2 0 2
+# $? = 0
+

@@ -1,0 +1,79 @@
+ThreadNum: 575026
+Subject: Re: characteristic of a ring
+To: veselic@planet.nl (viky)
+From: Doctor Vogler
+TimeStamp: 09/24/2004 at 12:59:25
+Sent: yes
+
+
+As viky wrote to Dr. Math
+On 09/24/2004 at 02:45:38 (Eastern Time),
+>Hello Dr. Math,
+>
+>I still don't understand why (-1*-1)+-1=0. 
+>You write:"Your next sentence begins by doing just that".
+>But I assumed that (-1*-1)+-1=0, to finish off the proof.But I don't 
+>know how to derive (-1*-1)+-1=0. 
+
+Sorry, I didn't understand that you started there without knowing how
+to get there.  You have
+
+  (1*1)+(-1*1)+(1*-1)+(-1*-1) = 0
+
+Now, 1 is the multiplicative identity in your ring, which means that
+
+  1*1 = 1
+  -1*1 = -1
+  1*-1 = -1
+
+so now you have
+
+  1 + -1 + -1 + (-1*-1) = 0
+
+but 1 + -1 = 0, which is actually the definition of -1, so now you have
+
+  0 + -1 + (-1*-1) = 0
+
+and 0 is the additive identity, so this is
+
+  -1 + (-1*-1) = 0.
+
+In fact, you could do this in a slightly different way by starting with
+
+  0 = -1 * 0 = -1 * (-1 + 1).
+
+>I would like to ask something about this rin R with char. n=2.
+>f:R->R given by f(r)=r^2 is a ringhomomorfism, which is not 
+>necessarly onto R I've found a counterexample.I would like to prove 
+>that f is ia one-to-one funtion.I know that I have to deduce from f
+>(x)=f(y) that x=y. I have :
+>x^2=y^2, so x^2-y^2=0, so (r-s)(r+s)=0, so r=s?
+
+Um, will *if* your ring is an integral domain, then
+
+  (r-s)(r+s)=0
+
+implies that *either*
+
+  r = s
+
+or
+
+  r = -s.
+
+Now, if the ring has characteristic 2, then
+
+  s = -s
+
+since 1 = -1.  So if the ring is an integral domain *and* has
+characteristic 2, then
+
+  x^2 - y^2 = 0
+
+implies
+
+  x = y.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

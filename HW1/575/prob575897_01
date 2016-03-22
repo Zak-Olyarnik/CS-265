@@ -1,0 +1,54 @@
+ThreadNum: 575897
+Subject: Re: cacualter magic
+To: gangster_4_life_13@hotmail.com (tom)
+From: Doctor Greenie
+TimeStamp: 09/22/2004 at 17:23:45
+Sent: yes
+
+
+As tom wrote to Dr. Math
+On 09/22/2004 at 16:40:57 (Eastern Time),
+>[Question]
+>steps:
+>1. think of a three digit number
+>2.enter it twice ina row into a caculater ex. 147147
+>3. divide it by 7
+>4. then divide it by 11
+>5. then divide it by 13
+>
+>then explain why you got what you did
+>
+>[Difficulty]
+>how to expalin what i got.
+>
+>
+>[Thoughts]
+>i decided my number should be 242242. when i divided it i got 242. 
+i 
+>then decided to multiply 7 times 11 times 13. i then got 1001.
+
+Hi, Tom --
+
+You have done most of the work you need to finish this problem....
+
+You tried the number 242242, divided it by 7, then by 11, then by 
+13, and got 242 as a result.  And you apparently realized that 
+dividing by 7, then by 11, and then by 13 is the same as dividing by 
+the product of those three numbers; so you determined that product 
+to be 1001.
+
+Now turn the problem around: start with 242 and multiply it by 1001; 
+you get 242242.  Is that just an accident?  See what happens if you 
+multiply 397 by 1001; then see what happens when you multiply 904 by 
+1001; then...., etc., etc.
+
+And now turn the problem around and explain why when you divide the 
+number "ABCABC" by 7, then by 11, and then by 13 you end up with the 
+number "ABC".
+
+I hope this helps.  Please write back if you need more help with 
+this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,75 @@
+Q1.1-1: Calling the variables TRUE and FALSE is very logical.  In some
+languages true gets a value of 1 and others it is 0, so the appropriateness
+of the assigned values would depend on which one this code is written for.
+The variable name not_eof is a little awkward, but it looks like EOF is
+already a keyword, so I suppose it's okay.  Saying that "not eof" is false
+is a good move for general readability though.
+
+Q1.1-2: I'm not sure what this one is getting at...it could be named
+something better than "smaller", especially if it is just for comparing
+characters...  Depending on what happens next, the function's return may be
+better off as a bool than as an int...  Depending on what language this is,
+it may be possible to just directly compare the two characters with a "<"
+rather than running the strcmp function...  They talked about how single
+line if/else's could be combined with the ? operator...
+
+Q1.1-3: I tried to read the code aloud, but the variable names are pretty
+hard to pronounce without having any vowels in them.  I think that the point
+they're trying to make is that actual English words make better variable
+names than abbreviations or random letter strings
+
+Q1.1-4: if (c != 'y' || c != 'Y')
+		return;
+	if (length >= buffsize)
+		length = BUFFSIZE;
+	(assuming this is a zero=true language, this code is not needed at all.
+If flag evaluates as true, it would be set to zero, which it already is.  If
+it's false, it would be similarly set to one.)
+	if (*line == '"')
+		quote = 1;
+	else
+		quote = 0;
+I don't think there's anything really wrong with this...since the &
+operator is the only one, there shouldn't be any precedence problems, but
+maybe for clarity add another set of parentheses around it.
+
+Q1.1-5: I'm not sure, and C++.com couldn't tell me either.  Best guess, the
+* is doing something that the scanf function doesn't like...if it's got
+anything to do with pointers, then there could be all kinds of problems
+involving the pass by reference, which I believe should be specified in
+the function definition, not in the call anyway...
+
+Q1.1-6: Without having access to "as many different compilers as I can", I
+would hazard a guess at outputs including 1 1, 1 2, 2 2, 2 3, 3 3.  I don't
+think the second %d would ever evaluate to lower than the first, though.
+
+Q1.1-7: if (! (istty(stdin) || istty(stdout) || istty(stderr))
+		return(0);
+	return (retval); (if statement unnecessary)
+	for (k=0; k<6; k++){
+		x += dx
+		scanf("lf", &dx);
+
+Q1.1-8: (without knowing Java, the only potential error I can spot is that
+count is incremented before the zero value of it is used in the body of the
+loop.)
+	for (count=0; count < total; count ++)
+		if (this.getName(count) == nametable.userName()){
+			return(true);}}
+
+Q1.1-9: First off, there's a problem with it being a macro, period, which
+the book spends a page telling us to avoid.  It also happens to use the
+value c more than once in its body, so it can cause input to be mistested,
+wrongfully disgarded or kept.
+
+Q1.1-10: Assuming all the numbers themselves are correct, I would take the
+"2" out of each name and replace it with "_TO_",  so for instance #define
+FT_TO_METER 0.3048.  There might also be a case for either abbreviating or
+spelling out each word to be consistent, but I think they are clear and read
+fluently as-is. 
+
+Q1.1-11: In general these comments are good.  Functions should always have a
+line or two describing them, and a complicated if statement like the second
+one becomes much clearer with the comment's help.  The only thing not needed
+would be the "// increment line couner" repeated thrice in the third
+example.

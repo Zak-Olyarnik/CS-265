@@ -1,0 +1,35 @@
+ThreadNum: 575667
+Subject: Re: Calculus Problem deals with Integrals
+To: hydro.7@netzero.com (Gary )
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 09:56:21
+Sent: yes
+
+
+As Gary  wrote to Dr. Math
+On 09/21/2004 at 21:21:21 (Eastern Time),
+>[Question]
+>Integrate  x^4 + x^3
+>           ----------dx
+>           x^2 + 1
+>
+>[Difficulty]
+>How do you integrate a quotient? 
+>
+>[Thoughts]
+>Do I find an antiderivate first or do I use one of those rules such 
+>as Power Rule, Quotient Rule, or What? 
+
+Hello Gary,
+
+When the degree of the numerator is larger than that of the denominator, then the first 
+step is to do a long division:
+
+(x^4+x^3)/ (x^2+1) = x^2+x-1 + (-x+1)/(x^2+1).
+
+Do the last part by splitting it into -x/(x^2+1), which is easy, and 1/(x^2+1), which is 
+arctan(x).
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

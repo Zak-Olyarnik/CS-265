@@ -1,0 +1,56 @@
+ThreadNum: 575445
+Subject: Re: Is there an algorithm to solve k>3 pegs tower of hanoi
+To: mserioli@crema.unimi.it (Marco)
+From: Doctor Vogler
+TimeStamp: 09/23/2004 at 09:35:08
+Sent: yes
+
+
+As Marco wrote to Dr. Math
+On 09/21/2004 at 17:42:02 (Eastern Time),
+>Yes, it is possible to solve in a better number of movies if there is 
+>more pegs, but I don't find an algoritmical solution to this 
+>problem... For example with a recursive approach, with 3 pegs I 
+>solved the problem in this way: 
+> 
+>... 
+>hanoi (5,1,3);  
+>... 
+> 
+> 
+>hanoi (int n, int source, int dest){ 
+>   if (n>0){ 
+>       hanoi (n-1, source, 6-source-dest); 
+>       write the movie...     
+>       hanoi (n-1, 6-source-dest, dest); 
+>   } 
+> 
+>I tried to extend this solution for more pegs using vectors, but with 
+>non usefull results... 
+
+Hi Marco,
+
+If you want to come up with a new algorithm, then you need to use some
+new ideas.  I would suggest starting by trying to find efficient ways
+to solve the problem using n=3 and n=4 and n=5 rings and more.  Come
+up with a general technique that can be used for any number of rings.
+
+Also, I would recommend thinking in terms of what the moves are that
+you need to do before you try to program it.  For example, I wonder if
+you know what the "n" in the first parameter is.  It certainly isn't
+the total number of rings, or else you couldn't call
+
+  hanoi(n-1, source, 6-source-dest)
+
+and you should think about that last parameter.  Why is it
+
+  6-source-dest ?
+
+Where does that formula come from?  In fact, you'll probably have to
+change the parameters of your function if you want it to tell you
+moves for 4 pegs or 5 pegs, and you'll certainly have to change the
+parameters if you want it to work for any number of pegs.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

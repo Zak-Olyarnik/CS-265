@@ -1,0 +1,77 @@
+ThreadNum: 575398
+Subject: Re: Common elemtents of 3 different sets
+To: Brogner@email.dk (Chris)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 09:26:17
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 09/21/2004 at 05:35:16 (Eastern Time),
+>[Question]
+>Given three different sets:
+>
+>   A={1,4,9,16,...,225}
+>   B={15,26,37,48,...224}
+>   C={8,13,19,26,...,229}
+>
+>Which elements are common to A&B, A&C, B&C and A&B&C???
+>
+>[Difficulty]
+>I'm having trouble finding a formula for the x'th element of C.
+>
+>Also, I'm not sure how to find the common elements. One way would 
+>be - obviously - to calculate all elements of each set, and simply 
+>compare them.
+>
+>But I would much prefer, if there was a more theoretical way to 
+>solve the problem.
+>Systems of equations or alike. 
+>
+>
+>[Thoughts]
+>The x'th element of A a_x is given by:
+>
+>      a_x = x^2     ;   x=<15
+>
+>The x'th element of B is given by:
+>
+>      c_x = 11x+4   ;   x=<20
+>
+>As mentioned, I can't seem to find a formula for the x'th element of 
+>C.
+>
+>Once I have that formula, I figure I might be able to solve the 
+>problem with equations.
+>
+>However, I suppose I would need some systems of equations (at least 
+>two equations with the same variables), to get anywhere from here.
+>
+>Where do I go from here???
+>
+>     
+
+Hi Chris,
+
+Thanks for writing to Dr Math.  It looks like you get the next element
+of C by
+
+  add 5, add 6, add 7, etc.
+
+so you might assume that this pattern continues.  Certainly there are
+various ways to generate a sequence that starts with those terms, but
+a nice check would be that it contains the number 229.  And, indeed,
+
+  229 = 8 + (5 + 6 + 7 + 8 + 9 + ... + 21).
+
+Can you write a quadratic polynomial in x that equals
+
+  8 + (5 + 6 + 7 + 8 + ... + (x-3) ) ?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,9 @@
+Testsuite: gIntTest
+Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.007 sec
+
+Testcase: testReal took 0.003 sec
+Testcase: testImag took 0 sec
+Testcase: testAdd took 0 sec
+Testcase: testMultiply took 0 sec
+Testcase: testNorm took 0.001 sec
+Testcase: testEquals took 0 sec

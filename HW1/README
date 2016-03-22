@@ -1,0 +1,57 @@
+README - CS-265 HW1
+Zak Olyarnik
+10-16-14
+
+
+prob1
+-checks that specified ARCHIVE path exists
+-uses the "ls -A" command to find directories that are not empty
+-counts number of files to find total number of messages
+-outputs using "echo" as normal
+
+prob2
+-checks that specified ARCHIVE path exists
+-for each file in the path, writes the six-digit thread name to a temporary
+text file "messageTemp.txt", followed by a second column containing "1"
+-this text file is deleted before the loop so that it can be correctly
+written from scratch each time
+-awk program "threadCounter.awk" processes "messageTemp.txt"
+	--changes OFS for desired output format
+	--uses an array to count the occurances of each same thread number
+	--finds the largest number of occurances
+	--prints out the thread names with the largest number of occurances
+	--this approach was found to be better than doing a sort and head,
+because of the possibility of multiple threads having the same highest
+number of messages
+
+prob3
+-arguments, in order: YYYY MM DD (code checks that the  date parameters are
+integers with the correct number of digits)
+-checks that specified ARCHIVE path exists
+-uses a grep to find all files in archive (recursively) with text
+"TimeStamp" and the specified date
+-adding "-l" option returns path and filename instead of matching line
+-piping to "rev" and "cut" trim the entire returned path to just the
+filename
+
+prob4
+-checks that specified ARCHIVE path exists
+-uses grep in conjunction with "cut"s to isolate namespace from "To:" line
+of files
+-grep writes to a temporary text file, "nameTemp.txt"
+-awk program "nameCounter.awk" processes "nameTemp.txt"
+	--uses an array to count the occurances of each same namespace
+	--also counts total number of unique namespaces, case insensitive (using
+"tolower")
+	--output printed through a pipe that sorts as desired
+	--total number of unique namespaces must be printed to a temporary text
+file ("totalFile.txt") because trying to print directly to screen results in
+output in the wrong order
+-"totalFile.txt" is read from the main program to output total number of
+namespaces
+
+all scripts were tested with a subset of the files, including folders 309,
+452, 496, 505, 575, and a created folder 700 in which files testing the
+specific program functionalities could be tested (empty directories for prob1,
+the same largest number of message threads for prob2, matching dates for prob3, same namespaces or ones with different cases for prob4)
+

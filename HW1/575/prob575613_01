@@ -1,0 +1,68 @@
+ThreadNum: 575613
+Subject: Re: Problem in calculating shares according to effort put in.
+To: paul@welcome21.freeserve.co.uk (Paul)
+From: Doctor Tom
+TimeStamp: 09/21/2004 at 21:18:43
+Sent: yes
+
+
+As Paul wrote to Dr. Math
+On 09/21/2004 at 20:08:37 (Eastern Time),
+>[Question]
+>I have been struggling with this problem for the past few days now 
+>and it is staring to give me a headache. I would very much apreciate 
+>your advice. 
+>
+>What is the formula to calculating a share of something someone 
+>would get according to the effort that they put in?
+>
+>For example: There is a payout of £500. The working hours are 04:00 -
+> 08:00. There are 5 people helping on the job. Paul works 50% of the 
+>time, John 100% of the time, Peter 75% of the time, Martin 100% of 
+>the time and Jane 25% of the time. 
+>
+>What share of the £500 should each person get according to the 
+>percentage of the time they worked?
+>
+>Regards,
+>
+>Paul
+>
+>[Difficulty]
+>I can work out the percentage of the time that someone worked, but 
+>when I calculate the amount each person should get, I always have 
+>money left over. If everyone works the full amount of time (100%)
+>there is no money left over.
+>
+>[Thoughts]
+>Start time: 04:00 - Finish Time: 08:00 (4 Hours)- Payout £500
+>
+>Paul    works 2 hours - 50%  £500 / total 5 people / 50%  = £50
+>John    works 4 hours - 100% £500 / total 5 people / 100% = £100
+>Peter   works 3 hours - 75%  £500 / total 5 people / 75%  = £75
+>Martin  works 4 hours - 100% £500 / total 5 people / 100% = £100
+>Jane    works 1 hour  - 25%  £500 / total 5 people / 25%  = £25
+>
+>Total paid out £350, problem is that the remainder of £150 has not 
+>been shared out!
+
+Hi Paul,
+
+First, get the total time worked by everybody:
+
+Paul: 2 hours
+John: 4 hours
+Peter: 3 hours
+Martin: 4 hours
+Jane: 1 hour
+
+Altogether, there were 14 total hours of work put in.
+
+Thus, Paul should get 2/14 of the total, John 4/14 of the total, and
+so on.
+
+Paul gets 500(2/14) = 71.42857, et cetera.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

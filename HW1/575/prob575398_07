@@ -1,0 +1,38 @@
+ThreadNum: 575398
+Subject: Re: Common elemtents of 3 different sets
+To: Brogner@email.dk (Chris)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 12:28:09
+Sent: yes
+
+
+As Chris wrote to Dr. Math
+On 09/21/2004 at 12:00:00 (Eastern Time),
+>Hi again c¨,)
+>
+>I did the search for modular arithmetics and Diophantine equations.
+>
+>I am somewhat familar with modulo, and also did some work with 
+>Linear Diophantine Equations during High School.
+>That is, using the t-variable to determine a relation between x & y.
+>
+>however, all the equations here are quadratic, and the only reel 
+>string on the subject I could find in the archive seemed a bit too 
+>complex to me:
+>
+>    (Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0)
+>
+>
+>
+
+Hi Chris,
+
+Let's look for points in common between sets A and B.  So you want
+
+  a_x = b_y.
+
+How would you go about solving this?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

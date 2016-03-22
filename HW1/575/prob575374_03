@@ -1,0 +1,71 @@
+ThreadNum: 575374
+Subject: Re: I am trying to explain to my 12 grader the the comparison.
+To: daphnesuefriend@aol.com (Daphne )
+From: Doctor Rick
+TimeStamp: 09/21/2004 at 08:55:17
+Sent: yes
+
+Hi, Daphne.
+
+As Daphne  wrote to Dr. Math
+On 09/21/2004 at 01:12:36 (Eastern Time),
+>[Question]
+>What is the comparison of equations and quadratic or rational 
+>inequality? 
+>
+>[Difficulty]
+>All of this math is new to me and trying to help my daughter in math 
+>is so confusing.  
+>
+>[Thoughts]
+>I need to understand the comparison of equations and quadratic or 
+>rational inequality to explain this to her.  She is a slow learner 
+>and I have to explain all of her subjects too her.
+
+It's hard to be sure what you are asking. Are you asking what each 
+term means?
+
+An equation is a number sentence that says that two expressions have 
+the same value. It always contains an equal sign, for instance
+
+  2x - 3 = 5(4+x)
+
+An inequality is a number sentence that compares two expressions 
+using something other than equality. If you replace the equal sign in 
+an equation with > (greater than), < (less than), or symbols that I 
+can't show you exactly, meaning "greater than or equal", "less than 
+or equal", or "not equal to", you'll have an inequality. For instance,
+
+  2x - 3 < 5(4+x)
+
+A quadratic equation is one that can be put into the form
+
+  __x^2 + __x + __ = 0
+
+where x is the variable (it doesn't have to be x) and numbers go in 
+the three blanks. For example,
+
+  8z^2 - z + 2 = 0
+
+Here, the numbers that go in the blanks are 8, -1, and 2.
+
+A quadratic equation is a type of polynomial equation. A polynomial 
+equation can have more terms (parts that are added together to make 
+the whole expression; there are three terms in the quadratic). Each 
+term is a number times a whole-number power of the variable. For 
+instance,
+
+  3y^4 - y^3 + 8y^2 + 10 = 0
+
+A rational equation is an equation involving rational expressions. A 
+rational expression is a polynomial divided by another polynomial. 
+For example,
+
+  (1/x+1) - (1/x+2) = 1/2
+
+If you want to understand something particular about these types of 
+equations and inequalities, I will try to help.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

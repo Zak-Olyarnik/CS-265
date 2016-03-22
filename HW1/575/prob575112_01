@@ -1,0 +1,49 @@
+ThreadNum: 575112
+Subject: Re: i to the power of i (complex number)
+To: yanardi@inbox.lv (Fredy)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 16:06:49
+Sent: yes
+
+
+As Fredy wrote to Dr. Math
+On 09/20/2004 at 15:46:58 (Eastern Time),
+>[Question]
+>Hi Dr. Math, 
+> 
+>I have a problem with a complex number, I get the following question 
+>from my tutorial problems, and I don't have any idea how to solve it. 
+> 
+>show that:  
+> 
+>i^i = e^(-pi/2) 
+> 
+>I've tried to search the answers in the achieves, but can't find it. 
+> 
+>Thank you. 
+> 
+> 
+>
+>[Difficulty]
+>What property of complex number should I use to solve it? 
+>
+>[Thoughts]
+>I really have no idea about this question :) 
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Another way of expressing i is:
+
+    i = e^(pi*i/2)
+
+Using this form, i^i can be expressed as:
+
+   i^i = [e^(pi*i/2)]^i
+
+Can you take it from here?
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

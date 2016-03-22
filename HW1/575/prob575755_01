@@ -1,0 +1,72 @@
+ThreadNum: 575755
+Subject: Re: Probability of Blackjack
+To: lost_souls1121@yahoo.com (Travis)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 12:36:07
+Sent: yes
+
+
+As Travis wrote to Dr. Math
+On 09/22/2004 at 04:54:47 (Eastern Time),
+>[Question]
+>May I know what is the probability of winning when playing the game 
+>of blackjack versus a casino. Is there really a winning strategy for 
+>the person playing against the house?
+>
+>
+>[Difficulty]
+>I have already search the archives but the only blackjack solution 
+>provided is the chances of getting blackjack when drawing two cards 
+>from th deck, one after the other. I am confused about the chances of 
+>winning because there are simply too many, the player can get 18 
+>while the house gets 16, player gets 18 but the house bursts or maybe 
+>the player gets 20 and the house 19. One more thing, the number of 
+>cards a player acquires to win the house who acquires a certain 
+>number of cards also provides a great number of probabilities.
+>
+>[Thoughts]
+>What i have thought is this:
+>there are 3 ways a player can win, the house bursts while the player 
+>does not, player gets a blackjack while the house does not, the 
+>player's value outcounts the house's value. The probabilty of getting 
+>a blackjack for the player is (4*16)/(52*50) if the house deals the 
+>player first. For the house to burst it can only be on the 3rd, 4th 
+>and 5th card. So, the probability of bursting is 51*49*(49-n)*(48-n)*
+>(47-n) if the house deals the player first where n is the number of 
+>cards the player has acquired before the house hits the deck.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+On average, you cannot win at the game of blackjack without counting
+cards. Try the following site:
+
+   http://www.wizardofodds.com
+
+Using computer simulations, people have developed the best possible
+strategy that doesn't involve counting cards. With standard rules
+(there are, of course, rule variations at different casinos), you are
+at a slight disadvantage, something on the close order of 1% per bet.
+So, following the basic strategy, you stand to lose roughly 1 penny
+per dollar bet on average.
+
+If you count cards (even as simply as keeping track of ratio of the
+high cards to the low cards already out), you can make this a positive
+expectation game. Again, through computer simulation, it has been
+shown that if you use an effective counting strategy, you can get a
+couple percentage points on the casino. 
+
+The basic idea is that there is no game in the casino with a positive
+expectation to the player. If you count, casinos tend to ask you to
+leave. But if you play the basic strategy, you will gradually lose
+money. Even with the best winning (counting) strategy, you will
+fluctuate up and down because the best strategy is a long-term
+strategy, not one that will guarantee results after a few hours.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

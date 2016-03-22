@@ -1,0 +1,38 @@
+ThreadNum: 575855
+Subject: Re: Combinations
+To: cwalley4746@yahoo.com (Chan)
+From: Doctor Anthony
+TimeStamp: 09/22/2004 at 16:13:38
+Sent: yes
+
+
+As Chan wrote to Dr. Math
+On 09/22/2004 at 14:46:14 (Eastern Time),
+>[Question]
+>Number of Ways to Make Change for 50 Cents Using Dimes, Nickels, 
+>and Quarters
+
+
+The answer is given by the coefficient of x^50 in the expansion of
+
+                   1
+        -----------------------
+        (1-x^5)(1-x^10)(1-x^25)
+
+This gives the term 10x^50 so there will be 10 ways of making up the 
+sum of 50 cents.
+
+
+
+>
+>
+>[Difficulty]
+>Can't understand the question.
+>
+>[Thoughts]
+>I believe the answer is 18
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

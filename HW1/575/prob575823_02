@@ -1,0 +1,54 @@
+ThreadNum: 575823
+Subject: Re: linear approximation
+To: cwto@so-net.com.hk (wai)
+From: Doctor Jerry
+TimeStamp: 09/30/2004 at 09:26:04
+Sent: yes
+
+
+As wai wrote to Dr. Math
+On 09/30/2004 at 07:34:02 (Eastern Time),
+>[Question]
+>the area of a triangle is given by the formula A=(absin x)/2, where 
+>a and are lengths of two sides of the triangle and x is measure of 
+>the included angle.In surveying a triangular plot, one has measured 
+>a,b and x to be 150M,200M and 60deg respectively.
+>Using linear approximation, estimate the error in the area 
+>calculation if values of a and b are off by 0.5M each and the 
+>measurement of x is off 1.5deg.
+>
+>[Difficulty]
+>how to strat 
+>
+>[Thoughts]
+>A=(absin x)/2,
+>dA=A_a*da+A_b*db+A_x*dx
+>  = (bsin x)/2 + (asin x)/2 + (abcos x)/2
+>
+
+Hello Wai,
+
+Your calculations look good.  I'll put them is a slightly more general context.
+
+We know that if w=f(x,y,z) is a function of three variables, then
+
+f(x+dx,y+dy,z+dz) - f(x,y,z) = delta f   is approximately equal to
+
+         df =  f_x(x,y,z)*dx + f_y(x,y,z)*dy + f_z(x,y,z)*dz.
+
+If (x,y,z) = (x0,y0,z0) are the measured quantities and x0+dx, y0+dy, z0+dz are the true 
+quantitities, where we know something about how large dx, dy, and dz can be, then
+
+f(x0+dx,y0+dy,z0+dz) is approximately equal to 
+
+                f(x0,y0,z0) + f_x(x0,y0,z0)*dx + f_y(x0,y0,z0)*dy + f_z(x0,y0,z0)*dz.
+
+We can calculate the right side, choosing the signs of dx, dy, dz so as to maximize the 
+right side. (in your case, everything is positive)
+
+Have I answered your question?  Please write back if you  have more questions.
+  
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

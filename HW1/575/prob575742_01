@@ -1,0 +1,47 @@
+ThreadNum: 575742
+Subject: Re: How many handshakes would occur
+To: donnakim02@yahoo.com (Donna)
+From: Doctor Anthony
+TimeStamp: 09/22/2004 at 05:50:33
+Sent: yes
+
+
+As Donna wrote to Dr. Math
+On 09/22/2004 at 01:11:34 (Eastern Time),
+>[Question]
+>To become acquainted with each other, each person in class could 
+>shake hands just once with everyone else.  If all of the members of 
+>this class were to shake hands with every other person just ONCE, 
+how 
+>many handshakes would occur?
+
+
+Suppose there were 40 persons in the class.
+
+Each person can shake 39 other hands.
+
+That appears to give 40 x 39 handshakes, but of course each 
+handshake has been counted twice - once for each person involved.
+
+So total number is actually 40 x 39/2 = 780 handshakes.
+
+You can also work this out from  C(40,2) = number of combinations of 
+2 people that can be formed from 40 people.
+
+The general formula for a class of size n is  n(n-1)/2
+
+
+>
+>[Difficulty]
+>I'm having a difficult time finding a pattern.  
+>
+>[Thoughts]
+>We should assume there are X persons in the class.  This question 
+>reminds me of the "Roundtable" question, but it's different.  
+Please 
+>help!
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,40 @@
+ThreadNum: 575778
+Subject: Re: Aristotle's Wheel Paradox
+To: angel08_sandalphon@hotmail.com (jj)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 09:25:24
+Sent: yes
+
+
+Hi JJ,
+
+>Hi. I just came across this weird thing. Imagine a whell or tyre. 
+>It's made of two concentric circles (one circle inside another). Mark 
+>a poing on the outer circle, then the point on the inner circle that 
+>corresponds to that of the outer circle. Now roll the tyre once.
+>
+>Now we have our problem. In one full revolution we have travelled the 
+>circumference of the outer circle, with the point back in its former 
+>position. But what about the INNER circle. SAME THING! does this mean 
+>that both the inner and outer circle have the EXACT SAME 
+>circumference?
+
+No.  The distance moved is the circumference of the outer tire.  But
+while the outer tire simply rolls, the inner tire is dragged along as
+it rolls.  
+
+To see this, imagine that you simply take the inner circle out and
+place it next to the outer one, then roll them both.  After a full
+revolution, the outer circle has moved farther.  To get the inner one
+lined up again, you'd have to slide it over without rotating it. 
+
+Looking at it this way, we've separated what happens to the inner
+circle into two different transformations: rolling and sliding.  When
+you keep the centers of the circles coincident, the two motions are
+combined, which makes the sliding part harder to visualize. 
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

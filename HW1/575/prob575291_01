@@ -1,0 +1,38 @@
+ThreadNum: 575291
+Subject: Re: What percentage is 7 of .7
+To: shirleyfm6@aol.com (Shirley)
+From: Doctor Rick
+TimeStamp: 09/20/2004 at 22:04:32
+Sent: yes
+
+Hi, Shirley.
+
+As Shirley wrote to Dr. Math
+On 09/20/2004 at 21:23:01 (Eastern Time),
+>[Question]
+>I calculated the answer to be .049% but am unsure if this is 
+correct, 
+>can you help?
+
+You are correct in being unsure of your answer.
+
+The question can be restated as
+
+  7 is _____% of 0.7
+
+When we take a percentage of something, we multiply the number by 
+that many hundredths:
+
+  7 = ___/100 * 0.7
+
+You can use algebra to solve this:
+
+  7 = x/100 * 0.7
+  7/0.7 * 100 = x
+
+Or you can note that 7 is the part, 0.7 is the whole, and the 
+percentage is the part over the whole, times 100%.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

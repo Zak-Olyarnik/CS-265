@@ -1,0 +1,47 @@
+ThreadNum: 575795
+Subject: Re: How many days in 9 years?
+To: kousalyar@hotmail.com  ( koush)
+From: Doctor Tom
+TimeStamp: 09/22/2004 at 10:29:29
+Sent: yes
+
+
+As kousalyar@hotmail.com  ( koush) wrote to Dr. Math
+On 09/22/2004 at 10:11:26 (Eastern Time),
+>[Question]
+>365 x 9 = 3285
+>
+>365 x 9 = 3285 + 2 . since in 9 years there can be two leap years.
+>
+>365 x 9 = 3285 + 3 if you start with a leap year there can be three 
+>leap years. 
+>
+>[Difficulty]
+>the question is very  simple and straight forward but there are the 
+>above opinions. this question from the point of view of 9 year old 
+>what should be the answer and if an adult had to intervene what 
+>would be the BEST answer to give.  
+>
+>[Thoughts]
+>i felt i would give it right if the child gave 365 x 9 , or 365 x 9 
+>+ 2. i am not justified with the third possibility please advise me 
+>on this.
+
+The "best" answer is the correct one: that there is no unique answer --
+it depends on which set of nine years are considered.
+
+The "most likely answer" is 365x9 + 2.
+
+Or another true answer is: "Approximately 365x9".
+
+And there's actually a third exact possibility: 365x9 + 1.
+
+That's because certain leap-years are omitted to make the calendar
+match the fact that the period of revolution of the earth is 365.26
+days, so every hundred years, roughly, a leap year has to be
+omitted.  1900 was such a year, so if you start in 1897 through
+1905, for example, only 1904 is a leap-year.
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

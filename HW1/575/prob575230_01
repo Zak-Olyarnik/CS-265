@@ -1,0 +1,51 @@
+ThreadNum: 575230
+Subject: Re: (no subject)
+To: mdemel@prtc.net (Morris)
+From: Doctor White
+TimeStamp: 09/20/2004 at 19:51:09
+Sent: yes
+
+
+As Morris wrote to Dr. Math
+On 09/20/2004 at 18:53:34 (Eastern Time),
+>[Question]
+>How do I find the volume in a cylinder in gallons?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Morris:
+Welcome to the exciting world of mathematics.
+
+The volume of a cylinder is found by multiplying the radius times the 
+radius times pi times the height.
+i.e. V = (pi)x(r)x(r)x(h).
+
+This will give you the volume in cubic units. 
+
+Now it is important to make sure that the units are inches, since 
+there are 231 cubic inches in 1 gallon.
+
+So, find the radius (conver to inches), find the height (convert to 
+inches), use the (V)olume formula above, and then divide the number 
+of cubic inches by 231 to find the gallons. 
+
+example:  radius = 4 inches
+          height = 5 inches
+          pi     = 3.14  (good approximation)
+
+V = (pi) x (r)x(r)x(h)
+  = 3.14 x  4 x 4 x 5 
+  = 251.2 cubic inches
+
+Gallons = 251.2/231 which is about 1.09 gallons. 
+
+If you need further assistance with this matter, please feel free to 
+contact me again. Come back to see us soon.
+
+- Doctor White, The Math Forum
+  <http://mathforum.org/dr.math/>
+

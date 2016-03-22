@@ -1,0 +1,80 @@
+ThreadNum: 575533
+Subject: Re: No one in my son's math class can figure out the problem.
+To: mamabear121501@yahoo.com (Missy)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 11:51:59
+Sent: yes
+
+
+As Missy wrote to Dr. Math
+On 09/21/2004 at 17:24:28 (Eastern Time),
+>[Question]
+>Kim just bouth ten gallons of gasoline, the amount of fuel used for 
+>the last 360 miles of driving. Being a curious sort, kim wondered 
+>how much fuel had been used in the city driving( which takes one 
+>gallon for every 25 miles) and how much had been used in freeway 
+>driving(which takes one gallon for every 40 miles). Determine the 
+>number of gallons used on each part of the trip.
+>This time, try to determine what headings you might put at the top 
+>of each column.Start by thinking about what you wish to find and use 
+>that as the title of the first column. Thinking about what else you 
+>can determine should help you with the headings of the other 
+>columns. There are several possibilities.
+>Finally, form and equation and solve it.
+>
+>[Difficulty]
+>I got that 14. would be the average miles in the city and 9would be 
+>the average for freeway. Equaling 5.11miles on the street or city 
+>and about 31 miles on the freeway and this would equal the 360 miles 
+>but the teacher said that this was wrong. can you please help us?
+>
+>[Thoughts]
+>One gallon for every 25 miles = 9 miles to the gallon and one gallon 
+>for every 40 miles = 14 miles to the gallon to = 360 miles in total.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+1 gallon for every 25 miles is actually 25 miles to the gallon. I'm
+not sure where you are getting 9 miles per gallon. The problem
+statement gives you the fuel efficiency directly. The problem is to
+figure out how many gallons of fuel were used in the city and on the
+freeway.
+
+Let's approach the problem analytically. We should list what we don't
+know:
+
+    x - # of gallons used in city driving
+    y - # of gallons used in highway driving
+
+We know that the total number of gallons used is 10, or:
+
+    x + y = 10
+        y = 10 - x
+
+This is another way of saying that any gas not used in city driving is
+used in highway driving.
+
+The total number of miles driven in the city is:
+
+   25x
+
+since 25 miles are driven for every gallon used in the city. Likewise,
+the total number of miles driven on the freeway is:
+
+  40(10 - x)
+
+We know the total number of miles driven is 360, or:
+
+   25x + 40(10 - x) = 360
+
+Solving this equation for x gives you the number of gallons used in
+city driving.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

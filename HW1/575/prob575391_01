@@ -1,0 +1,52 @@
+ThreadNum: 575391
+Subject: Re: Lifetime probability of being hit by lightning
+To: per_bergsman@hotmail.com (Per)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 14:38:36
+Sent: yes
+
+
+Hi Per,
+
+>Hi, I just read your example of the probability of getting killed by 
+>lightning in the US. As I understood it, the p = 0.000032% must be 
+>the p(killed by lightning during 1 year period). 
+>
+>Now the question is - what is the probability of someone getting 
+>killed during a lifetime? Assuming a lifetime is 75 years, could it 
+>be calculated as; p(1-"killed by lightning during 1 year period")
+>^75  ?
+
+That would actually give you the probability of _not_ being killed.
+
+>Haven't come far...but I figured it can't be correct to add the 
+>probabilities of getting killed by lightning in 1 year, for a whole 
+>period, since the events are independent and random.
+
+You're right - adding the probabilities for enough years would give
+you a probability of greater than 100%, meaning that if you live long
+enough, you _must_ be hit by lightning!
+
+You can't really 'assume a lifetime of 75 years', since that means you
+don't start considering the probability of getting killed by lightning
+until the 76th year.  I think what you mean to ask is this:  
+
+  What is the probability of going 75 years without getting
+  killed by lightning?  
+
+Then you can subtract that from 1 (or 100%) to get the probability of
+getting killed by lightning before making it to age 75.  
+
+To compute the probability of _not_ getting killed, you raise the
+probability for one year to the 75th power, which comes to about 
+
+  (1 - 3.2 x 10^-5)^75 = 0.9976
+
+which means you have about a 99.8% chance of not getting killed.  So
+you have about a 0.2% chance of getting killed. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

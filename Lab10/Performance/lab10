@@ -1,0 +1,63 @@
+I recommend viewing this in VIM because using cat or another command makes
+the formatting impossible to read
+
+Q1.
+
+						T(n)/f(n)			
+n			T(n)		f(n) = n		f(n) = nlog(n)	f(n) = n^2	f(n) = log(n)
+1000		0.18		0.00018	   0.00006	      0.00000018	0.06
+10000		2.312		0.0002312	0.0000578		2.312E-08	0.578
+20000		4.984		0.0002492	5.79396E-05		1.246E-08	1.158792197
+30000		7.82		0.000260667	5.82219E-05		8.68889E-09	1.746658077
+40000		10.705	0.000267625	5.81533E-05		6.69063E-09	2.326132215
+50000		13.717	0.00027434	5.8383E-05		5.4868E-09	2.919150364
+60000		16.649	0.000277483	5.80734E-05		4.62472E-09	3.484402047
+
+f(n) = n was pretty close to a non-zero constant, but still increasing, so I
+would categorize it as a tight lower bound.
+f(n) = nlog(n) looks like the winner, T(n) = theta(nlog(n)).  This makes
+sense because we are analyzing quicksort, which has an nlog(n) runtime on
+average.
+I added additional cases for completion's sake.  f(n) = n^2 decreased
+towards zero, so it is an upper bound.  f(n) = log(n) increased, probably
+towards infinity, so it is a lower bound.
+
+
+Q2.
+
+
+							T(n)/f(n)				
+n			T(n)			f(n) = n		f(n) = nlog(n)	f(n) = n^2	f(n) = log(n)	f(n) = 2log(n)
+1000		3425457		3425.457		1141.819			3.425457		1141819			570.9095
+10000		45721062		4572.1062	1143.02655		0.45721062	11430265.5		571.513275
+20000		98107982		4905.3991	1140.517296		0.245269955	22810345.92		570.2586479
+30000		153522280	5117.409333	1143.013343		0.170580311	34290400.3		571.5066716
+40000		210173451	5254.336275	1141.735719		0.131358407	45669428.78		570.8678597
+50000		265180908	5303.61816	1128.676743		0.106072363	56433837.15		564.3383715
+60000		319847373	5330.78955	1115.65944		0.088846493	66939566.42		557.8297202
+
+							T(n)/f(n)
+n			T(n)			f(n) = 20log(n)	f(n) = 500log(n)	f(n) = 1000log(n)	f(n) = n^2log(n)
+1000		3425457		57.09095				2.283638				1.141819				1.141819
+10000		45721062		57.1513275			2.2860531			1.14302655			0.114302655
+20000		98107982		57.02586479			2.281034592			1.140517296			0.057025865
+30000		153522280	57.15066716			2.286026686			1.143013343			0.038100445
+40000		210173451	57.08678597			2.283471439			1.141735719			0.028543393
+50000		265180908	56.43383715			2.257353486			1.128676743			0.022573535
+60000		319847373	55.78297202			2.231318881			1.11565944			0.018594324
+
+f(n) = n provided numbers that continued to infinity, making it a lower bound.
+f(n) = nlog(n) was once again pretty close, but the last two cases were
+decreasing.  If nlog(n) is the correct answer, it is a slight overestimate,
+just barely an upper bound.
+f(n) = n^2 again decreased towards zero, making it an upper bound. f(n) =
+log(n) increased, and at a much greater rate than nlog(n), making it a lower bound.
+I started to play with different constants in front of the nlog(n) term, and
+as the data shows, the larger the constant, the better the estimate.  A last
+test was to try n^2log(n), but as you can see, that
+decreased to zero as well.  It is therefore an upper bound, and the best
+estimate remains T(n) = theta(xnlog(n)), where x is a very large constant
+(but not another function of n).
+Again, quicksort is expected to make nlog(n) comparisons, so it would be
+expected that, for a large and randomized set of data, it would need to make
+nearly as many swaps.  The data makes sense.

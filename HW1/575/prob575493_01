@@ -1,0 +1,47 @@
+ThreadNum: 575493
+Subject: Re: how do you find the radius of an arc
+To: rugrat75.1@netzero.net (ginny)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:07:31
+Sent: yes
+
+As ginny wrote to Dr. Math
+On 09/21/2004 at 15:43:48 (Eastern Time),
+>[Question]
+>find the radius of an arc if the arc height is 10 inches and the 
+>width of the entire arc is 40 inches.
+
+Hi Ginny,
+Draw a piece of a circle and label the ends A and B.
+Label the center of the circle P.
+
+What the question is saying, I think, is that the length of the
+STRAIGHT line from A to B (not the curved arc) is 40 inches.
+Is that what they mean by "width"?  I think so.  So draw that
+straight line, and label it 40.
+
+Then, from P, draw a line perpendicular to AB.  I think that "arc height"
+means the length of this segment from P to the middle of AB, 10 inches.  
+But maybe by "arc height" they mean the length of the other piece of the 
+line, from the middle of AB out to the circle?  Hm.
+
+Well, in either case, you know that PA = the radius.
+You know that the distance AB = 40, so if the middle of AB is M
+(where that perpendicular line hits it), then AM = 20.
+
+Depending on what they mean by "arc height", the length
+PM might be 10, but I think they want the length from M to the
+circle to be 10, so the length PM = (radius - 10 inches).  Does
+that make sense?
+
+Once you have those labeled, PM, AM, and PA, you have
+a right triangle, so you can use the Pythagorean theorem to
+solve.
+
+Let me know how it goes, and write back if you still have questions!
+
+Enjoy,
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

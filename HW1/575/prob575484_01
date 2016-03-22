@@ -1,0 +1,56 @@
+ThreadNum: 575484
+Subject: Re: finding n-th decimal digit in repeating decimals
+To: rouslansemenov@hotmail.com (Russell)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:16:32
+Sent: yes
+
+As Russell wrote to Dr. Math
+On 09/21/2004 at 14:53:50 (Eastern Time),
+>[Question]
+>Dear Dr. Math!
+>
+>In her homework my friend's daughter has been asked to find a 121st 
+>decimal digit in 0.14270 with an overbar over 270 (which means that 
+>digits 270 repeat, so the number really is: 0.14270270270270...).
+>Is there a generic algorithm that helps you to find n-th decimal 
+>digit in repeating digits?
+>
+>
+>[Difficulty]
+>Finding an algorithm
+>
+>[Thoughts]
+>I think, first, I should identify how many decimal digits are there 
+>in repeating pattern. In my example there are 3 repeating (2,7,0). 
+>Then I should say how many decimals precede repeating pattern (if 
+>any). In the example case those digits are 1 & 4 (2 digits). After 
+>that I subtract the second number (2) from n (121) and divide the 
+>result by the number of digits in repeating pattern (3): 
+>(121-2)/3=117 r2. Remainder points on the place in the repeating 
+>pattern that the n-th decimal digit takes. In this case, r=2, so 
+>121st decimal digit should be the second one in the pattern, 
+>therefore, it equals 7. If there is no remainder, this digit should 
+>be the last one in the pattern.
+
+Hi Russell,
+your method makes sense to me!
+I might have done it a bit differently, without subtracting the two
+leading digits first:
+2 is the 3rd, 6th, 9th, ... decimal digit (remainder 0)
+7 is the 4th, 7th, 10th, ... decimal digit (remainder 1)
+0 is the 5th, 8th, 11th, ... decimal digit (remainder 2).
+Since 121/3 is remainder 1, my answer is also 7.
+
+Your answer is pretty much the same as mine: you wanted to
+start counting with 1, so you subtracted the 2 digits from the 121,
+while I added the 2 digits to the starting point (so that 2 is the 3rd
+digit instead of the 1st).
+
+Very nice work you did, and a very clear explanation, too!
+
+Thanks,
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

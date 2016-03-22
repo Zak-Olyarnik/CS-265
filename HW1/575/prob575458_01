@@ -1,0 +1,49 @@
+ThreadNum: 575458
+Subject: Re: Use of brackets and parenthesis in a formula.
+To: swong3@dhs.ca.gov (Sharon)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 22:22:59
+Sent: yes
+
+Hi, Sharon.
+
+As Sharon wrote to Dr. Math
+On 09/21/2004 at 12:41:45 (Eastern Time),
+>[Question]
+>Do brackets come before parenthesis when typing a formula?  I used 
+>two sets of parenthesis in a formula, but was instructed to replace 
+>the first set with brackets.  Thanks for your help.
+>
+>Original Formula: A = (1-(B/C))x100
+>
+>Revised Formula:  A = [1-(B/C)]x100
+>
+>
+>[Difficulty]
+>I seem to recall that using multiple sets of parenthesis was 
+>acceptable.  However, if we choose to use other means to clarify the 
+>logic (e.g., using {} or []), we should start with () first and then 
+>use {} or [].  
+>
+>[Thoughts]
+>For example, the revised formula should read:
+>
+>A = (1-[B/C])x100 or
+>
+>A = (1-{B/C})x100
+
+I know of no rules for this; some publications may well have their own
+standards, but usage varies considerably. I would tend to agree with
+you as to general mathematical use, that (except in fields where
+braces or brackets have special uses and are not used for mere
+grouping) the three symbols are interchangeable, and that it is
+perfectly acceptable to use only the one form if you choose. But I
+don't think it's uncommon to use [] on the outside (in fact, it may be
+usual), and I would have no problems doing so.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

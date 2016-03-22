@@ -1,0 +1,37 @@
+ThreadNum: 575680
+Subject: Re: (no subject)
+To: gmoody@westerncom.net (chestinia)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:59:16
+Sent: yes
+
+
+As chestinia wrote to Dr. Math
+On 09/21/2004 at 21:49:35 (Eastern Time),
+>[Question]
+>between any two real numbers there is another real number what is 
+>this called?
+>
+>[Difficulty]
+>Every thing I do not understand it
+>
+>[Thoughts]
+>there is no work
+
+Hi Chestina,
+
+I think you're talking about the property of 'density'.
+
+In a discrete ordered set, like the integers, you can't always find
+another integer between two integers.  For example, there is no
+integer between 4 and 5.  
+
+In a dense ordered set, like the real numbers, you CAN always find
+another real between two reals.  We can even make up a formula for
+doing it:  Add them, and divide the sum by two.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

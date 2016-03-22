@@ -1,0 +1,55 @@
+<project default="run">
+	
+	<target name="compile" depends='prob1C,prob2C,prob3C,prob4C'/>
+	
+	<target name="prob4C" depends='prob1C,prob2C,prob3C'>
+		<javac srcdir='./' includes='prob4.java'/>
+	</target>
+	
+	<target name="prob3C" depends='prob1C,prob2C'>
+		<javac srcdir='./' includes='prob3.java'/>
+	</target>
+	
+	<target name="prob2C" depends='prob1C'>
+		<javac srcdir='./' includes='prob2.java'/>
+	</target>
+	
+	<target name="prob1C">
+		<javac srcdir='./' includes='prob1.java'/>
+	</target>
+
+	<target name="run" depends='compile,prob1,prob2,prob3,prob4'/>
+
+	<target name="prob1" depends='compile'>
+		<echo message = "Running prob1 with argument 'Zak'"/>
+		<java classname = "prob1">
+		<arg value='Zak'/>
+		<classpath path="./"/>
+		</java>
+	</target>
+
+	<target name="prob2" depends='compile'>
+		<echo message = "Running prob2 with argument '11'"/>
+		<java classname = "prob2">
+		<arg value='11'/>
+		<classpath path="./"/>
+		</java>
+	</target>
+
+	<target name="prob3" depends='compile'>
+		<echo message = "Running prob3 with argument '2000'"/>
+		<java classname = "prob3">
+		<arg value='2000'/>
+		<classpath path="./"/>
+		</java>
+	</target>
+
+	<target name="prob4" depends='compile'>
+		<echo message = "Running prob4 with argument '2'"/>
+		<java classname = "prob4">
+		<arg value='2'/>
+		<classpath path="./"/>
+		</java>
+	</target>
+
+</project>

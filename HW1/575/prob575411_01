@@ -1,0 +1,45 @@
+ThreadNum: 575411
+Subject: Re: Finding the square footage of a room
+To: KellyMyers@mchsi.com (Kelly)
+From: Doctor Jerry
+TimeStamp: 09/21/2004 at 09:00:24
+Sent: yes
+
+
+As Kelly wrote to Dr. Math
+On 09/21/2004 at 08:35:29 (Eastern Time),
+>[Question]
+>How do you measure the square footage of a room.  Do I measure the 
+>length of all walls or only two?  After I have those measurements, 
+>what do I do?
+>
+>[Difficulty]
+>Just not sure how to do it properly.
+>
+>[Thoughts]
+>
+
+Hello Kelly,
+
+Are you painting?  What about the ceiling?
+
+If the floor is a rectangle, say 12ft by 10 ft, and the height of the walls (from floor to 
+ceiling) is 8 ft, then
+
+1. you have two walls that are 12 ft by 8 ft
+2. you have two walls that are 10 ft by 8 ft
+3. you have one ceiling that is 12 ft by 10 ft
+
+So, you would multiply 12 by 8 and then double this; multiply 10 by 8 and double this; 
+and then multiply 12 by 10.  After all of that, just add up the results:
+
+12*8 = 96 and 2*96 = 192
+10*8 = 80 and 2*80 = 160
+12*10 = 120
+
+
+192 + 160 + 120 = 472 square feet.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

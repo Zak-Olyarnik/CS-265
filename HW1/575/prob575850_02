@@ -1,0 +1,56 @@
+ThreadNum: 575850
+Subject: Re: Second reply for exponential problem
+To: paul@harnishfeger.com (Paul)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 14:38:01
+Sent: yes
+
+
+As Paul wrote to Dr. Math
+On 09/22/2004 at 14:13:44 (Eastern Time),
+>[Question]
+>The example: 64=2^3*x Was chosen because of my intuitive ability to 
+>predict the answer of 2. As you quickly pointed out.
+>
+> The real problem is Act Head =Antilog(0.04+ 0.0574 No. Stgs 
+>+0.0191Trim - 0.000203 Rated Flow+ 0.00124 Rated Speed) where head is 
+>known and antilog is 10 to the power (0.04+ 0.0574 No. Stgs 
+>+0.0191Trim - 0.000203 Rated Flow+ 0.00124 Rated Speed)  No. Stgs, 
+>Rated Flow, and Rated Speed are given. The solution is for Trim (the 
+>x)I am confident if I get an equation solution for x from the simple 
+>problem I can apply it to the larger problem. I don't think it can be 
+>done intuitively very effectively with random givens.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi,
+
+The problem can be solved analytically if you have of those quantities:
+
+     Head = 10^(0.04+ 0.0574 No. Stgs +0.0191Trim - 0.000203 Rated
+Flow+ 0.00124 Rated Speed)
+
+The only unknown is Trim. Therefore:
+
+    10^(0.0191Trim) = Head / 10^(0.04 + 0.0574 No. Stgs - 0.000203
+Rated Flow+ 0.00124 Rated Speed
+
+Let: z = 0.04 + 0.0574 No. Stgs - 0.000203 Rated Flow+ 0.00124 Rated
+Speed, for convenience:
+
+   10^(0.0191Trim) = Head / 10^z
+
+From here, you can take the logarithm:
+
+   Trim = (1/0.0191)*log(Head / 10^z)
+
+        = (1/0.0191)*[log(Head) - z]
+
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

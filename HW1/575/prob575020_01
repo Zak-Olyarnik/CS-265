@@ -1,0 +1,71 @@
+ThreadNum: 575020
+Subject: Re: Adding using military time
+To: jfong25@hotmail.com (Jenny)
+From: Doctor Peterson
+TimeStamp: 09/20/2004 at 09:27:01
+Sent: yes
+
+Hi, Jenny.
+
+As Jenny wrote to Dr. Math
+On 09/20/2004 at 02:58:28 (Eastern Time),
+>[Question]
+>I am learning a new payroll system at work and this new payroll 
+>system is using military time. I understand the military hours and 
+>the minutes stays the same,  but I get confusion when I am adding 
+the
+>minutes. Here is where I am having difficulties, what is 30 minutes 
+>after 1248?  Another question “the time is 1338 after working four 
+>hours and 22 minutes what time it is”?  How do I calculate this?  Is
+>there an easer way for adding military time?  
+>
+>Please help
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Military time works just the same as regular time, except that you 
+don't write the colon between hours and minutes, and hours can go up 
+to 23. So you add the minutes, then convert to hours and minutes, 
+and "carry" the hours. In an example like yours, let's add 45 
+mintues to 1325:
+
+    1325
+  +   45
+  ------
+      70
+
+Now, 70 minutes is 1 hour and 10 minutes, so we write down 10 for 
+the minutes, and add 1 to the hours:
+
+     1
+    1325
+  +   45
+  ------
+    1410
+
+Essentially what we did was to see that 70 is more than 60, so it's 
+not legal as a number of minutes; we subtracted 60 to get it in 
+range, and added 1 hour to make up for dropping 60 minutes.
+
+For a problem like your second example, follow this:
+
+     1
+    1325
+  +  435
+  ------
+    1800
+
+Here 25+35 = 60, which changes exactly to 1 hour and 00 minutes, so 
+I wrote down 00 minutes and carried the 1.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

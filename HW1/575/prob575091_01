@@ -1,0 +1,58 @@
+ThreadNum: 575091
+Subject: Re: Probability
+To: arunajay@yahoo.com (Ajay )
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 14:04:04
+Sent: yes
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+I'll base my response on Q1 on your work:
+
+>Q1  Find the probability of getting 2 or 3 tails when a coin is tossed
+>four times.
+>
+>The answer is 5/8
+>Kindly expain
+
+>Q1 total outcomes are 16
+>The prob of 2 tails is 6/16
+>prob of 3 tails is 1/4
+>therefore 2 or 3 tails is p 2T X p3T - prob of 2 " and 3 tails?
+>so the answer works out to (6/16+1/4) - 6/64= 34/64, where as the
+>correct answer is 5/8.
+
+How can the result of 2 tails AND 3 tails. The two results are
+mutually exclusive. Either exactly 2 tails were flipped OR 3 tails
+were flipped. So, the probabilities are added:
+
+    6/16 + 1/4 = 10/16 = 5/8
+
+>
+>Q2A certain team wins with the probability of 0.7, loses with prob of
+>0.2 and ties with prob of 0.1. The team palys three games . Find the
+>prob that the team wins atleast two of the games, but not lose. The
+>answer is 0.49. Kindly explain.
+>
+
+The team cannot lose. So, it can only win or tie. The team must win at
+least two of its games. The possible outcomes are:
+
+    Win, Win, Tie
+    Win, Tie, Win
+    Tie, Win, Win
+    Win, Win, Win
+
+The first three have a probability of (0.7)(0.7)(0.1). The last
+possibility has a probability of (0.7)(0.7)(0.7). 
+
+   3*(0.7)(0.7)(0.1) + (0.7)(0.7)(0.7) = 0.49
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

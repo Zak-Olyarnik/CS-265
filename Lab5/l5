@@ -1,0 +1,90 @@
+Q1:
+  i. a sequence of elements where each element is made up of space for data
+and a pointer to the next element
+  ii. a collection which supports the pushing and popping of data based on a
+last-in-first-out methodology
+  iii. a collection which keeps data in order and only supports addition at
+the end and removal at the beginning, based on a first-in-first-out
+methodology
+  iv. a set of key/value pairs, like an array where the index can be any
+data type as well
+
+Q2: It would take log(base2)(n) comparisons, which is a little easier to see
+if you look at the iterative version of binary search.  One comparison
+occurs each time through the while loop (which we'd expect to be on the
+order of a log  from basic array properties), plus one more time for the
+initial comparison. 
+
+Q3: It would take n comparisons, since the worst case is having the element
+either last on the list or not there at all, and each element would have to
+be examined to determine that.
+
+Q4: The cases when linear search is better include when your data set is
+small enough that it wouldn't matter, when the array is not already sorted
+and it would be difficult to do so, or if your data is in a list, which can
+only be searched linearly.
+
+Q5:*84* 37 93 82 98 27 63 73 93 27 75 55 45 8
+	*84* 37 8 82 98 27 63 73 93 27 75 55 45 93 (swaps 93 and 8)
+	*84* 37 8 82 45 27 63 73 93 27 75 55 98 93 (swaps 98 and 45)
+	*84* 37 8 82 45 27 63 73 55 27 75 93 98 93 (swaps 93 and 55)
+	37 8 82 45 27 63 73 55 75 84 93 98 93 (places pivot 84)
+	[*37* 8 82 45 27 63 73 55 75] 84 [*93* 98 93] (picks pivots for the
+recursive arrays)
+	[*37* 8 27 45 82 63 73 55 75] 84 [*93* 93 98] (makes swaps)
+	[8 27 37 45 82 63 73 55 75] 84 [93 93 98] (palces pivots)
+	[*8* 27] 37 [*45* 82 63 73 55 75] 84 [*93*] 93 [*98*] (picks pivots
+recursively.  Note that even the sub-arrays which are already sorted or only
+contain one element must go through this step before detrmining that no
+other work needs to be done)
+	8 27 37 45 [82 63 73 55 75] 84 93 93 98 (no swapping needed to be done in
+this step)
+	8 27 37 45 [*82* 63 73 55 75] 84 93 93 98 (picks the new pivot)
+	8 27 37 45 [63 73 55 75] 82 84 93 93 98 (once again, no swapping so pivot
+is simply moved in correct location)
+	8 27 37 45 [*63* 73 55 75] 82 84 93 93 98 (picks pivot)
+	8 27 37 45 [*63* 55 73 75] 82 84 93 93 98 (swaps 73 and 55)
+	8 27 37 45 [55] 63 [73 75] 82 84 93 93 98(places pivot)
+	8 27 37 45 [*55*] 63 [*73* 75] 82 84 93 93 98 (picks final pivots)
+	8 27 37 45 55 63 73 75 82 84 93 93 98 (once again determines that no
+swapping is necessary, sees that there are no more sub-arrays, finishes)
+
+Q6: 3 24 6 (is the list before any of the pointers are freed)
+
+Q7: L = [13, [28, [24, [3, None]]]]
+    t = [3, None]
+    p = [None]
+    q = [24, [3, None]]
+
+Q8: The first set of output is after writing to the buffer, then assigning a
+pointer to the same data, so it makes sense that they're the same.  The
+second set of output is after modifying s, which is the buffer, so they're
+still both the same.  The third example initializes a pointer to point to
+empty memory using malloc, so when the strcat adds to s, the original data
+in the buffer remains unchanged and the two printfs are different.
+
+Q9: Each array slot contains an "entry", made up of a (key, value, pointer),
+where pointer points to the next entry in that same slot.  I hope my
+description here makes sense.	
+	table[0] = NULL
+	table[1] = NULL
+	table[2] = NULL
+	table[3] = (Bob, 38, (Cos, 86, (NULL)))
+	table[4] = (Vera, 99, (Nash, 11, (Kate, 28, (Jaga, 24, (NULL)))))
+	table[5] = NULL
+	table[6] = (Jessie, 78, (NULL))
+	table[7] = NULL
+
+Q10: int find( char *key, int *p_ans )
+{
+   entry *tempNode;
+   int h = hash (key);
+   for (tempNode = table[h]; tempNode != NULL; tempNode = tempNode->next){
+      if (strcmp(key, tempNode->key)==0){
+         *p_ans = tempNode->val;
+         return 1;
+      }
+   }
+   return 0;
+
+}

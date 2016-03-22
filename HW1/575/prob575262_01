@@ -1,0 +1,52 @@
+ThreadNum: 575262
+Subject: Re: (no subject)
+To: aumphryes@hotmail.com (GREG)
+From: Doctor Ian
+TimeStamp: 09/20/2004 at 22:50:51
+Sent: yes
+
+
+As GREG wrote to Dr. Math
+On 09/20/2004 at 20:07:32 (Eastern Time),
+>[Question]
+>DOES THE LETTERS ON  THIS  PROBLEM  MEAN ANYTHING  6XY/16Y
+>
+>[Difficulty]
+>DOES THE LETTERS HAVE ANY VALUE
+>
+>[Thoughts]
+>6XY/16Y   3/8    WOULD THIS BE CORRECT?
+
+Hi Greg,
+
+They don't have a value; they're place holders for values that we
+_might_ want to give them.  For example, 
+
+  6xy
+  ---
+  16y
+
+means 
+
+  (6 times x times y) divided by (16 times y)
+
+If we assign x and y the values x=1 and y=2, the expression has a
+particular value:
+
+   6*1*2   12
+   ----- = --
+   16*1    32
+
+If we assign x and y the values x=5 and y=4, the expression has a
+different value:
+
+  6*5*4   30
+  ----- = --
+  16*4    16
+
+If you try other values for x and y, you'll find that the value of the
+expression doesn't depend on y at all.  Do you see why this is the case? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

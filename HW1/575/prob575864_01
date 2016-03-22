@@ -1,0 +1,57 @@
+ThreadNum: 575864
+Subject: Re: Having great difficulty with distributing!
+To: eileen_weber@yahoo.com (Eileen)
+From: Doctor Peterson
+TimeStamp: 09/22/2004 at 22:53:32
+Sent: yes
+
+Hi, Eileen.
+
+As Eileen wrote to Dr. Math
+On 09/22/2004 at 15:05:48 (Eastern Time),
+>[Question]
+>2 x - 1  +  3 x + 4 =  1 - 4 x
+> 4             8         12
+>
+>
+>[Difficulty]
+>My book shows the answer....of -4/29
+>
+>[Thoughts]
+>LCM 24
+>6 (2x-1)+ 3(3x+4) = 2 (1-4x)
+>12x - 6 + 9x + 12 = 2 - 8x
+>21x + 5 =  - 6x   <-- THIS IS THE FIRST WRONG EQUATION
+>+6x        + 6x
+>27x + 5 =  0
+>   This is where I get confused....
+>
+
+This was correct:
+
+  12x - 6 + 9x + 12 = 2 - 8x
+
+To simplify the left side, you have to combine like terms; you may
+have just added wrong:
+
+  12x + 9x - 6 + 12
+
+  21x      + 6
+
+The right side can't be simplified; it almost looks like you read it
+as (2-8)x, but it is not! Now you should have
+
+  21x + 6 = 2 - 8x
+
+Next, you want to add 8x to both sides so that x is only on the left;
+and subtract 6 from both sides so the constant is only on the right.
+You seem to be attempting the right thing, so let's see if you can
+finish on your own. And can you see what mistake you made that led to
+the wrong equation?
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

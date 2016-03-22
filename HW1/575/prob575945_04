@@ -1,0 +1,48 @@
+ThreadNum: 575945
+Subject: Re: Recognizing an Identity
+To: tinkerbelllvr101@yahoo.com (Serena)
+From: Doctor Peterson
+TimeStamp: 10/02/2004 at 22:48:58
+Sent: yes
+
+Hi, Serena.
+
+As Serena wrote to Dr. Math
+On 10/02/2004 at 22:38:56 (Eastern Time),
+>[Question]
+>How to recognize an Identity.
+>
+>[Difficulty]
+>Recognizing an Identity. What is an Identity?
+>
+>[Thoughts]
+>The Identity that I am refearing to is a variable equation. It says 
+>that Identities are true for all values of the variables they 
+>contain.
+
+Generally, you can recognize this kind of identity by trying to solve
+it and seeing that all real numbers make it true. You solve an
+equation by transforming it to a simpler one that is equivalent; if
+you can transform it to an identity -- such as the equation 0=0 --
+then you have shown that your equation is an identity.
+
+That may be more or less difficult depending on what kind of equation
+you are working with, but for basic linear equations it is not hard.
+
+Here is an example. Take the equation
+
+  3(2x - 4) = 2(3x - 6)
+
+Simplifying both sides, this becomes
+
+  6x - 12 = 6x - 12
+
+Since the two sides are identical, this is clearly true for all x, and
+therefore so is the original equation.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

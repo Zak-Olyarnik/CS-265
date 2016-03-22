@@ -1,0 +1,52 @@
+ThreadNum: 575653
+Subject: Re: how to integrate the function e^(x^2)
+To: fukang_luo@yahoo.com.sg (kang)
+From: Doctor Fenton
+TimeStamp: 09/22/2004 at 11:23:12
+Sent: yes
+
+
+As kang wrote to Dr. Math
+On 09/21/2004 at 21:07:22 (Eastern Time),
+>[Question]
+>how to integrate the function e^(x^2)? is there a way to integrate 
+>this integral without using complex variable? when i use a 
+>scientific notebook to evaluate the integral, the answer contains a 
+>function erf(ix), what is this function? 
+>
+>[Difficulty]
+>what is the function erf(ix) ?
+>
+>[Thoughts]
+>i have thought of using power series to expand the series for 
+>e^(x^2) and the integrating it term by term. after which i express 
+>the whole series of integrated expansion as a sigmation series. but 
+>my teacher took me that it is not quite practical to express it that 
+>way as we can use trapezoidal rule to approximate the integral. so 
+>may i know the complete working of the integral?
+
+Hi kang,
+
+I think the following answer from the Dr. Math archive will tell 
+you what you want to know: 
+
+  http://mathforum.org/library/drmath/view/52135.html
+
+along with
+
+  http://mathworld.wolfram.com/Erf.html .
+
+I found it by searching on these keywords:
+
+  e^(x^2) antiderivative
+
+You can find other similar answers by doing the same search at
+
+  http://mathforum.org/library/drmath/mathgrepform.html
+
+I hope this helps.  Let me know if you'd like to talk about 
+this some more, or if you have any other questions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

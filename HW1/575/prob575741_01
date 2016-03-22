@@ -1,0 +1,44 @@
+ThreadNum: 575741
+Subject: Re: How many different pizzas can be ordered
+To: donnakim02@yahoo.com (Donna )
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:27:24
+Sent: yes
+
+
+As Donna  wrote to Dr. Math
+On 09/22/2004 at 01:07:14 (Eastern Time),
+>[Question]
+>How many different pizzas can be ordered if a pizza can me selected 
+>with any combination of the following toppings? anchovies, extra 
+>cheese, green peppers, mushrooms, olives, pepperoni, sausage, and 
+>tomatoes?
+>
+>[Difficulty]
+>I'm hoping to find a easier way to solve this, rather than writing 
+>out all the possible different combinations.
+>
+>[Thoughts]
+>I did find a pattern... yet, I'm not understanding it completely.
+>For example, if I were to find how many different pizzas there were 
+>with only 2 toppings, I would find 28.  The pattern found there was:
+>7+6+5+4+3+2+1.  
+>If it were 3 toppings:
+>6!+5!+4!+3!+2!+1
+>However, the pattern is not consistent. For example, when we find 
+>only 7 toppings, the answer 8.  HELP!!
+
+Hi Donna,
+
+Take a look at
+
+  Fast food combinations.
+  http://mathforum.org/dr.math/faq/faq.mcdonalds.html
+
+and write back if it's not clear, or if you still have questions. 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

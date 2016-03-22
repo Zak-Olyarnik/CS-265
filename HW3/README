@@ -1,0 +1,42 @@
+Zakary Olyarnik
+CS-265 Assignment 3
+11-13-14
+
+I quite enjoyed doing this assignment, but there were a lot of errors in the
+description:
+-saying 5x5 grid when it ends up being 7x7
+-saying 6 bridges when there are actually 8
+-saying that the outcome should be reported in a single line, then later
+with one result per line
+-the constructors.  Any subclass must have the same constructor as its
+parent, or else extend it.  It cannot have less (i.e., just the string
+instead of the string and rng) without overriding the original constructor
+entirely, but then super cannot be used to "call the parent class'
+constructor to set the name".  I ended up coding mine passing the rng
+through anyway, which ends up being a lot more important than the unused
+name attribute anyway.
+
+I was expecting a lot more trouble than I had, after doing this week's lab,
+but the code here was pretty straightforward.  The only thing I wasn't happy
+with was the part evaluating if the mouse was on a bridge, since those
+spaces on the board were very specifically located.  I ended up just using a
+giant or-statement to compare each to the mouse's current location.  A
+switch statement that could have just fallen through all of those spaces
+would have been better, but the Point class prevents that.  Without setting
+up a much more complicated grid class system like we did in CS-172, the or's
+were the best option.  Additionally, I would have liked to truncate the
+percentages output, but I looked up how to do that and it involves defining
+new paterns to follow, importing more libraries to make it work, etc.  Too
+much trouble for something that wasn't specified in the assignment.
+
+I did add some debugging, because I was suspect of the results I was
+getting.  I had it print out the current location of the mouse at the
+endgame, to match that to the water, bridge, and cat positions to ensure
+that the correct ending was being tallied.  I did the same in the routine
+that set starting locations, to make sure it re-placed the mouse in the
+event that both animals started in the same position.  I left these checks,
+commented out, to lend additional credibility to my code.
+
+That's about everything!
+
+

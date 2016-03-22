@@ -1,0 +1,42 @@
+ThreadNum: 575426
+Subject: Re: Integral Domain and Associated Primes
+To: sprai_x@yahoo.com (Ong)
+From: Doctor Vogler
+TimeStamp: 09/23/2004 at 09:08:53
+Sent: yes
+
+
+As Ong wrote to Dr. Math
+On 09/22/2004 at 07:54:37 (Eastern Time),
+>I think I got it =)
+>r|s => there exists x in R such that rx=s.
+>Since s is prime, it is irreducible.
+>Hence either r or x is a unit in R. 
+>But r is a prime, it cannot be a unit. 
+>Thus x is a unit in R.
+>I.e. there exists a unit x in R such that rx=s.
+>Therefore r~s. 
+>
+>But I have one more problem. I am supposed to disprove the following:
+>
+>Let f:R -> S be a ring homomorphism. Assume that R and S are 
+>commutative rings with 1. If J is a prime ideal of S, then the 
+>preimage of J is a prime ideal of R.
+>
+>My problem is, isn't the statement true? The last page of this 
+>website: http://math.gmu.edu/~jshapiro/621/621e2sol.pdf even has a 
+>proof that the statement holds for any ring R and S. I believe the 
+>question is wrong. Can you confirm my doubt or is there anything 
+>that I miss?
+>
+>Thanks.
+>Ong
+>
+
+Hi Ong,
+
+The proof you found looks valid to me.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

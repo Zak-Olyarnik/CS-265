@@ -1,0 +1,84 @@
+ThreadNum: 575481
+Subject: Re: Laws of cosine
+To: ashavnair@comcast.net (Ash)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 16:53:11
+Sent: yes
+
+As Ash wrote to Dr. Math
+On 09/21/2004 at 14:39:35 (Eastern Time),
+>[Question]
+>When we were learning laws of cosines we couldnt figure why we 
+>should be using the laws of cosine to find out teh biggest angle in 
+>the triangle when the three sides are given.If we find teh smaller 
+>angles first using the laws of cosine and then use laws of sines to 
+>find teh rest of teh angle we get defferent solutions.
+>Here is what we did:
+>
+>Solve traingle ABC when  a = 9, b= 7 c = 12.
+>
+>we solved Angle A first and got it as 48 degrees
+>
+>Then we solved for angle B using sine law.
+>
+>SinB/b = SinA/a and got B as 35 degrees
+>
+>And now we solved for c by subracting  angle A and B form 180 to get 
+>C as 83 degrees.
+>
+>But when I solve it for c first we get c as 97 degrees using cosine 
+>law..
+>
+>Can you please explain why we haveto do Angle C first?
+>
+>We are too confused with it..please
+>
+>Ash
+
+Hi Ash,
+you don't have to use the cosine law, but it is easier!
+
+When you're using the cosine law, you eventually get to
+something like
+cos(C) = (some number).
+Then you do
+C = (inverse cosine) (some number).
+Now, with inverse cosine function, there's only one answer between
+0 and 180 degrees, and since you have a triangle, that's your answer!
+
+When you use the sine law, though, you get
+sin(C) = (some number)
+and so
+C = (inverse sine) (some number).
+
+With inverse sine, there's only one answer between -90 and 90 degrees,
+and that's the answer your calculator will give you.  BUT because it's
+true that sin(x) = sin(180 - x), there are TWO answers between 0
+and 180 degrees!  Sometimes both answers are possible, but in this
+case where you know all three side lengths, only one of the answers
+can be correct.  You can figure out which by making sure that the angles
+add up to 180 in the end.
+
+It's good to know that inverse sine gives TWO answers for possible
+triangle angles -- there are times (like in the SSA case) where you need
+both.  But it's a lot easier to use the law of cosines whenever you
+can because it only ever gives one possible value for the angle.
+
+Some examples, just in case the above wasn't clear:
+if you have
+cos(C) = 1/2 then C must equal 60 degrees.
+If you look at the unit circle, C could be -60 degrees also, but
+in a triangle that doesn't make much sense!
+
+But if you have
+sin(C) = sqrt(3)/2
+then your calculator will say C is 60 degrees,
+but if you look at the unit circle you can see that C = 120 degrees
+(180 - 60) is also possible!
+
+Let me know if you still have questions on this -- it's a tricky topic!
+
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

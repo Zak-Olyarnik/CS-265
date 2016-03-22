@@ -1,0 +1,50 @@
+Q1.1: I searched for the string "hello" and got back a message "Segmentation
+fault (core dumped)".  Sure enough, a file called "core" has appeared in my
+directory.  I tried to cat it but it's just garbage.  I tried to run the
+program again to test a string that is in the file, but receive an error
+message "Cannot open in.bug for reading.  Exiting."
+
+Q1.2: Before I even typed the bt command, it said that "Program terminated
+with signal 11, Segmentation fault."  It  names function "__strcmp_sse2()"
+in frame 0.  After the bt command, it shows that same one as zero, then
+"inTable()" as 1 and "main()" as 2.  After looking online, I learned that
+the numbers shift on the stack, so the most recent one is actually zero and
+therefore both displays mean that it failed in __strcmp_sse2().
+
+Q1.3:
+a. Okay, when I tried to compile, I got an error about how it expected type
+"int *" but got something else.  After figuring out that I actually wanted
+to look at the a.out file in gdb, it was talking about a vfscanf error,
+which I researched and determined was talking about the same thing.  I
+changed the third line in main() to "scanf( "%d", &n );", so the address
+thing works.
+b. dbg "exited with code 021", but once again just trying to compile told me
+that there was a formatting issue between integer and double types.  I
+switched the "%f" and "%d" arguments so that the line reads "printf("Pi=%f,
+n=%d\n", pi, n);", the argument types match, and the code runs fine.
+c. The first thing I checked was the syntax of the failing strcmp, which got
+me nowhere, but by printing the values of each slot in the st array, I found
+that st[0] was a NULL pointer and could not be compared to s.  I fixed this
+by changing the while loop in main(), so that numLines is incremented after
+it reads into the buffer, filling the zero slot before incrementing to one.
+d. The main problem was another mismatched type with scanf, solved by
+changing to "scanf("%d",&n);".  If you put in values that fail the asserts,
+it will tell you so, but my understanding is that this is the behaviour they
+want from them.
+e. This error was solved by adding another swap controlled by a random
+integer.  I also added an assert before swapping the pivot to the beginning,
+to make sure this worked.  Basically, my code now matches that which is
+provided in the normal quicksort.c code.  As for all of the asserts that
+should be added, they are conveniently listed at the top of the program: one
+for scanf input size, one for words < N, and additional ones to catch errors
+from scanf, strdup, and Win32.
+
+Q1.4: It looks like the compiler didn't catch it because there in no runtime
+problem.  sort2.c still runs if you pipe it string data, it just doesn't
+actually do the sort.
+
+Q1.5: It still runs a sort without erroring out of the program, because no
+matter what is listed in the file (numbers, words, otherwise), everything is
+read in as a string.  The catch is that for numbers with multiple digits, it
+will a list with an incorrect order like 10 < 5.
+

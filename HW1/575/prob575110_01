@@ -1,0 +1,58 @@
+ThreadNum: 575110
+Subject: Re: do you have to memorize sum of 2 cubes or can you find it
+To: xware@mailcity.com (kelly)
+From: Doctor Schwa
+TimeStamp: 09/20/2004 at 15:57:21
+Sent: yes
+
+As kelly wrote to Dr. Math
+On 09/20/2004 at 15:38:20 (Eastern Time),
+>[Question]
+>I was wondering if there was a way that the factor of the sum of 2 
+>cubes and/or the difference of two cubes was derived.  I hate 
+>memorizing something if I can figure it out.  I know that after it is 
+>factored you can multiply the 2 statements together to get the sum of 
+>the two cubes back, but just wondering how they (mathemeticians) 
+>figured it out in the first place.
+>
+>kelly
+
+Hi Kelly,
+one nice method that might help is that if
+(x^3 + y^3) = (stuff) * (other stuff),
+then you can notice that when x = -y, the left side is zero.
+Therefore one of the factors on the right side must also be 0,
+and so you can figure that (stuff) could be (x+y) -- the right side
+has to be divisible by x+y.  Does that make sense?
+
+Then, once you know that, you can do some long division.
+ 
+                x^2   -   x y   + y^2
+       /-------------------------------
+x + y / x^3 + 0 x^2 y + 0 x y^2 + y^3
+        x^3 +   x^2 y
+       --------------
+              - x^2 y + 0 x y^2
+              - x^2 y -   x y^2
+             --------------------
+                          x y^2 + y^3
+                          x y^2 + y^3
+                         --------------
+                                  0
+
+Does that make sense?
+
+You can do the same thing with (x^3 - y^3) necessarily being
+divisible by x-y and then from there you find the quotient by
+long division again.
+
+Let me know if you have more questions!
+I'm always in favor of people understanding things rather than
+only memorizing them.  The sum and difference of cubes are things
+I did NOT have memorized when I was a student, and it didn't slow
+me down much -- I have them memorized now, just because I
+teach them at least once per year...
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

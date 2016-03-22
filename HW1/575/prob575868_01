@@ -1,0 +1,70 @@
+ThreadNum: 575868
+Subject: Re: Epsilon-Delta Proof with Fractions (variables only)
+To: djw101@hotmail.com (Dan)
+From: Doctor Fenton
+TimeStamp: 09/24/2004 at 20:28:45
+Sent: yes
+
+
+As Dan wrote to Dr. Math
+On 09/22/2004 at 15:12:39 (Eastern Time),
+>[Question]
+>How do I proove that:
+>  
+>  lim   1/x = 1/a
+>  x->a
+>
+>
+>
+>[Difficulty]
+>I've never done an Epsilon proof with just variables, and I'm 
+>finfing it a little confusing.
+>
+>[Thoughts]
+>I've been trying to work with the |1/x - 1/a| < E to try and find a 
+>min to let delta be equal to, but I get as far as
+>     |ax|*|a-x| < E 
+>and don't know where to go from there.
+
+Hi Dan,
+
+Thanks for writing to Dr. Math.  To prove that
+
+   lim f(x) = L
+  x->a
+
+you must show that given any positive epsilon (E), there is a 
+positive delta (d) such that if 0 < |x-a| < d, then |f(x) - L| < E.
+
+One way that often works is to find what is called a "Lipschitz
+inequality", which says that there is a constant C and a number d1
+such that for 0 < |x-a| < d1, 
+
+   |f(x) - L| <= C|x-a| .
+
+If you have a Lipschitz inequality for f, can you see how to find
+d, given E?
+
+For f(x) = 1/x,
+                      |x-a| 
+   |(1/x) - (1/a)| = -------   .
+                       |ax|
+
+The quantity |x-a| is multiplied by the factor 1/|ax|. When x is
+close to a, how big can this factor be?  If you can find an upper
+bound C, then you will have a Lipschitz inequality for f at x=a.
+
+A fraction (such as 1/|ax|) gets larger as you decrease its 
+denominator, and if the denominator can approach 0, the fraction
+will become unbounded.  How can you make sure that the denominator
+stays away from 0?  (You get to restrict x to an interval |x-a| < d1;
+how would you choose d1?)  If you make a restriction which keeps
+x away from 0, how large can 1/|ax| be? 
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

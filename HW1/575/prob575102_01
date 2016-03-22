@@ -1,0 +1,45 @@
+ThreadNum: 575102
+Subject: Re: Injective subjective
+To: victorakin2@hotmail.com (Wallace)
+From: Doctor Fenton
+TimeStamp: 09/20/2004 at 21:47:57
+Sent: yes
+
+
+As Wallace wrote to Dr. Math
+On 09/20/2004 at 15:09:59 (Eastern Time),
+>[Question]
+>How do I define f to be the map from R to R such that, for each 
+>element r in R, f(r)=r2+1 (r2 means r to the second power).  Is f 
+>Injective? Is f Subjective?
+>
+>[Difficulty]
+>To show F is injective and subjective?
+>
+>[Thoughts]
+>I have no idea how to prove it?
+
+Hi Wallace,
+
+Thanks for writing to Dr. Math.  We usually write exponents with "^",
+so "r squared plus 1" would be written r^2 + 1 .
+
+To determine if f is injective, ask whether it is possible to find
+two different numbers r and s such that f(r) = f(s).  Is that 
+possible?
+
+To determine if f is surjective (not subjective), you need to 
+determine whether the equation
+
+   r^2 + 1 = y
+
+can always be solved, for any value of y.  Can you determine whether
+this is true?
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

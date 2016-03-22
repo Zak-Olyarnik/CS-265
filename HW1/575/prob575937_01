@@ -1,0 +1,104 @@
+ThreadNum: 575937
+Subject: Re: Calculus- Limits
+To: elynnb313@gmail.com (Lynn)
+From: Doctor Fenton
+TimeStamp: 09/23/2004 at 08:42:59
+Sent: yes
+
+
+As Lynn wrote to Dr. Math
+On 09/22/2004 at 18:41:54 (Eastern Time),
+>[Question]
+>I'm a little confused with limits on several problems. The first one 
+>is this: 
+>
+>1. Give evidence that shows that lim(x->2) ((x^2)+4)/(x-2) does not 
+>exist. 
+>
+>2. Discuss the continuity of: f(x)= (2-x)/((x^2)-4)
+>
+>3. Find: lim(x->0)  ((1)/(Square root of 1+x))-1   <-thats all on 
+>the numerator    /x
+>
+>[Difficulty]
+>1. the bottom would cancel out when you plug in the two. and you 
+>can't simplify the top right? how do you show that it doesn't exist?
+>
+>2. I'm not sure how you figure out which type it is, like hole, 
+>skip, or jump, because I don't know what to plug in.
+>
+>3. I'm not even really sure where to start. Rationalization maybe???
+>
+>[Thoughts]
+>Thank you so much. I really really appreciate it!
+
+Hi Lynn,
+
+Thanks for writing to Dr. Math.  In the first problem, you need to 
+realize that technically a limit is not computed by just substituting
+the limiting value of x, although most limit problems may give you
+that impression.  To determine
+
+   lim f(x)
+  x->a
+
+you are supposed to examine the values of f(x) for x very very close 
+to, but different from, a and to determine if the values f(x) are
+getting closer and closer to something as x gets closer and closer to
+a.  Most limit problems usually given involve manipulating or 
+simplifying f(x) to show that for x not equal to a, f(x) is equal to
+a continuous function g(x), and the definition of continuity is
+that
+
+   lim g(x) = g(a) .
+  x->a
+
+That is, continuous functions are exactly the functions whose limits
+can be computed by evaluation.  But this doesn't help in figuring out
+limits such as
+
+        sin(x)
+   lim  ------   or   lim x*sin(1/x)  .
+  x->0     x         x->0
+
+I think what the problem wants is for you to substitute numbers x which
+are very close to 2, such as 2.1, 2.01, 2.001, 2.0001, etc. and see
+if the values f(2.1),f(2.01),f(2.001),... get closer and closer to 
+something, as they must if the expression has a limit.
+
+>2. Discuss the continuity of: f(x)= (2-x)/((x^2)-4)
+
+I gave the definition of continuity above, and this has three parts:
+
+ (1) lim f(x) exists;
+    x->a
+
+  (2) f(a) is defined;
+
+  (3) the two are equal.
+
+The expression
+
+   lim f(x) = f(a) 
+  x->a
+
+requires all three statements to be true.  You need to consider all
+possible values of a, and determine for which a these three conditions
+are true.  (For most values of a, the three conditions are easy; there
+are only a few points where there is any question.)
+
+>3. Find: lim(x->0)  ((1)/(Square root of 1+x))-1   <-thats all on 
+>the numerator    /x
+
+First, you have a complicated fraction, whose numerator is itself
+a fraction.  Use algebra to rewrite the expression as a single
+fraction.  Then rationalize, which will algebraically simplify the
+expression and make it easier to find the limit.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

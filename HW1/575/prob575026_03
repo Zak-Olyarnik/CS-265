@@ -1,0 +1,56 @@
+ThreadNum: 575026
+Subject: Re: characteristic of a ring
+To: veselic@planet.nl (viky)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 08:48:30
+Sent: yes
+
+
+As viky wrote to Dr. Math
+On 09/21/2004 at 07:01:52 (Eastern Time),
+>Hello Dr.Vogler,
+>
+>I se that in rings like <R,+,*> with R for example the real, complex 
+>numbers that -1 is an unit But I don't know how to proof this in 
+>general.And I understand that from this fact it follows that 1=-1 
+>because the unitgroup only exists of 1.So 1=-1, 1+1=0 and n=2.
+>
+>Greetings,
+>
+>Viky
+
+Hi Viky,
+
+I am glad that you didn't simply immediately accept the fact that -1
+is a number in any ring and is clearly a unit.  It does need showing,
+but it can be shown.  You see, a ring is a group under +, with
+identity 0, which means that the unit 1 (which you were told is in the
+ring) has an additive inverse.  Let's call that number -1.  Now we know
+
+  1 + -1 = 0
+
+as well as the normal rules of rings (like distributivity).  We also
+know that
+
+  1 * 1 = 1
+
+by the properties of 1.  Now what does
+
+  (1 + -1) * (1 + -1)
+
+equal?  Why?  That gives you an equation, which will be useful.  Now
+use the distributive law on this product, and simplify to show that
+
+  -1 * -1
+
+is the additive inverse of -1, which is what?  That means -1 is a
+unit.  But there is only one unit, which is what?  So -1 must be the
+same thing as that.  Then look back at the first equation
+
+  1 + -1 = 0.
+
+Does this help?  Can you finish it now?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

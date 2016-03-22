@@ -1,0 +1,51 @@
+ThreadNum: 575753
+Subject: Re: What step Comes first in this equation? Please Help!!!!
+To: Chuntie03@yahoo.com (Rolando)
+From: Doctor Rick
+TimeStamp: 09/22/2004 at 08:40:49
+Sent: yes
+
+Hi, Rolando.
+
+As Rolando wrote to Dr. Math
+On 09/22/2004 at 04:30:51 (Eastern Time),
+>[Question]
+>5+2(x-3)=2[5-4(x+2)]
+>
+>[Difficulty]
+>The second half  i got the first half which equals 5+2x-6 but waht 
+is the first 
+>step in the next side??
+>
+>[Thoughts]
+>
+
+You are correct to begin the solution of this equation by simplifying 
+both sides of the equation. You haven't finished simplifying the left 
+side, but you are well on the way.
+
+On the right side, think of how you would evaluate the expression if 
+you knew the value of x. First you would add 2 to x (evaluating the 
+expression in the innermost parentheses). Then you would multiply 
+that value by -4. Thus, you'll be evaluating the expression -4(x+2) 
+at an early stage.
+
+Instead of evaluating it, you can simplify it:
+
+  -4(x+2) = -4x + -4*2
+          = -4x - 8
+
+Now you've got
+
+  2(5-4(x+2)) = 2(5 + (-4x - 8))
+
+The next step will be to simplify the expression in the outer 
+parentheses:
+
+  (5 + (-4x - 8)) = ?
+
+Continue in this manner.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

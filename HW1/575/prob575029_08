@@ -1,0 +1,73 @@
+ThreadNum: 575029
+Subject: Re: ring homorphisms and ideals
+To: bing_qi_bu_fan@yahoo.com.sg (KS)
+From: Doctor Jacques
+TimeStamp: 09/23/2004 at 02:34:09
+Sent: yes
+
+
+As KS wrote to Dr. Math
+On 09/22/2004 at 14:00:45 (Eastern Time),
+>Dear Sir, would this be a counter-example to the last statement?
+>let f : Z -> Z, defined by f(x)=0 for all x in Z, and 
+>let J = (2).(alternatively, let J =(0) )
+
+Hi again,
+
+This is essentially a matter of definitions.
+
+The first remark I would have is that, strictly speaking, your f does 
+not qualify as a ring homomorphism, if we use the fact that R and S 
+have a multiplicative identity. Indeed, a homomorphism between unit 
+rings must send 1_R to 1_S. See, for example:
+
+  http://mathworld.wolfram.com/RingHomomorphism.html
+
+(last paragraph).
+
+However, we never used the fact that R and S have a 1, and this is 
+irrelevant to this example.
+
+This other point is that f^(-1)(0) = Z, and the question is whether 
+or not Z itself qualifies as a prime ideal (note that my proof did 
+not address that point - there was no check that I is a proper 
+ideal). I agree that most authors require a prime ideal to be proper; 
+however, there is no universal agreement on that point. See, for 
+example:
+
+  http://mathworld.wolfram.com/PrimeIdeal.html
+
+(see the remark at the end of the third paragraph).
+
+This question has some interesting aspects.
+
+The full ring satisifies the basic property of prime ideals : if it 
+contains the product of two elements, it contains at least one of the 
+elements (both statements are always true). However, we do not 
+consider the element 1 as a prime, and the full ring is the principal 
+ideal <1>, so it can make some sense not to consider it as a prime 
+ideal. But again, we do not consider 0 as a prime element, but 
+everybody agrees that the 0 ideal is prime in an integral domain. As 
+you see, there are arguments in either direction.
+
+If we require a prime ideal to be proper, the statement would be true 
+if we add the condition that J does not contain f(R).
+
+Now, if we insist on considering R and S as unit rings, and f to be a 
+homomorphism between unit rings, then f(1_R) = 1_S, and, in this 
+case, if I = R,  J contains 1_S and is therefore equal to S, which 
+means that J is not prime according to the current definition.
+
+To summarize, to make the statement true, we must:
+
+* Remove the condition that R and S are unit rings (or, more
+  accurately, remove the implied condition on f).
+
+* Accept that the definition of a prime ideal implies that the ideal
+  is proper.
+
+* Add the condition that J does not contain f(R).
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,44 @@
+ThreadNum: 575069
+Subject: Re: Irrational numbers in other number bases
+To: zoombag@yahoo.com (John)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 13:41:52
+Sent: yes
+
+
+As John wrote to Dr. Math
+On 09/20/2004 at 11:37:59 (Eastern Time),
+>[Question]
+>Dr Math,
+>
+>If a particular ratio is irrational in the base 10 number system, 
+>will it be irrational in all other number systems?  How can I prove 
+>this without converting the problem into numerous other number bases?
+>
+>[Difficulty]
+>I do not know how to even start when using different number bases in 
+>a proof.
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+If the base is rational (i.e. base 2, base 4, etc.) the number will be
+irrational in all bases. Proving it is relatively simple.
+
+If a number is rational in some base, it can be expressed as a/b,
+where b is not 0. Converting a and b to other bases doesn't not change
+the numbers. It only changes how they "look". So, the number is still
+a/b and rational. So, it is not possible for a number to be rational
+in one base and irrational in another. Hence, an irrational number is
+irrational in all bases.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

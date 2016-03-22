@@ -1,0 +1,54 @@
+ThreadNum: 575074
+Subject: Re: partial differentiation
+To: cwto@so-net.com.hk (Wai)
+From: Doctor Fenton
+TimeStamp: 09/22/2004 at 17:03:35
+Sent: yes
+
+
+As Wai wrote to Dr. Math
+On 09/22/2004 at 11:48:22 (Eastern Time),
+>For Q1, w with respect to x as w_x, etc,
+>then
+>
+>   w_x = w_u * u_x + w_v * v_x
+>and
+>    w_xx = [w_u * u_x]_x + [w_v * v_x]_x
+>         = w_uu * (u_x)^2 + w_u * u_xx + w_vu * u_x * v_x + w_v * 
+>v_xx
+>
+>the problem is that w_xx, I don't understand, what rules is using?
+>Can you show detail step.
+>
+>For Q2, u(dF/du) - v(dF/dv) = 2x(df/dx)=0 ,then f(x,y) is 
+>independent of x. That must be 2x=0 or df/dx=0, why?
+>
+
+Hi Wai,
+
+>the problem is that w_xx, I don't understand, what rules is using?
+
+Use the Product Rule and the Chain Rule, so that
+
+   w_xx = [w_u * u_x]_x + [w_v * v_x]_x
+
+        = ([w_u]_x * u_x + w_u * [u_x]_x)  +  
+                 
+            [w_v ]_x * v_x + w_v  * [v_x]_x
+
+and
+
+  [w_u]_x = [w_u]_u * u_x + [w_u]_v * v_x
+
+and similarly for [w_v]_x .
+
+>For Q2, u(dF/du) - v(dF/dv) = 2x(df/dx)=0 ,then f(x,y) is 
+>independent of x. That must be 2x=0 or df/dx=0, why?
+
+This expression must be 0 for all x, in particular, for x not equal
+to 0.  That can only happen if df/dx = 0 for x not 0, but then
+by continuity, df/dx = 0 for all x.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

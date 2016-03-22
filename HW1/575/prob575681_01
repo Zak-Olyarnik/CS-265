@@ -1,0 +1,112 @@
+ThreadNum: 575681
+Subject: Re: I ahve a diffciult distance rpoblem to solve
+To: UltimateParagon1@aol.com (Nick)
+From: Doctor Greenie
+TimeStamp: 09/22/2004 at 02:04:59
+Sent: yes
+
+
+As Nick wrote to Dr. Math
+On 09/21/2004 at 21:50:04 (Eastern Time),
+>[Question]
+>Person A can cover the distance between two places P and Q  in 14 
+>hours. Person B starts at the same time but from 10 miles behind P 
+>and needs 1/2 an hour less than Person A to cover 20 miles. Find 
+>distance from P to Q.
+>
+>[Difficulty]
+>I don't understand how to set the problem up. The words confuse me, 
+>and it seems to have too many variables.
+>
+>[Thoughts]
+>I think that distancefrom P to Q equals 20 miles / A +30
+>
+>Hi, Nick --
+
+If I understand it correctly, this certainly is a difficult problem 
+to solve.  In fact, the way you have presented it, I don't believe 
+it can be solved....
+
+I think you have left out some critical information.  The problem 
+can be solved -- and the answer comes out "nice" -- if you state 
+that person B reaches place Q at the same time as person A.
+
+So person A is covering the number of miles "x" between places P and 
+Q in 14 hours, and person B is covering "x+10" miles in the same 14 
+hours.
+
+I looked for quite a while for ways to combine pieces of information 
+in this problem to cut down on the number of steps and the amount of 
+work required, but I couldn't find any.  So the solution below takes 
+one slow step at a time through the entire problem.
+
+(1) The thing we need to find is the distance between P and Q, so we 
+might as well make that our unknown:
+
+  let x = distance (miles) between P and Q
+
+(2) We know A covers the distance x in 14 hours, so
+
+  speed of A = x/14 (miles per hour)
+
+(3) A's speed is x/14 miles per hour; we can view this as 14/x hours 
+per mile, so then
+
+  A's time to go 20 miles = 20*(14/x) = 280/x (hours)
+
+(4) We are told that B covers 20 miles in 1/2 hour less than A, so
+
+  B's time to go 20 miles = 280/x - 1/2 (hours)
+
+(5) Since it takes B (280/x - 1/2) hours to go 20 miles, we know
+
+                   20
+  B's speed = -----------
+              280/x - 1/2
+
+                   20
+            = ------------
+                 560-x
+                 -----
+                   2x
+
+               40x
+            = -----  (miles per hour)
+              560-x
+
+(6) We now have expressions for B's speed and for the distance he 
+covers; the time required for that (distance divided by speed) must 
+be 14 hours:
+
+      x+10
+  ----------- = 14
+      40x
+     -----
+     560-x
+
+
+  (x+10)(560-x)
+  ------------- = 14
+       40x
+
+  (x+10)(560-x) = 560x
+
+  -x^2+550x+5600 = 560x
+
+  -x^2-10x+5600 = 0
+
+  x^2+10x-5600 = 0
+
+  (x+80)(x-70) = 0
+
+  x = -80 or x = 70
+
+Clearly x = -80 does not make sense for this problem; the distance 
+between places P and Q is 70 miles.
+
+I hope all this helps.  Please write back if you have any further 
+questions about any of this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

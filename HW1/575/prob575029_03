@@ -1,0 +1,54 @@
+ThreadNum: 575029
+Subject: Re: ring homorphisms and ideals
+To: bing_qi_bu_fan@yahoo.com.sg (KS)
+From: Doctor Jacques
+TimeStamp: 09/21/2004 at 03:34:00
+Sent: yes
+
+
+As KS wrote to Dr. Math
+On 09/20/2004 at 22:16:36 (Eastern Time),
+>Thank you for your reply.
+>
+>1.I was thinking, are there any ways I can add extra conditions to 
+>make the two statments true? How do I go about doing so?
+>
+>2.Assuming that R and S are commutative rings with 1, if J is a 
+>prime ideal of S, then is f^(-1) (J) a prime ideal of R? If this 
+>staement is false, what is the counter-example?
+
+Hi again,
+
+To make the statements true, simply follow the indications I gave you 
+in my previous answer.
+
+For example, if f is surjective, the first statement is true; more 
+generally, you can say that if I is an ideal of R, then f(I) is 
+always an ideal of f(R) (f is surjective if f(R) = S).
+
+For the second statement, it will be true if I contains ker f. 
+Indeed, assume that x is an element of R \ I (the complement of I). 
+If f(x) is in f(I), then there is some x' in I such that f(x) = f
+(x'). This means that x - x' is in ker f, and, as ker f is a subset 
+of I, this implies that x is in I, contrary to the hypothesis. 
+Therefore f(x) is not in f(I), and f(I) is a proper ideal.
+
+(More generally, the quotient rings f(R)/f(I) and R/I are isomorphic 
+when I contains ker f)
+
+For the second question, I believe the statement is true. Let us 
+write:
+
+  I = f^(-1)(J) = {x in R | f(x) in J}
+
+then f(I) is a subset of J (with equality if f is surjective).
+
+Assume that we have x and y in R such that x*y is in I. This means 
+that f(x*) = f(x)*f(y) is in J.
+
+As J is prime, one of the factors (for example, f(x)) is in J, and 
+this means that x is in I, by the defition of I.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

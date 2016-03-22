@@ -1,0 +1,34 @@
+ThreadNum: 575706
+Subject: Re: word problem
+To: davidj59@netzero.com (david)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:09:14
+Sent: yes
+
+
+As david wrote to Dr. Math
+On 09/21/2004 at 22:55:00 (Eastern Time),
+>[Question]
+>Kermit can only jump half way to the side of the pond. If he is 10 
+>meters from the side of the pond, how many jumps will the frog takw 
+>to get to them side of the pond?
+>
+>[Difficulty]
+>Everything
+>
+>[Thoughts]
+>I think we should make a t chart showing 15 jumps
+
+Hi David,
+
+If I understand the question directly, he can _never_ get to the side
+of the pond, can he?  Suppose he's 10 meters away.  After one jump,
+he's 5 meters away.  Then 2 1/2 meters.  Then 1 1/4 meters. 
+
+After each jump, we divide the distance by 2 to get the new distance.
+ How many times do we have to divide a number by 2 to get all the way
+to zero? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,83 @@
+ThreadNum: 575967
+Subject: Re: Perimeter of a Rectangle Word Problem
+To: KaeThomas01@aol.com (Kindra)
+From: Doctor Greenie
+TimeStamp: 09/23/2004 at 00:30:11
+Sent: yes
+
+
+As Kindra wrote to Dr. Math
+On 09/22/2004 at 19:55:09 (Eastern Time),
+>[Question]
+>I can do the work but seeing the problem in word form is confusing, 
+>could you help me figure out how to write out a problem and I can 
+>solve it myself but I need help to start.  The problem is: a 
+>rectangle is twice as long as it is wide. The perimeter is 60. what 
+>is the length and width of the rectangle?
+>
+>[Difficulty]
+>the way it is in word form is confusing.
+>
+>[Thoughts]
+>I just know that the formula is P=2w+2l
+
+Hi, Kindra --
+
+Try always following four steps to solve word problems:
+
+(1) carefully define the variable(s) and expression(s) you are going 
+to use
+(2) write an equation, using those variables and expressions, to 
+write an equation reflecting the given information
+(3) solve the equation
+(4) answer the problem (the solution to the equation is usually not 
+the whole answer to the problem)
+
+Let's use this process on your problem.
+
+(1) We need to find the length and width of the rectangle, so we can 
+start with
+
+  let l = length
+  let w = width
+
+In this problem, we can simplify this, because we are told that the 
+length is twice the width.  So we can get by with a single variable:
+
+  let width = w
+  then length = 2w
+
+(2) Now use your formula
+
+  P=2w+2l
+
+and the information given in the problem (that the perimeter is 60) 
+to write an equation, using the expressions from (1) for the width 
+and length:
+
+  perimeter = twice width plus twice length = 60
+
+  2w + 2(2w) = 60
+
+Now we can solve the equation for "w" (step 3) and use our result to 
+answer the question.
+
+(3) solve the equation
+
+  2w + 2(2w) = 60
+  2w + 4w = 60
+  6w = 60
+  w = 10
+
+(4) answer the question
+
+  the width is w=10
+  the length is 2w=20
+
+I hope this detailed example helps.  Please write back if you have 
+any further questions about the process in general or this problem 
+in particular.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

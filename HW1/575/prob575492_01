@@ -1,0 +1,44 @@
+ThreadNum: 575492
+Subject: Re: How to factor imaginary cube roots and put in a+bi form
+To: lilputnam@hotmail.com (heather)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:11:22
+Sent: yes
+
+As heather wrote to Dr. Math
+On 09/21/2004 at 15:40:57 (Eastern Time),
+>[Question]
+>I am just making up an equation to get an understaning. How can this 
+>be factored and how do you put it in the a + bi form?
+>Ex. x^3 + x^2 + x + 1 = 0
+>
+>[Difficulty]
+>I dont understand why they are using x instead of i if its an 
+>imaginary problem. I dont undersand how to factor with the cube 
+>root. I really do not know how to do this equation at all but i will 
+>give it a try. 
+>
+>[Thoughts]
+>x^3 + x^2 + x + 1 = 0
+>(x^3+x)+(x^2+1)
+>x(x^2+1)+(x^2+1) =0
+>x=0, x= sqrt + and - 1(or i), x= sqrt + and - 1(or i)
+>how can i write this in a + bi form?
+
+Sounds good to me, Heather!
+
+If you really want a + bi form,
+then instead of 0 you write 0 + 0i
+and instead of i you write 0 + 1i
+and instead of -i you write 0 + (-1)i
+but that doesn't really matter -- you've solved the problem just fine.
+
+Factoring cubics in general is hard -- we have a frequently
+asked questions page entry on that topic -- but mostly we only
+give questions in algebra 2 class that can be factored by some
+sneaky method like the one you discovered here, grouping the
+terms into pairs and finding a common factor.
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,45 @@
+ThreadNum: 575885
+Subject: Re: Solving for X, Algebra
+To: bishophf@cvw5.navy.mil (Bud)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 16:58:35
+Sent: yes
+
+
+As Bud wrote to Dr. Math
+On 09/22/2004 at 16:01:12 (Eastern Time),
+>[Question]
+>Hi, I'm working post-college trying to solve what seems to be a 
+>simple math equation...but I don't know the way to get x over to one 
+>side of the equation...can you help?
+> 
+>.3^(1/x)=.95   Solve for X
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+You can use a logarithm. If a and b are constants and x is a variable:
+
+   a^x = b
+
+Then:
+
+   log(a^x) = log(b)
+
+   x*log(a) = log(b)
+
+          x = log(b)/log(a)
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

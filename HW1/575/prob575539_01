@@ -1,0 +1,34 @@
+ThreadNum: 575539
+Subject: Re: Consecutive odd integers problems
+To: dawnapples@hotmail.com (Dawn)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:46:08
+Sent: yes
+
+As Dawn wrote to Dr. Math
+On 09/21/2004 at 17:32:06 (Eastern Time),
+>[Question]
+>The sum of three consecutive odd integers is the same as five times 
+>the greatest of these integers.
+>
+>[Difficulty]
+>I am having a hard time putting the words into an equation to solve.
+>
+>[Thoughts]
+>x+(x+2)+(x+4)=5(x+4)
+>3x+6=5x+20
+>3x=5x+14
+>-2x=14
+>x=-7
+
+Looks great to me, Dawn!
+The next step would be to check.
+If x = -7, then the three integers are -7, -5, and -3, so the sum is -15,
+which indeed is five times the greatest of the integers, -3.
+
+So it works.  Good job!
+
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

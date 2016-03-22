@@ -1,0 +1,67 @@
+ThreadNum: 575849
+Subject: Re: I need help with my son's math assignment
+To: hardinga@citigroup.com (Harding)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 20:36:31
+Sent: yes
+
+
+As Harding wrote to Dr. Math
+On 09/22/2004 at 13:56:31 (Eastern Time),
+>[Question]
+>If a+b=5; what does b-a=
+>
+>[Difficulty]
+>haveing two variables that could possibly equal a lot of numbers
+>
+>[Thoughts]
+>
+
+Hi Harding,
+
+The point here is that if you're told that 
+
+   a + b = 5
+
+then you can express either a or b in terms of the other.  That is, if 
+
+   a + b = 5
+
+then 
+
+       a = 5 - b
+
+and
+
+       b = 5 - a
+
+Try this with some values, to convince yourself that it's true.  (If I
+tell you that b is 2, you know that a is 5 - 2, or 3, right?)
+
+So, if b = 5 - a, then wherever we see 'b', we can replace it with
+'(5-a)'.  For example, we see it in 
+
+    b - a = ?
+
+So let's replace it:
+
+    (5 - a) - a = ?
+
+We can simplify this, to get
+
+   5 - 2a = ?
+
+and this is what we're looking for.  What we're _not_ looking for is a
+particular numeric value, because as you noted, there isn't a unique
+pair of values for a and b that satisfy the equation.  There are
+infinitely many pairs of values.  
+
+But do you see why if the first condition is true, then 
+
+  b - a = 5 - 2a
+
+must also be true? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,159 @@
+Q1: add() is part of the build() routine, which builds the hash table.  It
+looks to see if a given prefix already exists in the table, creates it if it
+doesn't, calls addsuffix() (which adds a new suffix to that prefix' linked
+list), and then uses memmove() to shift the prefix (since each prefix
+consists of two consecutive words).  So basically addsuffix() adds the
+suffix as part of add(), which writes out each prefix as part of build().
+
+Q2: lookup() searches for a given prefix in the table, and returns a pointer
+to it.  If the prefix does not exist yet, it is created by lookup().
+Therefore, lookup() is called by add() to create each prefix for the first
+time, and it is also called by generate() to do the actual 'lookup' part,
+finding the prefix again so a suitable suffix can be produced as output.
+
+Q3:	statetab
+	--------      -------
+	          ->  pref[0]  ->  NONWORD
+	--------
+      	        pref[1]  ->  NONWORD
+
+		           suf    ->    word  ->  "It's"
+						   		   next  ->  NULL
+
+				   				   -------
+					  next   ->   
+	     			 -------       pref[0]  ->  NONWORD
+	
+		      		            pref[1]  ->  "It's"
+		      -------------->
+                    		      suf    ->    word  ->  "a"
+				                               next  ->  NULL
+											
+						                         -------
+	---------		            next   ->	 
+	              		          -------       pref[0]  ->  "It's"
+	
+			      		                        pref[1]  ->  "a"
+		      ---------------------------->
+                    		      		          suf    ->    word  ->  "new"
+				                   	                          next  ->  NULL
+					
+							                     	              -------
+			              		                   next   ->     pref[0] -> "a"
+	---------		    		                   -------
+								                                    pref[1] -> "new"
+		          ----------------------------------------->
+					 			                                    suf    ->  word ->  "dawn"
+									                                            next ->  NULL
+
+									                                            -------
+								                                    next  ->  pref[0] -> "new"
+	---------						                             -------
+									                                            pref[1] -> "dawn"
+		         ----------------------------------------------------->    
+									                                             suf   ->   word -> NULL
+										                                                    next -> NULL
+									                                             next  ->   NULL
+	---------
+
+The next line, the add(prefix, NONWORD), would put another (NONWORD,NONWORD)
+state at the end.
+a) 3 pointers total to "It's"
+b) 3 pointers total to "a"
+c) 3 pointers total to "new"
+d) 2 pointers total to "dawn"
+
+Q4: using pointers means that the same text string [in one place in the
+input text] for a single word is only stored once and pointed to thrice,
+instead of being pointed o three times itself.  The text suggests that this
+could be even more effective if each string is stored in a second hash
+table, so that if the same string appears later in the input text, it is
+only stored a single time total.
+
+Q5: as the hint suggests, C does not automatically give memory back, so I
+suppose it would be possible to read in a large enough text to make this a
+problem.  It also says that more than one reference to heap memory is a
+problem...I did some research and couldn't really find out why, but if
+that's true, it looks like we have a problem, because the heap is used to
+dynamically allocate memory, as is done in the emalloc statement in the
+lookup() function.
+
+Q6:	void deleteTable(){
+			for (int i = 0; i < NHASH; i++)
+				free_state(statetab[i]);
+    	}
+
+    	void free_state(State *state) {
+			for (int j = 0; j < NPREF; j++)
+				free(state->pref[j];
+			free_suf(state->suf);
+			if (state->next != NULL) {
+				free_state(state->next);
+				free(state->next);
+			}
+			free(state);
+    	}
+
+    	void free_suf(Suffix *sufx){
+			free(sufx->word);
+			free_suf(sufx->next);
+			free(sufx);
+    	}
+
+Q7: I adapted this code from a sample I found to delete a generic hash
+table.  It walks each suffix list within each state, freeing everything it
+comes to.  Making separate functions to free the individual states and
+suffixes lets me call them recursively for each "next" pointer.  The hardest
+part, besides checking that everything was covered, was finding the total
+size of the hash table, but then I found that it was originally given under
+the constant NHASH.
+
+Q8: I think that this is what the text was hinting at with the separate hash
+table of just unique strings.  If each unique string is only stored
+somewhere exactly once, it could only be freed exactly once.
+
+Q9: prefixes are sotred in a deque, a container provided in STL.  This
+'double-ended queue' provides functionality to push and pop data at both
+ends, which matches what was done with memmove in the C implementation.
+This "automatic shifting" makes the deque better suited for storing prefixes
+than a normal vector.
+
+Q10: a map (also called statetab in this case), which stores the Prefix
+deque as the key and a vector of stings (the suffixes) as the elements.
+
+Q11: the suffixes for each prefix are stored in a vector of strings, which
+itself is included in the map as data for that suffix's key
+
+Q12: I much prefer this code to the C version, because the map is a lot
+easier to understand and program than the hash table.  Without the hash
+table, the hash and lookup functions can be eliminated altogether (the map
+takes care of these), there is no need to mess with pointers, and the code
+becomes shorter overall.  The notes call it "especially clear and elegant".
+
+Q13: Not obviously, but the notes also mention that it runs a lot slower
+than the C version.  They claim that this might have to do with
+"unpredictable implementations" of STL, whose libraries provide the
+containers that are heavily utilized in this version.  If they are
+untrustworthy, than the major advantage of the C version looks like more of
+a risk.
+
+Q14: prefixes are stored as two-element tuples as keys in the dictionary
+
+Q15: an actual Python dictionary type is used
+
+Q16: suffixes are stored (in a list for each prefix) as the values of the
+key/value pair in the dictionary.  Or in other words, each prefix key has a
+list of suffixes for its value.
+
+Q17: only subtle things of preference, like the general readability of for
+loops, the random.choice function, and the ability to assign w1 and w2 in
+the same statement instead of using the push and pop of STL.  In fact, if
+STL is as unreliable as the notes lead to believe, getting the same
+functionality from Python code without using the library is another
+advantage.
+
+Q18: again, not obviously, but the notes mention that it would be more
+difficult to adapt the code to take prefixes of different lengths.  In the C
+and C++ implementations, this is set as a const variable at the top, but in
+Python the (w1 w2) sytnax is used, and would need to be changed, throughout. 
+

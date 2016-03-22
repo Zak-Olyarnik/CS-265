@@ -1,0 +1,17 @@
+#!/bin/bash
+
+IFS=$'\n'		# changes delimiter off of space so parsing works correctly
+
+for file in $(ls *.mp3) ; do
+	artistName=${file% - *}
+	songName=${file#* - }
+#echo $artistName
+#echo $songName
+	if [ ! -e ./${artistName} ] ; then
+	mkdir "$artistName"
+	fi
+	mv $file ./${artistName}/${songName}
+done
+
+echo -e "\nConversion complete!\n"
+

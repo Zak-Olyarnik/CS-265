@@ -1,0 +1,45 @@
+ThreadNum: 575087
+Subject: Re: Can 1 equal 2??? (formulas including finding velocity)
+To: steve4961@aol.com (Steve)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 13:51:06
+Sent: yes
+
+
+As Steve wrote to Dr. Math
+On 09/20/2004 at 13:34:09 (Eastern Time),
+>[Question]
+>I was brainstorming today with formulas and ended up solving a formula
+>with 1 = 2. I know I must have done something wrong in my math but I
+>checked it and rechecked it finding no errors. It's driving me crazy.
+>Please help me. The problem is as follows:
+>Begin with two well-known formulas for uniformly accelerated motion:
+>velocity = acceleration times time (or v=at) and distance = half times
+>acceleration times time squared (d=.5at^2). Solving for acceleration
+>(a), and setting the two expressions equal to each other, gives you
+>v/t=2d/t^2. Simplifying and using v=d/t as a substitution
+>( v/t = 2v/t ) yields v=2v or 1 = 2.
+>
+>
+>[Difficulty]
+>what is confusing about it??? pretty much the part where 1 = 2...lol
+>
+>[Thoughts]
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The mistake is assuming v = d/t. That is only true if the acceleration
+is constant and exactly equal to 0. It is no longer true if there is
+any acceleration. In other words, uniform motion only exists if there
+is no acceleration. The average velocity, given a uniform
+acceleration, is given by v = 2d/t. 
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

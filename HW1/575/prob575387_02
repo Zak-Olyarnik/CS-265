@@ -1,0 +1,55 @@
+ThreadNum: 575387
+Subject: Re: Abstract algebra integers/primes modelus 
+To: meitaljs@aol.com (Meital)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 09:12:38
+Sent: yes
+
+
+As Meital wrote to Dr. Math
+On 09/21/2004 at 02:50:16 (Eastern Time),
+>[Question]
+>I am trying to do a proof that relates the greatest common divisor 
+>and the mod. The question is if we can prove that if (m,n)=1, given a 
+>and b, then there exists an x such that x==a (mod m) and x== b (mod 
+>n).
+>
+>
+>[Difficulty]
+> I know how to write down the meaning of everything, and I am trying 
+>to connect them together to prove what I want to prove, but I feel 
+>like I am moving in a circle.
+>
+>[Thoughts]
+>The way I thought about it, is first to write down what everything 
+>means, then try to see how I can use that to set up the problem to 
+>prove the theorem. Now I know that (m,n) = 1 given a and b, which 
+>means that I can write it as a*m + b*n = 1, now if there exists an x, 
+>then I want to show that x==a mod m and that x== b mod n. In other 
+>words, to show that m|(x-a) and that n|(x-b). The way to do this as I 
+>see..is to start from the equation a*m + b*n = 1, and from that I 
+>have to find some relation such that x - a = some integer* m, and the 
+>same to n, b, and x. The thing is to make sure that the a and the b 
+>are the same as the ones used in the equation used to express (m,n)
+>=1. I am trying hard to figure out how I can derive an equation, for 
+>some integers s and t, such that x-a = t*m and x-b = s*n from the 
+>equation a*m + b*n = 1.
+
+Hi Meital,
+
+Thanks for writing to Dr Math.  Start from
+
+  a*m + b*n = 1
+
+and use this to show that there is a number which is 0 mod n and 1 mod
+m.  Also show that there is another number which is 1 mod n and 0 mod
+m.  What happens if you multiple these by a and b?  What happens if
+you add them together?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

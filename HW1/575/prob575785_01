@@ -1,0 +1,46 @@
+ThreadNum: 575785
+Subject: Re: Simplifying Equations
+To: bradk@channeladvisor.com (Brad)
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 10:02:14
+Sent: yes
+
+
+As Brad wrote to Dr. Math
+On 09/22/2004 at 09:23:16 (Eastern Time),
+>[Question]
+>This seems like it should be really simple, but I just don't get it. 
+>I need to simplify this equation for area of a flat circular ring, 
+>but I'm not sure where to start. x is the inner ring radius, x + 1/y 
+>is the outer radius:
+>
+>A = [pi * (x + 1/y) * (x + 1/y)] - (pi * x * x)
+>
+>
+>
+>[Difficulty]
+>The examples I have seen on your site make me think I should start by 
+>changing x + 1/y to (xy + 1)/y, but I just seem to end up with more 
+>complex equations as I go, not simpler ones. I also tried using FOIL 
+>on the (x + 1/y) pair, but not sure if that is the way to go either. 
+>
+>[Thoughts]
+>I really want to "get" this. please help. I was never good at algebra 
+>in school, but I like it when I can understand some small piece of it.
+>
+
+Hello Brad,
+
+Well,
+
+(x+1/y)*(x+1/y) = x^2+2x/y+1/y^2
+
+and so
+
+pi*(x+1/y)*(x+1/y) - pi*x^2 = pi*(2x/y+1/y^2)
+
+=pi*(2x*y+1)/y^2
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,47 @@
+ThreadNum: 575400
+Subject: Re: Usage of Probability outside of a series
+To: insaneyjaney@hotmail.com (Jane)
+From: Doctor Roy
+TimeStamp: 09/21/2004 at 12:06:22
+Sent: yes
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+>Here are two completely hypothetical scenarios. Person A and Person B 
+>disagree on the proper use of the statistics gleaned from each 
+>scenario. Are they the same, or are they different? Can we use the 
+>statistics in the same way?
+
+It depends on your assumptions.
+
+>So, while Person A argues that the source of the statistic is 
+>irrelevant, and we can use it however we like, Person B contends that 
+>the source of the statistic is *extremely* crucial in determining how 
+>we use it to project future events.
+>
+>Who is correct, Person A or Person B?
+
+The source is irrelevant if you accept the 2% estimate. In other
+words, the only case the source is important is if you suspect the 2%
+estimate is not accurate. If it is accurate (and if you have no reason
+to believe otherwise), then by considering the source of the statistic
+and not accepting calculations based on it, you are essentially
+trusting your "gut" and ignoring probability theory altogether. In
+this case, using numbers is rather unnecessary, since you trust your
+instincts more than the actual numbers. There's no theoretical basis
+for examining the source of the statistic unless there is some
+uncertainty about the source (in which case, there is an additional
+probability associated with the source).
+
+Assuming that the 2% estimate is accurate and that it is independent
+from day to day (i.e. instead of 50-day chunks, there is just a plain
+2% chance each day), then they two scenarios provide equivalent
+probabilities.
+
+I hope this helps.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

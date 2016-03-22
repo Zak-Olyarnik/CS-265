@@ -1,0 +1,38 @@
+ThreadNum: 575655
+Subject: Re: frequency tables
+To: Naabkny@aol.com (Nadine)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 11:13:12
+Sent: yes
+
+
+As Nadine wrote to Dr. Math
+On 09/21/2004 at 21:08:49 (Eastern Time),
+>[Question]
+>My child is doing frequency tables.  How do you determine the equal 
+>parts (intervals) that you are supposed to make the scale from?
+>
+>[Difficulty]
+>For example points scored by a soccer team... The points range from 
+>14-53.  The book says the scale is 1-60, the interval is 15.  I don't 
+>understand.
+>
+>[Thoughts]
+>
+
+Hi Nadine,
+
+Choosing intervals is more an art than a science, and the optimal
+intervals depend on the way the values in a data set are distributed:
+
+  http://mathforum.org/library/drmath/view/57612.html
+
+The authors of the book may have some reasons for choosing to break
+the diagram into four intervals; other authors might choose other
+intervals.  There's no one-size-fits-all formula for doing it.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

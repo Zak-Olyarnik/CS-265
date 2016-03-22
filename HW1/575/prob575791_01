@@ -1,0 +1,38 @@
+ThreadNum: 575791
+Subject: Re: i try and try and i get the same answer...but its not right
+To: blondejoker82@hotmail.com (Alicia)
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 09:58:50
+Sent: yes
+
+
+As Alicia wrote to Dr. Math
+On 09/22/2004 at 09:53:03 (Eastern Time),
+>[Question]
+>This is a problem in a homeschool book i have, Algebra 2 at the very 
+>beginning, and i am using it for practice. I have the answer booklet 
+>which tells me the answer is 28 but no matter how hard i try i 
+>always get the wrong answer and i cant see where i go wrong. The 
+>problem is: 4(x+3)-2^0(-x-3)=2x-4(x^0-x)-3^2. PLease give me a step 
+>by step answer. Thanks for your time.
+>
+>[Difficulty]
+>I just cant see where i mess up. I've even said the problem and each 
+>step i do out loud and i don't get it.
+>
+>[Thoughts]
+>i always get -22/7.
+
+Hello Alicia,
+
+4(x+3) +x+3=2x-4(1-x)-9
+
+4x+12+x+3=2x-4+4x-9
+5x+15=6x-13
+28=6x-5x=x
+
+OK?
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

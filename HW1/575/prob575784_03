@@ -1,0 +1,43 @@
+ThreadNum: 575784
+Subject: Re: Definition of the Powers of 10
+To: chullz@ameritech.net (Christina)
+From: Doctor Ian
+TimeStamp: 09/23/2004 at 07:24:43
+Sent: yes
+
+
+As Christina wrote to Dr. Math
+On 09/22/2004 at 22:28:46 (Eastern Time),
+>Thank you for your quick reply. The context I was thinking about was 
+>doing conversions within the metric system. Is it correct to say 
+>that you multiply by a power of 10 when you are converting smaller 
+>units to larger units as well as when you are converting larger 
+>units to smaller units? I truly appreciate your thoughts!
+
+Hi Christina,
+
+In that context, I would say that you 'multiply or divide by powers of
+10', but I think in this context it would also be correct to just say
+'multiply', i.e., to interpret 10^-3 as a 'power of 10'. 
+
+But in the end, it's not really a precise term, and you can be correct
+but still be misunderstood by others.  (Compare it to how, in lots of
+political conversations, two people can be talking about 'freedom' or
+'rights', and yet mean completely different things by those words.)
+
+After all, the square root of 10 is 10^(1/2).  So can we call that a
+'power of 10'?  Normally we'd call it a 'rational power'.  So instead
+of just using 'power of 10', it would probably be a good idea to
+always use one of the following:
+
+  non-negative integer powers of 10:  10^0, 10^1, 10^2, ...
+
+  integer powers of 10: 10^0, 10^(+/-1), 10^(+/-2), ...
+
+  rational powers of 10:  10^(a/b), where a and b are integers
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

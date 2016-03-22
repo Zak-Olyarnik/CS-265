@@ -1,0 +1,40 @@
+ThreadNum: 575375
+Subject: Re: Add fractions with diff. denomintors & over a thousand terms
+To: def_fu@hotmail.com (Matthew)
+From: Doctor Wilkinson
+TimeStamp: 09/22/2004 at 02:56:00
+Sent: yes
+
+
+As Matthew wrote to Dr. Math
+On 09/21/2004 at 23:22:55 (Eastern Time),
+>Thanks again. 
+>
+>Does n represent 2 in this case?
+>
+>Also, after simplifying, the equation is:
+>
+>1/((n-1)^2) - 1/((n+999)^2)
+>
+>But since this is 4 times the answer (as stated in previous email)
+>Then:
+>(1/((n-1)^2) - 1/((n+999)^2))  /  4
+>
+>which, if n=2, gives ( 1 - (1002000/1002001) ) / 4
+>                     =250500/1002001
+>
+>is this correct? Also, how is the formula 1/(n-1)^2 - 1/(n+2)^2... 
+>derived? 
+>
+>
+>
+
+2 is the initial value of n, yes.  I don't have time to check this right now, but I think there 
+are one or two more terms that don't cancel out.  
+
+I have some practice with this kind of thing.  When I see a product in the denominator I 
+look for a partial fraction decomposition in the hope that I'll get a sum that 
+telescopes like this one. 
+
+- Doctor Wilkinson, The Math Forum
+  <http://mathforum.org/dr.math/>

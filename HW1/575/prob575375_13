@@ -1,0 +1,25 @@
+ThreadNum: 575375
+Subject: Re: Add fractions with diff. denomintors & over a thousand terms
+To: def_fu@hotmail.com (Matthew)
+From: Doctor Wilkinson
+TimeStamp: 09/22/2004 at 19:57:27
+Sent: yes
+
+
+As Matthew wrote to Dr. Math
+On 09/22/2004 at 19:45:16 (Eastern Time),
+>Thankyou. I underestand the question and solution now.
+>
+>But, I am still unsure how the formula 1/(n-1)^2 - 1/(n+2)^2 is 
+>derived from n/((n-1)^2 (n+2)^2).
+>
+
+Sorry, that was a typo.  It should be
+
+  1/(n-1)^2 - 1/(n+1)^2 = 4n/((n-1)^2(n+1)^2)
+
+
+
+
+- Doctor Wilkinson, The Math Forum
+  <http://mathforum.org/dr.math/>

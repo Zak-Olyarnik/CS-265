@@ -1,0 +1,68 @@
+ThreadNum: 575392
+Subject: Re: Numerical method (Based on divisibility by 7)
+To: b_shamik2000@yahoo.co.in (Shamik)
+From: Doctor Vogler
+TimeStamp: 09/23/2004 at 09:17:52
+Sent: yes
+
+
+As Shamik wrote to Dr. Math
+On 09/22/2004 at 01:47:08 (Eastern Time),
+>Hi Dr. Vogler,
+>
+>Yeah, I did express that number = M + M*(10^n) + M*(10^2n) + M*
+>(10^3n) + M*(10^4n) + M*(10^5n) = M*[1 + 10^n + 10^2n + 10^3n + 10^4n 
+>+ 10^5n] = M*1*{(10^n)^6 - 1}/{(10^n) - 1} 
+>
+>If we consider the prime,p = 7, and the natural number,a = 10^n; then 
+>according to Fermat's Little Theorem -- (10^n)^(7-1) = 1(mod7). This 
+>implies that (10^n)^6 - 1 = 0(mod7) and proves the requirement. 
+
+Almost!  It shows that the numerator is divisible by 7.  This proves
+that your number is divisible by 7 *if* the numerator is *not*
+divisible by 7.  Well, as long as n is not divisible by 6, the
+numerator will not be divisible by 7.  What happens if n is divisible
+by 6?
+
+>*******************************************************************
+>I could also make up with the following approach.
+>The number was M*[1 + 10^n + 10^2n + 10^3n + 10^4n + 10^5n]. If M is 
+>divisible by 7, we are through. If not, we have to show that [1 + 
+>10^n + 10^2n + 10^3n + 10^4n + 10^5n] is divisible by 7.
+>
+>Now, 10^n = (7A + 3) OR (7A + 2) OR (7A + 6) OR (7A + 4) OR (7A + 5) 
+>OR (7A + 1) where A is a natural number. 
+>
+>And, [1 + 10^n + 10^2n + 10^3n + 10^4n + 10^5n]
+>   = 7a + (1 + 3 + 2 + 6 + 4 + 5 ) = 7a + 21 = 7n
+>OR = 7b + (1 + 2 + 4 + 1 + 2 + 4) = 7b + 14 = 7p
+>OR = 7c + (1 + 6 + 1 + 6 + 1 + 6) = 7c + 21 = 7q
+>OR = 7d + (1 + 4 + 2 + 1 + 4 + 2) = 7d + 14 = 7r
+>OR = 7e + (1 + 5 + 4 + 6 + 2 + 3) = 7e + 21 = 7s
+>OR = 7f + (1 + 1 + 1 + 1 + 1 + 1) = 7f + 6 --> This condition is for 
+>the case when n=6*k 
+>I was stuck here.
+
+This is actually the same place you got with the other method.  You
+have decided that if
+
+  10^n = 1 (mod 7),
+
+then the sum will actually be 6 mod 7!  Notice that, not only have you
+*not* shown that it is divisible by 7, but you *have* shown that it is
+6 mod 7 (which means it is *not* divisible by 7).  At this point, you
+should use that to come up with a counterexample.
+
+So find a number n such that
+
+  10^n = 1 (mod 7),
+
+and pick any number M with that many digits, repeat it six times, and
+try dividing it by 7.
+
+Yes, I know that's a big number, but you've just proven that no
+smaller number will do.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

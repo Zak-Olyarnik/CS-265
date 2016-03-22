@@ -1,0 +1,48 @@
+ThreadNum: 575461
+Subject: Re: Absolute value equation: The use of "AND" and "OR"
+To: Niitorli5@aol.com (Kwame)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 22:26:06
+Sent: yes
+
+Hi, Kwame.
+
+As Kwame wrote to Dr. Math
+On 09/21/2004 at 12:46:14 (Eastern Time),
+>[Question]
+>Absolute(ax+b)=absolute(cx+d) means
+>ax+b = cx+d  and ax+b = -(cx+d. The word "and" is used here. (as given
+>by the textbook)
+
+> 
+>Given: absolute(3x-4)=absolute(x+11)
+>
+>[Difficulty]
+>to solve the problem:
+>3x-4 = x+11  OR 3x-4 = -(x+11)
+>
+>[Thoughts]
+>why is it that "AND" was used in the general form but in solving a
+>problem "OR" is used? 
+
+I don't know why they would use "and" there, unless they were merely
+saying that both equations have to be solved in order to find the
+answers. Could you quote their exact wording?
+
+The correct logical equivalent of
+
+  |3x-4| = |x+11|
+
+is
+
+  3x-4 = x+11  OR  3x-4 = -(x+11)
+
+because any x that makes EITHER equation true makes the absolute value
+equation true.
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

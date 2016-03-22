@@ -1,0 +1,57 @@
+ThreadNum: 575361
+Subject: Re: (no subject)
+To: mawitch69@hotmail.com (maria)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 15:07:59
+Sent: yes
+
+
+As maria wrote to Dr. Math
+On 09/21/2004 at 00:20:31 (Eastern Time),
+>[Question]
+>I'm confused on how to use the distributive property to expand an 
+>expression? exp. 2x(x+4y)= ???
+>
+>[Difficulty]
+>I just don't understand it at all? I read the book over and over and 
+>it still doesn't click?
+>
+>[Thoughts]
+>2x(x+4y)= 2x+4y=6xy this is my answer??/
+
+Hi Maria,
+
+To apply the distributive property, you can write down the property:
+
+  a(b + c) = (a*b + a*c)
+
+Then you need to figure out what in your expression corresponds to
+what in the pattern:
+
+  2x(x + 4y)
+  -- -   --
+   | |    |
+   a b    c
+
+Then you just move everything to the corresponding place in the other
+side of the pattern:
+
+  2x(x + 4y) = (2x*x + 2x*4y)
+  -- -   --     -- -   -- --
+   | |    |      | |    |  |
+   a b    c      a b    a  c
+
+Then you simplify:
+
+  2x(x + 4y) = (2x*x + 2x*4y) = 2x^2 + 2*4*x*y = 2x^2 + 8xy
+  -- -   --     -- -   -- --
+   | |    |      | |    |  |
+   a b    c      a b    a  c
+
+Let me know if you weren't able to follow any of this...
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

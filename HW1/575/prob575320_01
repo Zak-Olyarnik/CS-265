@@ -1,0 +1,52 @@
+ThreadNum: 575320
+Subject: Re: I don't understand 
+To: blackandblack@comcast.net (Andrew)
+From: Doctor Ian
+TimeStamp: 09/20/2004 at 22:34:36
+Sent: yes
+
+
+As Andrew wrote to Dr. Math
+On 09/20/2004 at 22:19:52 (Eastern Time),
+>[Question]
+>I don't know how to find the multiple of 100. 
+>
+>[Difficulty]
+>trying to find out what is a multiple and what is a factor
+>
+>[Thoughts]
+>2x50 1x100 4x25 5x20
+
+Hi Andrew,
+
+The multiples of 100 are the numbers you get when you multiply 100 by
+the natural numbers:
+
+  100 * 1 = 100
+  100 * 2 = 200
+  100 * 3 = 300
+
+and so on.  This is the same set of numbers you get when you 'count
+by' 100:
+
+  100, 200, 300, ...
+
+The factors of 100 are numbers that you can multiply together to get 100:
+
+  100 *  1 = 100
+   50 *  2 = 100
+   25 *  4 = 100
+   20 *  5 = 100
+   10 * 10 = 100
+    ^    ^
+    |____|_____________ Factors of 100
+
+So the factors of 100 are 
+
+  1, 2, 4, 5, 10, 20, 25, 50, 100
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

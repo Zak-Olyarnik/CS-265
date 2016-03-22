@@ -1,0 +1,52 @@
+ThreadNum: 575007
+Subject: Re: vertical asymptotes
+To: kendalyane@aol.com (kendal)
+From: Doctor Fenton
+TimeStamp: 09/20/2004 at 08:17:56
+Sent: yes
+
+
+As kendal wrote to Dr. Math
+On 09/20/2004 at 01:16:40 (Eastern Time),
+>[Question]
+>f(x)=(2x-2)\(x-1)(x^2+x-1)
+>
+>x=(-1+-square root(5)/2)
+>
+>[Difficulty]
+>verifying that my thoughts are correct
+>
+>[Thoughts]
+>My understanding is it doesn't exist because the limits are 
+>infinite -+ 
+
+Hi Kendal,
+
+Thanks for writing to Dr. Math.  You are correct.  A function f(x)
+has a vertical asymptote at x=a if one of the limits
+
+  lim f(x)   or   lim  f(x)
+ x->a-           x->a+
+
+
+is infinite (-oo or +oo).
+
+If f(x) is a fraction g(x)/h(x) where g(x) and h(x) are continuous
+functions, and if h(a) = 0 while g(a) is not 0, then f will have a
+vertical asymptote at x=a.
+
+I think one of the points of this problem is that the denominator of
+a fraction can approach 0 without the function having a vertical
+asymptote (as for this function, at x=1), because the numerator also
+approaches 0.  In this case, the two zeros cancel each other.  In
+other cases, they may not cancel, and the function might indeed have
+a vertical asymptote.  It takes more work to determine whether the
+function does indeed have a vertical asymptote.
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

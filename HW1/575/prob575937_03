@@ -1,0 +1,73 @@
+ThreadNum: 575937
+Subject: Re: Calculus- Limits
+To: elynnb313@gmail.com (Lynn)
+From: Doctor Fenton
+TimeStamp: 09/24/2004 at 07:56:24
+Sent: yes
+
+
+As Lynn wrote to Dr. Math
+On 09/23/2004 at 19:34:18 (Eastern Time),
+>First I would like that thank you for answering. This service is 
+>amazing, and I have a feeling it is the only way that I'll survive 
+>calculus this year. I have a few more questions.
+>
+>the first is about continuity again. I understand the jump and skip 
+>and pole and other types of graphs. but when I get a question about 
+>discussing the continuity of a function then I'm lost. For example, 
+>this problem. It says to discuss the continuity then indicate the 
+>type of discontinuity, the location, and whether it is removable or 
+>non-removable. 
+>
+>         x+(x/2,   x<1
+>         -x^3 +4,  1<_x<_2            <_ is less than or equal to
+>f(x) = { -1,       2<x<3
+>         1,        x=3
+>         x-4,      x>3
+>
+>i think that this might be a piece wise function, but I'm not sure. 
+>Do you plug in the value on the right? I'm so confused. Please help! 
+>Thank you!
+>
+>   
+
+Hi Lynn,
+
+Yes, that is a "piecewise" function, since it is defined in "pieces",
+that is, given different formulas on different intervals.  Remember 
+that the definition of a function f being continuous at x=a is that
+
+   lim f(x) = f(a)  .
+  x->a
+
+From general theorems that say the the sum of functions continuous at
+a point is continuous at that point, and similarly for the product, we
+can say that polynomials are continuous everywhere.  If two functions
+are equal in an open interval, say f(x) = g(x) in (a,b), and if g is
+continuous at every point in (a,b), then so is f.
+
+In the example above, on the interior of each interval [i.e. on
+(-oo,1),(1,2),(2,3), and (3,oo)], f is equal to a polynomial and so
+it is continuous in each open interval.  That leaves only the endpoints
+of the intervals, where the function changes formulas, to consider.
+
+When a function is defined piecewise, with different formulas on each
+side of a point, to determine if the limit exists at the point 
+
+   lim f(x)  ,
+  x->a 
+
+you examine the two one-sided limits
+
+   lim f(x)    and  lim f(x)
+  x->a-            x->a+
+
+and determine if they exist, and if so, whether they are equal.  The
+ordinary ("two-sided") limit exists if and only if both one-sided 
+limits exist and are equal.  Then you can use the definition of
+continuity to determine whether f is continuous at each transition
+point.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

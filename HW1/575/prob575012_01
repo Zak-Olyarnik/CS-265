@@ -1,0 +1,35 @@
+ThreadNum: 575012
+Subject: Re: Complex constants, Quadratic equation,One or two roots
+To: Hytopman66@aol.com (Steve)
+From: Doctor Jerry
+TimeStamp: 09/20/2004 at 09:19:44
+Sent: yes
+
+
+As Steve wrote to Dr. Math
+On 09/20/2004 at 02:05:52 (Eastern Time),
+>[Question]
+>Dear Dr. Math:
+>
+>My question is how to prove if I let a,b and c be complex constants 
+>then the quadratic equation a*z^2 + b*z + c=0 has one or two roots. 
+>Pleas help I am not for sure where to start. Is a complex constant 
+>the same thing as a complex number.
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hello Steve,
+
+My opinion is that to say "let a, b, and c be complex constants,"  means that a, b, and c 
+can be complex numbers.
+
+One can complete the square on a*z^2+b*z+c=0, whether a, b, and c are complex or real.  
+The argument would be precisely the same as in the real case.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

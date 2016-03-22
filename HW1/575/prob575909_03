@@ -1,0 +1,42 @@
+ThreadNum: 575909
+Subject: Re: state the number of terms in each expression
+To: jrlove3@aol.com (kat)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 20:28:28
+Sent: yes
+
+
+Hi Kat,
+
+>State the number of terms in each expression?  
+>
+>1.3x+5y-12
+>2.9x to the 3 power plus 2x to the 2 power plus 5x plus 7
+>3.2/5y-4
+>4.15
+>
+>[Difficulty]
+>Over the summer I had for gotten about things but the most difficult 
+>thing about it is that I dont remember any one but I have done them 
+>before but just forgotten about them I know how to do them but I just 
+>forgot. I know this might not sound convincing but I only need a 
+>refreshment about them.
+
+In an expression, each 'term' is something that gets added to (or
+subtracted from) the other terms.  For example, in 
+
+  xy + yz - x/z
+
+we can delimit the multiplications and divisions with ()'s, and that
+will show us the term boundaries:
+
+  (xy) + (yz) - (x/z)
+  \__/   \__/   \___/
+   term  term   term
+
+Does this make sense?  Try answering your question now, and let me
+know what you get...  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

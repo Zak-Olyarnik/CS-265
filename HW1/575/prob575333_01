@@ -1,0 +1,48 @@
+ThreadNum: 575333
+Subject: Re: nth derivative of sin(ax)
+To: jeliz1023@yahoo.com (Jen)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 08:55:47
+Sent: yes
+
+
+As Jen wrote to Dr. Math
+On 09/20/2004 at 22:41:22 (Eastern Time),
+>[Question]
+>I am trying to find the formula for the nth derivative y=sin(?x).
+>
+>[Difficulty]
+>The problem is from Numerical Analysis and the professor is not using
+a text book.
+>
+>[Thoughts]
+>I have found the derivatives for the series,
+>y'=-?cos(?x)
+>y"=-?sqrdsin(?x)
+>y'''=-?3rd cos(?x)
+>and so forth but I don't know what to do after this?
+
+Hi Jen,
+
+Thanks for writing to Dr Math.  You will have four cases, according to
+whether n is divisible by 4, or 1, 2, or 3 more than a multiple of 4.
+ That is, your answer should look like
+
+   (n)     -----  if n = 4k for some integer k
+  y    = { -----  if n = 4k+1 for some integer k
+           -----  if n = 4k+2 for some integer k
+           -----  if n = 4k+3 for some integer k.
+
+(Actually, you can combine them into only two cases, but it will
+probably be easier to think of them as four.)  You're doing fine at
+finding the derivatives (except for y' - remember that the derivative
+of sin x is +cos x not -cos x), so all you have to do now is find the
+pattern and write out the formulas.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

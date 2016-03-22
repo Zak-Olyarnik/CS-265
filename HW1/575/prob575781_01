@@ -1,0 +1,49 @@
+ThreadNum: 575781
+Subject: Re: Ellipse geometry in fine home craftsmanship
+To: dave@rehmus.com (Dave)
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 09:43:03
+Sent: yes
+
+
+As Dave wrote to Dr. Math
+On 09/22/2004 at 09:03:30 (Eastern Time),
+>[Question]
+>I am a fine home builder and am recreating some trim on a 1930 
+>colonial (think Monticello) home.  The porch has 1/2 ellipses as 
+>arches.  I need to recreate slightly smaller arches and cannot 
+>locate the foci to draw them.  Remembering high school math, if I 
+>place two nails on a board and a loop of string longer than the 
+>nails are apart, I can create ellipses.  Trial and error is 
+>tedious.  I know the height (8") and width of the arch (7'), but 
+>can't calculate the loop dimension.  I'm desperate for a formula so 
+>that I can recreate arches of many sizes.  Can you help?
+>
+>[Difficulty]
+>Trial and error seems so mundane.
+>
+>[Thoughts]
+>
+
+Hello Dave,
+
+If the arch is the upper half of an ellipse, then I can give you a formula.  
+
+The graph of the equation x^2/a^2 + y^2/b^2 = 1 is an ellipse centered at the origin.  
+The length of the horizontal cross-section (along the x-axis) is 2a and the length of the 
+vertical cross-section (along the y-axis) is 2b.
+
+You have 2a=7 and (I think) b=8/12. 
+
+If you are comfortable with trig functions, a nice way to generate coordinates is to use the 
+formulas
+
+x=a*cos(t)
+y=b*sin(t),
+
+where, for your application, t would vary from 0 to pi or, in degrees, from 0 to 180 
+degrees.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

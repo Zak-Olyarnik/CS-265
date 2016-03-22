@@ -1,0 +1,30 @@
+ThreadNum: 575375
+Subject: Re: Add fractions with diff. denomintors & over a thousand terms
+To: def_fu@hotmail.com (Matthew)
+From: Doctor Wilkinson
+TimeStamp: 09/21/2004 at 22:27:17
+Sent: yes
+
+
+As Matthew wrote to Dr. Math
+On 09/21/2004 at 21:06:53 (Eastern Time),
+>Thanks for your reply. 
+>
+>I have identified that 1/(n-1)^2 - 1/(n+2)^2 is 4 times greater than
+>n/((n-1)^2 (n+2)^2). But, I am still unsure how the first formula 
+>was derived and how it can be used to simplify/solve the original 
+>equation. Extra help would be greatly appreciated.  
+
+Look at a few terms and see what happens:
+
+  1/(n-1)^2 - 1/(n+1)^2 + 1/(n^2 - 1(n+2)^2 + 1/n+1)^2 - 1/(n+3)^2 +
+  1/(n+2)^2 - 1/(n+4)^2 +...
+
+Most of the terms cancel out.  You are going to be left with only a few terms at the 
+beginning and end.
+
+ 
+
+
+- Doctor Wilkinson, The Math Forum
+  <http://mathforum.org/dr.math/>

@@ -1,0 +1,54 @@
+ThreadNum: 575105
+Subject: RE: Simplifying Square Roots 9/6/95
+To: noonehappy@sbcglobal.net (Amethyst)
+From: Doctor Peterson
+TimeStamp: 09/20/2004 at 22:23:17
+Sent: yes
+
+Hi, Amethyst.
+
+As Amethyst wrote to Dr. Math
+On 09/20/2004 at 15:21:35 (Eastern Time),
+>[Question]
+>I hope this is okay. I was reading the archives and found the problem
+>I was looking for. You told the reader that you could send him a way
+>to simplify square roots on paper, which is what I am looking for. 
+>Could you send this to me?
+>
+>Simplify sqrt(44); Simplify sqrt(72)
+>
+>[Difficulty]
+>I find the notation of the simplified sqrt difficult to understand. 
+>It doesn't make sense to me.  How does 2*sqrt(11) show sqrt(44)?  
+>
+>[Thoughts]
+>(44/2 = 22)/2 = 11
+>(44/11 = 4)/2 = 2
+>
+>2*sqrt(11) = 2 * 2 * 11 - how does that work?
+>
+
+We have a number of more recent discussions of this question, which go
+into more detail. Here are a couple:
+
+  Simplifying Expressions with Radicals
+  http://mathforum.org/library/drmath/view/52641.html
+
+  Dividing Radicals
+  http://mathforum.org/library/drmath/view/52646.html
+
+In your example,
+
+  sqrt(44) = sqrt(4*11) = sqrt(4) * sqrt(11) = 2 * sqrt(11)
+
+We have factored out a square, so that when we take the root, that
+factor will just give a whole number.
+
+If you have any further questions, feel free to write back. I can give
+more specific help if you point out a point in the process where you
+are unsure.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

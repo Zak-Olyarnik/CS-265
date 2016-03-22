@@ -1,0 +1,31 @@
+ThreadNum: 575389
+Subject: Re: Pigeon Hole Principle
+To: sab128@hotmail.com (Sabara)
+From: Doctor Anthony
+TimeStamp: 09/21/2004 at 07:17:20
+Sent: yes
+
+
+As Sabara wrote to Dr. Math
+On 09/21/2004 at 03:30:57 (Eastern Time),
+>[Question]
+> We have any sequence of positive integers (n>=5) and we have to 
+>prove that it is always possible to select a subsequence and add or 
+>subtract its elements such that the sum is multiple of n*n.
+>
+>[Difficulty]
+>I dont know how to identify pigeons and holes in this example.
+>
+>[Thoughts]
+>
+
+Can you clarify the question.  We could for example have the sequence
+
+    1, 2, 3, 4, 5  with sum = 15  and even if we take the complete 
+set this is meant to be a multiple of 5^2 = 25.  Could you check 
+that you have copied the question exactly as set.
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

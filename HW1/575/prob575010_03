@@ -1,0 +1,53 @@
+ThreadNum: 575010
+Subject: Re: To show divisibility by 23
+To: rtpk2000@yahoo.com (Rahul)
+From: Doctor Roy
+TimeStamp: 09/21/2004 at 11:35:49
+Sent: yes
+
+
+As Rahul wrote to Dr. Math
+On 09/20/2004 at 22:34:49 (Eastern Time),
+>Well I was not aware of the Fermat's Little Theorem, but with the 
+>hints provided by you I am unable to solve using the same tricks:
+>
+>27^499 = 27^15 (mod 23)
+>19^503 = 19^19 (mod 23)
+>
+>Also wondering how the 2 remainders from 27^15 and 19^19 would give 
+>give me a product of 19 as 19 itself is a prime no.
+>
+>Also do you see that this problem cannot be solved by using 
+>logarithm.
+>
+>Thanks
+>Rahul
+>
+
+Hi,
+
+Additional tips:
+
+   27 = 4 (mod 23)
+
+So, 27^15 (mod 23) = 4^15 (mod 23)
+
+Likewise, 19 = -4 (mod 23)
+
+So, 19^19 = (-4)^18 * -4 (mod 23) = 4^18 * -4(mod 23).
+
+So:
+
+    27^15 (mod 23) * 19^19 (mod 23)
+
+  = 4^15 * 4^18 * -4 (mod 23)
+
+  = 4^33 * -4 (mod 23)
+
+  = 4^11 * -4 (mod 23)
+
+From here, you can probably compute the remainder directly. 
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

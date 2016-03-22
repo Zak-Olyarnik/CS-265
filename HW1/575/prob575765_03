@@ -1,0 +1,40 @@
+ThreadNum: 575765
+Subject: Re: Newton's Method
+To: huntingfrogs@hotmail.com (Jeremy)
+From: Doctor Jerry
+TimeStamp: 09/22/2004 at 09:10:13
+Sent: yes
+
+
+As Jeremy wrote to Dr. Math
+On 09/22/2004 at 08:37:37 (Eastern Time),
+>Well, when I use Maple to find the root to 20 decimal places, then 
+>substitute it back in it came out very close to zero, as shown.
+>
+>> solve(x^3 - 3*cos(Pi*x) + 6*exp(x) = 0, x);
+>> evalf(%, 20);
+>       -0.13907085610631792136 + 0.38067315222110295750 I
+>> subs(x=%,x^3 - 3*cos(Pi*x) + 6*exp(x));
+>> evalf(%, 20);
+>                           -11               -12  
+>             -1.29364460 10    + 7.6030257 10    I
+>
+>So you think this is certainly a problem with Maple? Have you used 
+>Maple before? If so, is my Maple notation correct?
+
+Hello Jeremy,
+
+In your message, the minus sign was at the end of one line and 
+0.13907085610631792136 + 0.38067315222110295750 I
+was on the next line.  I didn't see the minus sign.  Mathematica also shows that this is a 
+root.
+
+I mostly use Mathematica.  When I give this equation to Mathematica, using the Solve 
+command, it replies that "The equations appear to involve the variables to be solved for in 
+an essentially non-algebraic way."  Mathematica produces no solution.  I can use NSolve.  
+I've been tempted to switch to Maple, but haven't yet made the plunge, partly because I 
+work on a Macintosh.
+
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

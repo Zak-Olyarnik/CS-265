@@ -1,0 +1,49 @@
+ThreadNum: 575424
+Subject: Re: Simplifying a polynomial with a denominator
+To: jdcarr2@ncsu.edu (Jason)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 11:35:59
+Sent: yes
+
+
+As Jason wrote to Dr. Math
+On 09/21/2004 at 10:08:03 (Eastern Time),
+>[Question]
+>I have a homework where I’m supposed to solve for p to find when Q > 
+>0 given the equation Q = (p – 0.66)^2/(p – 2.66) … First, how do you 
+>solve for p such that Q > zero?  I can get as far as Q = (p^2 – 
+>1.333p + 0.444)/ p + 2.666.  Then I don’t know how to cancel out the 
+>top terms with the bottom.  Please help?
+>
+>
+>[Difficulty]
+>solving for p such that Q > 0
+>and canceling out the proper terms in the numerator
+>
+>[Thoughts]
+>
+
+Hi Jason,
+
+Thanks for writing to Dr Math.  Think about it like this:
+
+  When is a/b positive?
+
+To answer that question, answer this one:  What is the sign of a/b if
+
+  a is positive and b is positive,
+  a is positive and b is negative,
+  a is negative and b is positive,
+  a is negative and b is negative.
+
+Now suppose that Q is positive.  What does that tell you about the
+numerator and the denominator?  How can you tell when the numerator or
+denominator are positive/negative?
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,42 @@
+ThreadNum: 575026
+Subject: Re: characteristic of a ring
+To: veselic@planet.nl (viky)
+From: Doctor Vogler
+TimeStamp: 09/20/2004 at 14:01:13
+Sent: yes
+
+
+As viky wrote to Dr. Math
+On 09/20/2004 at 04:30:07 (Eastern Time),
+>[Question]
+>Hello Dr. Math,
+>
+>Let R be ring (not the zerorong) with unitgroup R'={1}.I would like 
+>to prove that R has characteristic 2. 
+>
+>Thank you, greetings,
+>
+>Viky
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>I know I can use the following definition and theorem:
+>1)If for a ring R a positieve integer n exists such that n*a=0 for 
+>all a in R, then the least such pos. intg. is the characteristic of R
+>2)If R is a ring with unity 1, then R has characteristic n>0 if and 
+>only if n is the smallest pos. intg. such that n*1=0.
+
+Hi Viky,
+
+Thanks for writing to Dr Math.  Here's a hint:  If 1 is a unit, then
+you would normally expect -1 to be a unit.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

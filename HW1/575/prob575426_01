@@ -1,0 +1,58 @@
+ThreadNum: 575426
+Subject: Re: Integral Domain and Associated Primes
+To: sprai_x@yahoo.com (Ong)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 11:21:42
+Sent: yes
+
+
+As Ong wrote to Dr. Math
+On 09/21/2004 at 10:23:00 (Eastern Time),
+>[Question]
+>Let R be an integral domain and r,s are primes in R. Prove or 
+>disprove:
+>
+>If r|s, then r~s.
+>
+>
+>[Difficulty]
+>I always have difficulty when dealing with "prove or disprove" type 
+>of question. I may take up a lot of time trying to prove something 
+>that turn out to be false. Can you at least tell me whether this 
+>statement is true or false so I can figure out the proof or counter-
+>example? 
+>
+>[Thoughts]
+>r|s => there exists x such that rx=s.
+>If the statement is true then we need s|r, i.e. rx|r, i.e. there 
+>exists y such that rxy=r, which means that xy=1. (1 exists since R 
+>is an integral domain)So we need x being a unit in R. But I couldn't 
+>figure out how to prove that x is a unit. 
+>
+
+Hi Ong,
+
+Thanks for writing to Dr Math.  You just did prove that x is a unit,
+and you even stated it.  So I'm not sure what is confusing you.
+
+Generally, when you are given a "prove or disprove" and you're not
+sure which, you should try experimenting with a few numbers and see if
+it holds.  Check the most simple cases.  For example, what is a common
+integral domain?  Why the integers Z of course!  Is it true for the
+integers?  Then there's a pretty good chance it will also be true for
+any integral domain.
+
+Then you try to prove it for a while.  One way to prove something (or
+to figure out how to prove something) is to consider what would it
+mean if it was false.  Sometimes this leads you to a counterexample. 
+Sometimes it leads you to a proof.  Of course, there are plenty of
+things that no one has been able to prove despite a great deal of
+effort and big incentives (such as a million dollars).
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

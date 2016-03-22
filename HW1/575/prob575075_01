@@ -1,0 +1,62 @@
+ThreadNum: 575075
+Subject: Re: Tosses needed for a coin to land on heads
+To: danielsaddress1@yahoo.com (Kyle)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 13:46:50
+Sent: yes
+
+
+As Kyle wrote to Dr. Math
+On 09/20/2004 at 12:03:39 (Eastern Time),
+>[Question]
+>I need to understand how to find the solution to:  A total of n 
+>independant tosses of a coin that lands on heads with probability p 
+>are made. How large need n be so that the probability of obtaining 
+>at least one head is at least 1/2?
+>
+>
+>
+>[Difficulty]
+>This question is confusing to me because there could be an infinite 
+>number of rolls. However I'm only looking for the amount of rolls 
+>needed for a probability p. I don't really know where to start.
+>
+>[Thoughts]
+>I did consider that if each roll had a probability p, then n rolls 
+>would result in a probability of p + p + p... n times, giving np. 
+>Then if the probability of 1/2 was needed, I found the equation to 
+>be 1/2 = np, solving for n gives 1/(2p). However upon further 
+>analysis, I realized that the probability cannot be np, because 
+>within a short amount of rolls a probability higher than one, which 
+>is meaningless, would be given. So I realize that my initial 
+>assumption was wrong, and that the probability of landing heads is 
+>more complicated than merely p + p + p... However I can not find out 
+>what this probability would be, I hope you can help.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The probability that you get exactly r successes (i.e. heads) out of n
+trials is given by:
+
+    P(r success|n trials) = C(n,r) * p^r * (1-p)^(n-r)
+
+Since we want the probability of _at least_ one heads, we can
+calculate that probability as:
+
+   1 - P(0 heads|n trials) = 1 - C(n,0) * p^0 * (1-p)^(n-0)
+                           = 1 - (1-p)^n
+
+We want this probability to be 1/2, or:
+
+                       1/2 = 1 - (1-p)^n
+
+Given p, you simply need to solve for n.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

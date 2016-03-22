@@ -1,0 +1,3 @@
+#csh
+
+awk '{print NF " " $0}'

@@ -1,0 +1,84 @@
+ThreadNum: 575351
+Subject: Re: HIghest score
+To: Mag5886@hotmail.com (Mag)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 14:54:55
+Sent: yes
+
+
+As Mag wrote to Dr. Math
+On 09/20/2004 at 23:40:50 (Eastern Time),
+>[Question]
+>IN a ball game where only 7 and 10 points can be scored at any one 
+>time, what is the largest final score that cannot be obtained
+>
+>[Difficulty]
+>I don't understand that there is a point where you can't score 
+>anymore
+>
+>[Thoughts]
+>I started figuring out the products of 7 and i don't know where to 
+>go form there
+
+Hi Mag,
+
+Briefly, the point is this:  Suppose we consider a score of 10,000. 
+Can we get that from
+
+  a*7 + b*10 = 10,000
+
+Sure:
+
+  10,000 = 0*7 + 1000*10
+
+What about 10,001?  Yeah, we can do that, too.  
+
+  10,001 = 3*7 + 998*10
+
+And for every score higher than that:
+
+  10,002 = 6*7 + 996*10
+  10,003 = 9*7 + 994*10
+  10,004 = 2*7 + 999*10
+
+
+
+On the other hand, there's no way to get a score of, say, 15.  Can't
+do it.  
+
+So somewhere between 15 and 10,000, there is some number X such that
+
+  1) There is no way to get X by adding multiples of 7 and 10
+
+  2) It will always be possible to get any score larger than X
+     by adding multiples of 7 and 10. 
+
+Now, this doesn't mean you have to check every number between 15 and
+10,000.  If you look closely at the high end, you can see a pattern: 
+We just have to find a multiple of 7 that ends with the units digit of
+the number, 
+
+  10,000 = 0*7 + 1000*10        <-  0
+  10,001 = 3*7 +  998*10        <- 21
+  10,002 = 6*7 +  996*10        <- 42
+  10,003 = 9*7 +  994*10        <- 63
+  10,004 = 2*7 +  999*10        <- 14
+
+Once we do that, we can use multiples of 10 to fill in the rest.  So
+there's no way we can make up a number bigger than 10,000 for which
+this won't work. 
+
+So you want to what extent you can lower the high end.  For example,
+will it work for 1000, instead of 10,000? 
+
+  1000 = 0*7 + 100*10       <-  0
+  1001 = 3*7 +  98*10       <- 21
+  1002 = 6*7 +  96*10       <- 42
+  1003 = 9*7 +  94*10       <- 63
+  1004 = 2*7 +  99*10       <- 14
+
+Can you take it from here? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

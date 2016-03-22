@@ -1,0 +1,68 @@
+ThreadNum: 575673
+Subject: Re: Need to map a range of nbrs ( 2.3 to 8.9) to nbrs b/w 0 .. 1
+To: marian_bejan@agilent.com.au (Marian)
+From: Doctor Peterson
+TimeStamp: 09/21/2004 at 22:51:03
+Sent: yes
+
+Hi, Marian.
+
+As Marian wrote to Dr. Math
+On 09/21/2004 at 21:30:14 (Eastern Time),
+>[Question]
+>Need to map a range of nbrs ( 2.3 to 8.9) to nbrs b/w 0 .. 1.
+>
+>
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+I presume you want the entire interval from 2.3 to 8.9 to map exactly
+onto the interval fro 0 to 1. Let's generalize this, and say we want
+to map the interval (a,b) onto (0,1):
+
+  0           1
+  o-----------o----------->
+   \            \
+    \             \
+     \              \
+      \               \
+  +----o----------------o-------->
+       a                b
+
+This can be a linear function
+
+  f(x) = px + q
+
+for which
+
+  f(a) = 0
+  f(b) = 1
+
+This gives two equations:
+
+  pa + q = 0
+  pb + q = 1
+
+Solving this system of equations for p and q, we get
+
+  p = 1/(b-a)
+  q = -a/(b-a)
+
+So the function you are looking for is
+
+  f(x) = (x - a)/(b - a)
+
+So for your numbers,
+
+  f(x) = (x - 2.3)/6.6
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

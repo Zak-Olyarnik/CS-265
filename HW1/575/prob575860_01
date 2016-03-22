@@ -1,0 +1,36 @@
+ThreadNum: 575860
+Subject: Re: direct proof help
+To: mario03c@aol.com (mario)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 15:55:21
+Sent: yes
+
+
+As mario wrote to Dr. Math
+On 09/22/2004 at 14:54:15 (Eastern Time),
+>[Question]
+>use a direct proof to prove that "if x+y is even and y+z is even, 
+>then x+z is even."
+>
+>[Difficulty]
+>I have many proofs to do, and I would like just to see how one is 
+>done out to use as an example for the others. 
+>
+>[Thoughts]
+>2x + 2y is even, 2y+ 2z is even, 
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+Consider the parity of x, y, and z. In other words, if the sum x+y is
+even, then both x and y are even, or they are both odd. The same is
+true for y and z. Therefore, either all of x, y, and z are even, or
+they are all odd.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

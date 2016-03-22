@@ -1,0 +1,62 @@
+ThreadNum: 575432
+Subject: Re: I need to understand what these Math  symbols mean 
+To: ssherrywhyme@aol.com (Sherry)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 10:50:19
+Sent: yes
+
+
+As Sherry wrote to Dr. Math
+On 09/21/2004 at 10:34:48 (Eastern Time),
+>[Question]
+>symbols
+>it looks like an E backwards
+>it looks like a c but a little longer
+>looks like a E with a line through it
+>
+>
+>[Difficulty]
+>I have no idea what they are supposed to be
+>
+>[Thoughts]
+>I have no idea what they are
+
+Hi Sherry,
+
+Thanks for writing to Dr Math.  The backwards E is called a
+"quantifier" and should be read "there exists."  For example, you
+might see
+
+  Ex,x^2=y
+
+(where the E is backwards) which means "there exists an x such that
+x^2 = y," in other words, y is a square.  Sometimes they will specify
+a set, as in "there exists an x in the set Z (or Q or R or any other
+set) such that...."  The "in the set" or "is an element of" is a small
+epsilon (like a small curvy E, or a small backwards 3).
+
+The line through it almost always means "not" whatever the symbol
+means without the line.  So a backwards E with a line through it means
+"there does not exist."  (If you meant a forward E with a line, then I
+don't know - give me the context in which you found it.)
+
+The long c (or sideways U) means "is a subset of."  Some people use
+this to mean "is a proper subset of" (but not the whole set) and use
+the same symbol with a line under it to mean "is a subset of" (or
+equals the whole set) in the spirit of "less than" and "less than or
+equal to" symbols.  Others use the sideways U to mean "is a subset of"
+(or equals the whole set) and might use a line under it with a slash
+through the line to mean "but not equal to the set" or they might say
+"does not equal" (equals sign with a slash) separately.  Less common
+is the "contains" symbol, which is just a backward c or "is a subset
+of" symbol and means the same as the subset symbol when you switch the
+two sets.  (Just like "less than" being the same as "greater than"
+when you switch the two numbers.)
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

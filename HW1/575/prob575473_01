@@ -1,0 +1,69 @@
+ThreadNum: 575473
+Subject: Re: how do i calculate a percentage?
+To: 4_noels@msn.com (missy)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 13:51:20
+Sent: yes
+
+
+Hi Missy,
+
+>if i spend $350,000.00 and i could purchase the same thing for 
+>$315,000.00 what is the percentage value i save?
+>
+>[Difficulty]
+>I dont even know where to start?
+>i would like a basic formula i can reuse for different problems.
+>
+>[Thoughts]
+>350 - 315  = 35
+>is that an 11% savings?
+
+The savings ($35,000) is 10% of the higher price ($350,000), so it's a
+10% savings.  
+
+The general idea is that a percentage is just a fraction with a
+denominator of 100; so 
+
+   35,000    ?
+  ------- = ---
+  350,000   100
+
+This is the same as saying
+ 
+   35,000 
+  ------- * 100 = ?
+  350,000 
+
+       35 
+      --- * 100 = ?
+      350 
+
+        1 
+       -- * 100 = ?
+       10
+
+             10 = ?           So 10% is the percentage we want
+  
+Note that you have to be careful about what you're taking the
+percentage _of_.  For example, if the normal price for something is
+$315,000, but you're being charged $350,000, the situation is a little
+different.  The absolute difference is still $35,000, but now you're
+comparing it to a lower base price:
+
+   35,000    ?
+  ------- = ---
+  315,000   100
+
+   35,000   11.1
+  ------- = ----
+  315,000    100
+
+So the same $35,000 is a 10% _decrease_ from $350,000, but an 11.1%
+_increase_ from $315,000. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

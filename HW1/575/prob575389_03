@@ -1,0 +1,39 @@
+ThreadNum: 575389
+Subject: Re: Pigeon Hole Principle
+To: sab128@hotmail.com (Sabara)
+From: Doctor Anthony
+TimeStamp: 09/22/2004 at 05:37:04
+Sent: yes
+
+
+As Sabara wrote to Dr. Math
+On 09/21/2004 at 21:13:26 (Eastern Time),
+>The question is same as it was stated but let me clearify it a bit 
+>
+>  We can have a sequence suppose
+>
+>     Sum = 1-2+3+4-5
+>    so we can have a sequence and we can add or delete its elements 
+>at the same time
+>
+>Hints:-
+> Suppose we have a sequence
+>
+>       (a3+a4+a12+a16.........an-1)
+>so we need to find an no such that
+>       
+>        Sum=((a3+a4+a12+a16.......an-1)/n*n)
+>so we can have 
+>       total subsequences  2^(n-1)  => pigeons
+>       total remainders    0,1,.....n^2-1)  => holes  
+
+
+This is not like the question you originally put.  You should have 
+said that you were dealing with residue classes.  Your statement 
+said that a1 + a2 + ..... + an was a MULTIPLE of n^2.
+  
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

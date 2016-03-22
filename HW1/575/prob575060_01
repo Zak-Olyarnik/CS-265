@@ -1,0 +1,39 @@
+ThreadNum: 575060
+Subject: Re: Digits of perfect numbers eventually sum to 1
+To: jwilliams@ciber.com (Jaymes)
+From: Doctor Roy
+TimeStamp: 09/20/2004 at 13:19:54
+Sent: yes
+
+
+As Jaymes wrote to Dr. Math
+On 09/20/2004 at 10:56:01 (Eastern Time),
+>[Question]
+>Just wondering if this will be my claim to fame, or if this has 
+>already been observed:
+>
+>I was looking at the first several perfect numbers (6, 28, 496, 
+>8128, 33550336, 8589869056, 137438691328, 2305843008139952128) and 
+>noticed, except for 6, that if you add the digits together and then 
+>add the digits of that result and repeat, you're eventually left 
+>with 1.  Example:  1+3+7+4+3+8+6+9+1+3+2+8 = 55; 5+5 = 10; 1+0 = 1.
+>
+>[Difficulty]
+>Nothing really confusing.
+>
+>[Thoughts]
+>Has this already been recorded and given some fancy name?
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+You are talking about the "digital root" of perfect numbers, or
+"additive persistence". It is known that the digital root of all even
+perfect numbers (except for 6) is 1. 
+
+I hope this helps, and keep looking for interesting facts about numbers.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

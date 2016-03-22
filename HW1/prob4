@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# makes sure desired path exists
+if [ ! -e $ARCHIVE ] ; then
+   echo -e "\nARCHIVE pathname could not be found.\n"
+   exit
+fi
+
+# removes temporary text file so it can be written from scratch
+if [ -e nameTemp.txt ] ; then
+   rm nameTemp.txt
+fi
+
+# for each file in the desired path, writes the hostname to a temporary text
+# file
+grep -r "To: " $ARCHIVE | cut -d "@" -f2 | cut -d " " -f1  >> nameTemp.txt  
+
+# awk program tallies up the occurances of each unique thread and formats
+# output
+awk -f nameCounter.awk nameTemp.txt
+
+# final output
+cat totalFile.txt

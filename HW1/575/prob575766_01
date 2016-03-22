@@ -1,0 +1,44 @@
+ThreadNum: 575766
+Subject: Re: (no subject)
+To: sudhakaransunil@hotmail.com (sunil)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:23:02
+Sent: yes
+
+
+As sunil wrote to Dr. Math
+On 09/22/2004 at 06:49:51 (Eastern Time),
+>[Question]
+>WE ALL KNOW THAT X-AXIS & Y-AXIS R PERPENDICULAR,
+>BUT THIER PRODUCT OF SLOPES DOESN'T GIVE US A
+>DEFINITE VALUE????
+>
+>how can we explain this occurance
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Sunil,
+
+To find the slope of the x-axis, we can pick any two points on it, and
+use the definition of slope.  For example, (1,0) and (2,0) are on the
+x-axis, and the slope between them is 
+
+          change in y
+  slope = -----------
+          change in x
+
+          0 - 0
+        = -----
+          2 - 1
+
+        = 0
+
+What happens if you try the same thing with two points on the y-axis?  
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

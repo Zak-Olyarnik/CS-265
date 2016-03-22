@@ -1,0 +1,30 @@
+ThreadNum: 575749
+Subject: Re: Difference devided by product.
+To: hm@phat.co.nz (Robie)
+From: Doctor Rick
+TimeStamp: 09/22/2004 at 08:42:52
+Sent: yes
+
+Hi, Robie.
+
+As Robie wrote to Dr. Math
+On 09/22/2004 at 02:30:05 (Eastern Time),
+>[Question]
+>There are two floating-point numbers, find the value of their
+>difference divided by their product.
+>
+>
+>
+>[Difficulty]
+>I do not understand what is ment by product, and how to get it.  
+>Please help...
+>
+>[Thoughts]
+
+The product of two numbers is the result of multiplying them. The 
+difference is actually the trickier part: by convention we mean the 
+result of subtracting the *smaller* number from the *larger* number.
+
+- Doctor Rick, The Math Forum
+  <http://mathforum.org/dr.math/>
+

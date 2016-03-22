@@ -1,0 +1,37 @@
+ThreadNum: 575271
+Subject: Re: My question is about square roots
+To: CarlosFiLop@7229LyndaleAv.Richfield,MN. (Grecia Figueroa)
+From: Doctor Peterson
+TimeStamp: 09/20/2004 at 23:24:31
+Sent: yes
+
+Hi, Grecia.
+
+As Grecia Figueroa wrote to Dr. Math
+On 09/20/2004 at 20:34:41 (Eastern Time),
+>[Question]
+>My math problem is about how to find a locker combination. The only 
+>clue Igot is: ''The middle number is the sum of the square roots of 
+>the other two numbers. And they are perfect squares. I can't think 
+>of  a way to find out.              Would you help me by showing me 
+>an example or help me understand?
+>
+>[Difficulty]
+>I can't think a sum or a way to find out and I'm only been three days 
+>in sixth grade.
+>
+>[Thoughts]
+>It could be   13,35,53
+
+You're told that the first and last numbers are perfect squares, which
+means they can only be certain numbers: 1, 4, 9, 16, 25, and so on,
+which are the squares of 1, 2, 3, 4, 5, and so on. The latter numbers
+are their square roots. So if the first and last were 16 and 25, then
+their square roots would be 4 and 5, and the middle number would be 9.
+
+Does that help?
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

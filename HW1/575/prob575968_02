@@ -1,0 +1,47 @@
+ThreadNum: 575968
+Subject: Re: Why is one not a prime number
+To: KClarey16@aol.com (Katie)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 20:05:11
+Sent: yes
+
+
+As Katie wrote to Dr. Math
+On 09/22/2004 at 19:55:21 (Eastern Time),
+>[Question]
+>
+>
+>[Difficulty]
+>I have looked for it everywhere and i cant find the answer
+>
+>[Thoughts]
+>I thought one is not a prime number because it cant be divisible by 
+>two numbers
+
+Hi Katie,
+
+What makes primes interesting is that any composite number can be
+decomposed into a unique product of primes.  For example, 
+
+  12 = 2 * 2 * 3
+
+There is no other way to get 12 by multiplying any other set of
+primes; and no other number decomposes into this set of primes. 
+
+Now, suppose we allow 1 to be a prime.  Then we lose this feature:
+
+  12 = 2 * 2 * 3
+
+     = 1 * 2 * 2 * 3
+
+     = 1 * 1 * 2 * 2 * 3
+
+and so on. 
+
+So we don't include 1 in the definition of 'prime'. 
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

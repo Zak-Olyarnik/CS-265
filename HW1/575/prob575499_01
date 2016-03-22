@@ -1,0 +1,35 @@
+ThreadNum: 575499
+Subject: Re: number theory
+To: smithmaryusa@yahoo.com (Mary)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 16:45:40
+Sent: yes
+
+As Mary wrote to Dr. Math
+On 09/21/2004 at 16:07:19 (Eastern Time),
+>[Question]
+>Hi Dr. Math
+>my question :
+>If the sum S of the two natural numbers are not equal to zero and S 
+>is prime number, proof that natural numbers are relatively prime.
+>thank very much
+
+So we are given:
+there are two natural numbers, a and b.
+The sum S, or a+b, is prime.
+
+We want to prove:
+a and b have no common factor greater than 1.
+
+Usually the way to prove those kinds of statements is to start with:
+Let d be a number which is a common factor of both a and b.
+
+Then from there, prove that d must equal 1.  Use the information
+given in the problem (namely that the sum of a and b is prime) --
+you won't get anywhere without that!
+
+Does that help you get started?
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,41 @@
+ThreadNum: 575476
+Subject: Re: How can i rearrange this formula making 'D' the subject
+To: Ian@rondol.com (Ian)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 14:51:52
+Sent: yes
+
+
+As Ian wrote to Dr. Math
+On 09/21/2004 at 13:54:43 (Eastern Time),
+>[Question]
+>Can you please help me rearrange this 'MONSTER' formula making 'D' 
+>the subject. 
+>
+>G= 152.4 x (Sin(Pi-(ARCCOS(23225.76 + ((2446.29 + D^2)^0.5)) - (arcsin
+>(49.46/(2446.29 + D^2)^0.5))
+>
+>[Difficulty]
+>the general complexity is beyond my rusty skills.
+>
+>[Thoughts]
+>
+
+Hi Ian,
+
+Thanks for writing to Dr Math.  Unfortunately, you're missing several
+right parentheses, so I can't tell which terms belong to which functions.
+
+That said, I assume that you mean you want to solve this for D as a
+function of G.  Unless you can combine the arccos and the arcsin into
+a single function (which is probably not likely), then you cannot
+"solve" this for D.  So you will need to calculate D from a given G
+using Newton's method or iteration, or some other numerical method.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

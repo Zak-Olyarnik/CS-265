@@ -1,0 +1,84 @@
+ThreadNum: 575445
+Subject: Re: Is there an algorithm to solve k>3 pegs tower of hanoi
+To: mserioli@crema.unimi.it (Marco)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 14:44:31
+Sent: yes
+
+
+As Marco wrote to Dr. Math
+On 09/21/2004 at 11:58:38 (Eastern Time),
+>[Question]
+>I want to solve with a recursive algorithm the problem of hanoi, 
+>using k>3 pegs and n disks 
+>
+>[Difficulty]
+>I' m confusing because I don't find a way to solve this problem in a 
+>number of move < then the same problem with 3 pegs 
+>
+>[Thoughts]
+>Its better to hide my work ... :-( 
+
+Hi Marco,
+
+Thanks for writing to Dr Math.  Let's say you have four pegs, and four
+rings.  So you start with
+
+  1
+  2
+  3
+  4  .  .  .
+
+and then you move like this:
+
+
+  2
+  3
+  4  1  .  .
+
+
+  3
+  4  1  2  .
+
+
+  4  1  2  3
+
+
+        1
+  4  .  2  3
+
+
+        1
+  .  4  2  3
+
+
+     3  1
+  .  4  2  .
+
+
+     3
+  .  4  2  1
+
+
+     2
+     3
+  .  4  .  1
+
+
+     1
+     2
+     3
+  .  4  .  .
+
+And I've done it in nine moves.  Can you do four rings in nine moves
+if you only have three pegs?
+
+I didn't think so.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

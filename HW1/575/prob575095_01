@@ -1,0 +1,53 @@
+ThreadNum: 575095
+Subject: Re: Real analysis
+To: ehab_aa@hotmail.com (ehab)
+From: Doctor Fenton
+TimeStamp: 09/21/2004 at 11:49:37
+Sent: yes
+
+
+As ehab wrote to Dr. Math
+On 09/20/2004 at 14:36:44 (Eastern Time),
+>[Question]
+>Let y1=1,and for each n belong to N define y_n+1=(3y_n+4)/4.
+>Use induction to prove that the sequence satisfies y_n<4for all n 
+>belong to N.
+>use another induction argument to show the sequence(y1,y2,y3,...)is 
+>increasing.
+>
+>[Difficulty]
+>I am completely stuck on this problem.  Any help would be 
+>appreciated.  
+>Thank you.
+>
+>
+>[Thoughts]
+>
+
+Hi Ehab,
+
+Thanks for writing to Dr. Math.  These problems appear to be 
+fairly straightforward induction arguments.
+
+>Let y1=1,and for each n belong to N define y_n+1=(3y_n+4)/4.
+>Use induction to prove that the sequence satisfies y_n<4for all n 
+>belong to N.
+
+The base case is given.  If y_n < 4, then what difficulty are you
+having showing that y_(n+1) < 4?
+
+>use another induction argument to show the sequence(y1,y2,y3,...)is 
+>increasing.
+
+One way to word the problem is to show that y_(n+1) - y_n > 0 for
+all n.  The base case is a direct computation, since you have y_1 and
+the recurrence formula.  Then if y_n - y(n-1) > 0, can you show that
+y_(n+1) - y_n > 0?
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

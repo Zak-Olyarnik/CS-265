@@ -1,0 +1,40 @@
+ThreadNum: 575336
+Subject: Re: Solving Equations
+To: rtpk2000@yahoo.com (Rahul)
+From: Doctor Vogler
+TimeStamp: 09/24/2004 at 12:04:21
+Sent: yes
+
+
+As Rahul wrote to Dr. Math
+On 09/24/2004 at 01:50:43 (Eastern Time),
+>I know what relatively prime means. When 2 positive intigers have no 
+>other common factors other than 1 i.e. 2 nos having HCF as 1 then 
+>the nos are said to be relatively prime.
+
+That's correct.
+
+>4 and 5 are relatively prime.
+
+Exactly.  Now if 4 and 5 have no common factor, but 5 divides 4a, then
+what does that tell you about a?
+
+>Divisibility by 5 means that the right most digit of the number has 
+>to either 5 or 0.
+
+Um, well... yeah, but....  Divisible by 5 means that the number is
+some integer times 5.  If you write a number divisible by 5 in
+decimal, then you will get a 5 or 0 in the last digit, but that's not
+really what divisible by 5 means.  Rather, that's the way to check if
+a number is divisible by 5.
+
+So you have
+
+  4a = 5(b+c),
+
+and b+c is an integer, so that means that 4a is divisible by 5, right?
+ So 4a has 5 as a factor.  But 4 doesn't, so a does, right?
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

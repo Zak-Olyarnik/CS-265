@@ -1,0 +1,83 @@
+ThreadNum: 575739
+Subject: Re: possible answers for correct percentages
+To: kgingrich@jub.com (Kent)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:35:23
+Sent: yes
+
+
+As Kent wrote to Dr. Math
+On 09/22/2004 at 00:46:48 (Eastern Time),
+>[Question]
+>If I have 10 true/false questions how many combinations are possible 
+>to obtain 70% correct?
+>
+>[Difficulty]
+>I think what is confusing is working in the percentage correct and 
+>the two possible answers for each question.  For ten seperate items 
+>the possible combinations for these items would be 2^10.  But I get 
+>confused when there are two possible answers for each questions of 
+>how this effects the overall possibilities.  I am also not sure how 
+>the 70% correct answers factors into the problem.  Somehow I think 
+>that the 70% doesn't factor into the problem.
+>
+>[Thoughts]
+>I figured there are 2 obvious possibilities.  
+>1 all true
+>1 all false
+>in between other possibilities include:
+>#1 T, 2-10F
+>#2T, 1F,3-10F
+>#3T, 1-2F, 4-10F
+>#4T, 1-3F, 5-10 T
+>#5T, 1-4F, 6-10T
+>#6T, 1-5F, 7-10F
+>#7T, 1-6F, 8-10F
+>#8T, 1-7F, 9-10F
+>#9T, 1-8F, 10F
+>Then these can be reversed for 9 other possibilities. Therefore the 
+>total would be 2^9 +2 which is 514.  The answer is 120.  How did they 
+>get that?
+
+Hi Kent,
+
+Sometimes the best way to deal with a question like this is to turn it
+into an equivalent, or complementary, question.  To get 70% on the
+test, we need to get 7 questions correct. 
+
+How many ways can we get 7 questions correct?  That's the same as
+asking: How many ways can we get 3 questions wrong? 
+
+Let's say we put each question by itself on a slip of paper, and drop
+all the slips into a hat.  Now we want to know how many ways we can
+draw three of them out of the hat.
+
+There are 10 different ways we can choose the first one.  Having
+chosen that, there are 9 different ways to choose the second.  Having
+chosen those, there are 8 different ways to choose the third. 
+
+So there are 10*9*8 different ways to choose the questions.  However,
+the order isn't important, e.g., 5-8-3 is the same as 3-5-8.  Using
+similar reasoning to that above, there are 3*2*1 ways to order any set
+of 3 choices, so the number of combinations is 
+
+                                  10*9*8
+ number of ways to get 3 wrong =  ------ 
+                                   3*2*1
+
+If we think about it, we can see that dealing with correct answers
+works the same way, but with more values:
+
+                                  10*9*8*7*6*5*4
+ number of ways to get 7 right =  --------------------
+                                         7*6*5*4*3*2*1
+
+                                 10*9*8
+                               = ------
+                                  3*2*1
+
+Does this make sense? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

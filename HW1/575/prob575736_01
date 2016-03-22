@@ -1,0 +1,53 @@
+ThreadNum: 575736
+Subject: Re: My Grandson's 'Problem of the Week' Math Question
+To: Me911taz@comcast.net (Tina)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 12:30:59
+Sent: yes
+
+
+As Tina wrote to Dr. Math
+On 09/22/2004 at 00:38:42 (Eastern Time),
+>[Question]
+>The town of graphville has intersections formed by 28 avenues that 
+>run north-south and 35 streets that run east-west. If the town plans 
+>to install one traffic light at each intersection, how many traffic 
+>lights will be needed?
+>
+>[Difficulty]
+>Ok, there are 5 adults here right now, and NONE of us can figure out 
+>how we are supposed to work out this problem.  Nor can we agree on 
+>an answer.  
+>
+>[Thoughts]
+>Our ideas have been: 28 x 35, 28 x 28, 28 x 35 -7 x 28, and 28 x 35 
+>divided by 4 (for 4 intersections)
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+The answer is 28*35. To make this easier, consider a simpler situation:
+
+   1 north-south street
+   1 east-west street
+
+There is 1 intersection and 1 stop light.
+
+   2 north-south streets
+   1 east-west street
+
+There are 2 intersections and 2 lights (1*2 = 2).
+
+   3 north-south streets
+   2 east-west streets
+
+There are 6 intersections (you can draw the picture) and 6 lights (3*2
+= 6).
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

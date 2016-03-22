@@ -1,0 +1,103 @@
+ThreadNum: 575475
+Subject: Re: I'm embarrased that I couldn' help my daughter, please help
+To: Thompkinsray@aol.com (Rah)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 16:13:18
+Sent: yes
+
+
+Hi Rah,
+
+>1.What is the probability that you roll a 2 or a 3 with an ordinary 
+>six-sided die?
+
+The basic idea is that 
+
+                the number of ways [something] can happen
+  probability = -----------------------------------------
+                the number of ways anything can happen
+
+For example, if we flip a coin, two things can happen: we get heads,
+or we get tails.  If we ask:  What is the probability of getting
+heads, we have
+
+
+                the number of ways to get heads
+  probability = -----------------------------------------
+                the number of ways to get heads or tails
+
+                1
+              = -
+                2
+
+So the probability is 1/2.  Let's extend this to a die.  There are 6
+possible outcomes if we roll a die: 1, 2, 3, 4, 5, or 6.  If we ask:
+What is the probability of rolling a 2, we have
+
+                the number of ways to roll a 2
+  probability = -----------------------------------------
+                the number of ways to roll anything
+
+                1
+              = -
+                6
+
+so the probability is 1/6.  What if we ask:  What is the probability
+of rolling a 2 OR a 3?   Now there are two ways to get a 2 or 3, so we
+have
+
+                the number of ways to roll a 2 or 3
+  probability = -----------------------------------------
+                the number of ways to roll anything
+
+                2
+              = -
+                6
+
+                1
+              = -
+                3
+
+Does this make sense? 
+
+>2. A bar graph shows weights in kilograms for a group of althletes.  
+>Show the same information on a circle graph and on a line plot.  
+>Lable each wedge of the graph with the appropriate percent.
+
+For a line plot, you start with the bar graph, 
+     _
+     _     _
+     _   _ _
+   _ _ _ _ _
+   _ _ _ _ _
+   _________
+
+you put a dot at the top of each bar, 
+
+     .
+     _     .
+     _   . _
+   . _ . _ _
+   _ _ _ _ _
+   _________
+
+then you remove the bars, 
+
+     .
+           .
+         .  
+   .   .    
+   
+   _________
+
+and then you draw a line connecting each dot to the one next to it. 
+
+A circle graph, or pie chart, is a little more work:
+
+  http://mathforum.org/library/drmath/view/64485.html
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

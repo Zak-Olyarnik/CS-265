@@ -1,0 +1,43 @@
+ThreadNum: 575764
+Subject: Re: interest calculation
+To: billrimmer2000@yahoo.com (william)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 13:43:58
+Sent: yes
+
+
+Hi William,
+
+>my savings account pays me 3.5% apr but calculates the interest daily
+>how do they achieve this 
+>
+>[Difficulty]
+>i have presumed that 3.5 is divided by 365 giving me a daily rate
+>but it never seems to equate with the final sums 
+
+That is, in fact, the way they do it (although they would divide by
+366 in leap years).  
+
+>3.5% pa net divided by 365 = 0.009 per day
+>yet when i apply this formula i get different figures to my bank
+
+Okay, first you don't want to round it off to one significant digit. 
+A better approximation would be 
+
+  3.5/365 = 0.009589
+
+Second, note that this is 3.5 _percent_, so for each compounding
+period, you want to multiply by 1.00009589, not 1.009589. 
+ 
+Note that 
+
+  1.00009589^365 = 1.0356
+
+so compounding every day for a year would be the same as compounding
+3.56% once at the end of the year.  
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

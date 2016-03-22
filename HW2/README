@@ -1,0 +1,19 @@
+Zak Olyarnik
+CS-265 HW2
+10-25-14
+
+This program displays baseball players' statistics.  The user interface is
+an enumerated, alphabetical list of teams.  Typing the number of one brings
+up an enumerated list of players, both first and last name in the event that
+there would be duplicates of either (per Sam Bever, 10/22/14).  Selecting a
+player brings up a list of the rest of their stats, prefaced with details
+about what each number represents (per James Barnes 10/25/14).  From there,
+if the user inputs the arbitrary "99", they will be returned to the team
+menu.  There is no error checking with the user-interactions because we were
+told to assume correct input (per David Augenblick, 10/24/14).  The strategy
+of having a wholeTable array filled with teamLists filled with playerLists
+came from sample code shown in class (per David Augenblick, 10/24/14), and
+was expanded upon and curtailed as necessary to fit the assignment
+requirements.  The program defaults to use the provided sample.in file, but
+if another is provided as a command line argument, it will use that instead
+(per James Barnes, 10/23/14).

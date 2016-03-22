@@ -1,0 +1,75 @@
+ThreadNum: 575418
+Subject: Re: I'm a Maths teacher and I need some assistance on a question
+To: jacky25@hotmail.com (Sean)
+From: Doctor Anthony
+TimeStamp: 09/21/2004 at 12:59:06
+Sent: yes
+
+
+As Sean wrote to Dr. Math
+On 09/21/2004 at 09:38:08 (Eastern Time),
+>[Question]
+>How do I find the integral of 1/((1-x)(sqrt(1-x^2))?
+
+  Let 1-x = 1/z   so x = 1 - 1/z
+
+                     x^2 = 1 - 2/z + 1/z^2
+
+                   1-x^2 = 2/z - 1/z^2
+
+        dx = dz/z^2
+
+So integral becomes
+
+          z. dz/z^2
+  INT[-------------------]
+        sqrt[2/z - 1/z^2)
+
+              dz
+  INT[--------------------]
+       z.sqrt[2/z - 1/z^2]
+
+            dz
+  INT[-------------]
+       sqrt[2z - 1]
+
+    
+  Put 2z-1 = u
+
+        2.dz = du   so dz = du/2
+
+          du
+   INT[-----------]   =   u^(1/2) + C
+        2.u^(1/2)
+
+                      =  sqrt(2z-1) + C
+
+                      = sqrt[2/(1-x) - 1]  +  C
+
+                              2 - 1 + x  
+                      = sqrt[------------]  + C
+                                (1-x)
+
+                              1 + x
+                      = sqrt[-------] + C
+>                             1 - x
+>
+>
+>
+>
+>[Difficulty]
+>This question has been bugging me for while now as one of my 
+>colleagues has asked me to help him out and I can't as yet.
+>
+>Can this be solved using calculus methods or not??
+>
+>
+>[Thoughts]
+>I have tried trig substitutions like x=sinA etc... but to no avail?
+>
+>I get to a point then get stuck again?
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

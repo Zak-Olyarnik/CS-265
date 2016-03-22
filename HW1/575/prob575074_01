@@ -1,0 +1,98 @@
+ThreadNum: 575074
+Subject: Re: partial differentiation
+To: cwto@so-net.com.hk (Wai)
+From: Doctor Fenton
+TimeStamp: 09/21/2004 at 12:04:27
+Sent: yes
+
+
+As Wai wrote to Dr. Math
+On 09/20/2004 at 11:52:20 (Eastern Time),
+>[Question]
+>Q1.Use the subtstitution u=x+ct and v=x-ct to reduce the wave 
+>equation c^2(d^2w/dx^2) = (d^2w/dt^2) to form (d^2w/dudv)=0.
+>
+>Q2.Suppose the function f(x,y)is transformed to F(u,v) by the change 
+>of variables x=u^2 - v^2 and y=2uv. Show that 
+>(dF/du)^2 + (dF/du)^2 = 4(u^2 + v^2)[(df/dx)^2 + (df/dy)^2], prove 
+>that if 
+>u(dF/du) - v(dF/dv) =0, then f(x,y) is independent of x.
+>
+>
+>[Difficulty]
+>Q1.What is the meaning reduce the wave equation and how the step? 
+>O2.(dF/du)^2 + (dF/du)^2 = 4(u^2 + v^2)[(df/dx)^2 + (df/dy)^2]I can 
+>do it, but u(dF/du) - v(dF/dv) =0, then f(x,y) is independent of x, 
+>I can't. What is the meaning of then f(x,y) is independent of x and  
+>is that (dy/dx)^2 = (d^2y/dx^2)?
+>
+>
+>[Thoughts]
+>Q2. x=u^2-v^2, y=2uv
+>    dF/du = fx(dx/du) + fy(dy/du)
+>          = 2u(df/dx) + 2v(df/dy)
+>    dF/dv = fx(dx/dv) + fy(dy/dv)
+>          = -2v(df/dx) + 2u(df/dy)
+>    (dF/du)^2 = 4u^2(df/dx)^2 + 8uv(df/dx)(df/dy) + 4v^2(df/dy)^2
+>    (dF/dv)^2 = 4v^2(df/dx)^2 - 8uv(df/dx)(df/dy) + 4u^2(df/dy)^2
+>so,(dF/du)^2 + (dF/du)^2 = 4(u^2 + v^2)[(df/dx)^2 + (df/dy)^2] and
+>u(dF/du) - v(dF/dv) = 2u^2(df/dx)+2uv(df/dy)+2v^2(df/dx)-2uv(df/dy)
+>                    = 2(df/dx)(u^2-V^2)
+>                    = 2x(df/dx)
+
+Hi Wai,
+
+Thanks for writing to Dr. Math.  Taking you second question, which is
+almost completed, first,
+
+>Q2. x=u^2-v^2, y=2uv
+
+  <snip: correct computation omitted>
+
+>u(dF/du) - v(dF/dv) = 2u^2(df/dx)+2uv(df/dy)+2v^2(df/dx)-2uv(df/dy)
+>                    = 2(df/dx)(u^2-V^2)
+>                    = 2x(df/dx)
+
+The middle line should be 2(df/dx)(u^2+v^2).  But if
+
+   u(dF/du) - v(dF/dv) = 0
+
+for all u and v, and if
+
+   u(dF/du) - v(dF/dv) = 2x(df/dx) ,
+
+what does this imply about df/dx?  What conclusion can you draw?
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+>Q1.Use the subtstitution u=x+ct and v=x-ct to reduce the wave 
+>equation c^2(d^2w/dx^2) = (d^2w/dt^2) to form (d^2w/dudv)=0.
+>[Difficulty]
+>Q1.What is the meaning reduce the wave equation and how the step? 
+
+As in the second part, this is an exercise in the Chain Rule.  If I
+denote the partial derivative of w with respect to x as w_x, etc,
+then
+
+   w_x = w_u * u_x + w_v * v_x
+and
+    w_xx = [w_u * u_x]_x + [w_v * v_x]_x
+         = w_uu * (u_x)^2 + w_u * u_xx + w_vu * u_x * v_x + w_v * v_xx
+
+which can be simplified by using
+
+   u_x = 1 , u_t = c , v_x = 1, v_t = -c 
+   u_xx = 0, and v_xx = 0 .
+
+to
+
+   w_xx = w_uu + w_vu  .
+
+Similarly, compute w_yy and simplify, and then determine what 
+partial differential equation c^2w_xx - w_tt = 0 corresponds to, in
+u-v variables.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

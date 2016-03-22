@@ -1,0 +1,80 @@
+ThreadNum: 575675
+Subject: Re: simplifying radicals
+To: lacsw@earthlink.net (Linda)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 11:07:22
+Sent: yes
+
+
+As Linda wrote to Dr. Math
+On 09/21/2004 at 21:39:36 (Eastern Time),
+>[Question]
+>teacher asked to simplify radicals.  I thought I understood this, 
+>but my answers are coming up different and I don't know why.  
+>For example   cube of 4/9   I say square root of 12 over 3.  
+>Teacher says 3 times square root of 12 over 3.  
+>
+>Another example  square root of 4/6.  I say  square root of 24 
+>over 6 . She says square root of 6 over 3 
+>
+>[Difficulty]
+>what am I doing wrong, if anything?   Thanks
+>
+>[Thoughts]
+>square root of 4/6
+>multiply 4/6  by 6/6 = square root of 24/square root of 36
+>answer square root of 24 over 6
+
+Hi Linda,
+
+If you're trying to simplify something like 
+
+    ___
+  \/4/6
+
+the first step would generally be to simplify the fraction inside the
+radical, i.e., 
+
+    ___     ___
+  \/4/6 = \/2/3
+
+At this point, there's not a lot you can do, unless you're supposed to
+'rationalize the denominator', in which case you do this:
+
+     __      _
+    | 2    \/2
+    | -  = ---  
+   \| 3      _
+           \/3
+
+
+             _      _
+           \/2    \/3
+         = ---- * ----
+             _      _
+           \/3    \/3      <-- This gets rid of the radical in
+                               the denominator
+
+             _   
+           \/6 
+         = ----
+             3  
+
+Note that none of the forms is incorrect.  And it's hard to say with a
+straight face that 
+
+     _                    __
+   \/6                   | 2
+   --- is simpler than   | -
+    3                   \| 3
+
+
+However, some people - in particular, teachers - prefer the former to
+the latter.  And since they get to give out grades, it's prudent to
+humor them. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

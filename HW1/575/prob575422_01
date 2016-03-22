@@ -1,0 +1,68 @@
+ThreadNum: 575422
+Subject: Re: Becoming a Computer Scientist
+To: aborici@ftml.net (Arber)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 11:44:09
+Sent: yes
+
+
+As Arber wrote to Dr. Math
+On 09/21/2004 at 09:46:56 (Eastern Time),
+>[Question]
+>Hello, I am a student of Computer Science at an American university 
+>overseas. I have a question that I feel I have to ask at 
+>Mathematicians. Getting to the point: What do I really need to study 
+>(hard) from Mathematics, to be a non-ordinary, science-oriented 
+>Computer Scientist? 
+>Some have advised me to start studying Abstract Algebra, then Number 
+>theory, then Numerical methods and optimization, after which the 
+>Probability theory and Partial Stochastic Differential Equations and 
+>dynamical systems. 
+>What would your suggestions be? 
+>NOTE: In my university I feel that the math curricula is poorer than 
+>my expectations.
+>With respects,
+>- Arber
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Arber,
+
+Thanks for writing to Dr Math.  The answer to your question depends
+heavily on exactly what you planned to do with your math.  To say
+"non-ordinary" means nothing to me, and "science-oriented" is pretty
+vague.
+
+If you plan to do something like computational physics, then you will
+need a solid foundation in advanced calculus, differential equations,
+and probably complex numbers and probability (both are used a lot in
+quantum physics, for example).
+
+Abstract algebra has myriad applications in many places, but a
+specific science application doesn't come to mind.  On the other hand,
+it is a great tool to develop mental discipline.  That and, more so,
+number theory probably has more applications in computers (such as
+cryptology) than in science.
+
+As for numerical methods and optimization, yes, that's where
+mathematics and computer science meet.  You'll probably find that kind
+of mathematics most applicable to computer science.  Some
+computational scientists use tools developed by others, but I hear
+that many need to develop their own tools to implement their own
+techniques to solve their own problems.  So you'll probably find that
+useful.
+
+I'll leave your question on the board in case someone else has other
+opinions, although getting two answers to a question is not especially
+common.
+
+If you have any questions about this or need more help, please write
+back, and I will try to offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

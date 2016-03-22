@@ -1,0 +1,58 @@
+ThreadNum: 575378
+Subject: Re: Question about an ideal gas laws calculation
+To: dmv@hotmail.com (Dillon)
+From: Doctor Fenton
+TimeStamp: 09/21/2004 at 11:24:28
+Sent: yes
+
+
+As Dillon wrote to Dr. Math
+On 09/21/2004 at 01:42:18 (Eastern Time),
+>[Question]
+>I am trying to figure out how the following results are determined 
+>using the ideal gas laws:
+>Here is the given information:
+>
+>Volume- 8cm cubed
+>Temperature in kelvin: 298.16
+>number of gas molecules: 1.25e21
+>I am also given that r is  1.363 * 10e-22(gas constant)
+>
+>I need to find the pressure in mm hg
+>
+>There answer is :
+>6.35 mm Hg
+>I cannot get this answer. I have tried every possible version of the 
+>formula pv=nrt that I could think of.
+>
+>[Difficulty]
+>It seems pretty straight forward to me as I have used the idea gas 
+>laws formula several times. I think my problem may lie in converting 
+>the measurments.
+>
+>[Thoughts]
+>I have set up the problem like this when trying to solve it:
+>p = nrt / v
+>
+>p = 1.25e21 * (1.363 * 10e-22) * 298.16 / 8
+>I get this answer: 5.5076397e-19
+>
+
+Hi Dillon,
+
+Thanks for writing to Dr. Math.  When I multiply your numbers, I get
+
+   6.34987625 ,
+
+which looks like the answer you want.
+
+The number 1.25e21 should be interpreted as 1.25*10^21, just as 
+1.363 * 10e-22 is 1.363*10^(-22) .
+
+If you have any questions or need more help, please write back and
+show me what you have done, and I will try to offer further 
+suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

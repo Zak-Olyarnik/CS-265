@@ -1,0 +1,61 @@
+ThreadNum: 575511
+Subject: Re: brain teaser
+To: cutedoggiejanice@yahoo.com (Janice)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 16:57:51
+Sent: yes
+
+As Janice wrote to Dr. Math
+On 09/21/2004 at 16:47:18 (Eastern Time),
+>[Question]
+>In a class of 50 students, 18 take chorus, 26 take band and 2 take 
+>both chorus and band. How many students in the class are not 
+>enrolled in either class or band? 
+>
+>[Difficulty]
+>I thought the problem was kind of easy and thats the problem. 
+>
+>[Thoughts]
+>Am i suppose to add all the numbers and subtract it from 50? I think 
+>this is how you do it but it seems so easy. So I just want to know 
+>if I am doing it right. 
+
+Hi Janice,
+The question of whether you're doing it right comes down to whether
+"18 students take chorus" means that the chorus teacher has a class
+of 18 students -- which is what I think, and probably what your
+math teacher is expecting -- or whether it means in the list of students,
+there are 18 who take ONLY chorus and NOT band -- which is what
+you thought.
+
+The total, 50 students, is certainly equal to
+(students taking neither chorus nor band)
+plus
+(students taking ONLY chorus)
+plus
+(students taking ONLY band)
+plus
+(students taking chorus and band).
+
+But I think that the students taking chorus and band are ALREADY
+included in the 18 students taking chorus!  So the number of
+students taking ONLY chorus would be 16, not 18.
+
+How many students are taking ONLY band?
+
+Once you have that, you can do
+50 - (chorus and band) - (chorus only) - (band only) and you'll
+have the number taking neither left over.
+
+Does that make sense?
+
+You can also search our archives here at Dr. Math for
+  Venn diagram
+and find some very useful solutions to problems that are
+a lot like yours.
+
+Enjoy,
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

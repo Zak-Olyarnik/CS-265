@@ -1,0 +1,47 @@
+ThreadNum: 575228
+Subject: Re: i'm confused with algebra,would love some guidance
+To: www.scubawazoo@msn.com (grant)
+From: Doctor Ian
+TimeStamp: 09/20/2004 at 22:53:55
+Sent: yes
+
+
+As grant wrote to Dr. Math
+On 09/20/2004 at 18:47:34 (Eastern Time),
+>[Question]
+>which operation should be used to get y alone in 16y ? (a) add 16  
+>(b) subtract 16  (c)multiply by 16  (D) divide by 
+>16                    
+>
+>[Difficulty]
+>i just don't understand the question
+>
+>[Thoughts]
+>i think (D) divide by 16 is the correct answer,because i think it is 
+>a inverse operation
+
+Hi Grant,
+
+Note that you can't really 'get y alone' unless it's part of an
+equation, e.g., 
+
+  16y = something
+
+In that case, your intuition is correct: if you divide both sides of
+the equation by 16, 
+
+  16y   something
+  --- = ---------
+  16       16
+
+        something
+    y = ---------
+           16
+
+you do end up with y by itself on one side. 
+    
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# makes sure desired path exists
+if [ ! -e $ARCHIVE ] ; then
+	echo -e "\nARCHIVE pathname could not be found.\n"
+   exit
+fi
+
+# removes temporary text file so it can be written from scratch
+if [ -e messageTemp.txt ] ; then
+	rm messageTemp.txt
+fi
+
+# for each file in the desired path, writes the six-digit thread name to a
+# temporary text file, with a "1" in a second column
+for folder in $(ls $ARCHIVE) ; do
+
+	for file in $(ls ${ARCHIVE}/${folder}) ;do
+		echo ${file:4:6} 1 >> messageTemp.txt
+
+   done
+done
+
+# awk program tallies up the occurances of each unique thread and formats
+# output
+awk -f threadCounter.awk messageTemp.txt
+

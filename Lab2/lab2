@@ -1,0 +1,39 @@
+Q1: no output...the command searches for files modified in the last two
+days, and there are none
+
+Q2: find . -name "*.bash" -print
+
+Q3: ./CS265/Lab1/hello.bash
+    ./CS265/Lab1/play/CS265/Lab1/hello.bash
+    ./tmp/gotMe.bash
+my specific output is obviously unique because I have additional .bash files
+in additional directories.  If you wanted to just find the .bash file in the 
+new folder we just created, then I would change my answer to Q2 to
+find ./tmp -name "*.bash" -print
+
+Q4: 2538 characters, 421 words, 73 lines
+
+Q5: grep "the" breadIsDangerous.txt | wc -l (produces 8 lines)
+
+Q6: a wild spellExample.bak file has appeared!
+
+Q7: the first number is the line in the first file that differs from the
+line in the second file, and the letter between them tells you how to change 
+the file to make them the same: a(dd), c(hange), or d(elete).  Then it lists 
+the two lines so you can see the exact differences for yourself.
+
+Q8: no output...the file is being compared to itself, so there are no
+differences to display
+
+Q9: echo $? displays the return value of the last executed command, so when
+it successfully found "dough", it returned a 0 (true).  It couldn't find 
+"uniqueString" so it returned 1 (false), and with "noSuchFile" it couldn't 
+even find the file, so it returned 2 (still false, since everything other 
+than 0 is)
+
+Q10: uploaded
+
+Q11: uploaded
+
+Q12: uploaded
+

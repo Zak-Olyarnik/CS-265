@@ -1,0 +1,39 @@
+ThreadNum: 575894
+Subject: Re: math defination 
+To: osamasw@zahav.net.il (swidan )
+From: Doctor Peterson
+TimeStamp: 09/22/2004 at 22:43:27
+Sent: yes
+
+Hi, Swidan.
+
+As swidan  wrote to Dr. Math
+On 09/22/2004 at 16:29:08 (Eastern Time),
+>[Question]
+>do the square root of number always positive, why ?  
+>
+>[Difficulty]
+>square root of 9 is 3 because 3*3=9 but also -3*(-3)=9 ? 
+>
+>[Thoughts]
+>maybe the square root it defination is positive 
+
+Although any positive number has two square roots, when we use the
+radical symbol, we want it to stand for just one number, so that we
+can tell what number someone has in mind when he writes an expression.
+(That is, we want it to be a "function", a way to get one number when
+you are given a specific number.) We naturally take it to be the
+positive root, since we are usually looking for a positive answer
+(e.g. when we use the Pythagorean theorem to find the length of a
+line). If we want to talk about the negative root, then we just put a
+negative sign before the radical; and if we want to specific _both_
+roots, we use the plus-or-minus sign to say that explicitly. This way
+we can say whatever we want to say, which makes the symbol more useful
+than if it meant both roots and gave no way to specify which one we want!
+
+If you have any further questions, feel free to write back.
+
+
+- Doctor Peterson, The Math Forum
+  <http://mathforum.org/dr.math/>
+

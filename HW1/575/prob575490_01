@@ -1,0 +1,35 @@
+ThreadNum: 575490
+Subject: Re: Proving Congruent Triangles
+To: ctrayner@mtholly.k12.nj.us (Carey)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:13:51
+Sent: yes
+
+As Carey wrote to Dr. Math
+On 09/21/2004 at 15:13:35 (Eastern Time),
+>[Question]
+>I know that we use SSS, ASA, and SAS to prove congruent triangles.  
+>Why is there no AAS?  
+>
+>
+>[Difficulty]
+>I know why SSA doesn't work, but I am having trouble explaining to my 
+>students why AAS doesn't work.  I am trying to come up with an 
+>example to disprove it, but I am having a difficult time.
+>
+>
+>[Thoughts]
+>I have tried to set up the triangles with two angles the same and one 
+>side the same, but that would mean the third sides are congruent and 
+>then you can use ASA.  Is that accurate or is there more to it?
+
+You got it -- except you said "third sides are congruent" when you
+meant angles.
+
+Since the angles always add up to 180, once you have two angles
+you have them all, so ASA, AAS, SAA, AAAS, AASA, ASAA, SAAA
+are all the same!
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

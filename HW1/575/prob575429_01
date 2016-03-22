@@ -1,0 +1,38 @@
+ThreadNum: 575429
+Subject: Re: MULTIPLYING PERCENTAGES
+To: fsinger@whitesell.ca (Fran)
+From: Doctor Ian
+TimeStamp: 09/21/2004 at 13:57:34
+Sent: yes
+
+
+As Fran wrote to Dr. Math
+On 09/21/2004 at 10:28:30 (Eastern Time),
+>[Question]
+>WHAT IS THE FACTOR TO MULTIPLY AND ITEM BY 133%
+>FOR EXAMPLE   5.00 X 133%
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Fran,
+
+133% just means the fraction 133/100, so you could do this:
+
+         133
+  5.00 * ---
+         100
+
+Of course, 133/100 is just the long way of writing 1.33, so you could
+do this:
+
+  5.00 * 1.33
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

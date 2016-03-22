@@ -1,0 +1,84 @@
+ThreadNum: 575032
+Subject: Re: Finding dy/dx foy y = (6x^4 - 3x^2 + sqrt x) / x^2
+To: bddaddy10@hotmail.com (Paul)
+From: Doctor Jerry
+TimeStamp: 09/20/2004 at 07:55:35
+Sent: yes
+
+
+As Paul wrote to Dr. Math
+On 09/20/2004 at 05:50:08 (Eastern Time),
+>[Question]
+>My question concerns using the quotient rule with respects to the 
+>square root of x (x^(1/2)). 
+>
+>[Difficulty]
+>The part the square roots ( in the last part, I referred to them 
+>as "root x") play in the distributing and/or cancelling of the 
+>equation.
+>
+>[Thoughts]
+>What I have is:
+>  
+>      (x^2)d/dx(6x^4 - 3x^2 + x^1/2)-(6x^4 - 3x^2 + x^1/2)d/dx(x^2)
+>      _______________________________________________________________
+>                            (x^2)^2
+>
+>
+>        (x^2)(24x^3 - 6x + 1/2x^-1/2)-(6x^4 - 3x^2 + x^1/2)(2x) 
+>        _______________________________________________________
+> =                         (x^2)^2
+>     Here's where my first question comes into play and it concerns 
+>the distributing of the (x^2)and the(1/2x^(-1/2)) in the first part 
+>of the numerator and the(2x)and the (x^(1/2))in the second part of 
+>the numerator. What I got was:
+>
+>            (24x^5 - 6x^3 + 1/2x^3/2)- 12x^5 + 6x^3 - 2x
+>            ____________________________________________
+>=
+>                           (x^2)^2
+>  Is this right? Something is telling me that I am missing something.
+>    I will just continue with what I have for now. 
+>     Combining like terms in the numerator gives me:
+>
+>  12x^5 + 1/2x^(3/2) + 2x^(1/2)       12x^5 + (3/(2rootx)) - (2rootx)
+> ______________________________   =   _____________________________
+>             x^4                                  x^4
+>
+>From here I don't know what I should do. I am fairly sure that this 
+>is either not finished or not right. Please advise me on the error 
+>of my ways! Thank you.
+>                       
+>
+
+Hello Paul,
+
+    Here's where my first question comes into play and it concerns 
+>the distributing of the (x^2)and the(1/2x^(-1/2)) in the first part 
+>of the numerator and the(2x)and the (x^(1/2))in the second part of 
+>the numerator. What I got was:
+>
+>            (24x^5 - 6x^3 + 1/2x^3/2)- 12x^5 + 6x^3 - 2x
+>            ____________________________________________
+>=
+>                           (x^2)^2
+
+The denominator is correct and the first part of the numerator is correct.  You should have 
+gotten (for the numerator)
+
+12x^5+(3/2)x^{3/2}.
+
+Copying from your work, you got, correctly,
+
+(x^2)(24x^3 - 6x + 1/2x^-1/2)-(6x^4 - 3x^2 + x^1/2)(2x) 
+
+Multiplying these terms we find
+
+24x^5-6x^3+(1/2)x^{3/2} -12x^5 + 6x^3 + 2x^{3/2}.
+
+Combining like terms,
+
+12x^5 + (5/2)x^{3/2}.
+
+- Doctor Jerry, The Math Forum
+  <http://mathforum.org/dr.math/>

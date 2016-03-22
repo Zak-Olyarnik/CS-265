@@ -1,0 +1,54 @@
+ThreadNum: 575098
+Subject: Re: proving a number is irrational
+To: lissaroy@hotmail.com (Melissa)
+From: Doctor Vogler
+TimeStamp: 09/20/2004 at 16:12:26
+Sent: yes
+
+
+As Melissa wrote to Dr. Math
+On 09/20/2004 at 14:47:14 (Eastern Time),
+>[Question]
+>My question states that:
+>"The frequency ratio corresponding to an equal-tempered semitone is 
+>r=2^1/12.  Find a quick way to see that r is irrational."
+>
+>[Difficulty]
+>I've tried to approach this question like the proof that the square 
+>root of 2 is irrational... I'm just not sure if i'm on the right 
+>track...
+>
+>[Thoughts]
+>I've started by assuming that 2^1/12 is rational and am trying to 
+>prove by contradiction that it is in fact not rational...
+>
+>I've said that 2^1/12 = a/b , where a,b, are whole numbers and at 
+>least one of which is odd...
+>
+>~ a^12 = 2b^12
+>~ then a^12 is a multiple of 2
+>~ so a must be a multiple of 2
+>~ then i've let a=2c , where c is some whole number
+>~ so (2^12)(c^12)=2b^12
+>~ then b^12= (2^11)(c^12)
+>~ this shows that b^12 is a multiple of 2
+>~ then b must be a multiple of 2
+>
+>~ so we've proved by contradiction that 2^1/12 is an irrational 
+>number....
+>
+>I just don't know if this is actually correct or not... or if there 
+>is a simpler or more direct method of answering this question...
+>I really need feedback and help!!
+>
+>Thanks a lot!!
+
+Hi Melissa,
+
+Thanks for writing to Dr Math.  Your proof is fine.  Good job!
+
+Write back if you have any other questions about this.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

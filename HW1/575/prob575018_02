@@ -1,0 +1,43 @@
+ThreadNum: 575018
+Subject: Re: i am completly frazzled
+To: Sameer_797@hotmail.com (Sam)
+From: Doctor Anthony
+TimeStamp: 09/20/2004 at 11:02:29
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 09/20/2004 at 02:46:57 (Eastern Time),
+>[Question]
+>31 two-digit numbers are written on a blackboard. prove that one 
+can 
+>find four numbers on the blackboard such that for each of them its 
+>two digits differ by teh same number.
+
+
+We make use of the pigeonhole principle.
+
+The difference between the two digits must be one of 0, 1, ..., 9
+
+That is 10 possible differences.
+
+The pigeonholes can be labelled 0 to 9.
+
+We must now distribute 31 differences into these 10 holes.  The 
+first 30 could be disatributed so that every hole had 3 pigeons but 
+the 31st pigeon would have to go into a hole with 3 others.  So 
+there would be 4 pigeons in one hole.  It follows that 4 numbers 
+would have the same difference between its digits.  
+
+
+>
+>[Difficulty]
+>its too hard to do
+>
+>[Thoughts]
+>-
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

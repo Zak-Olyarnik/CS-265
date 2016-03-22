@@ -1,0 +1,49 @@
+ThreadNum: 575379
+Subject: Re: prime ideals
+To: whassup_22@hotmail.com (gunnar)
+From: Doctor Jacques
+TimeStamp: 09/23/2004 at 02:47:57
+Sent: yes
+
+
+As gunnar wrote to Dr. Math
+On 09/22/2004 at 14:12:01 (Eastern Time),
+>Thank you sir, can I ask one last question? It's not related to the 
+>previous problem.
+>
+>Let R be a ring with 1. Suppose that I and J are left ideals of R 
+>such that for each r in R, there exist unique i in I and unique j in 
+>J such that r=i+j. Let a in I and b in J such that 1_R = a+b. (1_R 
+>being identity of R with respect to multiplication) Prove that ia=a, 
+>ib=0 for all i in I, and ja=0, jb=j for all j in J.
+>
+>Since I don't know if I and J are right ideals of R or not, I can't 
+>simply multiply i or j to the left hand side for both sides of the 
+>equation 1_R = a+b. And does knowing that a and b are unique in I 
+>and J respectively help?
+>
+>Thank you for your attention.
+>
+>
+Hi again Gunnar,
+
+First, notice that the intersection of I and J is {0}, because, for 
+any element x in that intersection, we have:
+
+  0 = x - x = 0 + 0
+
+and the expression of 0 is unique by hypothesis.
+
+Now, you can write, for i in I:
+
+  i(a+b) = ia + ib = i
+
+i is in I, and so is ia, because a is in I and I is a left ideal. 
+This implies that ib is in I; however, as b is in J, ib is also in J.
+
+Can you continue from here ? Please write again if you require 
+further assistance.
+
+- Doctor Jacques, The Math Forum
+  <http://mathforum.org/dr.math/>
+

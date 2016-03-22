@@ -1,0 +1,47 @@
+ThreadNum: 575018
+Subject: Re: i am completly frazzled
+To: Sameer_797@hotmail.com (Sam)
+From: Doctor Greenie
+TimeStamp: 09/20/2004 at 10:46:39
+Sent: yes
+
+
+As Sam wrote to Dr. Math
+On 09/20/2004 at 02:46:57 (Eastern Time),
+>[Question]
+>31 two-digit numbers are written on a blackboard. prove that one 
+can 
+>find four numbers on the blackboard such that for each of them its 
+>two digits differ by teh same number.
+>
+>[Difficulty]
+>its too hard to do
+>
+>[Thoughts]
+>-
+Hi, Sam --
+
+This seems like quite a challenging problem for a 12-year-old....
+
+Here are my suggestions for solving it.
+
+(1) If you take the two digits in a 2-digit number, what are the 
+largest and smallest differences there can be between the two digits?
+
+(2) With the largest and smallest possible differences from question 
+(1), how many different differences are possible?
+
+(3) This last step is the hardest.  Let me describe a similar 
+example.  Suppose I have 4 different pairs of good shoes I can wear 
+to work.  In four days, I can wear each pair once; but in 5 days I 
+have to wear at least one pair twice.  In 12 days, I can wear each 
+pair 3 times; but in 13 days, I have to wear at least one pair 4 
+times.  And so on.  See if you can use your answer to question (2) 
+above and apply this type of reasoning to your problem.
+
+I hope this much helps.  Please write back if you still have 
+questions about this.
+
+- Doctor Greenie, The Math Forum
+  <http://mathforum.org/dr.math/>
+

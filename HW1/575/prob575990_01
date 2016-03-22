@@ -1,0 +1,198 @@
+ThreadNum: 575990
+Subject: Re: How to answer a question with variables on both sides
+To: latoniadunn@bellsouth.net (Chris)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 21:45:36
+Sent: yes
+
+
+Hi Chris,
+
+>This math problem has two variables before the equal sign and one 
+>variable before the equal sign. 2t-3t+8=3t-8
+>I want to know how to solve a crazy type of problem like this for my 
+>homework.
+
+See 
+
+  Basic Tips on Solving for X
+  http://mathforum.org/library/drmath/view/57265.html
+
+>The most confusing part about it is which like terms I combine 
+>first.  Is it the first two variables, or the two before the first 
+>one?  
+
+In fact, it doesn't matter which you do first.  There are really only
+two rules that you have to follow:
+
+  1) Don't divide by zero.
+
+  2) If you do something to one side of an equation, you have
+     to do the same thing to the other side. 
+
+So I can look at 
+
+  2t - 3t + 8 = 3t - 8
+
+and decide to multiply everything by 58, or subtract pi from both
+sides, or divide both sides by 1/2, and so on.  None of those things
+will be particular _helpful_, but none of them are _wrong_.  The worst
+that can happen is that I spend a little more time working towards the
+solution than someone else might do.  
+
+In general, when you see an opportunity to combine like terms, it's a
+good idea to do it, simply because it reduces the number of terms that
+you have to fool around with.  But you don't _have_ to do that.  For
+instance, in this case, I might decide to combine the t terms on the
+left, 
+
+  (2 - 3)t + 8 = 3t - 8
+
+        -t + 8 = 3t - 8
+
+but I might not do that, because I don't really like negative
+coefficients.  (Again, they're not wrong - I just don't like them.) 
+So I might decide instead to add 3t to each side:
+
+  2t - 3t + 8 + 3t = 3t - 8 + 3t
+
+            2t + 8 = 3t - 8 + 3t
+
+None of these moves is inherently 'right' or 'wrong'.  A lot of this
+is just a matter of taste.  
+
+In fact, one thing I might try is just subtracting one side of the
+equation from both sides:
+
+ (2t - 3t + 8) - (3t - 8) = (3t - 8) - (3t - 8)
+
+ (2t - 3t + 8) - (3t - 8) = 0
+
+That looks kind of startling, if you haven't seen it before, but it
+has the value of getting everything over on one side, so I can stop
+worrying about inverse operations!  Insteadm, I can just simplify:
+
+ (2t - 3t + 8) - (3t - 8) = 0
+
+     2t - 3t + 8 - 3t + 8 = 0         Note how I distributed the
+                                      subtraction...
+
+     2t - 3t - 3t + 8 + 8 = 0
+
+                 -4t + 16 = 0
+
+Does this make sense? 
+
+>The second confusing part to me is how do you know when to add 
+>or subtract, I know this a multi-step problem and I am wondering do 
+>you change the minus to plus and change the variable on the right the 
+>opposite of its value?  Like 4t-8t+4=10t-3, do you change the minus 
+>to plus and make 8 negative, or do you ignore it and just add 4+8?  
+>To make this short can please show me each step?
+
+As I said above, it's not like there's one set of steps that you have
+to follow.  If you get into the habit of thinking that there _is_,
+you're going to experience a lot of frustration over the course of the
+coming year.  
+
+Do you play video games?  When you get into a new level, you don't
+start thinking, "Uh, oh!  What are the steps I need to do, and in what
+order?"  You start playing around, and trying things, right?  Some
+things turn out to be helpful, and others don't, and you learn what
+kinds of things to try from experience, rather than by memorizing some
+strategies that someone else tells you. 
+
+Algebra works _exactly_ the same way.  The way you learn to solve
+equations like this is to jump in, follow the two rules above (which
+can really be reduced to a single rule:  "You can write down anything
+that's true."), and see where they take you.  
+
+>The first thing I did to solving 2t-3t+8=3t-8 was combining 2t and 
+>the 3t before the +8. 
+
+'Combining' them how, exactly? 
+
+>I changed the minus to plus and the three to 
+>negative three.  I then added negative three plus 2 and got negative 
+>1.  I then took -1t and combined it with the last 3t to get 2t. I 
+>know had 2t+8=-8.  After doing those steps I did the opposit of -8 to 
+>+8 and added it to the 8 on the right of 2t and got 0.  This part 
+>thre me off so badly because the selected answeres at the back of my 
+>book said the answer was four!  I have looked over and over and still 
+>can't find what I might havr did wrong.  Please help me!
+
+I'll be happy to help you, but you need to help me first.  The way we
+generally play the game of 'algebra' is that we start with a
+statement, like
+
+    2t - 3t + 8 = 3t - 8
+
+and then we make equivalent changes to both sides; or we simplify
+something on one side.  At each step, even if we don't write an
+explanation for what we do, we need to know that we could justify it
+if someone asked us to.  The result is a new statement:  
+
+ (2t - 3t + 8) - (3t - 8) = 0        
+
+     2t - 3t + 8 - 3t + 8 = 0         
+
+     2t - 3t - 3t + 8 + 8 = 0
+
+                 -4t + 16 = 0
+
+In fact, what this chain of statements is saying is:
+
+   Assume that statement 1 is true. 
+  
+   If statement 1 is true, then statement 2 is true.
+
+   If statement 2 is true, then statement 3 is true.
+
+   If statement 3 is true, then statement 4 is true.
+
+    .
+    .
+
+   If statement (N-1) is true, then statement N is true.
+
+   statement N
+
+So even though we often talk about 'combining' terms, or 'getting rid
+of' terms, or 'moving' terms, what we're really doing is constructing
+a chain of statements, where the truth of each one is guaranteed
+because we made some truth-preserving transformation to the statement
+before it (i.e., we did the same thing to both sides, or simplified
+one side in a legal way).  
+
+And if we do this without making mistakes, what it tells us is that
+
+  If statement 1 is true, then statement N is true.
+
+And if statement 1 looks like
+
+    2t - 3t + 8 = 3t - 8
+  
+and statement N looks like 
+
+    t = 4
+
+then we've 'solved' the equation.  But all we've really done is
+rewrite our original statement in a way that makes it look less
+complicated.  This might be a good time for you to take a look at
+the following item from our archive:
+
+  I solved it.  Now what?
+  http://mathforum.org/library/drmath/view/65308.html
+
+Don't feel bad if this is the first time you're hearing this stuff.
+For some reason, it's rarely covered in algebra classes - even though
+it escapes me how anyone can make sense of algebra without
+understanding it. 
+
+Anyway, can you try showing me what you did, by writing it as a series
+of statements like this, where each one follows from the one before it
+because of some legal change? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

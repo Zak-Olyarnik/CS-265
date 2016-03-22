@@ -1,0 +1,55 @@
+ThreadNum: 575769
+Subject: Re: divisibility of large numbers
+To: jammyhk01@yahoo.com (tick)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 12:41:18
+Sent: yes
+
+
+As tick wrote to Dr. Math
+On 09/22/2004 at 07:29:41 (Eastern Time),
+>[Question]
+>How to show
+>44^2004 + 27^499 * 19^503 is divisible by 23
+>
+>[Difficulty]
+>numbers too large. 499 and 503 are prime
+>
+>[Thoughts]
+>I tried to use Math induction which failed because of the primes.
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+You can use Fermat's little theorem:
+
+For p prime:
+
+    a^(p-1) = 1 (mod p)
+
+So, a^22 = 1 (mod 23).
+
+The problem is simplified:
+
+2004 = 22*91 + 2 --> 44^2004 = (44^22)^91 * 44^2 (mod 23)
+                             = 1^91 * 44^2 (mod 23)
+
+So:  44^2004 = 44^2 (mod 23)
+
+Also:  44 = (-2) (mod 23)
+
+So:  44^2 = (-2)^2 (mod 23)
+          = 4 (mod 23)
+
+So, 44^2004 leaves a remainder of 4 when divided by 23. Now, all
+that's left is to show that: 27^499 * 19^503 leaves a remainder of 19
+when divided by 23. You use the same trick as above and further
+simplify to get that result.
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

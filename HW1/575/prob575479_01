@@ -1,0 +1,70 @@
+ThreadNum: 575479
+Subject: Re: creating a function with output 1,1,0,0,1,1,0,0
+To: matt.lombardo@gmail.com (Matt)
+From: Doctor Vogler
+TimeStamp: 09/21/2004 at 14:34:53
+Sent: yes
+
+
+As Matt wrote to Dr. Math
+On 09/21/2004 at 14:26:35 (Eastern Time),
+>[Question]
+>I am trying to figgure out a formula that I could use to create a 
+>function such that
+>
+>n    = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ...
+>f(n) = 0, 0, 1, 1, 0, 0, 1, 1, 0, 0  ...
+>
+>
+>[Difficulty]
+>I can't figgure out how to create the repetition after two successive 
+>integers
+>
+>[Thoughts]
+>I know I can use (-1)^n  in order to create 0,1,0,1 .... but I've 
+>tried using different takes on this idea... but I can't find 
+>anything..
+
+Hi Matt,
+
+Thanks for writing to Dr Math.  It seems to me that you know what the
+function is but just want a clever way to write it.  A mathematician
+would usually write it as something like this:
+
+           0  if n = 1 or 2 mod 4
+  f(n) = {
+           1  if n = 0 or 3 mod 4
+
+If you are unfamiliar with modular arithmetic, it only means that the
+remainder when you divide n by 4 is 0, 1, 2, or 3.  So you could also
+write this as:
+
+           0  if n = 4k+1 or n = 4k+2 for some integer k
+  f(n) = {
+           1  if n = 4k or n = 4k+3 for some integer k
+
+On the other hand, if you really want to do the (-1)^n thing, then you
+can write f(n) as
+
+  f(n) = (1/2)(1 + (-1)^(n(n+1)/2)).
+
+That looks confusing.  Let's write it as
+
+                    n(n+1)/2
+          1  +  (-1)
+  f(n) = --------------------
+                 2
+
+Then if n is 0 or 3 mod 4, then either n or n+1 is divisible by 4, so
+that the exponent will be even, and you will get (1+1)/2.  If n is 1
+or 2 mod 4, then one of n and n+1 will be odd and the other will be
+even but not a multiple of 4, so the exponent will be odd, and you
+will get (1-1)/2.
+
+If you have any questions about this or need more help, please write
+back and show me what you have been able to do, and I will try to
+offer further suggestions.
+
+- Doctor Vogler, The Math Forum
+  <http://mathforum.org/dr.math/>
+

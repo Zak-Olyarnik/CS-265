@@ -1,0 +1,59 @@
+ThreadNum: 575536
+Subject: Re: Arithmetics operations
+To: jcrescenzi1@cogeco.ca (Jason)
+From: Doctor Schwa
+TimeStamp: 09/21/2004 at 17:50:31
+Sent: yes
+
+As Jason wrote to Dr. Math
+On 09/21/2004 at 17:26:22 (Eastern Time),
+>[Question]
+>                         599.98 
+>                      _______________
+>
+>                       1+0.50(250/356)
+>
+>[Difficulty]
+>when I work out the problem manually; I get a different answer then 
+>when I use a calculator.
+>
+>[Thoughts]
+>__599.98___                __599.98__
+>1+0.050(250/356)            1+0.50(0.702)
+>    
+>                            __599.98__
+>                             1+0.351
+>
+>                             __599.98__
+>                                1.351
+>
+>                           =444.101 (rounded to 3 decimal places) 
+
+Jason,
+if you want your final answer to have 6 significant figures, then
+you should keep 250/356 to 6 significant figures, too: if you round it
+to .702 then your final answer should be rounded to 444.
+
+I get 444.06 on my calculator -- is that what you got?
+
+If not, is maybe the problem that you're supposed to use 365 (days in
+a year) and you used 356 by mistake?
+
+or maybe the problem is that you need to use more parentheses than
+you think on the calculator?
+If you type
+599.98/1+.0050*(250/356)
+then my calculator thinks you mean
+(599.98/1)+.0050*(250/356)
+so you have to type
+599.98/(1+.0050*(250/356)) instead.
+
+Does that clear things up at all?
+
+
+ 
+
+
+- Doctor Schwa, The Math Forum
+  <http://mathforum.org/dr.math/>
+

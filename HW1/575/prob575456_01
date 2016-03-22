@@ -1,0 +1,57 @@
+ThreadNum: 575456
+Subject: Re: probability
+To: aborici@ftml.net (Endri)
+From: Doctor Anthony
+TimeStamp: 09/21/2004 at 14:41:44
+Sent: yes
+
+
+As Endri wrote to Dr. Math
+On 09/21/2004 at 12:40:07 (Eastern Time),
+>[Question]
+>Given P(A)=1/3 and P(B)=1/2. Given P(A U B)=1/8, find P(A' n B), 
+>where A' is the complement of A, and "n" represent the intersection 
+>operator, while "U" the union of two sets operator.
+
+You have confused union with intersection. 
+It is impossible for P(AUB) = 1/8.  It must be at least 1/2.  I 
+shall assume you meant to say that P(AnB)=1/8 
+
+           | P(A)      P(A') | Totals
+     ------|-----------------|---------
+     P(B)  | 1/8             | 1/2
+     P(B') |                 | 1/2
+     ------|-----------------|---------
+    Totals | 1/3       2/3   | 1.00
+
+Having written in the information in the table as given in the 
+question we can then complete the table as shown below by making row 
+and column totals correct.
+
+           | P(A)      P(A') | Totals
+     ------|-----------------|---------
+     P(B)  | 1/8        3/8  | 1/2
+     P(B') | 5/24      7/24  | 1/2
+     ------|-----------------|---------
+    Totals | 1/3        2/3  | 1.00
+
+From this table we can find P(A' n B)  =  3/8
+
+
+
+
+
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>Ok, I proceeded as follows:
+>P(A n B) = P(A) + P(B) - P(A U B)  
+>         = 1/3 + 1/2 - 1/8 = 17/24.
+>Now what should I do???
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

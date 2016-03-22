@@ -1,0 +1,37 @@
+ThreadNum: 575825
+Subject: Re: Solve for an exponential
+To: paul@harnishfeger.com (Paul)
+From: Doctor Roy
+TimeStamp: 09/22/2004 at 13:00:53
+Sent: yes
+
+
+As Paul wrote to Dr. Math
+On 09/22/2004 at 12:20:14 (Eastern Time),
+>[Question]
+>I want to solve for x where x is part of an exponential.
+>
+>example 64=2^(3*x)  solve for x
+>
+>[Difficulty]
+>I can take the roots but that doesn't yeild me the value of x
+>
+>[Thoughts]
+>64=2^x * 2^x * 2^x
+>
+>
+
+Hi,
+
+Thanks for writing to Dr. Math.
+
+64 = 2^6, so:
+
+    2^6 = 2^(3*x)
+
+Does this help?  Please feel free to write back with any questions you
+may have.
+
+- Doctor Roy, The Math Forum
+  <http://mathforum.org/dr.math/>
+

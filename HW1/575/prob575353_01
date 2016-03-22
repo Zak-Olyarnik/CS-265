@@ -1,0 +1,39 @@
+ThreadNum: 575353
+Subject: Re: PERMUTATION VS COMBINATION PROBLEM
+To: RSCHAUM1@BELLSOUTH.NET (RICKI)
+From: Doctor Anthony
+TimeStamp: 09/21/2004 at 05:29:21
+Sent: yes
+
+
+As RICKI wrote to Dr. Math
+On 09/20/2004 at 23:51:59 (Eastern Time),
+>[Question]
+>I HAVE BEEN RACKING MY BRAINS TRYING TO DECIDE HOW TO APPROACH THIS 
+>PROBLEM.  IF YOU HAVE 100 UNIQUE COMBINATIONS OF DOUBLE SCOOP ICE 
+>CREAM CONES, HOW MANY FLAVORS WOULD YOU HAVE TO HAVE?
+
+
+Since you could have 2 scoops of the same flavour the answer they 
+want is almost certainly 10^2 = 100.  This means that 10 flavours 
+would give you 100 different possibilities.  In this situation the 
+order of the scoops matters.
+
+
+>
+>I TRIED 14C2 BUT IF IM DOING IT CORRECTLY IT RESULTS IN 91 
+>COMBINATIONS AND 15 RESULTS IN 105 COMBINATIONS.  THIS IS A EXTRA 
+>CREDIT QUESTION BUT IM NOT SURE IF THE WORD UNIQUE MAKES IT A 
+>PERMUTATION OR COMBINATION?
+>
+>[Difficulty]
+>I HAVE THE # OF COMBINATIONS, BUT I CANT FIND A NUMBER TO FIT THE 
+>EQUATION AND COME UP WITH 100 COMBINATIONS.
+>
+>[Thoughts]
+>SEE ABOVE FOR NCR/  
+
+
+- Doctor Anthony, The Math Forum
+  <http://mathforum.org/dr.math/>
+

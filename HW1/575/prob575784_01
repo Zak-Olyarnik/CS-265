@@ -1,0 +1,44 @@
+ThreadNum: 575784
+Subject: Re: Definition of the Powers of 10
+To: chullz@ameritech.net (Christina)
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 10:17:37
+Sent: yes
+
+
+As Christina wrote to Dr. Math
+On 09/22/2004 at 09:22:03 (Eastern Time),
+>[Question]
+>Please clarify the definition of powers of 10. I have read that is 
+>is a number that can be expressed as only the product of a certain 
+>number of 10s. But, I also think that 1/10, 1/100, or 10 to the 
+>negative first power, are powers of 10. Yet, they don't seem to fit 
+>with that definition. Which is correct?
+>
+>[Difficulty]
+>
+>
+>[Thoughts]
+>
+
+Hi Christina,
+
+The definition depends on the context.  For example, if we're just
+discussing something like place values in integers, then we would use
+'powers of 10' to mean 10 raised to any non-negative integer exponent,
+i.e., 10^0, 10^1, 10^2, and so on.
+
+When we start talking about place values in decimal expansions, we
+expand the definition to include negative integers: 
+
+  ..., 10^-3, 10^-2, 10^-1, 10^0, 10^1, 10^2, 10^3, ...
+
+In the absence of any particular context, it would be surprising for
+someone to use 'powers of 10' to include negative exponents.  But
+'surprising' isn't the same as 'incorrect'. 
+
+Does this help? 
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

@@ -1,0 +1,49 @@
+ThreadNum: 575921
+Subject: Re: How does the Distributive Property work?
+To: Rebjos66@aol.com (Rebekah )
+From: Doctor Ian
+TimeStamp: 09/22/2004 at 20:17:24
+Sent: yes
+
+
+Hi Rebekah,
+
+>How do you work out this problem?
+>
+>{2q+3}-{-4q+5}+{6q-7}
+>
+>[Difficulty]
+>I don't understand where the sign changes come in 
+
+One thing that can help is to use the fact that subtracting something
+is the same as adding -1 times that thing.  So 
+
+    {2q + 3} - {-4q + 5} + {6q - 7}
+
+  = {2q + 3} + -1{-4q + 5} + {6q + -7} 
+
+Now we can distribute the -1 in the middle term:
+
+  = {2q + 3} + {-1*-4q + -1*5} + {6q + -7} 
+
+  = {2q + 3} + {4q + -5} + {6q + -7} 
+
+And now, since we just have additions, we can ignore the parentheses:
+
+  = 2q + 3 + 4q + -5 + 6q + -7 
+
+  = 2q + 4q + 6q + 3 + -5 + -7
+
+  = 12q - 9
+
+>I rewrote the problem like this:
+>{2q+3}+{4q+5}+{6q-7}
+
+You had the right idea, but can you see how this differs from the
+result above? 
+
+Does this help?
+
+- Doctor Ian, The Math Forum
+  <http://mathforum.org/dr.math/>
+

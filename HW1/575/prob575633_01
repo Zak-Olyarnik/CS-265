@@ -1,0 +1,38 @@
+ThreadNum: 575633
+Subject: Re: binary to decimal
+To: larry@curryduck.com (larry)
+From: Doctor Tom
+TimeStamp: 09/21/2004 at 21:13:38
+Sent: yes
+
+
+As larry wrote to Dr. Math
+On 09/21/2004 at 20:37:23 (Eastern Time),
+>[Question]
+>how do i convert 1001.1101 into decimal
+>
+>[Difficulty]
+>what does the decimal point in the middle represent?
+>
+>[Thoughts]
+>1001=9
+>1101=13
+>9+13=22
+
+If it's binary, it's not a decimal point; it's a "binary point".
+
+In decimal, if I write:
+
+134.567, that's:
+
+1 x 100 + 3 x 10 + 4x1 + 5x(1/10) + 6x(1/100) + 7x(1/1000)
+
+Notice the denominators are 10, 10x10, 10x10x10 on the right.
+
+For your binary problem, here's what you've got:
+
+1x8 + 0x4 + 0x2 + 1x1 + 1x(1/2) + 1x(1/4) + 0x(1/8) + 1x(1/16)
+
+
+- Doctor Tom, The Math Forum
+  <http://mathforum.org/dr.math/>

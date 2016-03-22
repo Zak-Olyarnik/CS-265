@@ -1,0 +1,45 @@
+ThreadNum: 575118
+Subject: Re: analysis
+To: v_houle@canada.com (Vince)
+From: Doctor Fenton
+TimeStamp: 09/20/2004 at 21:44:24
+Sent: yes
+
+
+As Vince wrote to Dr. Math
+On 09/20/2004 at 15:59:54 (Eastern Time),
+>[Question]
+>Hi,
+>I have a proof I need to write, and have no idea how to go about it.  
+>I dont want the answer, but just advice as to how to get to the 
+>answer.  Here is what I have to prove
+>
+>any function f(x) can be written uniquely in the form f(x)=E(x)+O(x), 
+>where O(x) is and odd function, and E(x) is an even function.  Any 
+>idea as to how I should start my proof.
+>
+>Thanks,
+>Vince
+>
+>[Difficulty]
+>as above
+>
+>[Thoughts]
+>I can prove that you can get any real number with those two 
+>functionss, but I cant prove you can have any function
+
+Hi Vince,
+
+Thanks for writing to Dr. Math.  If
+
+   f(x) = E(x) + O(x)
+
+where E is even and O is odd, then what is f(-x)?
+
+If you have any questions or need more help, please 
+write back and show me what you have been able to do, 
+and I will try to offer further suggestions.
+
+- Doctor Fenton, The Math Forum
+  <http://mathforum.org/dr.math/>
+

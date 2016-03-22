@@ -1,0 +1,46 @@
+ThreadNum: 575028
+Subject: Re: Statistics
+To: mark_hw@hotmail.com (mark)
+From: Doctor George
+TimeStamp: 09/20/2004 at 15:57:34
+Sent: yes
+
+
+As mark wrote to Dr. Math
+On 09/20/2004 at 04:49:33 (Eastern Time),
+>[Question]
+>The continuous random variable X has a uniform distribution on 
+>0<x<a. Find the cumulative distribution function of X.
+>
+>Two independent observations X1 and X2 are made of X and the larger 
+>of the two values is denoted by L.
+>
+>(i) use the fact that L<x if and only if both X1<x and X2<x to find 
+>the cumulative distribution function of L.
+>
+>[Difficulty]
+>I do not know what to do with L or X1 and X2
+>
+>[Thoughts]
+>i found the cumulative dist function of X to be 
+>F(x)= 0      x<0
+>      x/a    0<x<a
+>      1      x>a
+
+Hi Mark,
+
+Thanks for writing to Doctor Math.
+
+I'll try to get you started. I'll be using lower case l, so don't 
+confuse it with 1 (one).
+
+    F(l) = P(L < l)
+
+         = P(X1 < l and X2 < l)
+
+Can you finish it from there? Rember that X1 and X2 are independent. 
+Write again if you need more help.
+
+- Doctor George, The Math Forum
+  <http://mathforum.org/dr.math/>
+
